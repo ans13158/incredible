@@ -21,19 +21,18 @@
         <section class="banner">
             <div class="bg-parallax bg-1"></div>
             <div class="container">
-                <div class="logo-banner text-center">
-                    <a href="#" title=""><img src="<?= base_url('images/logo-banner.png')?>" alt=""></a>
-                </div>  
+               
                     <br>
                     <div class="contact-details ">
-                            <h4 style="color:black;margin-left:50px;font-family: Lato,Arial,Verdana;font-weight: bold">Contact Us</h4>
+                            
                         <table class="tb">
                             <tr>
                                 <td style="color:black"><h4><i class="fa fa-phone" style="margin-right:10px"></i>Call Us : +9999999</h4></td>
                             </tr>
-                            
+                                    
                             <tr>
-                                <td style="color:black"><h4><i class="fa fa-envelope" style="margin-right:10px"></i>E-mail : abc@xyz.com</h4></td>
+
+                                <td style="color:black"><h4><i class="fa fa-envelope" style="margin-right:10px"></i>Shoot an E-mail : abc@xyz.com</h4></td>
                             </tr>    
                         </table>
 
@@ -331,7 +330,8 @@
             <div class="title-wrap">
                 <div class="container">
                     <div class="travel-title float-left">
-                        <h2>Hot Sale Today: <span>Paris, Amsterdam, Saint Petersburg & more</span></h2></div><a href="#" title="" class="awe-btn awe-btn-5 awe-btn-lager arrow-right text-uppercase float-right">ALL SALES</a></div>
+                        <h2>Our Tour Packages</span></h2></div>
+                    </div>
             </div>
             <div class="container">
                 <div class="sales-cn">
@@ -340,15 +340,16 @@
                             <div class="sales-item">
                                 <figure class="home-sales-img">
                                     <a href="#" title=""><img src="<?=  base_url('images/deal/img-1.jpg') ?>" alt=""></a>
-                                    <figcaption>Save <span>30</span>%</figcaption>
+                                    
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="#" title="">Copley Square Hotel</a></div>
-                                        <div class="home-sales-places"><a href="#" title="">Boston</a>, <a href="#" title="">Massachusetts</a></div>
+                                        <div class="home-sales-name"><a href="#" title="">Pilgrim Tour Packages</a></div>
+
+                                        <div class="home-sales-places">Experience Devbhoomi, the Land of Gods </div>
                                     </div>
-                                    <hr class="hr">
-                                    <div class="price-box"><span class="price old-price">From <del>$269</del></span> <span class="price special-price">$175<small>/night</small></span></div>
+                                    
+                                    <div class="price-box">Visit the divine pilgrim spots of Uttarakhand</div>
                                 </div>
                             </div>
                         </div>
@@ -356,63 +357,65 @@
                             <div class="sales-item">
                                 <figure class="home-sales-img">
                                     <a href="#" title=""><img src="<?= base_url('images/deal/img-2.jpg') ?>" alt=""></a>
-                                    <figcaption>Save <span>30</span>%</figcaption>
+                                    
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="#" title="">Grand Hotel Bagni Nuovi</a></div>
-                                        <div class="home-sales-places"><a href="#" title="">Boston</a>, <a href="#" title="">Italy</a></div>
+                                        <div class="home-sales-name"><a href="#" title="">Wild Life Tour Packages</a></div>
+                                        <div class="home-sales-places">Enjoy the Floura & Founa of our beautiful state </div>
                                     </div>
-                                    <hr class="hr">
-                                    <div class="price-box"><span class="price old-price">From <del>$632</del></span> <span class="price special-price">$345<small>/night</small></span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="sales-item">
-                                <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-3.jpg') ?>" alt=""></a>
-                                    <figcaption>Save <span>30</span>%</figcaption>
-                                </figure>
-                                <div class="home-sales-text">
-                                    <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="#" title="">The Standard, East Village</a></div>
-                                        <div class="home-sales-places"><a href="#" title="">New York</a>, <a href="#" title="">New York</a></div>
-                                    </div>
-                                    <hr class="hr">
-                                    <div class="price-box"><span class="price old-price">From <del>$582</del></span> <span class="price special-price">$258<small>/night</small></span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="sales-item">
-                                <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-4.jpg') ?>" alt=""></a>
-                                    <figcaption>Save <span>30</span>%</figcaption>
-                                </figure>
-                                <div class="home-sales-text">
-                                    <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="#" title="">Ganges River Cruise</a></div>
-                                        <div class="home-sales-places"><a href="#" title="">London</a>, <a href="#" title="">United Kingdom</a></div>
-                                    </div>
-                                    <hr class="hr">
-                                    <div class="price-box"><span class="price old-price">From <del>$457</del></span> <span class="price special-price">$258<small>/night</small></span></div>
+                                    
+                                    <div class="price-box">Visit reserved parks,zoos and santuraies</div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xs-6 col-md-3">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-5.jpg') ?>" alt=""></a>
-                                    <figcaption>Save <span>30</span>%</figcaption>
+                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-2.jpg') ?>" alt=""></a>
+                                    
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="#" title="">Town Hall Hotel</a></div>
-                                        <div class="home-sales-places"><a href="#" title="">Boston</a>, <a href="#" title="">Massachusetts</a></div>
+                                        <div class="home-sales-name"><a href="#" title="">Excursion Tour Packages</a></div>
+                                        <div class="home-sales-places">Relax and get rid of all your tensions</div>
                                     </div>
-                                    <hr class="hr">
-                                    <div class="price-box"><span class="price old-price">From <del>$269</del></span> <span class="price special-price">$175<small>/night</small></span></div>
+                                    
+                                    <div class="price-box">Relieve yourself of all worries in  breathtaking beauty of Uttarakhand.   </div>
+                                </div>
+                            </div>
+                        </div>
+                               
+                        <div class="col-xs-6 col-md-3">
+                            <div class="sales-item">
+                                <figure class="home-sales-img">
+                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-1.jpg') ?>" alt=""></a>
+                                    
+                                </figure>
+                                <div class="home-sales-text">
+                                    <div class="home-sales-name-places">
+                                        <div class="home-sales-name"><a href="#" title="">Honeymoon Tour Packages</a></div>
+                                        <div class="home-sales-places">Celebrate your golden time in exotic locations</div>
+                                    </div>
+                                    
+                                    <div class="price-box">Celebrate your marriage & gift your spouse with the best trip of their live</div>
+                                </div>
+                            </div>
+                        </div>
+                                </div>
+                        <div class="col-xs-6 col-md-3">
+                            <div class="sales-item">
+                                <figure class="home-sales-img">
+                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-5.jpg') ?>" alt=""></a>
+                                    
+                                </figure>
+                                <div class="home-sales-text">
+                                    <div class="home-sales-name-places">
+                                        <div class="home-sales-name"><a href="#" title="">Trekking Packages</a></div>
+                                        <div class="home-sales-places">Trek your way up to some of the best sceneries </div>
+                                    </div>
+                                   
+                                    <div class="price-box">Experience the divine fabbergasting beauty of this land.</div>
                                 </div>
                             </div>
                         </div>
@@ -420,22 +423,159 @@
                             <div class="sales-item">
                                 <figure class="home-sales-img">
                                     <a href="#" title=""><img src="<?= base_url('images/deal/img-6.jpg') ?>" alt=""></a>
-                                    <figcaption>Save <span>30</span>%</figcaption>
+                                    
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="#" title="">A Hidden NYC Mystery Hotel</a></div>
-                                        <div class="home-sales-places"><a href="#" title="">Boston</a>, <a href="#" title="">Italy</a></div>
+                                        <div class="home-sales-name"><a href="#" title="">Motorbike Tour Packages</a></div>
+                                        <div class="home-sales-places">Planning a road trip?</div>
                                     </div>
-                                    <hr class="hr">
-                                    <div class="price-box"><span class="price old-price">From <del>$354</del></span> <span class="price special-price">$255<small>/night</small></span></div>
+                                    
+                                    <div class="price-box">Come to Uttarakhand and explore the most scenic road.</div>
                                 </div>
                             </div>
                         </div>
+
+                        <div class="col-md-6">
+                            <div class="sales-item">
+                                <figure class="home-sales-img">
+                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-4.jpg') ?>" alt="" style="height: 292px"></a>
+                                    
+                                </figure>
+                                <div class="home-sales-text">
+                                    <div class="home-sales-name-places">
+                                        <div class="home-sales-name"><a href="#" title="">Home Stay</a></div>
+                                        <div class="home-sales-places">Trek your way up to some of the best sceneries</div>
+                                    </div>
+                                   
+                                    <div class="price-box">Come to Uttarakhand and explore the most scenic road.</div>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
         </section>
+
+        <section class="sales">
+            <div class="title-wrap">
+                <div class="container">
+                    <div class="travel-title float-left">
+                        <h2>Uttarakhand's Travel Destinations</span></h2></div><a href="#" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">view all</a></div>
+                    </div>
+            </div>
+            <div class="container">
+                <div class="sales-cn">
+                    <div class="row">
+                        <div class="col-xs-6 col-md-4">
+                            <div class="sales-item">
+                                <figure class="home-sales-img">
+                                    <a href="#" title=""><img src="<?=  base_url('images/deal/img-1.jpg') ?>" alt=""></a>
+                                    
+                                </figure>
+                                <div class="home-sales-text">
+                                    <div class="home-sales-name-places">
+                                        <div class="home-sales-name"><a href="#" title="">Almora</a></div>
+
+                                        <div class="home-sales-places">Located on a ridge at the southern edge of the Kumaon Hills of the Himalaya range,Almora was founded in 1568, however there are accounts of human settlements in the hills and surrounding region in the Hindu epic Mahabharata </div>
+                                    </div>
+                                    
+                                    <div class="price-box">Almora is well connected by motorable roads with major destinations of Uttarakhand state and northern India. Uttarakhand Transport Corporation runs Buses from Almora bus station to Delhi and Dehradun. Taxis and Private Buses, mostly run by K.M.O.U, connect Almora to other major destinations of Kumaon region.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-4">
+                            <div class="sales-item">
+                                <figure class="home-sales-img">
+                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-2.jpg') ?>" alt=""></a>
+                                    
+                                </figure>
+                                <div class="home-sales-text">
+                                    <div class="home-sales-name-places">
+                                        <div class="home-sales-name"><a href="#" title="">Bhimtal</a></div>
+                                        <div class="home-sales-places">Situated at a distance of 22 kilometers from Nainital. The major attraction in Bhimtal is the Bhimtal Lake, which has an island at its centre.</div>
+                                    </div>
+                                        <br><br>
+                                    <div class="price-box">Nal Damyanti Tal, a small natural lake. It is a very sacred place for the dwellers of the region . About 5 km from Bhimtal is the famous group of lakes known as Sattal, which is a place of attraction for nature lovers. Clear water of lakes surrounded by thick forest  is a wonderful experience. </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-4">
+                            <div class="sales-item">
+                                <figure class="home-sales-img">
+                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-2.jpg') ?>" alt=""></a>
+                                    
+                                </figure>
+                                <div class="home-sales-text">
+                                    <div class="home-sales-name-places">
+                                        <div class="home-sales-name"><a href="#" title="">Dehradun</a></div>
+                                        <div class="home-sales-places">Dehradun is renowned for its natural resources, publishing services and particularly for its educational institutions. It hosts training institutions of national importance such as the Indian Military Academy, ITBP Academy,etc.</div>
+                                    </div>
+                                    
+                                    <div class="price-box">Jakhan is the starting point of Lesser Himalayan Range that extends to Mussoorie and beyond.The Doon valley contains the settlements including Dehradun, Doiwala, Herbertpur, Vikasnagar, Sahaspur, Rishikesh, Raiwala and Subash Nagar, Clement Town.</div>
+                                </div>
+                            </div>
+                        </div>
+                               
+                        <div class="col-xs-6 col-md-4">
+                            <div class="sales-item">
+                                <figure class="home-sales-img">
+                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-5.jpg') ?>" alt=""></a>
+                                    
+                                </figure>
+                                <div class="home-sales-text">
+                                    <div class="home-sales-name-places">
+                                        <div class="home-sales-name"><a href="#" title="">Haldwani</a></div>
+                                        <div class="home-sales-places">Haldwani is a city, which along with its twin township of Kathgodam,is known as the "Gateway of Kumaon". British records suggest that the place was established  as a mart for hill people who visited the Himalayan foothills, during the cold season. </div>
+                                    </div>
+                                   
+                                    <div class="price-box">To the south of Haldwani lies Pantnagar famous for its Pantnagar University. The Gaula river runs to the east, and to the west is the fertile agricultural region of Lamachaur and Kaladhungi merging into the world-renowned Corbett National Park.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-4">
+                            <div class="sales-item">
+                                <figure class="home-sales-img">
+                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-6.jpg') ?>" alt=""></a>
+                                    
+                                </figure>
+                                <div class="home-sales-text">
+                                    <div class="home-sales-name-places">
+                                        <div class="home-sales-name"><a href="#" title="">Kausani</a></div>
+                                        <div class="home-sales-places">Kausani is a hill station and Village situated in Bageshwar district in the state of Uttarakhand, India. It is famous for its scenic splendour and its spectacular 300 km-wide panoramic view of Himalayan peaks like Trisul, Nanda Devi and Panchchuli.</div>
+                                    </div>
+                                    
+                                    <div class="price-box">Mahatma Gandhi called this place the 'Switzerland of India',due to similarity in landscapes.Gandhiji's disciple, Sarla Behn (Kaitherine Heileman) established the Lakshmi ashram in 1946 Anashakti Ashram here in Kausani. </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-md-4">
+                            <div class="sales-item">
+                                <figure class="home-sales-img">
+                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-3.jpg') ?>" alt="" style="height: 292px"></a>
+                                    
+                                </figure>
+                                <div class="home-sales-text">
+                                    <div class="home-sales-name-places">
+                                        <div class="home-sales-name"><a href="#" title="">Munsiari</a></div>
+                                        <div class="home-sales-places">Situated in the Pithoragarh District in the hill-state of Uttarakhand, is a starting point of various treks into the interior of the range.Its name refers to a 'place with snow'. Situated on the banks of Goriganga river, it is a fast-growing tourist destination, and mountaineers, glacier enthusiasts, high altitude trekkers and nature lovers commonly use it as their hub or base camp.</div>
+                                    </div>
+                                   
+                                    <div class="price-box">Come to Uttarakhand and explore the most scenic road.</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+
         <section class="destinations">
             <div class="title-wrap">
                 <div class="container">
@@ -712,12 +852,12 @@
                             <h3>Book with confidence</h3>
                             <ul>
                                 <li><span class="label-nb">01</span>
-                                    <h5>No booking charges</h5>
-                                    <p>We don't charge you an extra fee for booking a hotel room with us</p>
+                                    <h5>Tour charges</h5>
+                                    <p>The estimation of tour cost will be done only after getting the requirements of party.</p>
                                 </li>
                                 <li><span class="label-nb">02</span>
-                                    <h5>No cancellation fees</h5>
-                                    <p>We don't charge you a cancellation or modification fee in case plans change</p>
+                                    <h5>Cancellation Procedure</h5>
+                                    <p>All notice of cancellation must be sent to our almora office in writing. Verbal cancellations will not be entertained.</p>
                                 </li>
                                 <li><span class="label-nb">03</span>
                                     <h5>Instant confirmation</h5>
@@ -742,13 +882,15 @@
                                         <li data-target="#carousel1-example-generic" data-slide-to="0" class="active"></li>
                                         <li data-target="#carousel1-example-generic" data-slide-to="1"></li>
                                         <li data-target="#carousel1-example-generic" data-slide-to="2" ></li>
+                                        <li data-target="#carousel1-example-generic" data-slide-to="3" ></li>
+                                        <li data-target="#carousel1-example-generic" data-slide-to="4" ></li>
                                     </ol>
                                 <!--==== Indicators ====-->
 
                                 <!--==== Wrapper for slides ====-->
                                         <div class="carousel-inner" style="width: 100%">
                                             <div class="item active">
-                                                <a href="#" ><?= img( ["src" => "images/destinations/img-1.jpg","style"=>"width:100%;height:300px"] )  ?>                     </a>
+                                                <a href="#" ><?= img( ["src" => "images/destinations/img-1.jpg","style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
                                                 <div class="container">
                                                     <div class="carousel-caption">
                                                         <h1>Awesome Trip</h1>
@@ -758,7 +900,7 @@
                                             </div>
 
                                             <div class="item">
-                                                <a href="#"><?= img( ["src" => "images/destinations/img-2.jpg","style"=>"width:100%;height:300px"] )  ?>                     </a>
+                                                <a href="#"><?= img( ["src" => "images/destinations/img-2.jpg","style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
                                                 <div class="container">
                                                     <div class="carousel-caption">
                                                         <h1>Great Experience</h1>
@@ -768,7 +910,7 @@
                                             </div>
 
                                             <div class="item">
-                                                <a href="#"><?= img( ["src" => "images/destinations/img-3.jpg","style"=>"width:100%;height:300px"] )  ?>                     </a>
+                                                <a href="#"><?= img( ["src" => "images/destinations/img-3.jpg","style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
                                                 <div class="container">
                                                     <div class="carousel-caption">
                                                         <h1>Good Service</h1>
@@ -777,6 +919,25 @@
                                                 </div>           
                                             </div>
 
+                                            <div class="item">
+                                                <a href="#"><?= img( ["src" => "images/destinations/img-3.jpg","style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
+                                                <div class="container">
+                                                    <div class="carousel-caption">
+                                                        <h1>Good Service</h1>
+                                                        <p style="color:black"> Vivamus enim eros, vehicula at risus non, rutrum ullamcorper lacus. Suspendisse iaculis leo ipsum, semper gravida dui egestas sed. Sed nec metus vel libero suscipit viverra nec sit amet nunc. Suspendisse eget mi nisi. </p>
+                                                    </div>
+                                                </div>           
+                                            </div>
+
+                                            <div class="item">
+                                                <a href="#"><?= img( ["src" => "images/destinations/img-3.jpg","style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
+                                                <div class="container">
+                                                    <div class="carousel-caption">
+                                                        <h1>Good Service</h1>
+                                                        <p style="color:black"> Vivamus enim eros, vehicula at risus non, rutrum ullamcorper lacus. Suspendisse iaculis leo ipsum, semper gravida dui egestas sed. Sed nec metus vel libero suscipit viverra nec sit amet nunc. Suspendisse eget mi nisi. </p>
+                                                    </div>
+                                                </div>           
+                                            </div>
 
                                         </div>
                                 <!--==== Wrapper for slides ====-->
@@ -792,9 +953,9 @@
                                 <!--===Controls ===-->
                                 </div>
                             <!--======== carousel =========-->
-                            <div class="follow-us">
-                                <h4>Follow us</h4>
-                                <div class="follow-group"><a href="#" title=""><i class="fa fa-facebook"></i></a> <a href="#" title=""><i class="fa fa-twitter"></i></a> <a href="#" title=""><i class="fa fa-pinterest"></i></a> <a href="#" title=""><i class="fa fa-linkedin"></i></a> <a href="#" title=""><i class="fa fa-instagram"></i></a> <a href="#" title=""><i class="fa fa-google-plus"></i></a> <a href="#" title=""><i class="fa fa-digg"></i></a></div>
+                            <div class="follow-us" style="margin-left: 90px;">
+                                <h4 style="margin-left: 120px;">Follow us</h4>
+                                <div class="follow-group"><a href="#" title=""><i class="fa fa-facebook"></i></a> <a href="#" title=""><i class="fa fa-twitter"></i></a>  <a href="#" title=""><i class="fa fa-linkedin"></i></a> <a href="#" title=""><i class="fa fa-instagram"></i></a> <a href="#" title=""><i class="fa fa-google-plus"></i></a> </div>
                             </div>
                         </div>
                     </div>

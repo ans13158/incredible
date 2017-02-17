@@ -1,105 +1,51 @@
 <?php
     include "common/header.php";
     include 'common/navbar.php'; 
-?>
-</body>
-<body>
-    <div id="preloader">
-        <div class="tb-cell">
-            <div id="page-loading">
-                <div></div>
-                <p>Loading</p>
-            </div>
-        </div>
-    </div>
-    <div id="wrap">
-        <header id="header" class="header">
-            <div class="container">
-                <div class="logo float-left">
-                    <a href="index-2.html" title=""><img src="images/logo-header.png" alt=""></a>
-                </div>
-                <div class="bars" id="bars"></div>
-                <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
-                    <div class="nav-inner"><a href="#" class="bars-close" id="bars-close">Close</a>
-                        <div class="tb">
-                            <div class="tb-cell">
-                                <ul class="menu-list text-uppercase">
-                                    <li><a href="index-2.html" title="">Home</a>
+?>  
+                <!--=========Header =========-->
+                                <!--=== Rest of HADERS is in navbar.php ===-->
+                       <ul class="menu-list text-uppercase">
+                                    <li ><?= anchor('incredible_ukd','Home') ?></li>
+                                        
+                                    <li class="current-menu-parent"><?= anchor('incredible_ukd/about','About Us') ?></li>
+
+                                    <li><?= anchor('incredible_ukd/location','Location') ?>
                                         <ul class="sub-menu">
-                                            <li><a href="index-2.html" title="">Home menu 1</a></li>
-                                            <li><a href="index2.html" title="">Home menu 2</a></li>
-                                            <li><a href="index3.html" title="">Home menu 3</a></li>
-                                            <li><a href="index4.html" title="">Home menu 4</a></li>
-                                            <li><a href="index5.html" title="">Home background slide</a></li>
-                                            <li><a href="index6.html" title="">Home background video</a></li>
+                                            <li><?= anchor('incredible_ukd','About India') ?></li>
+                                            <li><?= anchor('incredible_ukd','About Uttarakhand') ?></li>
+                                           
                                         </ul>
                                     </li>
-                                    <li class="current-menu-parent"><a href="#">Pages</a>
+                                    <li><?= anchor('incredible_ukd','Our Services')?>
                                         <ul class="sub-menu">
-                                            <li><a href="#" title="">Blog</a>
+                                            <li><?= anchor('incredible_ukd','Best Hotels & Resorts')?></li>
+                                            <li><?= anchor('incredible_ukd','Logistic Modes')?>
                                                 <ul class="sub-menu">
-                                                    <li><a href="blog.html" title="">Blog</a></li>
-                                                    <li><a href="blog-detail.html">Blog Detail</a></li>
+                                                    <li><?= anchor('incredible_ukd','Flights')?></li>
+                                                    <li><?= anchor('incredible_ukd','Cars')?></li>
+                                                    <li><?= anchor('incredible_ukd','Bikes')?></li>
+                                                    <li><?= anchor('incredible_ukd','Buses')?></li>
+                                                    <li><?= anchor('incredible_ukd','Travelers')?></li>
+
                                                 </ul>
                                             </li>
-                                            <li class="current-menu-item"><a href="about.html" title="">About</a></li>
-                                            <li><a href="#" title="">User</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="user-booking.html" title="">User Booking</a></li>
-                                                    <li><a href="user-profile.html" title="">User Profile</a></li>
-                                                    <li><a href="user-setting.html" title="">User Setting</a></li>
-                                                    <li><a href="user-review.html" title="">User Review</a></li>
-                                                    <li><a href="user-signup.html" title="">User Signup</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.html" title="">Contact</a></li>
-                                            <li><a href="payment.html" title="">Payment</a></li>
-                                            <li><a href="element.html" title="">Element</a></li>
-                                            <li><a href="404.html" title="">404</a></li>
-                                            <li><a href="comingsoon.html" title="">Comingsoon</a></li>
+                                        </ul>
+                                    </li>            
+                                    <li><?= anchor('incredible_ukd','Destinations')?></li>
+                                    
+                                    <li ><?= anchor('incredible_ukd','Tour Packages')?>
+                                        <ul class="sub-menu"  >
+                                            <li style=""><?= anchor('incredible_ukd','Pilgrims Tour Packages')?></li>
+                                            <li style=""><?= anchor('incredible_ukd','Wildlife Tour Packages')?></li>
+                                            <li style=""><?= anchor('incredible_ukd','Excursion Tour Packages')?></li>
+                                            <li ><?= anchor('incredible_ukd','Honeymoon Packages')?></li>
+                                            <li style=""><?= anchor('','Trekking Packages')?></li>
+                                            <li style=""><?= anchor('incredible_ukd','Motorbike Packages')?></li>
+                                            
                                         </ul>
                                     </li>
-                                    <li><a href="#" title="">Hotel</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="home-hotel.html" title="">Hotel</a></li>
-                                            <li><a href="hotel-list.html">Hotel List 1</a></li>
-                                            <li><a href="hotel-list-2.html">Hotel List 2</a></li>
-                                            <li><a href="hotel-maps.html">Hotel Map</a></li>
-                                            <li><a href="hotel-detail.html">Hotel Detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#" title="">Flights</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="home-flight.html" title="">Flights</a></li>
-                                            <li><a href="flight-list.html">Flight List</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#" title="">Car</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="home-car.html" title="">Car</a></li>
-                                            <li><a href="car-list.html">Cart List</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#" title="">Package</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="home-package.html" title="">Package Deals</a></li>
-                                            <li><a href="package-list.html">Package Deals List</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#" title="">Cruises</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="home-cruise.html" title="">Cruises</a></li>
-                                            <li><a href="cruise-list.html">Cruise List</a></li>
-                                            <li><a href="cruise-detail.html">Cruise Detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#" title="">Tours</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="home-tour.html" title="">Tours</a></li>
-                                            <li><a href="tour-list.html">Tour List</a></li>
-                                            <li><a href="tour-detail.html">Tour Detail</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><?= anchor('incredible_ukd','Home Stay')?></li>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -107,18 +53,16 @@
                 </nav>
             </div>
         </header>
-        <section class="sub-banner">
-            <div class="bg-parallax bg-1"></div>
-            <div class="logo-banner text-center">
-                <a href="#" title=""><img src="images/logo-banner.png" alt=""></a>
-            </div>
-        </section>
+                <!--=========Header =========-->
+
+          <!-- ==============Main Body ================-->      
+        
         <div class="main">
             <div class="container">
                 <div class="main-cn about-page bg-white clearfix">
                     <section class="breakcrumb-sc">
                         <ul class="breadcrumb arrow">
-                            <li><a href="index-2.html"><i class="fa fa-home"></i></a></li>
+                            <li><?= anchor('incredible_ukd','<i class="fa fa-home"></i>') ?></li>
                             <li>About us</li>
                         </ul>
                     </section>
@@ -139,16 +83,16 @@
                         </div>
                         <div class="team-group row">
                             <div class="team-item col-xs-6 col-md-3">
-                                <figure><img src="images/team/img-1.jpg" alt=""></figure>
+                                <figure> <?=img ( ["src"=>"images/team/img-1.jpg", "alt"=>""] ) ?></figure>
                                 <h3>ROBERT SMITH</h3><span>Creative Director</span></div>
                             <div class="team-item col-xs-6 col-md-3">
-                                <figure><img src="images/team/img-2.jpg" alt=""></figure>
+                                <figure><?=img ( ["src"=>"images/team/img-2.jpg", "alt"=>""] ) ?></figure>
                                 <h3>JHON WHITE</h3><span>Designer</span></div>
                             <div class="team-item col-xs-6 col-md-3">
-                                <figure><img src="images/team/img-3.jpg" alt=""></figure>
+                                <figure><?=img ( ["src"=>"images/team/img-3.jpg", "alt"=>""] ) ?></figure>
                                 <h3>JACK SMITH</h3><span>Developper</span></div>
                             <div class="team-item col-xs-6 col-md-3">
-                                <figure><img src="images/team/img-4.jpg" alt=""></figure>
+                                <figure><?=img ( ["src"=>"images/team/img-4.jpg", "alt"=>""] ) ?></figure>
                                 <h3>JHON WHITE</h3><span>Designer</span></div>
                         </div>
                     </section>
@@ -175,5 +119,9 @@
                 </div>
             </div>
         </div>
+          <!-- ==============Main Body ================-->      
 
+      <!--================ FOOTER ================-->   
 <?php include "common/footer.php"; ?>
+
+      <!--================ FOOTER ================-->   

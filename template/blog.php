@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 
-<!-- Mirrored from envato.megadrupal.com/html/bookawesome/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Feb 2017 13:25:39 GMT -->
+<!-- Mirrored from envato.megadrupal.com/html/bookawesome/blog.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Feb 2017 13:25:39 GMT -->
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -62,7 +62,7 @@
             <div class="container">
                 <!-- Logo -->
                 <div class="logo float-left">
-                    <a href="index-2.html" title=""><img src="images/logo-header.png" alt=""></a>
+                    <a href="index-2.php" title=""><img src="images/logo-header.png" alt=""></a>
                 </div>
                 <!-- End Logo -->
                 <!-- Bars -->
@@ -77,12 +77,12 @@
                             <div class="tb-cell">
                                 <ul class="menu-list text-uppercase">
                                     <li>
-                                        <a href="index-2.html" title="">Home</a>
+                                        <a href="index-2.php" title="">Home</a>
                                         <ul class="sub-menu">
-                                            <li><a href="index-2.html" title="">Home menu 1</a></li>
-                                            <li><a href="index2.html" title="">Home menu 2</a></li>
-                                            <li><a href="index3.html" title="">Home menu 3</a></li>
-                                            <li><a href="index4.html" title="">Home menu 4</a></li>
+                                            <li><a href="index-2.php" title="">Home menu 1</a></li>
+                                            <li><a href="index2.php" title="">Home menu 2</a></li>
+                                            <li><a href="index3.php" title="">Home menu 3</a></li>
+                                            <li><a href="index4.php" title="">Home menu 4</a></li>
                                         </ul>
                                     </li>
                                     <li class="current-menu-parent">
@@ -92,38 +92,38 @@
                                                 <a href="#" title="">Blog</a>
                                                 <ul class="sub-menu">
                                                     <li class="current-menu-item">
-                                                        <a href="blog.html" title="">Blog</a>
+                                                        <a href="blog.php" title="">Blog</a>
                                                     </li>
                                                     <li>
-                                                        <a href="blog-detail.html">Blog Detail</a>
+                                                        <a href="blog-detail.php">Blog Detail</a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li><a href="about.html" title="">About</a></li>
-                                            <li><a href="contact.html" title="">Contact</a></li>
-                                            <li><a href="payment.html" title="">Payment</a></li>
-                                            <li><a href="element.html" title="">Element</a></li>
-                                            <li><a href="404.html" title="">404</a></li>
-                                            <li><a href="comingsoon.html" title="">Comingsoon</a></li>
+                                            <li><a href="about.php" title="">About</a></li>
+                                            <li><a href="contact.php" title="">Contact</a></li>
+                                            <li><a href="payment.php" title="">Payment</a></li>
+                                            <li><a href="element.php" title="">Element</a></li>
+                                            <li><a href="404.php" title="">404</a></li>
+                                            <li><a href="comingsoon.php" title="">Comingsoon</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="#" title="">Hotel</a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="home-hotel.html" title="">Hotel</a>
+                                                <a href="home-hotel.php" title="">Hotel</a>
                                             </li>
                                             <li>
-                                                <a href="hotel-list.html">Hotel List 1</a>
+                                                <a href="hotel-list.php">Hotel List 1</a>
                                             </li>
                                             <li>
-                                                <a href="hotel-list-2.html">Hotel List 2</a>
+                                                <a href="hotel-list-2.php">Hotel List 2</a>
                                             </li>
                                             <li>
-                                                <a href="hotel-maps.html">Hotel Map</a>
+                                                <a href="hotel-maps.php">Hotel Map</a>
                                             </li>
                                             <li>
-                                                <a href="hotel-detail.html">Hotel Detail</a>
+                                                <a href="hotel-detail.php">Hotel Detail</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -131,10 +131,10 @@
                                         <a href="#" title="">Flights</a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="home-flight.html" title="">Flights</a>
+                                                <a href="home-flight.php" title="">Flights</a>
                                             </li>
                                             <li>
-                                                <a href="flight-list.html">Flight List</a>
+                                                <a href="flight-list.php">Flight List</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -142,10 +142,10 @@
                                         <a href="#" title="">Car</a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="home-car.html" title="">Car</a>
+                                                <a href="home-car.php" title="">Car</a>
                                             </li>
                                             <li>
-                                                <a href="car-list.html">Cart List</a>
+                                                <a href="car-list.php">Cart List</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -153,10 +153,10 @@
                                         <a href="#" title="">Package</a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="home-package.html" title="">Package Deals</a>
+                                                <a href="home-package.php" title="">Package Deals</a>
                                             </li>
                                             <li>
-                                                <a href="package-list.html">Package Deals List</a>
+                                                <a href="package-list.php">Package Deals List</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -164,13 +164,13 @@
                                         <a href="#" title="">Cruises</a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="home-cruise.html" title="">Cruises</a>
+                                                <a href="home-cruise.php" title="">Cruises</a>
                                             </li>
                                             <li>
-                                                <a href="cruise-list.html">Cruise List</a>
+                                                <a href="cruise-list.php">Cruise List</a>
                                             </li>
                                             <li>
-                                                <a href="cruise-detail.html">Cruise Detail</a>
+                                                <a href="cruise-detail.php">Cruise Detail</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -178,13 +178,13 @@
                                         <a href="#" title="">Tours</a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="home-tour.html" title="">Tours</a>
+                                                <a href="home-tour.php" title="">Tours</a>
                                             </li>
                                             <li>
-                                                <a href="tour-list.html">Tour List</a>
+                                                <a href="tour-list.php">Tour List</a>
                                             </li>
                                             <li>
-                                                <a href="tour-detail.html">Tour Detail</a>
+                                                <a href="tour-detail.php">Tour Detail</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -226,7 +226,7 @@
                     <!--Breakcrumb-->
                     <section class="breakcrumb-sc">
                         <ul class="breadcrumb arrow">
-                            <li><a href="index-2.html"><i class="fa fa-home"></i></a></li>
+                            <li><a href="index-2.php"><i class="fa fa-home"></i></a></li>
                             <li>Our blog</li>
                         </ul>
                         <!-- Search Blog -->
@@ -260,7 +260,7 @@
                                                     <small>///</small>
                                                     <span> Jun, 7, 2014</span>
                                                 </div>
-                                                <h2><a href="blog-detail.html">Thailand by Train with Eastern and Oriental Express</a></h2>
+                                                <h2><a href="blog-detail.php">Thailand by Train with Eastern and Oriental Express</a></h2>
                                                 <div class="post-share">
                                                     <a href="#" title=""><i class="fa fa-facebook"></i></a>
                                                     <a href="#" title=""><i class="fa fa-twitter"></i></a>
@@ -308,7 +308,7 @@
                                                     <small>///</small>
                                                     <span> Jun, 7, 2014</span>
                                                 </div>
-                                                <h2><a href="blog-detail.html">Grid gallery post - The Best New NYC Sleeps and Eats</a></h2>
+                                                <h2><a href="blog-detail.php">Grid gallery post - The Best New NYC Sleeps and Eats</a></h2>
                                                 <div class="post-share">
                                                     <a href="#" title=""><i class="fa fa-facebook"></i></a>
                                                     <a href="#" title=""><i class="fa fa-twitter"></i></a>
@@ -340,7 +340,7 @@
                                                     <small>///</small>
                                                     <span> Jun, 7, 2014</span>
                                                 </div>
-                                                <h2><a href="blog-detail.html">Slideshow gallery - The Best of Paris Today</a></h2>
+                                                <h2><a href="blog-detail.php">Slideshow gallery - The Best of Paris Today</a></h2>
                                                 <div class="post-share">
                                                     <a href="#" title=""><i class="fa fa-facebook"></i></a>
                                                     <a href="#" title=""><i class="fa fa-twitter"></i></a>
@@ -371,7 +371,7 @@
                                                     <small>///</small>
                                                     <span> Jun, 7, 2014</span>
                                                 </div>
-                                                <h2><a href="blog-detail.html">Audio post- The Best of Paris Today</a></h2>
+                                                <h2><a href="blog-detail.php">Audio post- The Best of Paris Today</a></h2>
                                                 <div class="post-share">
                                                     <a href="#" title=""><i class="fa fa-facebook"></i></a>
                                                     <a href="#" title=""><i class="fa fa-twitter"></i></a>
@@ -402,7 +402,7 @@
                                                     <small>///</small>
                                                     <span>Jun, 7, 2014</span>
                                                 </div>
-                                                <h2><a href="blog-detail.html">Video post- The Best of Paris Today</a></h2>
+                                                <h2><a href="blog-detail.php">Video post- The Best of Paris Today</a></h2>
                                                 <div class="post-share">
                                                     <a href="#" title=""><i class="fa fa-facebook"></i></a>
                                                     <a href="#" title=""><i class="fa fa-twitter"></i></a>
@@ -459,9 +459,9 @@
                                 <div class="widget widget_recent_entries">
                                     <h2 class="title-sidebar">Recent post</h2>
                                     <ul>
-                                        <li><a href="blog-detail.html">Aliquam nibh sapien, feugiat id mollis quis</a><span> / 20 comments</span></li>
-                                        <li><a href="blog-detail.html">Aliquam nibh sapien, feugiat id mollis quis</a><span> /  20 comments</span></li>
-                                        <li><a href="blog-detail.html">Aliquam nibh sapien, feugiat id mollis quis</a><span> /  20 comments</span></li>
+                                        <li><a href="blog-detail.php">Aliquam nibh sapien, feugiat id mollis quis</a><span> / 20 comments</span></li>
+                                        <li><a href="blog-detail.php">Aliquam nibh sapien, feugiat id mollis quis</a><span> /  20 comments</span></li>
+                                        <li><a href="blog-detail.php">Aliquam nibh sapien, feugiat id mollis quis</a><span> /  20 comments</span></li>
                                     </ul>
                                 </div>
                                 <!-- End Widget Recent post -->
@@ -534,7 +534,7 @@
                     <!-- Logo -->
                     <div class="col-md-4">
                         <div class="logo-foter">
-                            <a href="index-2.html" title=""><img src="images/logo-footer.png" alt=""></a>
+                            <a href="index-2.php" title=""><img src="images/logo-footer.png" alt=""></a>
                         </div>
                     </div>
                     <!-- End Logo -->
@@ -542,10 +542,10 @@
                     <div class="col-xs-6 col-sm-3 col-md-2">
                         <div class="ul-ft">
                             <ul>
-                                <li><a href="about.html" title="">About</a></li>
-                                <li><a href="blog.html" title="">Blog</a></li>
-                                <li><a href="fqa.html" title="">FQA</a></li>
-                                <li><a href="careers.html" title="">Carrers</a></li>
+                                <li><a href="about.php" title="">About</a></li>
+                                <li><a href="blog.php" title="">Blog</a></li>
+                                <li><a href="fqa.php" title="">FQA</a></li>
+                                <li><a href="careers.php" title="">Carrers</a></li>
                             </ul>
                         </div>
                     </div>
@@ -554,7 +554,7 @@
                     <div class="col-xs-6 col-sm-3 col-md-2">
                         <div class="ul-ft">
                             <ul>
-                                <li><a href="contact.html" title="">Contact Us</a></li>
+                                <li><a href="contact.php" title="">Contact Us</a></li>
                                 <li><a href="#" title="">Privacy Policy</a></li>
                                 <li><a href="#" title="">Term of Service</a></li>
                                 <li><a href="#" title="">Security</a></li>
@@ -646,6 +646,6 @@
     </script>
 </body>
 
-<!-- Mirrored from envato.megadrupal.com/html/bookawesome/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Feb 2017 13:26:11 GMT -->
+<!-- Mirrored from envato.megadrupal.com/html/bookawesome/blog.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Feb 2017 13:26:11 GMT -->
 
 </html>

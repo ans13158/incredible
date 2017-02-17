@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<!-- Mirrored from envato.megadrupal.com/html/bookawesome/cruise-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Feb 2017 13:30:20 GMT -->
+<!-- Mirrored from envato.megadrupal.com/html/bookawesome/cruise-list.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Feb 2017 13:30:20 GMT -->
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -53,7 +53,7 @@
         <header id="header" class="header">
             <div class="container">
                 <div class="logo float-left">
-                    <a href="index-2.html" title=""><img src="images/logo-header.png" alt=""></a>
+                    <a href="index-2.php" title=""><img src="images/logo-header.png" alt=""></a>
                 </div>
                 <div class="bars" id="bars"></div>
                 <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
@@ -61,80 +61,80 @@
                         <div class="tb">
                             <div class="tb-cell">
                                 <ul class="menu-list text-uppercase">
-                                    <li><a href="index-2.html" title="">Home</a>
+                                    <li><a href="index-2.php" title="">Home</a>
                                         <ul class="sub-menu">
-                                            <li><a href="index-2.html" title="">Home menu 1</a></li>
-                                            <li><a href="index2.html" title="">Home menu 2</a></li>
-                                            <li><a href="index3.html" title="">Home menu 3</a></li>
-                                            <li><a href="index4.html" title="">Home menu 4</a></li>
-                                            <li><a href="index5.html" title="">Home background slide</a></li>
-                                            <li><a href="index6.html" title="">Home background video</a></li>
+                                            <li><a href="index-2.php" title="">Home menu 1</a></li>
+                                            <li><a href="index2.php" title="">Home menu 2</a></li>
+                                            <li><a href="index3.php" title="">Home menu 3</a></li>
+                                            <li><a href="index4.php" title="">Home menu 4</a></li>
+                                            <li><a href="index5.php" title="">Home background slide</a></li>
+                                            <li><a href="index6.php" title="">Home background video</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#">Pages</a>
                                         <ul class="sub-menu">
                                             <li><a href="#" title="">Blog</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="blog.html" title="">Blog</a></li>
-                                                    <li><a href="blog-detail.html">Blog Detail</a></li>
+                                                    <li><a href="blog.php" title="">Blog</a></li>
+                                                    <li><a href="blog-detail.php">Blog Detail</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="about.html" title="">About</a></li>
+                                            <li><a href="about.php" title="">About</a></li>
                                             <li><a href="#" title="">User</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="user-booking.html" title="">User Booking</a></li>
-                                                    <li><a href="user-profile.html" title="">User Profile</a></li>
-                                                    <li><a href="user-setting.html" title="">User Setting</a></li>
-                                                    <li><a href="user-review.html" title="">User Review</a></li>
-                                                    <li><a href="user-signup.html" title="">User Signup</a></li>
+                                                    <li><a href="user-booking.php" title="">User Booking</a></li>
+                                                    <li><a href="user-profile.php" title="">User Profile</a></li>
+                                                    <li><a href="user-setting.php" title="">User Setting</a></li>
+                                                    <li><a href="user-review.php" title="">User Review</a></li>
+                                                    <li><a href="user-signup.php" title="">User Signup</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact.html" title="">Contact</a></li>
-                                            <li><a href="payment.html" title="">Payment</a></li>
-                                            <li><a href="element.html" title="">Element</a></li>
-                                            <li><a href="404.html" title="">404</a></li>
-                                            <li><a href="comingsoon.html" title="">Comingsoon</a></li>
+                                            <li><a href="contact.php" title="">Contact</a></li>
+                                            <li><a href="payment.php" title="">Payment</a></li>
+                                            <li><a href="element.php" title="">Element</a></li>
+                                            <li><a href="404.php" title="">404</a></li>
+                                            <li><a href="comingsoon.php" title="">Comingsoon</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#" title="">Hotel</a>
                                         <ul class="sub-menu">
-                                            <li><a href="home-hotel.html" title="">Hotel</a></li>
-                                            <li><a href="hotel-list.html">Hotel List 1</a></li>
-                                            <li><a href="hotel-list-2.html">Hotel List 2</a></li>
-                                            <li><a href="hotel-maps.html">Hotel Map</a></li>
-                                            <li><a href="hotel-detail.html">Hotel Detail</a></li>
+                                            <li><a href="home-hotel.php" title="">Hotel</a></li>
+                                            <li><a href="hotel-list.php">Hotel List 1</a></li>
+                                            <li><a href="hotel-list-2.php">Hotel List 2</a></li>
+                                            <li><a href="hotel-maps.php">Hotel Map</a></li>
+                                            <li><a href="hotel-detail.php">Hotel Detail</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#" title="">Flights</a>
                                         <ul class="sub-menu">
-                                            <li><a href="home-flight.html" title="">Flights</a></li>
-                                            <li><a href="flight-list.html">Flight List</a></li>
+                                            <li><a href="home-flight.php" title="">Flights</a></li>
+                                            <li><a href="flight-list.php">Flight List</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#" title="">Car</a>
                                         <ul class="sub-menu">
-                                            <li><a href="home-car.html" title="">Car</a></li>
-                                            <li><a href="car-list.html">Cart List</a></li>
+                                            <li><a href="home-car.php" title="">Car</a></li>
+                                            <li><a href="car-list.php">Cart List</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#" title="">Package</a>
                                         <ul class="sub-menu">
-                                            <li><a href="home-package.html" title="">Package Deals</a></li>
-                                            <li><a href="package-list.html">Package Deals List</a></li>
+                                            <li><a href="home-package.php" title="">Package Deals</a></li>
+                                            <li><a href="package-list.php">Package Deals List</a></li>
                                         </ul>
                                     </li>
                                     <li class="current-menu-parent"><a href="#" title="">Cruises</a>
                                         <ul class="sub-menu">
-                                            <li><a href="home-cruise.html" title="">Cruises</a></li>
-                                            <li class="current-menu-item"><a href="cruise-list.html">Cruise List</a></li>
-                                            <li><a href="cruise-detail.html">Cruise Detail</a></li>
+                                            <li><a href="home-cruise.php" title="">Cruises</a></li>
+                                            <li class="current-menu-item"><a href="cruise-list.php">Cruise List</a></li>
+                                            <li><a href="cruise-detail.php">Cruise Detail</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#" title="">Tours</a>
                                         <ul class="sub-menu">
-                                            <li><a href="home-tour.html" title="">Tours</a></li>
-                                            <li><a href="tour-list.html">Tour List</a></li>
-                                            <li><a href="tour-detail.html">Tour Detail</a></li>
+                                            <li><a href="home-tour.php" title="">Tours</a></li>
+                                            <li><a href="tour-list.php">Tour List</a></li>
+                                            <li><a href="tour-detail.php">Tour Detail</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -157,8 +157,8 @@
                         <div class="col-lg-9 col-lg-push-3">
                             <section class="breakcrumb-sc">
                                 <ul class="breadcrumb arrow">
-                                    <li><a href="index-2.html"><i class="fa fa-home"></i></a></li>
-                                    <li><a href="hotel.html" title="">Hotels</a></li>
+                                    <li><a href="index-2.php"><i class="fa fa-home"></i></a></li>
+                                    <li><a href="hotel.php" title="">Hotels</a></li>
                                     <li><a href="#" title="">Europe</a></li>
                                     <li>Netherlands</li>
                                 </ul>
@@ -180,10 +180,10 @@
                                     <div class="view-by float-right">
                                         <ul>
                                             <li>
-                                                <a href="hotel-list.html" title="" class="current"><img src="images/icon-grid.png" alt=""> List</a>
+                                                <a href="hotel-list.php" title="" class="current"><img src="images/icon-grid.png" alt=""> List</a>
                                             </li>
                                             <li>
-                                                <a href="hotel-list-3.html" title=""><img src="images/icon-map.png" alt=""> Map</a>
+                                                <a href="hotel-list-3.php" title=""><img src="images/icon-map.png" alt=""> Map</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -191,10 +191,10 @@
                                 <div class="cruise-list-cn">
                                     <div class="cruise-item">
                                         <figure class="cruise-img">
-                                            <a href="cruise-detail.html"><img src="images/cruise/img-1.jpg" alt=""></a>
+                                            <a href="cruise-detail.php"><img src="images/cruise/img-1.jpg" alt=""></a>
                                         </figure>
                                         <div class="cruise-text">
-                                            <div class="cruise-name"><a href="cruise-detail.html">7 - Night Eastern Caribbean - Miami Round-Trip</a></div>
+                                            <div class="cruise-name"><a href="cruise-detail.php">7 - Night Eastern Caribbean - Miami Round-Trip</a></div>
                                             <ul class="ship-port">
                                                 <li><span class="label">Ship:</span> Norwegian Getaway</li>
                                                 <li><span class="label">Ports of Call:</span> Miami, Florida; Philipsburg, Sint Maarten, Netherlands Antilles; St. Thomas, USVI; Nassau, Bahamas; Miami...</li>
@@ -204,10 +204,10 @@
                                     </div>
                                     <div class="cruise-item">
                                         <figure class="cruise-img">
-                                            <a href="cruise-detail.html"><img src="images/cruise/img-2.jpg" alt=""></a>
+                                            <a href="cruise-detail.php"><img src="images/cruise/img-2.jpg" alt=""></a>
                                         </figure>
                                         <div class="cruise-text">
-                                            <div class="cruise-name"><a href="cruise-detail.html">8 - Night Eastern Caribbean - including 1 night tour</a></div>
+                                            <div class="cruise-name"><a href="cruise-detail.php">8 - Night Eastern Caribbean - including 1 night tour</a></div>
                                             <ul class="ship-port">
                                                 <li><span class="label">Ship:</span> Norwegian Getaway</li>
                                                 <li><span class="label">Ports of Call:</span> Miami, Florida; Philipsburg, Sint Maarten, Netherlands Antilles; St. Thomas, USVI; Nassau, Bahamas; Miami...</li>
@@ -217,10 +217,10 @@
                                     </div>
                                     <div class="cruise-item">
                                         <figure class="cruise-img">
-                                            <a href="cruise-detail.html"><img src="images/cruise/img-3.jpg" alt=""></a>
+                                            <a href="cruise-detail.php"><img src="images/cruise/img-3.jpg" alt=""></a>
                                         </figure>
                                         <div class="cruise-text">
-                                            <div class="cruise-name"><a href="cruise-detail.html">3 - Night Bahamas - Miami Round-Trip</a></div>
+                                            <div class="cruise-name"><a href="cruise-detail.php">3 - Night Bahamas - Miami Round-Trip</a></div>
                                             <ul class="ship-port">
                                                 <li><span class="label">Ship:</span> Norwegian Getaway</li>
                                                 <li><span class="label">Ports of Call:</span> Miami, Florida; Philipsburg, Sint Maarten, Netherlands Antilles; St. Thomas, USVI; Nassau, Bahamas; Miami...</li>
@@ -230,10 +230,10 @@
                                     </div>
                                     <div class="cruise-item">
                                         <figure class="cruise-img">
-                                            <a href="cruise-detail.html"><img src="images/cruise/img-4.jpg" alt=""></a>
+                                            <a href="cruise-detail.php"><img src="images/cruise/img-4.jpg" alt=""></a>
                                         </figure>
                                         <div class="cruise-text">
-                                            <div class="cruise-name"><a href="cruise-detail.html">7-night Western Caribbean Cruise from Port Canaveral Roundtrip</a></div>
+                                            <div class="cruise-name"><a href="cruise-detail.php">7-night Western Caribbean Cruise from Port Canaveral Roundtrip</a></div>
                                             <ul class="ship-port">
                                                 <li><span class="label">Ship:</span> Norwegian Getaway</li>
                                                 <li><span class="label">Ports of Call:</span> Miami, Florida; Philipsburg, Sint Maarten, Netherlands Antilles; St. Thomas, USVI; Nassau, Bahamas; Miami...</li>
@@ -243,10 +243,10 @@
                                     </div>
                                     <div class="cruise-item">
                                         <figure class="cruise-img">
-                                            <a href="cruise-detail.html"><img src="images/cruise/img-5.jpg" alt=""></a>
+                                            <a href="cruise-detail.php"><img src="images/cruise/img-5.jpg" alt=""></a>
                                         </figure>
                                         <div class="cruise-text">
-                                            <div class="cruise-name"><a href="cruise-detail.html">7 - Night Eastern Caribbean - Miami Round-Trip</a></div>
+                                            <div class="cruise-name"><a href="cruise-detail.php">7 - Night Eastern Caribbean - Miami Round-Trip</a></div>
                                             <ul class="ship-port">
                                                 <li><span class="label">Ship:</span> Norwegian Getaway</li>
                                                 <li><span class="label">Ports of Call:</span> Miami, Florida; Philipsburg, Sint Maarten, Netherlands Antilles; St. Thomas, USVI; Nassau, Bahamas; Miami...</li>
@@ -256,10 +256,10 @@
                                     </div>
                                     <div class="cruise-item">
                                         <figure class="cruise-img">
-                                            <a href="cruise-detail.html"><img src="images/cruise/img-6.jpg" alt=""></a>
+                                            <a href="cruise-detail.php"><img src="images/cruise/img-6.jpg" alt=""></a>
                                         </figure>
                                         <div class="cruise-text">
-                                            <div class="cruise-name"><a href="cruise-detail.html">7 - Night Eastern Caribbean - Miami Round-Trip</a></div>
+                                            <div class="cruise-name"><a href="cruise-detail.php">7 - Night Eastern Caribbean - Miami Round-Trip</a></div>
                                             <ul class="ship-port">
                                                 <li><span class="label">Ship:</span> Norwegian Getaway</li>
                                                 <li><span class="label">Ports of Call:</span> Miami, Florida; Philipsburg, Sint Maarten, Netherlands Antilles; St. Thomas, USVI; Nassau, Bahamas; Miami...</li>
@@ -269,10 +269,10 @@
                                     </div>
                                     <div class="cruise-item">
                                         <figure class="cruise-img">
-                                            <a href="cruise-detail.html"><img src="images/cruise/img-7.jpg" alt=""></a>
+                                            <a href="cruise-detail.php"><img src="images/cruise/img-7.jpg" alt=""></a>
                                         </figure>
                                         <div class="cruise-text">
-                                            <div class="cruise-name"><a href="cruise-detail.html">8 - Night Eastern Caribbean - including 1 night tour</a></div>
+                                            <div class="cruise-name"><a href="cruise-detail.php">8 - Night Eastern Caribbean - including 1 night tour</a></div>
                                             <ul class="ship-port">
                                                 <li><span class="label">Ship:</span> Norwegian Getaway</li>
                                                 <li><span class="label">Ports of Call:</span> Miami, Florida; Philipsburg, Sint Maarten, Netherlands Antilles; St. Thomas, USVI; Nassau, Bahamas; Miami...</li>
@@ -282,10 +282,10 @@
                                     </div>
                                     <div class="cruise-item">
                                         <figure class="cruise-img">
-                                            <a href="cruise-detail.html"><img src="images/cruise/img-8.jpg" alt=""></a>
+                                            <a href="cruise-detail.php"><img src="images/cruise/img-8.jpg" alt=""></a>
                                         </figure>
                                         <div class="cruise-text">
-                                            <div class="cruise-name"><a href="cruise-detail.html">3 - Night Bahamas - Miami Round-Trip</a></div>
+                                            <div class="cruise-name"><a href="cruise-detail.php">3 - Night Bahamas - Miami Round-Trip</a></div>
                                             <ul class="ship-port">
                                                 <li><span class="label">Ship:</span> Norwegian Getaway</li>
                                                 <li><span class="label">Ports of Call:</span> Miami, Florida; Philipsburg, Sint Maarten, Netherlands Antilles; St. Thomas, USVI; Nassau, Bahamas; Miami...</li>
@@ -295,10 +295,10 @@
                                     </div>
                                     <div class="cruise-item">
                                         <figure class="cruise-img">
-                                            <a href="cruise-detail.html"><img src="images/cruise/img-9.jpg" alt=""></a>
+                                            <a href="cruise-detail.php"><img src="images/cruise/img-9.jpg" alt=""></a>
                                         </figure>
                                         <div class="cruise-text">
-                                            <div class="cruise-name"><a href="cruise-detail.html">7-night Western Caribbean Cruise from Port Canaveral Roundtrip</a></div>
+                                            <div class="cruise-name"><a href="cruise-detail.php">7-night Western Caribbean Cruise from Port Canaveral Roundtrip</a></div>
                                             <ul class="ship-port">
                                                 <li><span class="label">Ship:</span> Norwegian Getaway</li>
                                                 <li><span class="label">Ports of Call:</span> Miami, Florida; Philipsburg, Sint Maarten, Netherlands Antilles; St. Thomas, USVI; Nassau, Bahamas; Miami...</li>
@@ -475,23 +475,23 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="logo-foter">
-                            <a href="index-2.html" title=""><img src="images/logo-footer.png" alt=""></a>
+                            <a href="index-2.php" title=""><img src="images/logo-footer.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-3 col-md-2">
                         <div class="ul-ft">
                             <ul>
-                                <li><a href="about.html" title="">About</a></li>
-                                <li><a href="blog.html" title="">Blog</a></li>
-                                <li><a href="fqa.html" title="">FQA</a></li>
-                                <li><a href="careers.html" title="">Carrers</a></li>
+                                <li><a href="about.php" title="">About</a></li>
+                                <li><a href="blog.php" title="">Blog</a></li>
+                                <li><a href="fqa.php" title="">FQA</a></li>
+                                <li><a href="careers.php" title="">Carrers</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-3 col-md-2">
                         <div class="ul-ft">
                             <ul>
-                                <li><a href="contact.html" title="">Contact Us</a></li>
+                                <li><a href="contact.php" title="">Contact Us</a></li>
                                 <li><a href="#" title="">Privacy Policy</a></li>
                                 <li><a href="#" title="">Term of Service</a></li>
                                 <li><a href="#" title="">Security</a></li>
@@ -561,6 +561,6 @@
         ga('send', 'pageview');
     </script>
 </body>
-<!-- Mirrored from envato.megadrupal.com/html/bookawesome/cruise-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Feb 2017 13:30:26 GMT -->
+<!-- Mirrored from envato.megadrupal.com/html/bookawesome/cruise-list.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Feb 2017 13:30:26 GMT -->
 
 </html>

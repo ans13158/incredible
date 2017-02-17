@@ -12,7 +12,7 @@
         <header id="header" class="header">
             <div class="container">
                 <div class="logo float-left">
-                    <a href="" title=""> <?=img( ["src"=>'images/LOGO.png', "height"=>"50", "width"=>'350',"style"=>"margin-left:-60px"]) ?><h5 style="position: absolute;color:black;top:40px;z-index: +99999;margin-left: 30px;font-weight: bold">Tours & Travels</h5> </a>
+                    <a href="" title=""> <?=img( ["src"=>'images/LOGO.png', "height"=>"50", "width"=>'350',"style"=>"margin-left:-60px"]) ?><h5 style="position: absolute;color:black;top:40px;z-index: +99999;margin-left: 40px;font-weight: bold">Tour Planner</h5> </a>
                 </div>
                 <div class="bars" id="bars"></div>
                 <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
@@ -56,10 +56,11 @@
                                             <li ><?= anchor('incredible_ukd','Honeymoon Packages')?></li>
                                             <li style=""><?= anchor('','Trekking Packages')?></li>
                                             <li style=""><?= anchor('incredible_ukd','Motorbike Packages')?></li>
+                                            <li style=""><?= anchor('incredible_ukd','Home Stay')?></li>
                                             
                                         </ul>
                                     </li>
-                                    <li><?= anchor('incredible_ukd','Home Stay')?></li>
+                                    <li><?= anchor('incredible_ukd','Contact Us')?></li>
                                     
                                 </ul>
                             </div>

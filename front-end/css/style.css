@@ -214,7 +214,8 @@ section {
 }
 
 .bg-3 {
-    background-image: url(../images/background/bg-3.jpg)
+    background-image: url(../images/background/bg-3.jpg);
+    height: 700px;
 }
 
 .bg-4 {
@@ -3367,7 +3368,8 @@ blockquote:before {
 }
 
 .confidence-subscribe {
-    margin-top: 30px
+    margin-top: 30px;
+    margin-bottom: 1px;
 }
 
 .confidence-subscribe.no-bg {
@@ -3421,7 +3423,7 @@ blockquote:before {
     width: 50%;
     bottom: 0;
     content: '';
-    position: absolute
+    position: absolute;
 }
 
 .confidence {
@@ -10089,7 +10091,7 @@ blockquote:before {
 
 footer .logo-foter,
 footer .ul-ft {
-    margin-top: 60px
+    margin-top: 10px
 }
 
 .user-form a {
@@ -10137,7 +10139,8 @@ footer .ul-ft ul li a {
 footer {
     background-color: #111;
     padding-bottom: 50px;
-    font-family: 'Open Sans'
+    font-family: 'Open Sans';
+    height: 220px;
 }
 
 footer .logo-foter img {
@@ -10231,8 +10234,22 @@ footer .copyright {
     color: #fff;
     clear: both;
     line-height: 20px;
-    margin: 45px 0 0;
-    float: right
+    margin: 65px 0 0;
+    
+    margin-left: -40px;
+}
+
+footer .about-team  {
+    color: #fff;
+    width: 300px;
+    line-height: 20px;
+    margin: 5px 0 0;
+    margin-left: -200px;
+}
+
+.about-team > a  {
+    
+    color:#fff;
 }
 
 @media (max-width:1199px) {
@@ -11185,7 +11202,7 @@ footer .copyright {
     }
     footer .logo-foter {
         text-align: center;
-        margin-top: 35px
+        margin-top: 0px
     }
     footer .ul-ft {
         margin-top: 35px
@@ -11894,7 +11911,8 @@ footer .copyright {
         margin-right: 20px
     }
     footer {
-        padding-bottom: 30px
+        padding-bottom: 30px;
+        margin-top: 50px;
     }
     footer .currency-lang-bottom {
         margin-left: 2.5%;
@@ -12422,7 +12440,7 @@ footer .copyright {
     }
     footer .copyright,
     footer .currency-lang-bottom {
-        margin-top: 30px
+        margin-top: 120px
     }
 }
 
