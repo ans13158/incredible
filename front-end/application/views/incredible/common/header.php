@@ -10,7 +10,7 @@
 <head>
     
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>Incredible Uttarakhand</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">

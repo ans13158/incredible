@@ -339,7 +339,7 @@
                         <div class="col-xs-6 col-md-3">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?=  base_url('images/deal/img-1.jpg') ?>" alt=""></a>
+                                    <a href="#" title=""><img src="<?=  base_url('images/deal/img-1.jpg') ?>" alt="" style="height: 290px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
@@ -356,7 +356,7 @@
                         <div class="col-xs-6 col-md-3">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-2.jpg') ?>" alt=""></a>
+                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-2.jpg') ?>" alt="" style="height: 290px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
@@ -365,14 +365,14 @@
                                         <div class="home-sales-places">Enjoy the Floura & Founa of our beautiful state </div>
                                     </div>
                                     
-                                    <div class="price-box">Visit reserved parks,zoos and santuraies</div>
+                                    <div class="price-box">Visit some of the world famous reserved parks,zoos and santuraies</div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xs-6 col-md-3">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-2.jpg') ?>" alt=""></a>
+                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-2.jpg') ?>" alt="" style="height: 290px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
@@ -389,7 +389,7 @@
                         <div class="col-xs-6 col-md-3">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-1.jpg') ?>" alt=""></a>
+                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-1.jpg') ?>" alt="" style="height: 290px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
@@ -406,7 +406,7 @@
                         <div class="col-xs-6 col-md-3">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-5.jpg') ?>" alt=""></a>
+                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-5.jpg') ?>" alt="" style="height: 290px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
@@ -422,7 +422,7 @@
                         <div class="col-xs-6 col-md-3">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-6.jpg') ?>" alt=""></a>
+                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-6.jpg') ?>" alt="" style="height: 290px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
@@ -439,7 +439,7 @@
                         <div class="col-md-6">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-4.jpg') ?>" alt="" style="height: 292px"></a>
+                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-5.jpg') ?>" alt="" style="height: 290px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
@@ -463,7 +463,7 @@
             <div class="title-wrap">
                 <div class="container">
                     <div class="travel-title float-left">
-                        <h2>Uttarakhand's Travel Destinations</span></h2></div><a href="#" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">view all</a></div>
+                        <h2>Uttarakhand's Travel Destinations</span></h2></div><a href="ukdDestinations" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">view all</a></div>
                     </div>
             </div>
             <div class="container">
@@ -472,62 +472,62 @@
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?=  base_url('images/deal/img-1.jpg') ?>" alt=""></a>
+                                    <a href="ukd_destination_detail/1" title=""><img src="<?=  base_url('images/deal/img-1.jpg') ?>" alt="" style="height: 290px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="#" title="">Almora</a></div>
+                                        <div class="home-sales-name"><a href="incredible_ukd/ukd_destination_detail/1" title="">Almora</a></div>
 
                                         <div class="home-sales-places">Located on a ridge at the southern edge of the Kumaon Hills of the Himalaya range,Almora was founded in 1568, however there are accounts of human settlements in the hills and surrounding region in the Hindu epic Mahabharata </div>
                                     </div>
-                                    
-                                    <div class="price-box">Almora is well connected by motorable roads with major destinations of Uttarakhand state and northern India. Uttarakhand Transport Corporation runs Buses from Almora bus station to Delhi and Dehradun. Taxis and Private Buses, mostly run by K.M.O.U, connect Almora to other major destinations of Kumaon region.</div>
+                                     
+                                    <div class="price-box">Almora is well connected by motorable roads with major destinations of Uttarakhand state and northern India. Taxis and Private Buses, mostly run by K.M.O.U, connect Almora to other major destinations of Kumaon region.</div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-2.jpg') ?>" alt=""></a>
+                                    <a href="incredible_ukd/ukd_destination_detail/2" title=""><img src="<?= base_url('images/deal/img-2.jpg') ?>" alt="" style="height: 290px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="#" title="">Bhimtal</a></div>
+                                        <div class="home-sales-name"><a href="incredible_ukd/ukd_destination_detail/2" title="">Bhimtal</a></div>
                                         <div class="home-sales-places">Situated at a distance of 22 kilometers from Nainital. The major attraction in Bhimtal is the Bhimtal Lake, which has an island at its centre.</div>
                                     </div>
                                         <br><br>
-                                    <div class="price-box">Nal Damyanti Tal, a small natural lake. It is a very sacred place for the dwellers of the region . About 5 km from Bhimtal is the famous group of lakes known as Sattal, which is a place of attraction for nature lovers. Clear water of lakes surrounded by thick forest  is a wonderful experience. </div>
+                                    <div class="price-box">Nal Damyanti Tal, a small natural lake. It is a very sacred place for the dwellers of the region . About 5 km from Bhimtal is the famous group of lakes known as Sattal, which is a place of attraction for nature lovers. </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-2.jpg') ?>" alt=""></a>
+                                    <a href="incredible_ukd/ukd_destination_detail/3" title=""><img src="<?= base_url('images/deal/img-2.jpg') ?>" alt="" style="height: 290px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="#" title="">Dehradun</a></div>
+                                        <div class="home-sales-name"><a href="incredible_ukd/ukd_destination_detail/3" title="">Dehradun</a></div>
                                         <div class="home-sales-places">Dehradun is renowned for its natural resources, publishing services and particularly for its educational institutions. It hosts training institutions of national importance such as the Indian Military Academy, ITBP Academy,etc.</div>
                                     </div>
                                     
-                                    <div class="price-box">Jakhan is the starting point of Lesser Himalayan Range that extends to Mussoorie and beyond.The Doon valley contains the settlements including Dehradun, Doiwala, Herbertpur, Vikasnagar, Sahaspur, Rishikesh, Raiwala and Subash Nagar, Clement Town.</div>
+                                    <div class="price-box">Jakhan is the starting point of Lesser Himalayan Range that extends to Mussoorie and beyond.The Doon valley contains the settlements including Dehradun, Doiwala, Herbertpur, Vikasnagar, Sahaspur, Rishikesh, Raiwala and Subash Nagar.</div>
                                 </div>
                             </div>
                         </div>
-                               
+                                </div> 
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-5.jpg') ?>" alt=""></a>
+                                    <a href="incredible_ukd/ukd_destination_detail/4" title=""><img src="<?= base_url('images/deal/img-5.jpg') ?>" alt="" style="height: 290px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="#" title="">Haldwani</a></div>
+                                        <div class="home-sales-name"><a href="incredible_ukd/ukd_destination_detail/4" title="">Haldwani</a></div>
                                         <div class="home-sales-places">Haldwani is a city, which along with its twin township of Kathgodam,is known as the "Gateway of Kumaon". British records suggest that the place was established  as a mart for hill people who visited the Himalayan foothills, during the cold season. </div>
                                     </div>
                                    
@@ -538,12 +538,12 @@
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-6.jpg') ?>" alt=""></a>
+                                    <a href="incredible_ukd/ukd_destination_detail/5" title=""><img src="<?= base_url('images/deal/img-6.jpg') ?>" alt="" style="height: 290px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="#" title="">Kausani</a></div>
+                                        <div class="home-sales-name"><a href="incredible_ukd/ukd_destination_detail/5" title="">Kausani</a></div>
                                         <div class="home-sales-places">Kausani is a hill station and Village situated in Bageshwar district in the state of Uttarakhand, India. It is famous for its scenic splendour and its spectacular 300 km-wide panoramic view of Himalayan peaks like Trisul, Nanda Devi and Panchchuli.</div>
                                     </div>
                                     
@@ -555,16 +555,16 @@
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?= base_url('images/deal/img-3.jpg') ?>" alt="" style="height: 292px"></a>
+                                    <a href="incredible_ukd/ukd_destination_detail/6" title=""><img src="<?= base_url('images/deal/img-5.jpg') ?>" alt="" style="height: 290px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="#" title="">Munsiari</a></div>
-                                        <div class="home-sales-places">Situated in the Pithoragarh District in the hill-state of Uttarakhand, is a starting point of various treks into the interior of the range.Its name refers to a 'place with snow'. Situated on the banks of Goriganga river, it is a fast-growing tourist destination, and mountaineers, glacier enthusiasts, high altitude trekkers and nature lovers commonly use it as their hub or base camp.</div>
+                                        <div class="home-sales-name"><a href="incredible_ukd/ukd_destination_detail/6" title="">Munsiari</a></div>
+                                        <div class="home-sales-places">Situated in the Pithoragarh District in the hill-state of Uttarakhand, is a starting point of various treks into the interior of the range.Its name refers to a 'place with snow'. Situated on the banks of Goriganga river, it is a fast-growing tourist destination.</div>
                                     </div>
                                    
-                                    <div class="price-box">Come to Uttarakhand and explore the most scenic road.</div>
+                                    <div class="price-box">The town is surrounded by snow-capped peaks, with a key attraction being the trekking route to Khalia Top. Visiting Munsiyari is totally a different experiance , In springs lower reaches forest are abalze with rhododendrons forests.</div>
                                 </div>
                             </div>
                         </div>
@@ -580,7 +580,7 @@
             <div class="title-wrap">
                 <div class="container">
                     <div class="travel-title float-left">
-                        <h2>Top Travel Destinations</h2></div><a href="#" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">view all</a></div>
+                        <h2>About Indian States</h2></div><a href="about_india" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">view all</a></div>
             </div>
             <div class="destinations-cn">
                 <div class="bg-parallax bg-2"></div>
@@ -590,17 +590,16 @@
                             <div class="intro-filter">
                                 <div class="intro">
                                     <p><small>Discover</small>
-                                        <br><span>2364</span> destinations</p>
-                                    <p><small>With</small>
-                                        <br><span>152,364</span> properties</p>
+                                        <br><span>The 29</span> States of India</p>
+                                    
                                 </div>
                                 <ul class="filter">
-                                    <li class="active"><a data-toggle="tab" href="#destinations-1"><i class="fa fa-map-marker"></i> Recommendation for you</a></li>
-                                    <li><a data-toggle="tab" href="#destinations-2"><i class="fa fa-map-marker"></i> Australia &amp; Oceania</a></li>
-                                    <li><a data-toggle="tab" href="#destinations-3"><i class="fa fa-map-marker"></i> Asia</a></li>
-                                    <li><a data-toggle="tab" href="#destinations-4"><i class="fa fa-map-marker"></i> Europe</a></li>
-                                    <li><a data-toggle="tab" href="#destinations-5"><i class="fa fa-map-marker"></i> USA &amp; Canada</a></li>
-                                    <li><a data-toggle="tab" href="#destinations-6"><i class="fa fa-map-marker"></i> The rest of the world</a></li>
+                                    <li class="active"><a data-toggle="tab" href="#"><i class="fa fa-map-marker"></i> Recommendations for you</a></li>
+                                    <li><a  href="incredible_ukd/state_details/10"><i class="fa fa-map-marker"></i> Andhra Pradesh</a></li>
+                                    <li><a href="incredible_ukd/state_details/6"><i class="fa fa-map-marker"></i> Chattisgarh</a></li>
+                                    <li><a  href="incredible_ukd/state_details/2"><i class="fa fa-map-marker"></i> Uttar Pradesh</a></li>
+                                    <li><a  href="incredible_ukd/state_details/5"><i class="fa fa-map-marker"></i> Assam </a></li>
+                                    <li><a  href="incredible_ukd/state_details/9"><i class="fa fa-map-marker"></i> Goa</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -610,113 +609,59 @@
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="#" title="">London - UK</a></div><span class="properties-nb"><ins>1289</ins> properties</span></div>
+                                                <div class="destinations-name"><a href="incredible_ukd/state_details/7" title="">Jammu & Kashmir</a></div><span class="properties-nb">Known as the Switzerland of India</span></div>
                                             <figure class="destinations-img">
-                                                <a href="#" title=""><img src="<?= base_url('images/destinations/img-1.jpg') ?>" alt=""></a>
+                                                <a href="incredible_ukd/state_details/7" title=""><img src="<?= base_url('images/destinations/img-1.jpg') ?>" alt=""></a>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="#" title="">Paris - France</a></div><span class="properties-nb">239 properties</span></div>
+                                                <div class="destinations-name"><a href="incredible_ukd/state_details/8" title="">Himachal Pradesh</a></div><span class="properties-nb">Known for it's snow clad mountains.</span></div>
                                             <figure class="destinations-img">
-                                                <a href="#" title=""><img src="<?= base_url('images/destinations/img-2.jpg') ?>" alt=""></a>
+                                                <a href="incredible_ukd/state_details/8" title=""><img src="<?= base_url('images/destinations/img-2.jpg') ?>" alt=""></a>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="#" title="">Rome - Italy</a></div><span class="properties-nb">478 properties</span></div>
+                                                <div class="destinations-name"><a href="incredible_ukd/state_details/11" title="">Punjab</a></div><span class="properties-nb">World famous for the Golden Temple </span></div>
                                             <figure class="destinations-img">
-                                                <a href="#" title=""><img src="<?= base_url('images/destinations/img-3.jpg') ?>" alt=""></a>
+                                                <a href="incredible_ukd/state_details/11" title=""><img src="<?= base_url('images/destinations/img-3.jpg') ?>" alt=""></a>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="#" title="">Barcelona - Spain</a></div><span class="properties-nb">452 properties</span></div>
+                                                <div class="destinations-name"><a href="incredible_ukd/state_details/12" title="">Rajasthan</a></div><span class="properties-nb">Famous for it's rich cultural heritage</span></div>
                                             <figure class="destinations-img">
-                                                <a href="#" title=""><img src="<?= base_url('images/destinations/img-4.jpg') ?>" alt=""></a>
+                                                <a href="state_details/12" title=""><img src="<?= base_url('images/destinations/img-4.jpg') ?>" alt=""></a>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="#" title="">Madrid - Spain</a></div><span class="properties-nb">794 properties</span></div>
+                                                <div class="destinations-name"><a href="incredible_ukd/state_details/13" title="">Madhya Pradesh</a></div><span class="properties-nb">Home to several ancient monuments</span></div>
                                             <figure class="destinations-img">
-                                                <a href="#" title=""><img src="<?= base_url('images/destinations/img-5.jpg') ?>" alt=""></a>
+                                                <a href="incredible_ukd/state_details/13" title=""><img src="<?= base_url('images/destinations/img-5.jpg') ?>" alt=""></a>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="#" title="">Vienna - Austria</a></div><span class="properties-nb">1289 properties</span></div>
+                                                <div class="destinations-name"><a href="incredible_ukd/state_details/14" title="">West Bengal</a></div><span class="properties-nb">Notable for the Sunderban and the Bengal Tiger</span></div>
                                             <figure class="destinations-img">
-                                                <a href="#" title=""><img src="<?= base_url('images/destinations/img-6.jpg')?>" alt=""></a>
+                                                <a href="incredible_ukd/state_details/14" title=""><img src="<?= base_url('images/destinations/img-6.jpg')?>" alt=""></a>
                                             </figure>
                                         </div>
                                     </div>
                                 </div>
-                                <div id="destinations-2" class="clearfix tab-pane fade">
-                                    <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
-                                        <div class="destinations-item">
-                                            <div class="destinations-text">
-                                                <div class="destinations-name"><a href="#" title="">London - UK</a></div><span class="properties-nb"><ins>1289</ins> properties</span></div>
-                                            <figure class="destinations-img">
-                                                <a href="#" title=""><img src="<?= base_url('images/destinations/img-1.jpg') ?>" alt=""></a>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
-                                        <div class="destinations-item">
-                                            <div class="destinations-text">
-                                                <div class="destinations-name"><a href="#" title="">Paris - France</a></div><span class="properties-nb">239 properties</span></div>
-                                            <figure class="destinations-img">
-                                                <a href="#" title=""><img src="<?= base_url('images/destinations/img-2.jpg') ?>" alt=""></a>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
-                                        <div class="destinations-item">
-                                            <div class="destinations-text">
-                                                <div class="destinations-name"><a href="#" title="">Rome - Italy</a></div><span class="properties-nb">478 properties</span></div>
-                                            <figure class="destinations-img">
-                                                <a href="#" title=""><img src="<?= base_url('images/destinations/img-3.jpg') ?>" alt=""></a>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
-                                        <div class="destinations-item">
-                                            <div class="destinations-text">
-                                                <div class="destinations-name"><a href="#" title="">Barcelona - Spain</a></div><span class="properties-nb">452 properties</span></div>
-                                            <figure class="destinations-img">
-                                                <a href="#" title=""><img src="<?= base_url('images/destinations/img-4.jpg') ?>" alt=""></a>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
-                                        <div class="destinations-item">
-                                            <div class="destinations-text">
-                                                <div class="destinations-name"><a href="#" title="">Madrid - Spain</a></div><span class="properties-nb">794 properties</span></div>
-                                            <figure class="destinations-img">
-                                                <a href="#" title=""><img src="<?= base_url('images/destinations/img-5.jpg') ?>" alt=""></a>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
-                                        <div class="destinations-item">
-                                            <div class="destinations-text">
-                                                <div class="destinations-name"><a href="#" title="">Vienna - Austria</a></div><span class="properties-nb">1289 properties</span></div>
-                                            <figure class="destinations-img">
-                                                <a href="#" title=""><img src="<?= base_url('images/destinations/img-6.jpg') ?>" alt=""></a>
-                                            </figure>
-                                        </div>
-                                    </div>
+                                
                                 </div>
                             </div>
                         </div>
