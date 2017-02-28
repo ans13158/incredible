@@ -26,8 +26,8 @@
 
                                     <li><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/about_india'),'About India') ?></li>
-                                            <li><?= anchor( base_url('incredible_ukd/ukdDestinations'),'About Uttarakhand') ?></li>
+                                            <li><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
+                                            <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                            
                                         </ul>
                                     </li>

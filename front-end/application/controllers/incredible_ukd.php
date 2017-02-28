@@ -36,5 +36,9 @@ class Incredible_Ukd extends CI_Controller  {
 		$this->load->view('incredible/state_details',$state);
 	}
 
+	public function about_ukd()  {
+		$this->load->view('incredible/about_ukd');
+    }
+
 
 }
