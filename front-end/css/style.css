@@ -8333,7 +8333,8 @@ blockquote:before {
 .about-cn {
     padding-left: 30px;
     padding-right: 30px;
-    margin-top: 30px
+    margin-top: 30px;
+
 }
 
 .about-cn .about-searved {
@@ -8345,7 +8346,7 @@ blockquote:before {
     margin-right: 30px;
     padding: 65px 30px 0 20px;
     height: 285px;
-    position: relative
+    position: relative;
 }
 
 .about-cn .about-searved:after,
@@ -8357,19 +8358,11 @@ blockquote:before {
     display: block
 }
 
-.about-cn .about-searved:after {
-    border: 8px solid #59c45a;
-    border-top: 0;
-    bottom: 0;
-    height: 34%
+.bg-about  {
+    background-image: url(../images/background/bg-4.jpg)
+    
 }
 
-.about-cn .about-searved:before {
-    border: 8px solid #59c45a;
-    border-bottom: 0;
-    top: 0;
-    height: 35%
-}
 
 .contact-maps,
 .contact-page {
@@ -8395,7 +8388,9 @@ blockquote:before {
     font-family: Georgia;
     font-style: italic;
     margin: 0;
-    line-height: 30px
+    line-height: 30px;
+    
+
 }
 
 .about-cn .about-text .about-description,
@@ -8455,12 +8450,16 @@ blockquote:before {
 
 .team .team-item span {
     color: #696969;
-    font-size: 12px
+    font-size: 12px;
+    background: url(../images/bg-border-v.png) top left repeat-x
+
 }
 
 .twitter {
     padding: 55px 30px;
-    margin-top: 55px
+    margin-top: 55px;
+    background: url(../images/bg-border-v.png) top left repeat-x
+
 }
 
 .twitter .bg-fixed,
@@ -10241,7 +10240,7 @@ footer .copyright {
 
 footer .about-team  {
     color: #fff;
-    width: 300px;
+    width: 4000px;
     line-height: 20px;
     margin: 5px 0 0;
     margin-left: -200px;

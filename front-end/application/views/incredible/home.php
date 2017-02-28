@@ -463,7 +463,7 @@
             <div class="title-wrap">
                 <div class="container">
                     <div class="travel-title float-left">
-                        <h2>Uttarakhand's Travel Destinations</span></h2></div><a href="ukdDestinations" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">view all</a></div>
+                        <h2>Uttarakhand's Travel Destinations</span></h2></div><a href="<?=base_url('index.php/incredible_ukd/ukdDestinations') ?>" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">view all</a></div>
                     </div>
             </div>
             <div class="container">
@@ -595,11 +595,11 @@
                                 </div>
                                 <ul class="filter">
                                     <li class="active"><a data-toggle="tab" href="#"><i class="fa fa-map-marker"></i> Recommendations for you</a></li>
-                                    <li><a  href="incredible_ukd/state_details/10"><i class="fa fa-map-marker"></i> Andhra Pradesh</a></li>
-                                    <li><a href="incredible_ukd/state_details/6"><i class="fa fa-map-marker"></i> Chattisgarh</a></li>
-                                    <li><a  href="incredible_ukd/state_details/2"><i class="fa fa-map-marker"></i> Uttar Pradesh</a></li>
-                                    <li><a  href="incredible_ukd/state_details/5"><i class="fa fa-map-marker"></i> Assam </a></li>
-                                    <li><a  href="incredible_ukd/state_details/9"><i class="fa fa-map-marker"></i> Goa</a></li>
+                                    <li><a  href="state_details/10"><i class="fa fa-map-marker"></i> Andhra Pradesh</a></li>
+                                    <li><a href="state_details/6"><i class="fa fa-map-marker"></i> Chattisgarh</a></li>
+                                    <li><a  href="state_details/2"><i class="fa fa-map-marker"></i> Uttar Pradesh</a></li>
+                                    <li><a  href="state_details/5"><i class="fa fa-map-marker"></i> Assam </a></li>
+                                    <li><a  href="state_details/9"><i class="fa fa-map-marker"></i> Goa</a></li>
                                 </ul>
                             </div>
                         </div>

@@ -31,7 +31,7 @@
 
                             <br><br>
 
-                            <p class="about-team"><a href="">Our Team</a> |<a href=""> About Site Developers</a></p>
+                            <p class="about-team"><a href="">Our Team</a> |<a href="">Our Partners</a>|<a href=""> About Site Developers</a></p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4" style="background-color: #111;height: auto;">
