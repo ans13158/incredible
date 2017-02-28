@@ -46,7 +46,13 @@
                                             </li>
                                         </ul>
                                     </li>            
-                                    <li><?= anchor( '','Destinations')?></li>
+                                    <li><?= anchor( '','Destinations')?>
+                                        <ul class="sub-menu">
+                                            <li><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
+                                            <li><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
+                                           
+                                        </ul>
+                                    </li>
                                     
                                     <li ><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
                                         <ul class="sub-menu"  >
