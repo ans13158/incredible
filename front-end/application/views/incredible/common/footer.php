@@ -76,7 +76,10 @@
     <script type="text/javascript" src="js/library/jquery.ui.touch-punch.min.js"></script>
     <script type="text/javascript" src="js/library/jquery.mb.YTPlayer.min.js"></script>
     <script type="text/javascript" src="js/library/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/script.js"></script>-->
+
+
     <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
