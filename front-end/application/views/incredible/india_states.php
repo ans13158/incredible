@@ -26,7 +26,7 @@
                         <div class="col-md-12">
                             <section class="breakcrumb-sc">
                                 <ul class="breadcrumb arrow">
-                                    <li><a href="incredible_ukd"><i class="fa fa-home"></i></a></li>
+                                    <li><a href="<?= base_url('incredible_ukd') ?>"><i class="fa fa-home"></i></a></li>
                                     
                                     <li><a href="#" title="">States of India</a></li>
                                     
@@ -47,7 +47,9 @@
                                         <div class="hotel-item">
                                             
                                                 <figure class="hotel-img">
+                                                <a href="state_details/<?= $state['stateId']?>" title="">
                                                     <?= img( ["src"=>"images/deal/img-1.jpg", 'alt'=>""] ) ?>
+                                                </a>    
                                                     
                                                 </figure>
                                                 <div class="hotel-text">

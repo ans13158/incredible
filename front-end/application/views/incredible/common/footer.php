@@ -1,15 +1,15 @@
  <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="logo-foter">
-                             <a href="" title=""> <?=img( ["src"=>'images/LOGO.png', "height"=>"50", "width"=>'350',"style"=>"margin-left:-60px"]) ?><h5 style="position: absolute;color:white;top:45px;z-index: +99999;margin-left: 60px;font-weight: bold">Tour Planner</h5> </a>
+                             <a href="<?= base_url('incredible_ukd') ?>" title=""> <?=img( ["src"=>'images/LOGO.png', "height"=>"50", "width"=>'350',"style"=>"margin-left:-60px"]) ?><h5 style="position: absolute;color:white;top:45px;z-index: +99999;margin-left: 60px;font-weight: bold">Tour Planner</h5> </a>
                         </div>
                         <br>
 
                         <p class="copyright">© Incredible Uttarakhand™ All rights reserved.</p>
                     </div>
-                    <div class="col-xs-6 col-sm-3 col-md-2">
+                    <div class="col-xs-6 col-sm-2 col-md-2">
                         <div class="ul-ft">
                             <ul>
                                 <li><?= anchor('incredible_ukd','Home') ?></li>
@@ -19,7 +19,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xs-6 col-sm-3 col-md-2">
+                    <div class="col-xs-6 col-sm-2 col-md-2">
                         <div class="ul-ft">
                             <ul>
                                 <li><?= anchor('incredible_ukd','Our Services') ?></li>    
@@ -31,10 +31,10 @@
 
                             <br><br>
 
-                            <p class="about-team"><a href="">Our Team</a> |<a href="">Our Partners</a>|<a href=""> About Site Developers</a></p>
+                            <p class="about-team"><a href="<?= base_url('incredible_ukd/about#our_team') ?>">Our Team</a> |<a href="<?= base_url('incredible_ukd/about#partners') ?>">Our Partners</a>|<a href=""> About Site Developers</a></p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4" style="background-color: #111;height: auto;">
+                    <div class="col-sm-4 col-md-4" style="background-color: #111;height: auto;">
                                 <h4 style="color:white;margin-top: 20px;margin-bottom: -70px;margin-left: 20px;">Payment Methods</h4>
                         <div class="currency-lang-bottom dropdown-cn float-left" style="background-color: #111;display:inline-block;width: auto">
                                 

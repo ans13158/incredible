@@ -11,8 +11,8 @@
                 <div class="main-cn bg-white clearfix">
                     <section class="breakcrumb-sc">
                         <ul class="breadcrumb arrow">
-                            <li><a href="<?= base_url('index.php/incredible_ukd') ?>"><i class="fa fa-home"></i></a></li>
-                            <li><a href="<?= base_url('index.php/incredible_ukd/about_india') ?>">States of India</a></li>
+                            <li><a href="<?= base_url('incredible_ukd') ?>"><i class="fa fa-home"></i></a></li>
+                            <li><a href="<?= base_url('incredible_ukd/about_india') ?>">States of India</a></li>
                             <li><a href="#" title=""><?= $detail[0]['name'] ?></a></li>
 
                             

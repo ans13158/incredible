@@ -11,10 +11,10 @@
                 <div class="main-cn bg-white clearfix">
                     <section class="breakcrumb-sc">
                         <ul class="breadcrumb arrow">
-                            <li><a href="index-2.html"><i class="fa fa-home"></i></a></li>
-                            <li><a href="hotel.html" title="">Hotels</a></li>
-                            <li><a href="#" title="">Europe</a></li>
-                            <li>Netherlands</li>
+                            <li><a href="<?= base_url('incredible_ukd') ?>"><i class="fa fa-home"></i></a></li>
+                            <li><a href="<?= base_url('incredible_ukd/ukdDestinations') ?>" title="">Uttarakhand</a></li>
+                            <li><a href="#" title=""><?= $detail[0]['name'] ?> </a></li>
+                            
                         </ul>
                         <div class="support float-right"><small>Got a question?</small> 123-123-1234</div>
                     </section>

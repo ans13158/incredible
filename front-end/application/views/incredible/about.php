@@ -34,7 +34,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="team">
+                    <section class="team" id="our_team">
                         <div class="team-head">
                             <h2>Our team</h2>
                             <p>Morbi sed sollicitudin augue. Ut metus nibh, fringilla vitae mi in, aliquam ullamcorper nisl. Integer id tincidunt libero. Donec pharetra est sed suscipit efficitur. In a gravida quam. Aenean vel dolor augue. In nec lacinia enim, vitae fermentum elit. Aliquam non diam sed lectus commodo hendrerit.</p>
@@ -55,7 +55,7 @@
                         </div>
                     </section>
 
-                    <section class="team">
+                    <section class="team" id="partners">
                         <h3>Our Partners</h3>
                         <p>Morbi sed sollicitudin augue. Ut metus nibh, fringilla vitae mi in, aliquam ullamcorper nisl. Integer id tincidunt libero. Donec pharetra est sed suscipit efficitur. In a gravida quam. Aenean vel dolor augue. In nec lacinia enim, vitae fermentum elit. Aliquam non diam sed lectus commodo hendrerit.</p>
                             <br>
