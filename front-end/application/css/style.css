@@ -32,6 +32,15 @@ img {
     vertical-align: middle
 }
 
+@font-face  {
+    font-family: oranienbaum;
+    src : url(../fonts/glyphicons/Oranienbaum.ttf);
+}
+
+@font-face  {
+    font-family: bariol;
+    src : url(../fonts/glyphicons/bariol_regular-webfont.ttf);
+}
 #preloader {
     position: fixed;
     text-align: center;
@@ -243,6 +252,10 @@ section {
 
 .bg-10 {
     background-image: url(../images/background/bg-10.html)
+}
+
+.bg-11 {
+    background-image: url(../images/about.png)
 }
 
 .tb-cell {
