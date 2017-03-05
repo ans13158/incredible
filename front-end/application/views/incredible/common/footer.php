@@ -3,7 +3,7 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-4">
                         <div class="logo-foter">
-                             <a href="<?= base_url('incredible_ukd') ?>" title=""> <?=img( ["src"=>'images/LOGO.png', "height"=>"50", "width"=>'350',"style"=>"margin-left:-60px"]) ?><h5 style="position: absolute;color:white;top:45px;z-index: +99999;margin-left: 60px;font-weight: bold">Tour Planner</h5> </a>
+                             <a href="<?= base_url('incredible_ukd') ?>" title=""> <?=img( ["src"=>'images/logo2.png', "height"=>"90", "width"=>'270',"style"=>"margin-left:-60px"]) ?><h5 style="position: absolute;color:white;top:45px;z-index: +99999;margin-left: 60px;font-weight: bold"></h5> </a>
                         </div>
                         <br>
 

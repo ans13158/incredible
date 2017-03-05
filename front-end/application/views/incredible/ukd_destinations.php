@@ -15,6 +15,67 @@
     }
 </style>
 <body>
+
+    <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
+                    <div class="nav-inner"><a href="#" class="bars-close" id="bars-close">Close</a>
+                        <div class="tb">
+                            <div class="tb-cell">
+                                <ul class="menu-list text-uppercase">
+                                    <li ><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                        
+                                    <li ><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
+
+                                    <li ><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
+                                        <ul class="sub-menu">
+                                            <li><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
+                                            <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
+                                           
+                                        </ul>
+                                    </li>
+                                    <li><?= anchor('','Our Services')?>
+                                        <ul class="sub-menu">
+                                            <li><?= anchor( '','Best Hotels & Resorts')?></li>
+                                            <li><?= anchor( '','Logistic Modes')?>
+                                                <ul class="sub-menu">
+                                                    <li><?= anchor( '','Flights')?></li>
+                                                    <li><?= anchor( '','Cars')?></li>
+                                                    <li><?= anchor( '','Bikes')?></li>
+                                                    <li><?= anchor( '','Buses')?></li>
+                                                    <li><?= anchor( '','Travelers')?></li>
+
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>            
+                                    <li class="current-menu-parent"><?= anchor( '','Destinations')?>
+                                        <ul class="sub-menu">
+                                            <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
+                                           
+                                        </ul>
+                                    </li>
+                                    
+                                    <li ><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
+                                        <ul class="sub-menu"  >
+                                            <li style=""><?= anchor( base_url('incredible_ukd'),'Pilgrims Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd'),'Wildlife Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd'),'Excursion Tour Packages')?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd'),'Honeymoon Packages')?></li>
+                                            <li style=""><?= anchor('','Trekking Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd'),'Motorbike Packages')?></li>
+                                            <li style=""><?= anchor('incredible_ukd','Home Stay')?></li>
+                                            
+                                        </ul>
+                                    </li>
+                                    <li><?= anchor('incredible_ukd','Contact Us')?></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
         <section class="sub-banner">
             <div class="bg-parallax bg-1"></div>
             
@@ -45,10 +106,18 @@
                                 <?php foreach($destinations as $destination) :  ?>
                                     <div class="col-xs-6 col-sm-3 col-md-6 col-lg-3">
                                         <div class="hotel-item">
-                                            
+                                            <?php
+                                                $imagePath = "";
+                                                $imageName = "";
+                                                $imagePath=    $destination['imagePath'];
+                                                $imageName = $destination['imageName'];
+                                                $image = $imagePath."/".$imageName;
+
+                                            ?>
                                                 <figure class="hotel-img">
                                                     <a href="ukd_destination_detail/<?= $destination['destinationId']?>" title="" >
-                                                        <?= img( ["src"=>"images/deal/img-1.jpg", 'alt'=>""] ) ?>
+                                                        <?=
+                                                          img( ["src"=>$image, 'alt'=>"","style"=>"height:220px"] ) ?>
                                                     </a>    
                                                     
                                                 </figure>
@@ -69,8 +138,13 @@
                                                                 }
                                                              ?>
                                                                   <?= $content ?>
-                                                                 <p> &nbsp&nbsp&nbsp&nbsp
-                                                                &nbsp&nbsp&nbsp
+                                                                 <p> 
+                                                                 &nbsp
+                                                                 &nbsp
+                                                                 &nbsp
+                                                                 &nbsp
+                                                                &nbsp&nbsp
+                                                                &nbsp
                                                                 .....Read More</p>
                                                             </a>     
 

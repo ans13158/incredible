@@ -62,7 +62,10 @@
                 </nav>
             </div>
         </header>
-        
+         <section class="sub-banner">
+            <div class="bg-parallax bg-1"></div>
+            
+        </section>
         <div class="main main-dt">
             <div class="container">
                 <div class="main-cn bg-white clearfix">
@@ -136,10 +139,7 @@
                                                     <li style="font-size: 18px;">Eco Cave Gardens</li>
                                                     <li style="font-size: 18px;">Naina Peak</li>
                                                     <li style="font-size: 18px;">Thandi Sadak</li>
-                                                    <li style="font-size: 18px;">Nainital Zoo</li>
-                                                    <li style="font-size: 18px;">Himalayan View Point</li>
-                                                    <li style="font-size: 18px;">Snow View</li>
-                                                    <li style="font-size: 18px;">Horse Riding</li>
+                                                    
                                                 </ul>
                                                 <br>
                                             <li style="font-size: 21px;">Mussoorie</li>
@@ -153,12 +153,7 @@
                                                     </li>
                                                      <li style="font-size: 18px;">   Christ Church
                                                      </li>
-                                                     <li style="font-size: 18px;">   Sir George Everest’s House
-                                                    </li> 
-                                                     <li style="font-size: 18px;">   Jwalaji Temple
-                                                     </li>
-                                                     <li style="font-size: 18px;">   The Mall (Mall Road)
-                                                    </li> 
+                                                     
 
                                                 </ul>
                                                 <br>
@@ -175,10 +170,7 @@
                                                  <li style="font-size: 18px;">
                                                  Maheshwari Kund
                                                  </li>
-                                                 <li style="font-size: 18px;">
-                                                 Madkot
-                                                 </li> 
-
+                                                 
 
                                                 </ul>
                                                 <br>
@@ -193,10 +185,7 @@
                                                    </li> 
                                                     <li style="font-size: 18px;">  Sumitranandan Pant Gallery
                                                     </li>
-                                                    <li style="font-size: 18px;">    Baijnath Temple
-                                                   </li> 
-                                                    <li style="font-size: 18px;">    Kausani Tea Estate
-                                                   </li> 
+                                                   
                                                 </ul>
                                                 <br>
 
@@ -212,14 +201,7 @@
                                                        <li style="font-size: 18px;">
                                                         Katarmal Sun Temple
                                                        </li> 
-                                                       <li style="font-size: 18px;"> Gobind Vallabh Pant Museum
-                                                       </li>
-                                                        <li style="font-size: 18px;">Kumaon Regimental Centre Museum
-                                                        </li>
-                                                        <li style="font-size: 18px;">Martola
-                                                        </li>
-                                                        <li style="font-size: 18px;">Simtola
-                                                       </li> 
+                                                       
                                                     </ul>
                                                     <br>
                                             <li style="font-size: 21px;">Lansdowne</li>
@@ -236,9 +218,7 @@
                                                     <li style="font-size: 18px;">
                                                         Bhim Pakora
                                                     </li>
-                                                    <li style="font-size: 18px;">
-                                                        Tarkeshwar Mahadev
-                                                    </li>
+                                                   
                                                 </ul>
                                             </ul>
                                       
@@ -268,9 +248,7 @@
                                             </div>
                                         
 
-                                        <br><br><br>
-<p style="line-height: 1.8;font-size:16px;font-family: bariol,'Helvetica Neue',Helvetica,Arial,sans-serif">Uttarakhand has a total area of 53,483 km, of which 86% is mountainous and 65% is covered by forest. Most of the northern part of the state is covered by high Himalayan peaks and glaciers. In the first half of the nineteenth century, the expanding development of Indian roads, railways and other physical infrastructure was giving rise to concerns over indiscriminate logging, particularly in the Himalaya. Two of the most important rivers in Hinduism originate in the region, the Ganges at Gangotri and the Yamuna at Yamunotri. These two along with Badrinath and Kedarnath form the Chota Char Dham, a holy pilgrimage for the Hindus. The state hosts the Bengal tiger in Jim Corbett National Park, the oldest national park of the Indian subcontinent. The Valley of Flowers, a UNESCO World Heritage Site located in the upper expanses of Bhyundar Ganga near Joshimath in Gharwal region, is known for the variety and rarity of its flowers and plants. One who raised this was Sir Joseph Dalton Hooker, Director of the Royal Botanic Gardens, Kew, who visited the region. As a consequence, Lord Dalhousie issued the Indian Forest Charter in 1855, reversing the previous laissez-faire policy. The following Indian Forest Act of 1878 put Indian forestry on a solid scientific basis. A direct consequence was the founding of the Imperial Forest School at Dehradun by Dietrich Brandis in 1878. Renamed the 'Imperial Forest Research Institute' in 1906, it is now known as the Forest Research Institute (India). The model “Forest Circles” around Dehradun, used for training, demonstration and scientific measurements, had a lasting positive influence on the forests and ecology of the region. The Himalayan ecosystem provides habitat for many animals (including bharal, snow leopards, leopards and tigers), plants, and rare herbs. Two of India's largest rivers, the Ganges and the Yamuna, originate in the glaciers of Uttarakhand, where they are fed by myriad lakes, glacial melts and streams.
-                                </p>    
+                                        
                                 
                             </div>
                        

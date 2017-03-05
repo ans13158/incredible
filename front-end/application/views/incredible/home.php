@@ -533,12 +533,12 @@
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="<?=base_url('incredible_ukd/ukd_destination_detail/7') ?>" title=""><img src="<?=  base_url('images/destinations/nainital2.jpg') ?>" alt="" style="height:250px;border-radius: 0%"></a>
+                                    <a href="<?=base_url('incredible_ukd/ukd_destination_detail/1') ?>" title=""><img src="<?=  base_url('images/destinations/nainital2.jpg') ?>" alt="" style="height:250px;border-radius: 0%"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="<?=base_url('incredible_ukd/ukd_destination_detail/7') ?>" title="">Nainital</a></div>
+                                        <div class="home-sales-name"><a href="<?=base_url('incredible_ukd/ukd_destination_detail/1') ?>" title="">Nainital</a></div>
                                         <div class="home-sales-places">Nainital is a popular hill station in the Indian state of Uttarakhand and headquarters of Nainital district in the foothills of the outer Himalayas.Famous all over for the beautiful Naini Lake.</div>
                                     </div>
                                         
@@ -552,12 +552,12 @@
                          <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="<?=base_url('incredible_ukd/ukd_destination_detail/7') ?>" title=""><img src="<?=  base_url('images/destinations/mussoorie2.jpg') ?>" alt="" style="height:250px;border-radius: 0%"></a>
+                                    <a href="<?=base_url('incredible_ukd/ukd_destination_detail/2') ?>" title=""><img src="<?=  base_url('images/destinations/mussoorie2.jpg') ?>" alt="" style="height:250px;border-radius: 0%"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="<?=base_url('incredible_ukd/ukd_destination_detail/7') ?>" title="">Mussoorie</a></div>
+                                        <div class="home-sales-name"><a href="<?=base_url('incredible_ukd/ukd_destination_detail/2') ?>" title="">Mussoorie</a></div>
                                         <div class="home-sales-places">Mussoorie is a hill station in Uttarakhand. Snow ranges to the north-east, and glittering views of the Doon Valley in the south, the town was once said to present a 'fairyland' atmosphere to tourists.</div>
                                     </div>
                                         
@@ -571,12 +571,12 @@
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="<?=base_url('incredible_ukd/ukd_destination_detail/5') ?>" title=""><img src="<?=  base_url('images/destinations/kausani2.JPG') ?>" alt="" style="height:250px"></a>
+                                    <a href="<?=base_url('incredible_ukd/ukd_destination_detail/3') ?>" title=""><img src="<?=  base_url('images/destinations/kausani2.JPG') ?>" alt="" style="height:250px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="incredible_ukd/ukd_destination_detail/5" title="">Kausani</a></div>
+                                        <div class="home-sales-name"><a href="incredible_ukd/ukd_destination_detail/3" title="">Kausani</a></div>
                                         <div class="home-sales-places">Kausani is a hill station and Village situated in Bageshwar district in the state of Uttarakhand, India. It is famous for its scenic splendour and its spectacular 300 km-wide panoramic view of Himalayan peaks like Trisul, Nanda Devi.</div>
                                     </div>
                                     
@@ -588,12 +588,12 @@
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="<?=base_url('incredible_ukd/ukd_destination_detail/6') ?>" title=""><img src="<?=  base_url('images/destinations/munsiari2.jpg') ?>" alt="" style="height:250px;border-radius: 0%"></a>
+                                    <a href="<?=base_url('incredible_ukd/ukd_destination_detail/4') ?>" title=""><img src="<?=  base_url('images/destinations/munsiari2.jpg') ?>" alt="" style="height:250px;border-radius: 0%"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="<?=base_url('incredible_ukd/ukd_destination_detail/6') ?>" title="">Munsiyari</a></div>
+                                        <div class="home-sales-name"><a href="<?=base_url('incredible_ukd/ukd_destination_detail/4') ?>" title="">Munsiyari</a></div>
                                         <div class="home-sales-places">Situated in the Pithoragarh District in the hill-state of Uttarakhand, is a starting point of various treks into the interior of the range.Its name refers to a 'place with snow'. Situated on the banks of Goriganga river.</div>
                                     </div>
                                    
@@ -607,12 +607,12 @@
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="<?=base_url('incredible_ukd/ukd_destination_detail/1') ?>" title=""><img src="<?=  base_url('images/destinations/almora2.jpg') ?>" alt="" style="height:250px;;border-radius: 0%"></a>
+                                    <a href="<?=base_url('incredible_ukd/ukd_destination_detail/5') ?>" title=""><img src="<?=  base_url('images/destinations/almora2.jpg') ?>" alt="" style="height:250px;;border-radius: 0%"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="<?=base_url('incredible_ukd/ukd_destination_detail/1') ?>" title="">Almora</a></div>
+                                        <div class="home-sales-name"><a href="<?=base_url('incredible_ukd/ukd_destination_detail/5') ?>" title="">Almora</a></div>
 
                                         <div class="home-sales-places">Located on a ridge at the southern edge of the Kumaon Hills of the Himalaya range,Almora was founded in 1568, .The people bringing kilmora were called Kilmori and later "Almori" and the place came to be known as "Almora" </div>
                                     </div>
@@ -625,12 +625,12 @@
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="<?=base_url('incredible_ukd/ukd_destination_detail/3') ?>" title=""><img src="<?=  base_url('images/destinations/valley1.jpg') ?>" alt="" style="height:250px;border-radius: 0%"></a>
+                                    <a href="<?=base_url('incredible_ukd/ukd_destination_detail/6') ?>" title=""><img src="<?=  base_url('images/destinations/valley1.jpg') ?>" alt="" style="height:250px;border-radius: 0%"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="<?=base_url('incredible_ukd/ukd_destination_detail/3') ?>" title="">Valley of Flowers</a></div>
+                                        <div class="home-sales-name"><a href="<?=base_url('incredible_ukd/ukd_destination_detail/6') ?>" title="">Valley of Flowers</a></div>
                                         <div class="home-sales-places">Valley of Flowers National Park is an Indian national park, located in West Himalaya, in the state of Uttarakhand and is known for its meadows of endemic alpine flowers and the variety of flora. </div>
                                     </div>
                                     

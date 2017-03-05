@@ -26,6 +26,8 @@ class Incredible_Ukd extends CI_Controller  {
 		$this->load->model('incredible/ukd_details','details');
 		
 		$destination['detail'] = $this->details->getDetails($destinationId);
+		$this->load->model('incredible/ukd_images','images');
+		$destination['images'] = $this->images->getImages($destinationId);
 		$this->load->view('incredible/ukd_details',$destination);
 	}
 
