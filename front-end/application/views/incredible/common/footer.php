@@ -14,9 +14,9 @@
                     <div class="col-xs-3 col-sm-2 col-md-2">
                         <div class="ul-ft">
                             <ul>
-                                <li><?= anchor('incredible_ukd','Home') ?></li>
-                                <li><?= anchor('incredible_ukd/about','About Us') ?></li>
-                                <li><?= anchor('incredible_ukd','Location') ?></li>
+                                <li><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
+                                <li><?= anchor( base_url('incredible_ukd') ,'Location') ?></li>
                                 
                             </ul>
 
@@ -26,9 +26,9 @@
                     <div class="col-xs-3 col-sm-2 col-md-2">
                         <div class="ul-ft">
                             <ul>
-                                <li><?= anchor('incredible_ukd','Our Services') ?></li>    
-                                <li><?= anchor('incredible_ukd','Destinations') ?></li>
-                                <li><?= anchor('incredible_ukd','Tour Packages') ?></li>
+                                <li><?= anchor( base_url('incredible_ukd'),'Our Services') ?></li>    
+                                <li><?= anchor( base_url('incredible_ukd'),'Destinations') ?></li>
+                                <li><?= anchor( base_url('incredible_ukd'),'Tour Packages') ?></li>
                                 
                                 
                             </ul>

@@ -63,4 +63,10 @@ class Incredible_Ukd extends CI_Controller  {
     public function home_stay()  {
 		$this->load->view('incredible/home_stay');
     }
+    public function doDhamYatra()  {
+    	$this->load->view('incredible/doDhamYatra');
+    }
+    public function hemKund()  {
+    	$this->load->view('incredible/hemkund');
+    }
 }
