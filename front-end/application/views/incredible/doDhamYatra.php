@@ -51,7 +51,7 @@
                                             <li style="" class="current-menu-parent"><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
-                                            <li ><?= anchor( base_url('incredible_ukd'),'Honeymoon Packages')?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
                                             <li style=""><?= anchor('incredible_ukd/trekking','Trekking Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
                                             <li style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
@@ -177,11 +177,12 @@
 
                                      <span style="display: inline-block;float: right;margin-top: 10px"><a href="#" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium">Book My Tour</a></span>
                                     <div class="post-media">
-                                        <div class="image-wrap"><?= img( ["src"=> base_url('images/blog/img-1.jpg'),  "alt"=>""] ) ?></div>
+                                        <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/badri-kedar.jpg'),  "alt"=>"","style"=>"height:300px;width:100%"] )  ?></div>
                                     </div>
                                     <div class="post-content">
                                         <blockquote>
-                                            <p>You know you're in love when you can't fall asleep because reality is finally better than your dreams. Vestibulum a nisl ipsum. Curabitur aliquet nec felis quis convallis. Quisque et auctor dui, id adipiscing nunc. Etiam et dui lobortis</p>
+                                            <p>Life is a pilgrimage. The wise man does not rest by the roadside inns. He marches direct to the illimitable domain of eternal bliss, his ultimate destination.
+                                            <small>-Swami Sivanand</small></p>
                                         </blockquote>
                                         <br>
                                         	<h2 style="color:#111"><strong>Garhwal Pilgrims : </strong></h2>		
@@ -190,19 +191,19 @@
 
                                         <p>We are committed to achieve excellence in Uttarakhand area in operations, We are one of the modern providers of ultra facilities with the immaculate conditions of latest vehicles at competitive and affordable rates. Our team of skilled offer a superior range of tour services- from adventure tours (own a rafting camp at Rishikesh) to cultural, leisure and heritage tours for Uttaranchal. We offer you the accommodation from budget to most luxurious to make your holiday a special event. A variety of accommodations facilities are sure to cater to all needs at attractive price.Our core norm is cordiality, trust worthy & comfit, which we are sure will stand for ever lasting association with our valuable clients in the arena of modern tourism and travels.</p>
 
-                                        <div class="image-wrap"><?= img( ["src"=> base_url('images/blog/img-2.jpg'),  "alt"=>""] ) ?></div>
+                                        <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/kedarnath.jpg'),  "alt"=>"","style"=>"height:300px;width:100%"] )  ?></div>
 
                                         <h4 style="color:black"><strong>Kedarnath</strong></h4>
                                         <p>The holiest of Shiva's shrines is likened to gold among base metals so that every pilgrim finds peace here, and it is said that devotees who die here become one with Shiva himself. The temple of Kedarnath, located at a height of 3,581 mts, stand at the head of the Mandakini river, with Kedarnath peak keeping vigil above it.</p>
 
-                                        	<br><br>
+                                        	<hr>
                                         
-                                        <div class="image-wrap"><?= img( ["src"=> base_url('images/blog/img-2.jpg'),  "alt"=>""] ) ?></div>
-
+                                        <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/badrinath.jpg'),  "alt"=>"","style"=>"height:300px;width:100%"] )  ?></div>
+                                        	<br>
                                         <h4 style="color:black"><strong>Badrinath</strong></h4>
                                         <p>Also known as Vishal Badri, this temple located at the height of 3,133 mts. is the largest Himalayas and most popular of Vishnu pilgrimages among the five Badries. The original temple here is believed to be built by King Pururava and the icon of the lord carved by Vishwakarma, the creator of the gods.</p>
                                         	
-                                        	<br>
+                                        	<hr>
                                         <h3 style="color:black">DO DHAM YATRA DELHI TO DELHI ITINERARY :</h3>
                                         	<h4 style="color:#111"><strong>(via Delhi, Haridwar, Guptkashi, Kedarnath, Badrinath, Rudraprayag, Haridwar, Delhi)</strong></h4>
                                         		

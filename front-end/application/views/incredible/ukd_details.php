@@ -54,7 +54,7 @@
                                             
                                         </ul>
                                     </li>
-                                    <li><?= anchor('incredible_ukd','Contact Us')?></li>
+                                    <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
                                     
                                 </ul>
                             </div>

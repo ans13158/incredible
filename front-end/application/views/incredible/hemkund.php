@@ -51,7 +51,7 @@
                                             <li style="" class="current-menu-parent"><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
-                                            <li ><?= anchor( base_url('incredible_ukd'),'Honeymoon Packages')?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
                                             <li style=""><?= anchor('incredible_ukd/trekking','Trekking Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
                                             <li style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
@@ -177,11 +177,12 @@
 
                                      <span style="display: inline-block;float: right;margin-top: 10px"><a href="#" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium">Book My Tour</a></span>
                                     <div class="post-media">
-                                        <div class="image-wrap"><?= img( ["src"=> base_url('images/blog/img-1.jpg'),  "alt"=>""] ) ?></div>
+                                        <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/hemkund.jpg'),  "alt"=>"", "style"=>"height:400px;width:100%"] ) ?></div>
                                     </div>
                                     <div class="post-content">
                                         <blockquote>
-                                            <p>You know you're in love when you can't fall asleep because reality is finally better than your dreams. Vestibulum a nisl ipsum. Curabitur aliquet nec felis quis convallis. Quisque et auctor dui, id adipiscing nunc. Etiam et dui lobortis</p>
+                                            <p>Life is a pilgrimage. The wise man does not rest by the roadside inns. He marches direct to the illimitable domain of eternal bliss, his ultimate destination.
+                                            <small>-Swami Sivanand</small></p>
                                         </blockquote>
                                         <br>
                                         	<h2 style="color:#111"><strong>Garhwal Pilgrims : </strong></h2>		
@@ -192,7 +193,7 @@
 
                                         <p>With us, you can enjoy, explore, and experience the most popular places in India. From the day one to the last day of your trip, we are there to assist you with everything and bring you a desired Hemkund Sahib trip. So, choose the deal that suits you the most and feel on top of the world. In order to gain more information, you can get in touch with us anytime via the provided contact number.</p>
 
-                                        <div class="image-wrap"><?= img( ["src"=> base_url('images/blog/img-2.jpg'),  "alt"=>""] ) ?></div>
+                                        <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/hemkund2.jpg'),  "alt"=>"", "style"=>"height:400px;width:100%"] ) ?></div>
 
                                             <br>
                                         <h3 style="color:black">HEMKUND SAHIB TOUR :</h3>

@@ -52,7 +52,7 @@
                                             <li style="" class="current-menu-parent"><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
-                                            <li ><?= anchor( base_url('incredible_ukd'),'Honeymoon Packages')?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
                                             <li style=""><?= anchor('incredible_ukd/trekking','Trekking Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
                                             <li style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
@@ -73,7 +73,7 @@
                 <div class="main-cn bg-white clearfix">
                     <section class="breakcrumb-sc">
                         <ul class="breadcrumb arrow">
-                            <li><a href="index-2.html"><i class="fa fa-home"></i></a></li>
+                            <li><a href="<?= base_url('incredible_ukd') ?>"><i class="fa fa-home"></i></a></li>
                             <li>Pilgrim Tour Package</li>
                         </ul>
                         
@@ -176,11 +176,13 @@
                                      <span style="display: inline-block;float: right;margin-top: 10px"><a href="#" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium">Book My Tour</a></span>
 
                                     <div class="post-media">
-                                        <div class="image-wrap"><?= img( ["src"=> base_url('images/blog/img-1.jpg'),  "alt"=>""] ) ?></div>
+                                        <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/badri-kedar.jpg'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
                                     </div>
                                     <div class="post-content">
                                         <blockquote>
-                                            <p>You know you're in love when you can't fall asleep because reality is finally better than your dreams. Vestibulum a nisl ipsum. Curabitur aliquet nec felis quis convallis. Quisque et auctor dui, id adipiscing nunc. Etiam et dui lobortis</p>
+                                            <p>Life is a pilgrimage. The wise man does not rest by the roadside inns. He marches direct to the illimitable domain of eternal bliss, his ultimate destination.
+                                            <small>-Swami Sivanand</small>
+                                            </p>
                                         </blockquote>
                                         <br>
                                         	<h2 style="color:#111"><strong>Garhwal Pilgrims : </strong></h2>		
@@ -198,7 +200,7 @@
 
                                         <br>
                                         <h2 class="title-single-content"></h2>
-                                        <p class="wp-caption alignleft"><?= img( ["src"=> base_url('images/blog/img-2.jpg'),  "alt"=>""] ) ?></p>
+                                        <p><?=  img( ["src"=> base_url('images/tour/hemkund.jpg'),  "alt"=>"", "style"=>"height:400px;width:100%"] ) ?></p>
                                         	<br>
                                         <h3 style="color:black">2. Hemkund Sahib :</h3>
 
@@ -213,16 +215,16 @@
 										<h2 style="color:#111"><strong>Kumaon Pilgrims : </strong></h2>	
                                         
                                         <h2 class="title-single-content"></h2>
-                                        <p class="wp-caption alignleft"><?= img( ["src"=> base_url('images/blog/img-2.jpg'),  "alt"=>""] ) ?></p>
+                                        <p> <?=  img( ["src"=> base_url('images/tour/nanda.jpg'),  "alt"=>"", "style"=>"height:300px;width:100%"] )  ?></p>
 
                                         <h3 style="color:black">1. Nanda Devi Temple, Nainital :</h3>
                                         <p>Situated alongside the northern shore of the Naini Lake, this temple is dedicated to Goddess Sati and is counted amongst the 64 Shakti Peethas devoted to Her. According to mythological legends, the eye of Goddess Sati fell at this spot while Lord Shiva was carrying Her mortal remains to Mount Kailash. This is how She began to be worshipped as 'Naina', which means eye on translation. The Nanda Devi Temple (also known as Naina devi Temple) is one of the most important places of religious significance in Nainital. It is also the venue of the Nanda Devi Mahotsav, which is a grand religious celebration organised to honour Ma Nanda and Sunanda – two local goddesses. Nanda Devi temple is quite famous not just in Kumauni people but whole of Uttarakhand. There are numerous temples of Nanda Devi in Kumaon hills and the hills of far-western Nepal dedicated to goddess Parvati as the daughter of Himalayas. The temple is most famous for the Nanda Devi Fair that is hosted every year in the month of September. Tourists from different parts of the country travel to Almora to participate in this 5 day festival, which is accompanied with drum beats and energetic dances. Two images of Nanda and Sunanda are made with banana trunk.</p>
                                         <p>It is believed that the Naini Lake is one of the 64 Shakti Peeths, or religious sites where parts of the charred body of Sati (Parvati) fell on earth while being carried by Lord Shiva. The spot where Sati's eyes (or Nain) fell, came to be called Nain-tal or lake of the eye. The goddess Shakti is worshiped at the Naina Devi Temple on the north shore of the present day lake.</p>
                                         <a href="#" class="awe-btn awe-btn-1 awe-btn-small">Book My Tour</a>
-                                        <br>
+                                        <br><br>
 
                                         <h2 class="title-single-content"></h2>
-                                        <p class="wp-caption alignleft"><?= img( ["src"=> base_url('images/blog/img-1.jpg'),  "alt"=>""] ) ?></p>
+                                        <p> <?=  img( ["src"=> base_url('images/tour/golu.jpg'),  "alt"=>"", "style"=>"height:350px;width:100%"] )  ?></p>
                                         	
                                         <h3 style="color:black">2. Golu Devta Temple, Ghorakhal, Nainital :</h3>
                                         <p>Ghorakhal is a small place, perched at an altitude of 2000 meters above the sea level. It falls under Nainital district of Uttarakhand, approximately 36 km from Kathgodam Station and 4 km from Bhowali. 'Ghorakhal ' literally means ‘a pond for water to horses’. It is a picturesque site, with natural serenity and placidity. Ghorakhal is a must visit for all those who come to Nainital and Bhowali. It is the perfect destination for those who love to have a silent, serene and peaceful holiday, away from glitz-blitz of cities. One of the famous attractions in Ghorakhal is Golu Devta Temple, always in news for the unique rituals performed here. One such ritual is that devotees make petitions at the temple, using stamp papers, to seek desired decree in litigations. On accomplishment of their wish, the deity is shown gratitude by hanging bells or making animal sacrifice. People from all over the region consider Golu Devta, the presiding deity of the temple, to be an incarnation of Lord Shiva and ‘the God of Justice’. Ghorakhal is a small place, perched at an altitude of 2000 meters above the sea level. It falls under Nainital district of Uttarakhand, approximately 36 km from Kathgodam Station and 4 km from Bhowali. 'Ghorakhal ' literally means ‘a pond for water to horses’. It is a picturesque site, with natural serenity and placidity. Ghorakhal is a must visit for all those who come to Nainital and Bhowali. It is the perfect destination for those who love to have a silent, serene and peaceful holiday, away from glitz-blitz of cities.</p>
@@ -230,10 +232,10 @@
                                         <p>One of the famous attractions in Ghorakhal is Golu Devta Temple, always in news for the unique rituals performed here. One such ritual is that devotees make petitions at the temple, using stamp papers, to seek desired decree in litigations. On accomplishment of their wish, the deity is shown gratitude by hanging bells or making animal sacrifice. People from all over the region consider Golu Devta, the presiding deity of the temple, to be an incarnation of Lord Shiva and ‘the God of Justice’.</p>
                                         <a href="#" class="awe-btn awe-btn-1 awe-btn-small">Book My Tour</a>
 
-                                        <br>
+                                        <br><br>
 
                                         <h2 class="title-single-content"></h2>
-                                        <p class="wp-caption alignleft"><?= img( ["src"=> base_url('images/blog/img-2.jpg'),  "alt"=>""] ) ?></p>
+                                        <p><?= img( ["src"=> base_url('images/tour/kainchi.jpg'),  "alt"=>"", "style"=>"height:400px;width:100%"] ) ?></p>
                                         	
                                         <h3 style="color:black">3. Kainchi Dham, Nainital :</h3>
                                         
@@ -241,10 +243,10 @@
                                         
                                         <p>The concept of this place came into existence in 1942 when Maharaj Neem Karoli along with Shri Poornanand of the Kainchi Village proposed building an Ashram here dedicated to Sombari Maharaj and Sadhu Premi Baba who used to perform yagnas in this very place. Later in 1962, their dream materialised and the forest from this area was cleared and a rectangular platform was constructed. After due permission from the Forest Conservator, Maharaj Ji acquired the lease of this land and constructed a Temple devoted to Lord Hanuman over that rectangular platform and adjacent to it is the Kainchi Temple and an Ashram built for devotees.</p>
                                         <a href="#" class="awe-btn awe-btn-1 awe-btn-small">Book My Tour</a>
-
+                                        	<br><br>
                                          <h2 class="title-single-content"></h2>
-                                        <p class="wp-caption alignleft"><?= img( ["src"=> base_url('images/blog/img-1.jpg'),  "alt"=>""] ) ?></p>
-                                        	<br><rb>
+                                        <p><?= img( ["src"=> base_url('images/tour/advaita.jpg'),  "alt"=>"", "style"=>"height:300px;width:100%"] ) ?></p>
+                                        	
                                         <h3 style="color:black">4. Advaita / Mayawati Ashram, Champawat :</h3>
                                         
                                         <p>Advaita Ashrama, Mayavati, is a branch of the Ramakrishna Math, founded on 19 March 1899 at the behest of Vivekananda, by his disciples James Henry Sevier, and Charlotte Sevier. Today it is publishes the original writings of Vivekananda. As an ashram dedicated to the study and practice of Advaita Vedanta, no images or idols are worshipped there, not even of Ramakrishna; and no images were kept in the premises according to the Ashram ideals set by Vivekananda. Also referred as the Mayawati Ashram, it is located at an altitude of 1940 meters, 22 km from Champawat in Champawat district, Uttarakhand, and 9 km from the town of Lohaghat. The ashram is a major publication centre of the Ramakrishna Order for books in English and Hindi, mainly through its branch in Kolkata. It also maintains a charitable hospital at Mayavati. Among its important publications are The Complete Works of Swami Vivekananda in English and as well as a Hindi translation, The Life of Swami Vivekananda, and English translations of important Hindu scriptures. Some of the old manuscripts of the ashram have now been microfilmed and preserved at Indira Gandhi National Centre for the Arts (IGNCA) in Delhi.</p>
@@ -252,10 +254,10 @@
                                         
                                         <a href="#" class="awe-btn awe-btn-1 awe-btn-small">Book My Tour</a>
 
-        	                                 <br> 
+        	                                 <br> <br>
 
                                         <h2 class="title-single-content"></h2>
-                                        <p class="wp-caption alignleft"><?= img( ["src"=> base_url('images/blog/img-1.jpg'),  "alt"=>""] ) ?></p>
+                                        <p=><?= img( ["src"=> base_url('images/tour/nankmatta.jpg'),  "alt"=>"", "style"=>"height:350px;width:100%"] ) ?></p>
                                         	
                                         <h3 style="color:black">5. Nanakmatta Sahib :</h3>
                                         
@@ -279,7 +281,7 @@
 	                                        <a href="#" class="awe-btn awe-btn-1 awe-btn-small">Book My Tour</a>
 
 	                                        
-	                                        <br> 
+	                                        <br><br> 
 
 	                                        <h2 class="title-single-content"></h2>
 	                                        <p class="wp-caption alignleft"><?= img( ["src"=> base_url('images/blog/img-1.jpg'),  "alt"=>""] ) ?></p>
@@ -292,7 +294,7 @@
 	                                        
 	                                        <a href="#" class="awe-btn awe-btn-1 awe-btn-small">Book My Tour</a>
 
-	                                        <br> 
+	                                        <br> <br>
 
 	                                        <h2 class="title-single-content"></h2>
 	                                        <p class="wp-caption alignleft"><?= img( ["src"=> base_url('images/blog/img-1.jpg'),  "alt"=>""] ) ?></p>
@@ -303,7 +305,7 @@
 	                                        
 	                                        <a href="#" class="awe-btn awe-btn-1 awe-btn-small">Book My Tour</a>
 
-	                                        <br> 
+	                                        <br> <br>
 
 	                                        <h2 class="title-single-content"></h2>
 	                                        <p class="wp-caption alignleft"><?= img( ["src"=> base_url('images/blog/img-1.jpg'),  "alt"=>""] ) ?></p>
@@ -315,7 +317,7 @@
 	                                        <p>Haidakhan Babaji, simply called "Babaji" or Bhole Baba by his students and devotees, was a teacher who appeared near the village of Haidakhan in northern India (Uttarakhand) and taught publicly from 1970 to 1984.</p>
 	                                        <a href="#" class="awe-btn awe-btn-1 awe-btn-small">Book My Tour</a>
 
-	                                        <br> 
+	                                        <br> <br>
 
 	                                        <h2 class="title-single-content"></h2>
 	                                        <p class="wp-caption alignleft"><?= img( ["src"=> base_url('images/blog/img-1.jpg'),  "alt"=>""] ) ?></p>
@@ -326,7 +328,7 @@
 	                                        
 	                                        <a href="#" class="awe-btn awe-btn-1 awe-btn-small">Book My Tour</a>
 
-	                                        <br> 
+	                                        <br><br>
 
 	                                        <h2 class="title-single-content"></h2>
 	                                        <p class="wp-caption alignleft"><?= img( ["src"=> base_url('images/blog/img-1.jpg'),  "alt"=>""] ) ?></p>

@@ -1,8 +1,84 @@
-<?php 
+<?php
     include "common/header.php";
-    include "common/navbar.php";
+    include 'common/navbar.php'; 
 ?>
+</body>
+<style>
+    .contact-details  {
+        float: right;
+        background-color: rgba(255,255,255,.85);
+        font-size:18px;
+        color:black;
+        padding: 25px;
+        margin-right: -105px;
+        margin-top: -70px;
+        /*opacity: 0.95;
+        filter: alpha(opacity=95)*/
+    }
+</style>
 
+<body>
+
+    <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
+                    <div class="nav-inner"><a href="#" class="bars-close" id="bars-close">Close</a>
+                        <div class="tb">
+                            <div class="tb-cell">
+                                <ul class="menu-list text-uppercase">
+                                    <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                        
+                                    <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
+
+                                    <li><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
+                                        <ul class="sub-menu">
+                                            <li><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
+                                            <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
+                                           
+                                        </ul>
+                                    </li>
+                                    <li><?= anchor('','Our Services')?>
+                                        <ul class="sub-menu">
+                                            <li><?= anchor( '','Best Hotels & Resorts')?></li>
+                                            <li><?= anchor( '','Logistic Modes')?>
+                                                <ul class="sub-menu">
+                                                    <li><?= anchor( '','Flights')?></li>
+                                                    <li><?= anchor( '','Cars')?></li>
+                                                    <li><?= anchor( '','Bikes')?></li>
+                                                    <li><?= anchor( '','Buses')?></li>
+                                                    <li><?= anchor( '','Travelers')?></li>
+
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>            
+                                    <li class="current-menu-parent""><?= anchor( '','Destinations')?>
+                                        <ul class="sub-menu">
+                                            <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
+                                           
+                                        </ul>
+                                    </li>
+                                    
+                                    <li><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
+                                        <ul class="sub-menu"  >
+                                            <li style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
+                                            <li style=""><?= anchor('incredible_ukd/trekking','Trekking Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
+                                            <li style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
+                                            
+                                        </ul>
+                                    </li>
+                                   <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
 
         <section class="sub-banner">
             <div class="bg-parallax bg-1"></div>

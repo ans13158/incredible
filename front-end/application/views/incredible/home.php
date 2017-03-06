@@ -63,14 +63,14 @@
                                             <li style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
-                                            <li ><?= anchor( base_url('incredible_ukd'),'Honeymoon Packages')?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
                                             <li style=""><?= anchor('incredible_ukd/trekking','Trekking Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
                                             <li style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
                                             
                                         </ul>
                                     </li>
-                                    <li><?= anchor('incredible_ukd','Contact Us')?></li>
+                                   <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
                                     
                                 </ul>
                             </div>

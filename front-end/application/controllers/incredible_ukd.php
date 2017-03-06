@@ -42,6 +42,9 @@ class Incredible_Ukd extends CI_Controller  {
 		$this->load->view('incredible/about_ukd');
     }
 
+    public function contact()  {
+    	$this->load->view('incredible/contact');
+    }
     public function pilgrimage()  {
 		$this->load->view('incredible/pilgrimage');
     }
