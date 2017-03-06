@@ -42,5 +42,25 @@ class Incredible_Ukd extends CI_Controller  {
 		$this->load->view('incredible/about_ukd');
     }
 
-
+    public function pilgrimage()  {
+		$this->load->view('incredible/pilgrimage');
+    }
+    public function wildlife()  {
+		$this->load->view('incredible/wildlife');
+    }
+    public function excursion()  {
+		$this->load->view('incredible/excursion');
+    }
+    public function honeymoon()  {
+		$this->load->view('incredible/honeymoon');
+    }
+    public function trekking()  {
+		$this->load->view('incredible/trekking');
+    }
+    public function motorbike()  {
+		$this->load->view('incredible/motorbike');
+    }
+    public function home_stay()  {
+		$this->load->view('incredible/home_stay');
+    }
 }

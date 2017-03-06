@@ -42,15 +42,15 @@
                                         </ul>
                                     </li>
                                     
-                                    <li ><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
+                                    <li><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
                                         <ul class="sub-menu"  >
-                                            <li style=""><?= anchor( base_url('incredible_ukd'),'Pilgrims Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd'),'Wildlife Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd'),'Excursion Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
                                             <li ><?= anchor( base_url('incredible_ukd'),'Honeymoon Packages')?></li>
-                                            <li style=""><?= anchor('','Trekking Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd'),'Motorbike Packages')?></li>
-                                            <li style=""><?= anchor('incredible_ukd','Home Stay')?></li>
+                                            <li style=""><?= anchor('incredible_ukd/trekking','Trekking Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
+                                            <li style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
                                             
                                         </ul>
                                     </li>

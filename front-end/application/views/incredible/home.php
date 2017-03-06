@@ -10,7 +10,7 @@
         font-size:18px;
         color:black;
         padding: 25px;
-        margin-right: -95px;
+        margin-right: -105px;
         margin-top: -70px;
         /*opacity: 0.95;
         filter: alpha(opacity=95)*/
@@ -58,15 +58,15 @@
                                         </ul>
                                     </li>
                                     
-                                    <li ><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
+                                    <li><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
                                         <ul class="sub-menu"  >
-                                            <li style=""><?= anchor( base_url('incredible_ukd'),'Pilgrims Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd'),'Wildlife Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd'),'Excursion Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
                                             <li ><?= anchor( base_url('incredible_ukd'),'Honeymoon Packages')?></li>
-                                            <li style=""><?= anchor('','Trekking Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd'),'Motorbike Packages')?></li>
-                                            <li style=""><?= anchor('incredible_ukd','Home Stay')?></li>
+                                            <li style=""><?= anchor('incredible_ukd/trekking','Trekking Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
+                                            <li style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
                                             
                                         </ul>
                                     </li>
@@ -86,7 +86,7 @@
                     <br>
                     <div class="contact-details ">
                             
-                        <table class="tb">
+                        <table style="width:100%">
                             <tr>
                                 <td style="color:black"><h4><i class="fa fa-phone" style="margin-right:10px"></i>Call Us : +91-8191937317</h4></td>
                             </tr>
@@ -400,12 +400,12 @@
                         <div class="col-xs-6 col-md-3">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?=  base_url('images/package/pilgrim3.jpg') ?>" alt="" style="height:250px"></a>
+                                    <a href="<?= base_url('incredible_ukd/pilgrimage') ?>" title=""><img src="<?=  base_url('images/package/pilgrim3.jpg') ?>" alt="" style="height:250px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="#" title="">Pilgrim Tour Packages</a></div>
+                                        <div class="home-sales-name"><a href="<?= base_url('incredible_ukd/pilgrimage') ?>" title="">Pilgrim Tour Packages</a></div>
 
                                         <div class="home-sales-places">Experience Devbhoomi, the Land of Gods </div>
                                     </div>
@@ -417,12 +417,12 @@
                         <div class="col-xs-6 col-md-3">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?=  base_url('images/package/wildlife3.jpg') ?>" alt="" style="height:250px"></a>
+                                    <a href="<?= base_url('incredible_ukd/wildlife') ?>" title=""><img src="<?=  base_url('images/package/wildlife3.jpg') ?>" alt="" style="height:250px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="#" title="">Wild Life Tour Packages</a></div>
+                                        <div class="home-sales-name"><a href="<?= base_url('incredible_ukd/wildlife') ?>" title="">Wild Life Tour Packages</a></div>
                                         <div class="home-sales-places">Enjoy the Floura & Founa of our beautiful state </div>
                                     </div>
                                     
@@ -433,12 +433,12 @@
                         <div class="col-xs-6 col-md-3">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?=  base_url('images/package/excursion.jpg') ?>" alt="" style="height:250px"></a>
+                                    <a href="<?= base_url('incredible_ukd/excursion') ?>" title=""><img src="<?=  base_url('images/package/excursion.jpg') ?>" alt="" style="height:250px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="#" title="">Excursion Tour Packages</a></div>
+                                        <div class="home-sales-name"><a href="<?= base_url('incredible_ukd/excursion') ?>" title="">Excursion Tour Packages</a></div>
                                         <div class="home-sales-places">Relax and get rid of all your tensions</div>
                                     </div>
                                     
@@ -450,12 +450,12 @@
                         <div class="col-xs-6 col-md-3">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?=  base_url('images/package/honeymoon.jpg') ?>" alt="" style="height:250px"></a>
+                                    <a href="<?= base_url('incredible_ukd/honeymoon') ?>" title=""><img src="<?=  base_url('images/package/honeymoon.jpg') ?>" alt="" style="height:250px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="#" title="">Honeymoon Tour Packages</a></div>
+                                        <div class="home-sales-name"><a href="<?= base_url('incredible_ukd/honeymoon') ?>" title="">Honeymoon Tour Packages</a></div>
                                         <div class="home-sales-places">Celebrate your golden time in exotic locations</div>
                                     </div>
                                     
@@ -467,12 +467,12 @@
                         <div class="col-xs-6 col-md-3">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?=  base_url('images/package/trekking.jpg') ?>" alt="" style="height:250px"></a>
+                                    <a href="<?= base_url('incredible_ukd/trekking') ?>" title=""><img src="<?=  base_url('images/package/trekking.jpg') ?>" alt="" style="height:250px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="#" title="">Trekking Packages</a></div>
+                                        <div class="home-sales-name"><a href="<?= base_url('incredible_ukd/trekking') ?>" title="">Trekking Packages</a></div>
                                         <div class="home-sales-places">Trek your way up to some of the best sceneries </div>
                                     </div>
                                    
@@ -483,12 +483,12 @@
                         <div class="col-xs-6 col-md-3">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?=  base_url('images/package/motorbike1.jpg') ?>" alt="" style="height:250px"></a>
+                                    <a href="<?= base_url('incredible_ukd/motorbike') ?>" title=""><img src="<?=  base_url('images/package/motorbike1.jpg') ?>" alt="" style="height:250px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="#" title="">Motorbike Tour Packages</a></div>
+                                        <div class="home-sales-name"><a href="<?= base_url('incredible_ukd/motorbike') ?>" title="">Motorbike Tour Packages</a></div>
                                         <div class="home-sales-places">Planning a road trip?</div>
                                     </div>
                                     
@@ -500,12 +500,12 @@
                         <div class="col-md-6">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?=  base_url('images/package/home3.jpg') ?>" alt="" style="height:250px"></a>
+                                    <a href="<?= base_url('incredible_ukd/home_stay') ?>" title=""><img src="<?=  base_url('images/package/home3.jpg') ?>" alt="" style="height:250px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="#" title="">Home Stay</a></div>
+                                        <div class="home-sales-name"><a href="<?= base_url('incredible_ukd/home_stay') ?>" title="">Home Stay</a></div>
                                         <div class="home-sales-places">Trek your way up to some of the best sceneries</div>
                                     </div>
                                    
