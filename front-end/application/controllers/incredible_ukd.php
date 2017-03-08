@@ -22,6 +22,10 @@ class Incredible_Ukd extends CI_Controller  {
 
 	}
 
+	public function india()  {
+		$this->load->view('incredible/about_india');
+	}
+
 	public function ukd_destination_detail($destinationId) { 
 		$this->load->model('incredible/ukd_details','details');
 		

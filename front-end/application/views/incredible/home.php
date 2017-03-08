@@ -32,24 +32,23 @@
                                         <ul class="sub-menu">
                                             <li><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
                                             <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
-                                           
-                                        </ul>
-                                    </li>
+                                            </ul>
+                                        </li>
                                     <li><?= anchor('','Our Services')?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( '','Best Hotels & Resorts')?></li>
+                                            <li><?= anchor( base_url('incredible_ukd/best_hotel'),'Best Hotels & Resorts')?></li>
                                             <li><?= anchor( '','Logistic Modes')?>
                                                 <ul class="sub-menu">
-                                                    <li><?= anchor( '','Flights')?></li>
-                                                    <li><?= anchor( '','Cars')?></li>
-                                                    <li><?= anchor( '','Bikes')?></li>
-                                                    <li><?= anchor( '','Buses')?></li>
-                                                    <li><?= anchor( '','Travelers')?></li>
+                                                    <li><?= anchor( base_url('incredible_ukd/flights'),'Flights')?></li>
+                                                    <li><?= anchor( base_url('incredible_ukd/cars'),'Cars')?></li>
+                                                    <li><?= anchor( base_url('incredible_ukd/bikes') ,'Bikes')?></li>
+                                                    <li><?= anchor( base_url('incredible_ukd/bus') ,'Buses')?></li>
+                                                    <li><?= anchor( base_url('incredible_ukd/travelers') ,'Travelers')?></li>
 
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </li>            
+                                    </li>               
                                     <li><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
                                             <li><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
@@ -666,8 +665,8 @@
                                 </div>
                                 <ul class="filter">
                                     <li class="active"><a data-toggle="tab" href="#"><i class="fa fa-map-marker"></i> Recommendations for you</a></li>
-                                    <li><a  href="<?=base_url('incredible_ukd/state_details/10') ?>"><i class="fa fa-map-marker"></i> Andhra Pradesh</a></li>
-                                    <li><a href="<?=base_url('incredible_ukd/state_details/6') ?>"><i class="fa fa-map-marker"></i> Andaman & Nicobar Islands</a></li>
+                                    <li><a  href="<?=base_url('incredible_ukd/state_details/10') ?>"><i class="fa fa-map-marker"></i> Himachal Pradesh</a></li>
+                                    <li><a href="<?=base_url('incredible_ukd/state_details/6') ?>"><i class="fa fa-map-marker"></i> Chandigarh</a></li>
                                     <li><a  href="<?=base_url('incredible_ukd/state_details/2') ?>"><i class="fa fa-map-marker"></i> Meghalaya</a></li>
                                     <li><a  href="<?=base_url('incredible_ukd/state_details/5') ?>"><i class="fa fa-map-marker"></i> Assam </a></li>
                                     <li><a  href="<?=base_url('incredible_ukd/state_details/11') ?>"><i class="fa fa-map-marker"></i> Punjab</a></li>
@@ -691,45 +690,45 @@
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/7') ?>" title="">Jammu & Kashmir</a></div><span class="properties-nb">Known as the Switzerland of India</span></div>
+                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/7') ?>" title="">Andaman & Nicobar Islands</a></div><span class="properties-nb">Known for underwater diving sites</span></div>
                                             <figure class="destinations-img">
-                                                <a href="<?=base_url('incredible_ukd/state_details/7') ?>" title=""><img src="<?= base_url('images/destinations/j&k.jpg') ?>" alt="" style="height: 190px" ></a>
+                                                <a href="<?=base_url('incredible_ukd/state_details/7') ?>" title=""><img src="<?= base_url('images/destinations/andaman.jpg') ?>" alt="" style="height: 190px" ></a>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/8') ?>" title="">Kerala</a></div><span class="properties-nb">Known as God's Own ountry.</span></div>
+                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/8') ?>" title="">Daman & Diu</a></div><span class="properties-nb">Popular for monuments displaying Portugal history.</span></div>
                                             <figure class="destinations-img">
-                                                <a href="<?=base_url('incredible_ukd/state_details/8') ?>" title=""><img src="<?= base_url('images/destinations/kerala.jpg') ?>" alt="" style="height: 190px"></a>
+                                                <a href="<?=base_url('incredible_ukd/state_details/8') ?>" title=""><img src="<?= base_url('images/destinations/daman.jpeg') ?>" alt="" style="height: 190px"></a>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/12') ?>" title="">Himachal Pradesh</a></div><span class="properties-nb">Famous for Shimla, Kulu & Manali.</span></div>
+                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/12') ?>" title="">Jammu & Kashmir</a></div><span class="properties-nb">Also known as heaven on Earth.</span></div>
                                             <figure class="destinations-img">
-                                                <a href="<?=base_url('incredible_ukd/state_details/12') ?>" title=""><img src="<?= base_url('images/destinations/himachal.jpg') ?>" alt="" style="height: 190px"></a>
+                                                <a href="<?=base_url('incredible_ukd/state_details/12') ?>" title=""><img src="<?= base_url('images/destinations/j&k.jpg') ?>" alt="" style="height: 190px"></a>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/12') ?>" title="">Rajasthan</a></div><span class="properties-nb">Known for it's rich cultural heritage</span></div>
+                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/12') ?>" title="">Kerala</a></div><span class="properties-nb">Known for it's rich cultural heritage</span></div>
                                             <figure class="destinations-img">
-                                                <a href="<?=base_url('incredible_ukd/state_details/12') ?>" title=""><img src="<?= base_url('images/destinations/rajasthan.jpg') ?>" alt="" style="height: 190px"></a>
+                                                <a href="<?=base_url('incredible_ukd/state_details/12') ?>" title=""><img src="<?= base_url('images/destinations/kerala.jpg') ?>" alt="" style="height: 190px"></a>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/13') ?>" title="">Karnataka</a></div><span class="properties-nb">Home to white waterfalls, beautiful hills.</span></div>
+                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/13') ?>" title="">Rajasthan</a></div><span class="properties-nb">Famous for its cultural diversity.</span></div>
                                             <figure class="destinations-img">
-                                                <a href="<?=base_url('incredible_ukd/state_details/13') ?>" title=""><img src="<?= base_url('images/destinations/karnataka.jpg') ?>" alt="" style="height: 190px"></a>
+                                                <a href="<?=base_url('incredible_ukd/state_details/13') ?>" title=""><img src="<?= base_url('images/destinations/rajasthan.jpg') ?>" alt="" style="height: 190px"></a>
                                             </figure>
                                         </div>
                                     </div>

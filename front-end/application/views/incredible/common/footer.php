@@ -100,6 +100,5 @@
         ga('send', 'pageview');
     </script>
 </body>
-<!-- Mirrored from envato.megadrupal.com/html/bookawesome/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Feb 2017 13:24:32 GMT -->
 
 </html>

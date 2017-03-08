@@ -5,7 +5,7 @@
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html lang="en">
 <!--<![endif]-->
-<!-- Mirrored from envato.megadrupal.com/html/bookawesome/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Feb 2017 13:23:13 GMT -->
+
 
 <head>
     

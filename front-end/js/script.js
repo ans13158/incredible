@@ -487,7 +487,21 @@
                     i = new google.maps.LatLng(n, t),
                     s = {
                         center: i,
-                        zoom: 15,
+                        zoom: 8,
+                        scrollwheel: !1,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    };
+                new google.maps.Map(document.getElementById("hotel-detail-map"), s)
+            }
+
+            if (a("#hotel-india-map").length) {
+                var e = a("#hotel-detail-map"),
+                    n = e.data("latlng").split(",")[0],
+                    t = e.data("latlng").split(",")[1],
+                    i = new google.maps.LatLng(n, t),
+                    s = {
+                        center: i,
+                        zoom: 1,
                         scrollwheel: !1,
                         mapTypeId: google.maps.MapTypeId.ROADMAP
                     };

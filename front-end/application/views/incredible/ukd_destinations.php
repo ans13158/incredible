@@ -25,28 +25,27 @@
                                         
                                     <li ><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
 
-                                    <li ><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
+                                    <li><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
                                             <li><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
                                             <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
-                                           
-                                        </ul>
-                                    </li>
+                                            </ul>
+                                        </li>
                                     <li><?= anchor('','Our Services')?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( '','Best Hotels & Resorts')?></li>
+                                            <li><?= anchor( base_url('incredible_ukd/best_hotel'),'Best Hotels & Resorts')?></li>
                                             <li><?= anchor( '','Logistic Modes')?>
                                                 <ul class="sub-menu">
-                                                    <li><?= anchor( '','Flights')?></li>
-                                                    <li><?= anchor( '','Cars')?></li>
-                                                    <li><?= anchor( '','Bikes')?></li>
-                                                    <li><?= anchor( '','Buses')?></li>
-                                                    <li><?= anchor( '','Travelers')?></li>
+                                                    <li><?= anchor( base_url('incredible_ukd/flights'),'Flights')?></li>
+                                                    <li><?= anchor( base_url('incredible_ukd/cars'),'Cars')?></li>
+                                                    <li><?= anchor( base_url('incredible_ukd/bikes') ,'Bikes')?></li>
+                                                    <li><?= anchor( base_url('incredible_ukd/bus') ,'Buses')?></li>
+                                                    <li><?= anchor( base_url('incredible_ukd/travelers') ,'Travelers')?></li>
 
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </li>            
+                                    </li>           
                                     <li class="current-menu-parent"><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
                                             <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
@@ -57,13 +56,13 @@
                                     
                                     <li ><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
                                         <ul class="sub-menu"  >
-                                            <li style=""><?= anchor( base_url('incredible_ukd'),'Pilgrims Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd'),'Wildlife Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd'),'Excursion Tour Packages')?></li>
-                                            <li ><?= anchor( base_url('incredible_ukd'),'Honeymoon Packages')?></li>
-                                            <li style=""><?= anchor('','Trekking Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd'),'Motorbike Packages')?></li>
-                                            <li style=""><?= anchor('incredible_ukd','Home Stay')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/pilgrims'),'Pilgrims Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
+                                            <li style=""><?= anchor(base_url('incredible_ukd/trekking') ,'Trekking Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/home_stay') ,'Home Stay')?></li>
                                             
                                         </ul>
                                     </li>
