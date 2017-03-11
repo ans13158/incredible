@@ -680,9 +680,9 @@
                                 <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/9') ?>" title="">Goa</a></div><span class="properties-nb">World famous for it's beautiful beaches </span></div>
+                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/1') ?>" title="">Goa</a></div><span class="properties-nb">World famous for it's beautiful beaches </span></div>
                                             <figure class="destinations-img">
-                                                <a href="<?=base_url('incredible_ukd/state_details/9') ?>" title=""><img src="<?= base_url('images/destinations/goa.jpg') ?>" alt="" style="height: 190px"></a>
+                                                <a href="<?=base_url('incredible_ukd/state_details/1') ?>" title=""><img src="<?= base_url('images/destinations/goa.jpg') ?>" alt="" style="height: 190px"></a>
                                             </figure>
                                         </div>
                                     </div>
@@ -690,45 +690,45 @@
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/7') ?>" title="">Andaman & Nicobar Islands</a></div><span class="properties-nb">Known for underwater diving sites</span></div>
+                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/2') ?>" title="">Andaman & Nicobar Islands</a></div><span class="properties-nb">Known for underwater diving sites</span></div>
                                             <figure class="destinations-img">
-                                                <a href="<?=base_url('incredible_ukd/state_details/7') ?>" title=""><img src="<?= base_url('images/destinations/andaman.jpg') ?>" alt="" style="height: 190px" ></a>
+                                                <a href="<?=base_url('incredible_ukd/state_details/2') ?>" title=""><img src="<?= base_url('images/destinations/andaman.jpg') ?>" alt="" style="height: 190px" ></a>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/8') ?>" title="">Daman & Diu</a></div><span class="properties-nb">Popular for monuments displaying Portugal history.</span></div>
+                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/3') ?>" title="">Daman & Diu</a></div><span class="properties-nb">Popular for monuments displaying Portugal history.</span></div>
                                             <figure class="destinations-img">
-                                                <a href="<?=base_url('incredible_ukd/state_details/8') ?>" title=""><img src="<?= base_url('images/destinations/daman.jpeg') ?>" alt="" style="height: 190px"></a>
+                                                <a href="<?=base_url('incredible_ukd/state_details/3') ?>" title=""><img src="<?= base_url('images/destinations/daman.jpeg') ?>" alt="" style="height: 190px"></a>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/12') ?>" title="">Jammu & Kashmir</a></div><span class="properties-nb">Also known as heaven on Earth.</span></div>
+                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/4') ?>" title="">Jammu & Kashmir</a></div><span class="properties-nb">Also known as heaven on Earth.</span></div>
                                             <figure class="destinations-img">
-                                                <a href="<?=base_url('incredible_ukd/state_details/12') ?>" title=""><img src="<?= base_url('images/destinations/j&k.jpg') ?>" alt="" style="height: 190px"></a>
+                                                <a href="<?=base_url('incredible_ukd/state_details/4') ?>" title=""><img src="<?= base_url('images/destinations/j&k.jpg') ?>" alt="" style="height: 190px"></a>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/12') ?>" title="">Kerala</a></div><span class="properties-nb">Known for it's rich cultural heritage</span></div>
+                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/5') ?>" title="">Kerala</a></div><span class="properties-nb">Known for it's rich cultural heritage</span></div>
                                             <figure class="destinations-img">
-                                                <a href="<?=base_url('incredible_ukd/state_details/12') ?>" title=""><img src="<?= base_url('images/destinations/kerala.jpg') ?>" alt="" style="height: 190px"></a>
+                                                <a href="<?=base_url('incredible_ukd/state_details/5') ?>" title=""><img src="<?= base_url('images/destinations/kerala.jpg') ?>" alt="" style="height: 190px"></a>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/13') ?>" title="">Rajasthan</a></div><span class="properties-nb">Famous for its cultural diversity.</span></div>
+                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/6') ?>" title="">Rajasthan</a></div><span class="properties-nb">Famous for its cultural diversity.</span></div>
                                             <figure class="destinations-img">
-                                                <a href="<?=base_url('incredible_ukd/state_details/13') ?>" title=""><img src="<?= base_url('images/destinations/rajasthan.jpg') ?>" alt="" style="height: 190px"></a>
+                                                <a href="<?=base_url('incredible_ukd/state_details/6') ?>" title=""><img src="<?= base_url('images/destinations/rajasthan.jpg') ?>" alt="" style="height: 190px"></a>
                                             </figure>
                                         </div>
                                     </div>

@@ -2,9 +2,9 @@
 
 class State_details extends CI_Model  {
 	public function getState($stateId)  {
-		$state = $this->db->select('stateId,name,details')
-						  ->where('stateId',$stateId)
-						  ->get('states-india');
-		return $state->result_array();				  	
+		$detailsQuery = $this->db->select('name,details,visit1,visit2,visit3,visit4,visit5')
+								 ->where('stateId',$stateId)
+								 ->get('states-india');
+		return $detailsQuery->result_array();				  	
 	}
 }

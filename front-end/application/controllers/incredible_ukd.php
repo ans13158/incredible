@@ -37,8 +37,9 @@ class Incredible_Ukd extends CI_Controller  {
 
 	public function state_details($stateId) { 
 		$this->load->model('incredible/state_details','states');
-		
 		$state['detail'] = $this->states->getState($stateId);
+		$this->load->model('incredible/states_images','imgStates');
+		$state['images'] = $this->imgStates->getImages($stateId);
 		$this->load->view('incredible/state_details',$state);
 	}
 
