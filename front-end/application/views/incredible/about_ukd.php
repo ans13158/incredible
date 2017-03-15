@@ -11,10 +11,10 @@
                                         
                                     <li ><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
 
-                                     <li><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
+                                     <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
                                             <li><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
-                                            <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
+                                            <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                             </ul>
                                         </li>
                                     <li><?= anchor('','Our Services')?>
@@ -97,26 +97,20 @@
                                 <?= img( ["src"=>"images/places/ukd3.jpg" , "alt"=>"","style"=>"height:500px" ]) ?>
                                 <?= img( ["src"=>"images/places/ukd4.jpg" , "alt"=>"","style"=>"height:500px" ]) ?>
                                 <?= img( ["src"=>"images/places/ukd5.jpg" , "alt"=>"","style"=>"height:500px" ]) ?>
-                                <?= img( ["src"=>"images/places/ukd7.jpg" , "alt"=>"","style"=>"height:500px" ]) ?>
-                                <?= img( ["src"=>"images/places/ukd8.JPG" , "alt"=>"","style"=>"height:500px" ]) ?>
-                                <?= img( ["src"=>"images/places/ukd9.jpg" , "alt"=>"","style"=>"height:500px" ]) ?>
-                                <?= img( ["src"=>"images/places/ukd10.cms" , "alt"=>"","style"=>"height:500px" ]) ?>
+                                
                                
                             </div>
                         </div>
                         <div class="slide-room-sm">
                             <div class="row">
-                                <div class="col-md-8 col-md-offset-2">
+                                <div class="col-md-8 col-md-offset-4">
                                     <div id="slide-room-sm">
                                         <?= img([ "src"=>"images/places/ukd1.jpg", "alt"=>"","style"=>"height:70px" ]) ?>
                                         <?= img([ "src"=>"images/places/ukd2.jpg", "alt"=>"","style"=>"height:70px"]) ?>
                                         <?= img([ "src"=>"images/places/ukd3.jpg", "alt"=>"","style"=>"height:70px"]) ?>
                                         <?= img([ "src"=>"images/places/ukd4.jpg", "alt"=>"","style"=>"height:70px"]) ?>
                                         <?= img([ "src"=>"images/places/ukd5.jpg", "alt"=>"","style"=>"height:70px"]) ?>
-                                        <?= img([ "src"=>"images/places/ukd7.jpg", "alt"=>"","style"=>"height:70px"]) ?>
-                                        <?= img([ "src"=>"images/places/ukd8.JPG", "alt"=>"","style"=>"height:70px"]) ?>
-                                        <?= img([ "src"=>"images/places/ukd9.jpg", "alt"=>"","style"=>"height:70px"]) ?>
-                                        <?= img([ "src"=>"images/places/ukd10.cms", "alt"=>"","style"=>"height:70px"]) ?>
+                                        
                                     </div>
                                 </div>
                             </div>

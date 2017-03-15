@@ -106,7 +106,7 @@
                         </div>
                         <div class="slide-room-sm">
                             <div class="row">
-                                <div class="col-md-8 col-md-offset-2">
+                                <div class="col-md-8 col-md-offset-4">
                                     <div id="slide-room-sm">
                                                     <?php
                                             foreach($images as $image)  :

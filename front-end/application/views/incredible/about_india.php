@@ -93,31 +93,25 @@
                     <section class="detail-slider" style="height:500px">
                         <div class="slide-room-lg" >
                             <div id="slide-room-lg">
-                                <?= img( ["src"=>"images/places/india.jpg" , "alt"=>"","style"=>"height:600px;width:100%" ]) ?> 
-                                <?= img( ["src"=>"images/places/india1.jpg" , "alt"=>"","style"=>"height:600px" ]) ?>
-                                <?= img( ["src"=>"images/places/india2.jpg" , "alt"=>"","style"=>"height:600px" ]) ?>
-                                <?= img( ["src"=>"images/places/india3.jpg" , "alt"=>"","style"=>"height:600px" ]) ?>
-                                <?= img( ["src"=>"images/places/india4.jpg" , "alt"=>"","style"=>"height:600px" ]) ?>
-                                <?= img( ["src"=>"images/places/india5.JPG" , "alt"=>"","style"=>"height:600px" ]) ?>
-                                <?= img( ["src"=>"images/places/india6.jpg" , "alt"=>"","style"=>"height:600px" ]) ?>
-                                <?= img( ["src"=>"images/places/india7.jpg" , "alt"=>"","style"=>"height:600px" ]) ?>
-                                <?= img( ["src"=>"images/places/india8.jpg" , "alt"=>"","style"=>"height:600px" ]) ?>
+                                <?= img( ["src"=>"images/places/india.jpg" , "alt"=>"","style"=>"height:500px;width:100%" ]) ?> 
+                                <?= img( ["src"=>"images/places/india1.jpg" , "alt"=>"","style"=>"height:500px" ]) ?>
+                                <?= img( ["src"=>"images/places/india2.jpg" , "alt"=>"","style"=>"height:500px" ]) ?>
+                                <?= img( ["src"=>"images/places/india3.jpg" , "alt"=>"","style"=>"height:500px" ]) ?>
+                                <?= img( ["src"=>"images/places/india4.jpg" , "alt"=>"","style"=>"height:500px" ]) ?>
+                                
                                
                             </div>
                         </div>
                         <div class="slide-room-sm">
                             <div class="row">
-                                <div class="col-md-8 col-md-offset-2">
+                                <div class="col-md-8 col-md-offset-4">
                                     <div id="slide-room-sm">
                                         <?= img([ "src"=>"images/places/india.jpg", "alt"=>"","style"=>"height:70px" ]) ?>
                                         <?= img([ "src"=>"images/places/india1.jpg", "alt"=>"","style"=>"height:70px"]) ?>
                                         <?= img([ "src"=>"images/places/india2.jpg", "alt"=>"","style"=>"height:70px"]) ?>
                                         <?= img([ "src"=>"images/places/india3.jpg", "alt"=>"","style"=>"height:70px"]) ?>
                                         <?= img([ "src"=>"images/places/india4.jpg", "alt"=>"","style"=>"height:70px"]) ?>
-                                        <?= img([ "src"=>"images/places/india5.JPG", "alt"=>"","style"=>"height:70px"]) ?>
-                                        <?= img([ "src"=>"images/places/india6.jpg", "alt"=>"","style"=>"height:70px"]) ?>
-                                        <?= img([ "src"=>"images/places/india7.jpg", "alt"=>"","style"=>"height:70px"]) ?>
-                                        <?= img([ "src"=>"images/places/india8.jpg", "alt"=>"","style"=>"height:70px"]) ?>
+                                        
                                     </div>
                                 </div>
                             </div>

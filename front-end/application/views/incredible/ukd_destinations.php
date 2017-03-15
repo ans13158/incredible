@@ -83,7 +83,7 @@
             <div class="container">
                 <div class="main-cn  bg-white">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                             <section class="breakcrumb-sc">
                                 <ul class="breadcrumb arrow">
                                     <li><a href="<?= base_url('incredible_ukd') ?>"><i class="fa fa-home"></i></a></li>
@@ -103,7 +103,7 @@
                                 
                                 <div class="hotel-grid-cn clearfix">
                                 <?php foreach($destinations as $destination) :  ?>
-                                    <div class="col-xs-6 col-sm-3 col-md-6 col-lg-3">
+                                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
                                         <div class="hotel-item">
                                             <?php
                                                 $imagePath = "";
@@ -116,7 +116,7 @@
                                                 <figure class="hotel-img">
                                                     <a href="ukd_destination_detail/<?= $destination['destinationId']?>" title="" >
                                                         <?=
-                                                          img( ["src"=>$image, 'alt'=>"","style"=>"height:220px"] ) ?>
+                                                          img( ["src"=>$image, 'alt'=>"","style"=>"height:220px;width:300px;"] ) ?>
                                                     </a>    
                                                     
                                                 </figure>
@@ -126,13 +126,14 @@
                                                             <?= $destination['name'] ?>
                                                        
                                                         </a>
+                                                        <br><br><br>
                                                     </div>
 
                                                    <div class="hotel-places" style="margin-top: -30px;font-family: roboto;font-size: 15px">
                                                         <a href="ukd_destination_detail/<?= $destination['destinationId']?>" title="" class="display-destination">
                                                                <?php 
                                                                 $content = "";
-                                                                for($i=0;$i<200;$i++) { 
+                                                                for($i=0;$i<150;$i++) { 
                                                                     $content = $content . $destination['details'][$i];
                                                                 }
                                                              ?>
