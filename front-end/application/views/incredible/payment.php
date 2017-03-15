@@ -1,142 +1,76 @@
-<!DOCTYPE html>
-<html>
-<!-- Mirrored from envato.megadrupal.com/html/bookawesome/payment.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Feb 2017 13:29:23 GMT -->
-
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <title>Payment</title>
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400%7COpen+Sans:300italic,300,400,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/library/font-awesome.min.css">
-    <link rel="stylesheet" href="css/library/bootstrap.min.css">
-    <link rel="stylesheet" href="css/library/jquery-ui.min.css">
-    <link rel="stylesheet" href="css/library/owl.carousel.css">
-    <link rel="stylesheet" href="css/library/jquery.mb.YTPlayer.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script>
-        ! function(f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function() {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window,
-            document, 'script', '../../../connect.facebook.net/en_US/fbevents.js');
-
-        fbq('init', '1031554816897182');
-        fbq('track', "PageView");
-    </script>
-    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1031554816897182&amp;ev=PageView&amp;noscript=1" /></noscript>
-</head>
+<?php
+    include "common/header.php";
+    include 'common/navbar.php'; 
+?>
+</body>
+<style>
+    .contact-details  {
+        float: right;
+        background-color: rgba(255,255,255,.85);
+        font-size:18px;
+        color:black;
+        padding: 25px;
+        margin-right: -90px;
+        margin-top: -70px;
+        /*opacity: 0.95;
+        filter: alpha(opacity=95)*/
+    }
+</style>
 
 <body>
-    <div id="preloader">
-        <div class="tb-cell">
-            <div id="page-loading">
-                <div></div>
-                <p>Loading</p>
-            </div>
-        </div>
-    </div>
-    <div id="wrap">
-        <header id="header" class="header">
-            <div class="container">
-                <div class="logo float-left">
-                    <a href="index-2.html" title=""><img src="images/logo-header.png" alt=""></a>
-                </div>
-                <div class="bars" id="bars"></div>
-                <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
+
+    <nav class="navigation nav-c col-xs-12" id="navigation" data-menu-type="1200">
                     <div class="nav-inner"><a href="#" class="bars-close" id="bars-close">Close</a>
                         <div class="tb">
                             <div class="tb-cell">
                                 <ul class="menu-list text-uppercase">
-                                    <li><a href="index-2.html" title="">Home</a>
+                                    <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                        
+                                    <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
+
+                                    <li><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
-                                            <li><a href="index-2.html" title="">Home menu 1</a></li>
-                                            <li><a href="index2.html" title="">Home menu 2</a></li>
-                                            <li><a href="index3.html" title="">Home menu 3</a></li>
-                                            <li><a href="index4.html" title="">Home menu 4</a></li>
-                                            <li><a href="index5.html" title="">Home background slide</a></li>
-                                            <li><a href="index6.html" title="">Home background video</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="current-menu-parent"><a href="#">Pages</a>
+                                            <li><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
+                                            <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
+                                            </ul>
+                                        </li>
+                                    <li><?= anchor('','Our Services')?>
                                         <ul class="sub-menu">
-                                            <li><a href="#" title="">Blog</a>
+                                            <li><?= anchor( base_url('incredible_ukd/best_hotel'),'Best Hotels & Resorts')?></li>
+                                            <li><?= anchor( '','Logistic Modes')?>
                                                 <ul class="sub-menu">
-                                                    <li><a href="blog.html" title="">Blog</a></li>
-                                                    <li><a href="blog-detail.html">Blog Detail</a></li>
+                                                    <li><?= anchor( base_url('incredible_ukd/flights'),'Flights')?></li>
+                                                    <li><?= anchor( base_url('incredible_ukd/cars'),'Cars')?></li>
+                                                    <li><?= anchor( base_url('incredible_ukd/bikes') ,'Bikes')?></li>
+                                                    <li><?= anchor( base_url('incredible_ukd/bus') ,'Buses')?></li>
+                                                    <li><?= anchor( base_url('incredible_ukd/travelers') ,'Travelers')?></li>
+
                                                 </ul>
                                             </li>
-                                            <li><a href="about.html" title="">About</a></li>
-                                            <li><a href="#" title="">User</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="user-booking.html" title="">User Booking</a></li>
-                                                    <li><a href="user-profile.html" title="">User Profile</a></li>
-                                                    <li><a href="user-setting.html" title="">User Setting</a></li>
-                                                    <li><a href="user-review.html" title="">User Review</a></li>
-                                                    <li><a href="user-signup.html" title="">User Signup</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.html" title="">Contact</a></li>
-                                            <li class="current-menu-item"><a href="payment.html" title="">Payment</a></li>
-                                            <li><a href="element.html" title="">Element</a></li>
-                                            <li><a href="404.html" title="">404</a></li>
-                                            <li><a href="comingsoon.html" title="">Comingsoon</a></li>
                                         </ul>
-                                    </li>
-                                    <li><a href="#" title="">Hotel</a>
+                                    </li>               
+                                    <li><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
-                                            <li><a href="home-hotel.html" title="">Hotel</a></li>
-                                            <li><a href="hotel-list.html">Hotel List 1</a></li>
-                                            <li><a href="hotel-list-2.html">Hotel List 2</a></li>
-                                            <li><a href="hotel-maps.html">Hotel Map</a></li>
-                                            <li><a href="hotel-detail.html">Hotel Detail</a></li>
+                                            <li><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
+                                            <li><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
+                                           
                                         </ul>
                                     </li>
-                                    <li><a href="#" title="">Flights</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="home-flight.html" title="">Flights</a></li>
-                                            <li><a href="flight-list.html">Flight List</a></li>
+                                    
+                                    <li><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
+                                        <ul class="sub-menu"  >
+                                            <li style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
+                                            <li style=""><?= anchor('incredible_ukd/trekking','Trekking Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
+                                            <li style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
+                                            
                                         </ul>
                                     </li>
-                                    <li><a href="#" title="">Car</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="home-car.html" title="">Car</a></li>
-                                            <li><a href="car-list.html">Cart List</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#" title="">Package</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="home-package.html" title="">Package Deals</a></li>
-                                            <li><a href="package-list.html">Package Deals List</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#" title="">Cruises</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="home-cruise.html" title="">Cruises</a></li>
-                                            <li><a href="cruise-list.html">Cruise List</a></li>
-                                            <li><a href="cruise-detail.html">Cruise Detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#" title="">Tours</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="home-tour.html" title="">Tours</a></li>
-                                            <li><a href="tour-list.html">Tour List</a></li>
-                                            <li><a href="tour-detail.html">Tour Detail</a></li>
-                                        </ul>
-                                    </li>
+                                   <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -146,9 +80,7 @@
         </header>
         <section class="sub-banner">
             <div class="bg-parallax bg-1"></div>
-            <div class="logo-banner text-center">
-                <a href="#" title=""><img src="images/logo-banner.png" alt=""></a>
-            </div>
+            
         </section>
         <div class="main">
             <div class="container">

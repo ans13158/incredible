@@ -85,7 +85,7 @@
                                 </div>
 
                                 <div class="col-sm-5 text-right">
-                                    <p class="price-book"><a href="#" title="" class="awe-btn awe-btn-1 awe-btn-lager">Book My Trip</a></p>
+                                    <p class="price-book"><a href="<?= base_url('incredible_ukd/bookMyTrip') ?>" title="" class="awe-btn awe-btn-1 awe-btn-lager">Book My Tour</a></p>
                                 </div>
                             </div>
                         </div>
@@ -187,7 +187,7 @@
                         <div class="row">
                                 <br><br><br>
                                     <div class="col-xs-12 text-right" style="float: left">
-                                        <p class="price-book"><a href="#" title="" class="awe-btn awe-btn-1 awe-btn-lager" style="margin-left: -500px;">Book My Trip</a></p>
+                                        <p class="price-book"><a href="<?= base_url('incredible_ukd/bookMyTrip') ?>" title="" class="awe-btn awe-btn-1 awe-btn-lager" style="margin-left: -500px;">Book My Tour</a></p>
                                         <br><br>
                                     </div>
 

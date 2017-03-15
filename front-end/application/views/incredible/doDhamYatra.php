@@ -174,7 +174,7 @@
                                     
                                     <span style="display: inline-block;"><h1 class="title-post-head">Pilgrims Tour Packages</h1></span>
 
-                                     <span style="display: inline-block;float: right;margin-top: 10px"><a href="#" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium">Book My Tour</a></span>
+                                     <span style="display: inline-block;float: right;margin-top: 10px"><a href="<?= base_url('incredible_ukd/bookPackage') ?>" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium">Book My Tour</a></span>
                                     <div class="post-media">
                                         <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/badri-kedar.jpg'),  "alt"=>"","style"=>"height:300px;width:100%"] )  ?></div>
                                     </div>
@@ -211,7 +211,7 @@
 		                                    	
 		                                    	<li><a><h5 class="title-sidebar">Day 01: Delhi – Rishikesh (230 Kms / 7 - 8 hrs) </h5></a></li>
 		                                    		<br>
-		                                    			<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/delhi-rishikesh.gif'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+		                                    			<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/delhi-rishikesh.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
 		                                    		<br>		
 		                                		<p>Morning drive to Rishikesh. On arrival check in at hotel in the afternoon temple tour of Rishikesh. Overnight stay at hotel. Rishikesh, located in the laps of lower Himalayas, and is surrounded by scenic beauty of the hills on three sides with Holy Ganga flowing through it. The whole place is considered to be sacred as it is believed that meditation at this place leads to attainment of salvation. There are many temples-some ancient, some new along the river Ganges. Rishikesh is important not only as pilgrimage centre closely associated with the Ramayana, but also as home for many important centers of Hindu religious thought and spirituality, and as a very great Yoga Centre. There are a great many ashrams and Yoga instituteshere.</p>
 		                                		
@@ -264,7 +264,7 @@
 										
 									</div> 
 										<br><br>   
-                                        <a href="#" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium" style="margin-left: 30%">Book My Tour</a>
+                                        <a href="<?= base_url('incredible_ukd/bookPackage') ?>" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium" style="margin-left: 30%">Book My Tour</a>
                                     </div>
                                     
                                     

@@ -174,7 +174,7 @@
                                     
                                     <span style="display: inline-block;"><h1 class="title-post-head">Pilgrims Tour Packages</h1></span>
 
-                                     <span style="display: inline-block;float: right;margin-top: 10px"><a href="#" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium">Book My Tour</a></span>
+                                     <span style="display: inline-block;float: right;margin-top: 10px"><a href="<?= base_url('incredible_ukd/bookPackage') ?>" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium">Book My Tour</a></span>
                                     <div class="post-media">
                                         <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/hemkund.jpg'),  "alt"=>"", "style"=>"height:400px;width:100%"] ) ?></div>
                                     </div>
@@ -252,7 +252,7 @@
 		                                		
 		                                	</ul>     
                                                   
-                                        <a href="#" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium" style="margin-left: 30%" >Book My Tour</a>
+                                        <a href="<?= base_url('incredible_ukd/bookPackage') ?>" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium" style="margin-left: 30%" >Book My Tour</a>
 
                                         <br><br><hr>
                                             
@@ -324,7 +324,7 @@
 										
 									</div> 
 										<br><br>   
-                                        <a href="#" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium" style="margin-left: 30%">Book My Tour</a>
+                                        <a href="<?= base_url('incredible_ukd/bookPackage') ?>" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium" style="margin-left: 30%">Book My Tour</a>
                                     </div>
                                     
                                     

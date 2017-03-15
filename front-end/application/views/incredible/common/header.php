@@ -54,5 +54,8 @@
         fbq('init', '1031554816897182');
         fbq('track', "PageView");
     </script>
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1031554816897182&amp;ev=PageView&amp;noscript=1" /></noscript>
 </head>

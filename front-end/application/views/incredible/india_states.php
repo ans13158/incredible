@@ -101,13 +101,17 @@
                             <section class="hotel-list">
                                 
                                 <div class="hotel-grid-cn clearfix">
-                                <?php foreach($states as $state) :  ?>
+                                <?php foreach($states as $state) : 
+                                    $imagePath = $state['imagePath'];
+                                    $imageName = $state['imageName'];
+                                    $image = $imagePath . '/' . $imageName;
+                                 ?>
                                     <div class="col-xs-6 col-sm-3 col-md-6 col-lg-3">
                                         <div class="hotel-item">
                                             
                                                 <figure class="hotel-img">
                                                 <a href="state_details/<?= $state['stateId']?>" title="">
-                                                    <?= img( ["src"=>"images/deal/img-1.jpg", 'alt'=>""] ) ?>
+                                                    <?= img( ["src"=>$image, 'alt'=>"", 'style'=>"height:290px; width:290px"] ) ?>
                                                 </a>    
                                                     
                                                 </figure>
@@ -117,10 +121,13 @@
                                                             <?= $state['name'] ?>
                                                        
                                                         </a>
+                                                    
+
                                                     </div>
 
                                                    <div class="hotel-places" style="margin-top: -30px;font-family: roboto;font-size: 15px">
                                                         <a href="state_details/<?= $state['stateId']?>" title="" class="display-destination">
+                                                        <br>
                                                                <?php 
                                                                 $content = "";
                                                                 for($i=0;$i<150;$i++) { 
