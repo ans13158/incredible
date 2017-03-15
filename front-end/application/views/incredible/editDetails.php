@@ -32,7 +32,7 @@
                         <div class="tb">
                             <div class="tb-cell">
                                 <ul class="menu-list text-uppercase">
-                                    <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                    <li ><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
                                         
                                     <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
 
@@ -65,7 +65,7 @@
                                         </ul>
                                     </li>
                                     
-                                    <li><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
+                                    <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
                                         <ul class="sub-menu"  >
                                             <li style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
@@ -110,89 +110,69 @@
                     
                     <div class="payment-form">
                         <div class="row ">
-                            <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6" style="margin-left:05%">
-                                <h2>Confirm Submitted Information
+                            <div class="col-md-6" >
+                                <h2>Edit Submitted Information
                                 </h2>
-                                	<p>(View the information you have entered. To edit something, click on the <strong> EDIT INFORMATION</strong> button below)</p>	
-
-                                		<br>
-
-
-                                <form action="confirmBooking" method="POST" class="form-vertical">
+                                <form action="tripBookings" method="POST" class="form-vertical">
                                     <div class="form-field">
                                         
                                         <label for="fullName" class="control-label">Full Name</label>
-                                        <input type="text" name="fullName" id="fullName" placeholder="Enter Full Name" class="field-input" required="required" readonly="true" value= "<?= $fullName ?>"  >
+                                        <input type="text" name="fullName" id="fullName" placeholder="Enter Full Name" class="field-input" required="required"  value= "<?= $fullName ?>"  >
                                             
                                     </div>
-                                    <div class="error">
-                                        <?= form_error('fullName')?>
-                                    </div>
-
+                                   
                                     <div class="form-field">
                                         <label for = "email" class= "control-label">Email</label>
-                                        <input type="email" placeholder="Enter Email" name="email" id="email" class="field-input" required="required"  readonly="true" value="<?= $email ?>" >
+                                        <input type="email" placeholder="Enter Email" name="email" id="email" class="field-input" required="required"  value= "<?= $email ?>"  >
                                     </div>
                                     
-                                    <div class="error">
-                                        <?= form_error('email')?>
-                                    </div>
+                                    
 
                                     <div class="form-field">
                                         <label for="contact" class="control-label">Contact Number</label>
-                                        <input type="text" name="contact" id="contact" placeholder="Contact Number" class="field-input" required="required" maxlength="10" value="<?= $contact ?>" readonly="true">
+                                        <input type="text" name="contact" id="contact" placeholder="Contact Number" class="field-input" required="required" maxlength="10"  value= "<?= $contact ?>">
                                     </div>
 
-                                    <div class="error">
-                                        <?= form_error('contact')?>
-                                    </div>
+                                    
                                     
                                     <div class="form-field">
-                                        <label for="package" class="control-label">Select Tour Package</label>
+                                        <label for="state" class="control-label">Select Destination State</label>
 
-                                        <select name="state" placeholder="Select Tour Package" class="field-input" data-value="Select Tour Package" class="field-input" onchange="selectPackage(this)" required="required" value="<?= $state ?>" readonly="true">
-                                        <option>Select Tour Package</option>
-                                        <option selected="selected"> <?= $state ?></option>
-                                        <option value="pilgrim">Pilgrims Tour Package</option>
-                                        <option value="wildlife">Wild Life Tour Package</option>
-                                        <option value="excursion">Excursion Tour Package</option>
-                                        <option value="honeymoon">HoneyMoon Tour Package</option>
-                                        <option value="trekking">Trekking Tour Package</option>
-                                        <option value="motorbike">MotorBike Tour Package</option>
-                                        <option value="homestay">Home Stay Tour Package</option>
+                                        <select name="state" placeholder="Select Destination State" class="field-input" data-value="Select Destination State" class="field-input" onchange="selectDestination(this)">
+                                        <option>Select Destination State</option>
+                                        <option value="<?= $state ?>" selected > <?= $state ?> </option>
+                                        <option value="Uttarakhand">Uttarakhand</option>
+                                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                        <option value="Goa">Goa</option>
+                                        <option value="Andaman and Nicobar">Andaman and Nicobar</option>
+                                        <option value='Daman and Diu'>Daman and Diu</option>
+                                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                        <option value="Kerala">Kerala</option>
+                                        <option value="Rajasthan">Rajasthan</option>
+                                        <option value="Chandigarh">Chandigarh</option>
+                                        <option value='Maharashtra'>Maharashtra</option>
+                                        <option value="Himachal Pradesh">Himachal Pradesh</option>
                                         </select>
-                                    </div>
-
-                                    <div class="error">
-                                        <?= form_error('state')?>
                                     </div>
 
                                     <div class="form-field">
-                                        <label class="control-label" for="destination">Select Destination According to Package</label>
-                                        <select name="destination" id="destination" class="field-input" onchange="setItinerary(this)" required="required" readonly="true">
+                                        <label class="control-label" for="destination">Select Destination</label>
+                                        <select name="destination" id="destination" class="field-input">
                                             <option>Select Destination</option>
-                                            <option selected="selected"> <?= $destination ?></option>
+                                            <option value="<?= $destination ?>" selected > <?= $destination ?> </option>
                                         </select>
-                                    </div>
-
-                                    <div class="error">
-                                        <?= form_error('destination')?>
                                     </div>
 
                                     <div class="form-field">
                                         <label class="control-label" for="hotel">Select Type of Hotel</label>
-                                        <select name="hotel" id="hotel" class="field-input" required="required" value="<?= $hotel ?>" readonly="true">
+                                        <select name="hotel" id="hotel" class="field-input">
                                             <option>Select Hotel Type</option>
-                                            <option selected="selected"> <?= $hotel ?></option>
-                                             <option value="Low Budget - Less than Rs. 3,000">Low Budget - Less than Rs. 3,000</option>
+                                            <option value="<?= $hotel ?>" selected > <?= $hotel ?> </option>
+                                            <option value="Low Budget - Less than Rs. 3,000">Low Budget - Less than Rs. 3,000</option>
                                             <option value="Medium - Rs. 3,000 - Rs. 5,000">Medium - Rs. 3,000 - Rs. 5,000</option>
                                             <option value="Luxury & Palaces - Rs. 3,000 to Rs. 10,000">Luxury &amp; Palaces - Rs. 3,000 to Rs. 10,000 </option>
                                             <option value="High End Hotels - Rs. 10,000 and Above">High End Hotels - Rs. 10,000 and Above</option>
                                         </select>
-                                    </div>
-
-                                    <div class="error">
-                                        <?= form_error('hotel')?>
                                     </div>
 
                                     <div class="form-field">
@@ -202,85 +182,72 @@
                                         class="field-input calendar-input"
                                         name="dateOfVisit"
                                         type="text"
-                                         required="required" value="<?= $dateOfVisit ?>" readonly="true">
+                                         required="required"  value= "<?= $dateOfVisit ?>" >
                                     </div>
 
                                     <div class="form-field">
                                         <label for="daysStay">Number of Days</label>
-                                        <input type="text" name="daysStay" id="daysStay" class="field-input" required="required" value="<?= $daysStay ?>" readonly="true"> 
+                                        <input type="text" name="daysStay" id="daysStay" class="field-input" required="required"  value= "<?= $daysStay  ?>" > 
                                     </div>
 
-                                    <div class="error">
-                                        <?= form_error('daysStay')?>
-                                    </div>
+                                    
 
                                     <div class="form-field">
                                         <label for="people">Number of People</label>
-                                        <input type="text" name="people" id="people" class="field-input" required="required" value="<?= $people ?>" readonly="true"> 
+                                        <input type="text" name="people" id="people" class="field-input" required="required"  value= "<?= $people ?>" > 
                                     </div>
 
-                                    <div class="error">
-                                        <?= form_error('people')?>
-                                    </div>
+                                   
 
                                     <div class="form-field">
-                                        <label for="itinerary" class="control-label">Rough Itinerary &amp; Details (Provide maximum details to workout in a best way for your travel) :</label>
-                                        <textarea rows='5' class="field-input" name="itinerary" id="itinerary" required="required"  readonly="true">
+                                        <label for="itinerary" class="control-label">Rough Itinerary & Details (Provide maximum details to workout in a best way for your travel) :</label>
+                                        <textarea rows='5' class="field-input" name="itinerary" id="itinerary" required="required"  >
                                             <?= $itinerary ?>
                                         </textarea> 
                                     </div>
 
-                                    <div class="error">
-                                        <?= form_error('itinerary')?>
-                                    </div>
-
+                                    
                                     <div class="form-field">
                                         <label for="reference" class="control-label">Reference (if any)</label>
-                                        <input type="text" name="reference" id="reference" class="field-input" value="<?= $reference ?>" readonly="true">
+                                        <input type="text" name="reference" id="reference" class="field-input"  value= "<?= $reference ?>" >
                                             
                                     </div>
                                     
 
 
                                     <div class="radio-checkbox">
-                                        <input type="checkbox" class="checkbox" id="accept" onchange="notMe();" name="accept" readonly="true" >
+                                        <input type="checkbox" class="checkbox" id="accept" onchange="notMe();" name="accept"  >
                                         <label for="accept">I am not staying at the hotel. I am making this booking for someone else.</label>
                                     </div>
 
                                     <div id="extra">
                                         <div class="form-field">
                                             <label for="travellerName" class="control-label">Name of Traveller (Any One)</label>
-                                            <input type="text" name="travellerName" id="travellerName" class="field-input" value="<?= $travellerName ?>" readonly="true"> 
+                                            <input type="text" name="travellerName" id="travellerName" class="field-input"  value= "<?= $travellerName ?>" > 
                                         </div>
 
-                                        <div class="error">
-                                            <?= form_error('travellerName')?>
-                                        </div>
+                                       
 
                                         <div class="form-field">
                                             <label for="travellerEmail" class="control-label">Email of Above Mentioned Traveller</label>
-                                            <input type="email" name="travellerEmail" class="field-input" id="travellerEmail" value="<?= $travellerEmail ?>" readonly="true">
+                                            <input type="email" name="travellerEmail" class="field-input" id="travellerEmail"  value= "<?= $travellerEmail ?>" >
                                         </div>
 
-                                        <div class="error">
-                                            <?= form_error('travellerEmail')?>
-                                    </div>
+                                        
 
                                         <div class="form-field">
                                             <label for="travellerPhone" class="control-label">
                                                 Phone Number of Traveller
                                             </label>
-                                            <input type="text" name="travellerPhone" id="travellerPhone" class="field-input" maxlength="10" value="<?= $travellerPhone ?>" readonly="true">
+                                            <input type="text" name="travellerPhone" id="travellerPhone" class="field-input" maxlength="10"  value= "<?= $travellerPhone ?>" >
                                         </div>
 
-                                        <div class="error">
-                                            <?= form_error('travellerEmail')?>
-                                        </div>
+                                       
 
                                     </div> 
 
                             </div>        
-                                    <div class="col-sm-5 col-md-5 col-lg-5 col-xs-5 cart-number" >   
+                                    <div class="col-sm-5 col-md-12 col-lg-5 cart-number" >   
                                                 <br><br><br><br><br><br>
                                             <h2 style="display: inline-block;">Cost of Your Selected Tour  : </h2>
                                          <span style="color:green"> &nbsp;&nbsp; <h4 style="display: inline-block;">&#8377;</h4> 
@@ -307,27 +274,21 @@
                                         </table>
                                     </div>
                                 </div>  
-   
-                                        <br><br>
-                                <div class="col-md-6 xs-6 sm-6 lg-6" style="margin-left: 30%">        
-                                    <div class="g-recaptcha" data-sitekey="6LfXoxgUAAAAADJeG8DlRHk9278SsMWtmYY-xFqX"></div>
-                                        <br><br>
-                               
-                                </div>                          
-                                
-                                                 
-                                    <div class="col-md-12" style="margin-left: 0%">
-                                        <p>By clicking on the button below to complete this booking I acknowledge that I have read and accept the <span>rules &amp; restrictions, terms &amp; conditions</span> and <span>privacy policy</span>.</p>
 
+                                        <br><br>
+                                <div class="col-md-6" style="margin-left: 0%%">        
+                                    <div class="g-recaptcha" data-sitekey="6LfXoxgUAAAAADJeG8DlRHk9278SsMWtmYY-xFqX" style="margin-left: 30%"></div>
                                             <br><br>
-                                    </div>
-                                    
-                                    <div class = "col-md-6 col-lg-6 col-xs-6 col-sm-6" style="margin-left: 30%">        
-                                        <input type = "submit" class="awe-btn awe-btn-1 awe-btn-lager" name="editInfo" value="Edit Information"> &nbsp;&nbsp;
-                                            <h3 style="display: inline-block;">or</h3> &nbsp;&nbsp;
-                                        <input type="submit" name="proceed" class="awe-btn awe-btn-1 awe-btn-lager" value="Proceed">
+                                    <div class="" style="margin-left: 0%">
+                                        <p>By clicking on the button below to complete this booking I acknowledge that I have read and accepted the <span>rules &amp; restrictions, terms &amp; conditions</span> and <span>privacy policy</span>.</p>
+                                        <br>
                                     </div>
                                 </div>        
+                                    <div class="col-md-12" style="margin-left: 35%">   
+                                        <input type="submit" name="proceed" class="awe-btn awe-btn-1 awe-btn-lager" value="Proceed">
+                                    </div>    
+                                </div>
+                                </div>    
 
                                 </form>
                             </div>        

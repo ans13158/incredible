@@ -107,7 +107,7 @@
                         <div class="row ">
                             <div class="col-md-8" style="margin-left: 20%">
                                 <h2>Enter Your Information</h2>
-                                <form action="" method="POST" class="form-vertical">
+                                <form action="tripBookings" method="POST" class="form-vertical">
                                     <div class="form-field">
                                         
                                         <label for="fullName" class="control-label">Full Name</label>
@@ -122,7 +122,7 @@
                                     
                                     <div class="form-field">
                                         <label for="contact" class="control-label">Contact Number</label>
-                                        <input type="text" placeholder="Contact Number" class="field-input" required="required" maxlength="10">
+                                        <input type="text"  name="contact" placeholder="Contact Number" class="field-input" required="required" maxlength="10">
                                     </div>
                                     
                                     <div class="form-field">
@@ -130,8 +130,17 @@
 
                                         <select name="state" placeholder="Select Destination State" class="field-input" data-value="Select Destination State" class="field-input" onchange="selectDestination(this)">
                                         <option>Select Destination State</option>
-                                        <option value="uttarakhand">Uttarakhand</option>
+                                        <option value="Uttarakhand">Uttarakhand</option>
                                         <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                        <option value="Goa">Goa</option>
+                                        <option value="Andaman and Nicobar">Andaman and Nicobar</option>
+                                        <option value='Daman and Diu'>Daman and Diu</option>
+                                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                        <option value="Kerala">Kerala</option>
+                                        <option value="Rajasthan">Rajasthan</option>
+                                        <option value="Chandigarh">Chandigarh</option>
+                                        <option value='Maharashtra'>Maharashtra</option>
+                                        <option value="Himachal Pradesh">Himachal Pradesh</option>
                                         </select>
                                     </div>
 
@@ -146,10 +155,10 @@
                                         <label class="control-label" for="hotel">Select Type of Hotel</label>
                                         <select name="hotel" id="hotel" class="field-input">
                                             <option>Select Hotel Type</option>
-                                            <option value="low">Low Budget - Less than Rs. 3,000</option>
-                                            <option value="medium">Medium - Rs. 3,000 - Rs. 5,000</option>
-                                            <option value="luxury">Luxury & Palaces - Rs. 3,000 to Rs. 10,000 </option>
-                                            <option value="high">High End Hotels - Rs. 10,000 and Above</option>
+                                            <option value="Low Budget - Less than Rs. 3,000">Low Budget - Less than Rs. 3,000</option>
+                                            <option value="Medium - Rs. 3,000 - Rs. 5,000">Medium - Rs. 3,000 - Rs. 5,000</option>
+                                            <option value="Luxury & Palaces - Rs. 3,000 to Rs. 10,000">Luxury &amp; Palaces - Rs. 3,000 to Rs. 10,000 </option>
+                                            <option value="High End Hotels - Rs. 10,000 and Above">High End Hotels - Rs. 10,000 and Above</option>
                                         </select>
                                     </div>
 
@@ -158,7 +167,7 @@
                                         
                                         <input
                                         class="field-input calendar-input"
-                                        name="date"
+                                        name="dateOfVisit"
                                         type="text"
                                         >
                                     </div>
@@ -168,10 +177,7 @@
                                         <input type="text" name="daysStay" id="daysStay" class="field-input"> 
                                     </div>
                                     
-                                    <div class="form-field">
-                                        <label for="daysStay">Number of Days</label>
-                                        <input type="text" name="daysStay" id="daysStay" class="field-input"> 
-                                    </div>
+                                    
 
                                     <div class="form-field">
                                         <label for="people">Number of People</label>
@@ -221,10 +227,10 @@
 
                                     <div class="submit text-center">
                                         <p>By clicking on the button below to complete this booking I acknowledge that I have read and accept the <span>rules &amp; restrictions, terms &amp; conditions</span> and <span>privacy policy</span>.</p>
-                                        <button class="awe-btn awe-btn-1 awe-btn-lager">Book &amp; Pay now</button>     
+                                        <input type="submit" name="payNow" class="awe-btn awe-btn-1 awe-btn-lager" value="Book &amp; Pay now">
                                             &nbsp;&nbsp;&nbsp;
                                             <h3 style="display: inline-block;">or</h3> &nbsp;&nbsp;
-                                        <button class="awe-btn awe-btn-1 awe-btn-lager">Book Now &amp; Pay Later</button>
+                                        <input type="submit" name="payLater" class="awe-btn awe-btn-1 awe-btn-lager" value="Book Now &amp; Pay Later">
                                     </div>
 
 
@@ -246,9 +252,33 @@
                 var destinationState = state.value;
                 var destination = document.getElementById("destination")
                 if(destinationState == "uttarakhand")  {
-                    destination.innerHTML = "<option value='nainital'>Nainital</option>"
+                    destination.innerHTML = "<option value='Nainital'>Nainital</option>"
                     +"<br>"
-                    +"<option value='almora'>Almora</option>"
+                    +"<option value='Almora'>Almora</option>"
+                    +"<br>"
+                    +"<option value='Mussoorie'>Mussoorie</option>"
+                    +"<br>"
+                    +"<option value='Munsiyari'>Munsiyari</option>"
+                    +"<br>"
+                    +"<option value='Kausani'>Kausani</option>"
+                    +"<br>"
+                    +"<option value='Valley Of Flowers'>Valley Of Flowers</option>"
+                    +"<br>"
+                    +"<option value='Ranikhet'>Ranikhet</option>"
+                    +"<br>"
+                    +"<option value='Chamoli'>Chamoli</option>"
+                    +"<br>"
+                    +"<option value='Lansdowne'>Lansdowne</option>"
+                    +"<br>"
+                    +"<option value='Hemkund Sahib'>Hemkund Sahib</option>"
+                    +"<br>"
+                    +"<option value='Bageshwar'>Bageshwar</option>"
+                    +"<br>"
+                    +"<option value='Pithogarh'>Pithogarh</option>"
+                    +"<br>"
+                    +"<option value='Bhimtal'>Bhimtal</option>"
+                    +"<br>"
+                    +"<option value='Haridwar'>Haridwar</option>"
                 }
 
                else  {

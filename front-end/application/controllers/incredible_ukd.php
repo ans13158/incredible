@@ -79,14 +79,173 @@ class Incredible_Ukd extends CI_Controller  {
     }
 
     public function bookMyTrip()  {
-    	$this->load->helper('form');
+    	$this->load->helper( array('form') );
     	$this->load->view('incredible/bookTrip');
     }
 
+    public function tripBookings()  {
+        $this->load->helper( array('form','url') );
+        $this->load->library('form_validation');
+
+        $tripDetails = array();
+
+        /*$this->form_validation->set_error_delimiters('<div class="error style="color:red">','</div>');
+
+        $this->form_validation->set_rules('fullName','Full Name','trim|requied|min_length[3]|alpha');
+        $this->form_validation->set_rules('email','Email', 'trim|required|valid_email');
+        $this->form_validation->set_rules('contact','Contact Number','trim|required|is_natural|min_length[6]|max_length[12]');
+        $this->form_validation->set_rules('state','Tour Package','required');
+        $this->form_validation->set_rules('destination','Destination','required');
+        $this->form_validation->set_rules('daysStay','No. of days staying','trim|required|is_natural');
+        $this->form_validation->set_rules('people','No. of People','trim|required|is_natural');
+        $this->form_validation->set_rules('itinerary','itinerary','trim|htmlspecialchars');
+        $this->form_validation->set_rules('travellerName','Name  of Traveller', 'trim|alpha');
+        $this->form_validation->set_rules('travellerEmail','Email of traveller','trim|valid_email');
+        $this->form_validation->set_rules('travellerPhone','Phone No. of traveller', 'trim|is_natural');*/
+
+        /*if($this->form_validation->run() == FALSE)  {
+            $this->load->view('incredible/bookPackage');
+         }
+
+         else  {*/
+                
+            $tripDetails['fullName'] = $this->input->post('fullName');
+            $tripDetails['email'] = $this->input->post('email');
+            $tripDetails['contact'] = $this->input->post('contact');
+            $tripDetails['state'] = $this->input->post('state');
+            $tripDetails['destination'] = $this->input->post('destination');
+            $tripDetails['hotel'] = $this->input->post('hotel');
+            $tripDetails['dateOfVisit'] = $this->input->post('dateOfVisit');
+            $tripDetails['daysStay'] = $this->input->post('daysStay');
+            $tripDetails['people'] = $this->input->post('people');
+            $tripDetails['itinerary'] = $this->input->post('itinerary');
+            $tripDetails['reference']  = $this->input->post('reference');
+            $tripDetails['accept'] = $this->input->post('accept');
+            $tripDetails['travellerName'] = $this->input->post('travellerName');
+            $tripDetails['travellerPhone'] = $this->input->post('travellerPhone');
+            $tripDetails['travellerEmail'] = $this->input->post('travellerEmail');
+            $tripDetails['payNow'] = $this->input->post('payNow');
+            $tripDetails['payLater'] = $this->input->post('payLater');
+
+            $this->load->view('incredible/verifyDetails.php',$tripDetails);
+            
+         //}   
+    }
+
+
+    public function confirmDetails()  {
+        $confirmData = array();
+        if($this->input->post('editInfo')  )
+            {
+                $confirmData['next'] = $this->input->post('editInfo');
+            
+                $confirmData['fullName'] = $this->input->post('fullName');
+                $confirmData['email'] = $this->input->post('email');
+                $confirmData['contact'] = $this->input->post('contact');
+                $confirmData['state'] = $this->input->post('state');
+                $confirmData['destination'] = $this->input->post('destination');
+                $confirm['hotel'] = $this->input->post('hotel');
+                $confirmData['dateOfVisit'] = $this->input->post('dateOfVisit');
+                $confirmData['daysStay'] = $this->input->post('daysStay');
+                $confirmData['people'] = $this->input->post('people');
+                $confirmData['itinerary'] = $this->input->post('itinerary');
+                $confirmData['reference']  = $this->input->post('reference');
+                $confirmData['accept'] = $this->input->post('accept');
+                $confirmData['travellerName'] = $this->input->post('travellerName');
+                $confirmData['travellerPhone'] = $this->input->post('travellerPhone');
+                $confirmData['travellerEmail'] = $this->input->post('travellerEmail');
+                $this->load->view('incredible/editDetails',$confirmData);
+            
+        }   
+
+        else if($this->input->post('proceed') )  {
+        
+               
+            $user = $this->input->post();
+            unset($user['g-recaptcha-response']);
+            unset($user['proceed']);
+            
+           // print_r($user);
+
+             $this->load->model('incredible/bookings');
+             $array = $this->bookings->bookTripDestination($user);
+            $row_affected = $array[0];
+            $bookedData = $array[1];
+            
+
+            if($row_affected)  {
+                $bookedData['msg'] = "Successful";
+            }
+
+            else {
+                $bookedData['msg'] = "Failed";
+            }
+
+            $this->load->view('incredible/saveTripBookings',$bookedData);
+        }
+    }
+    
     public function bookPackage()  {
     	$this->load->helper('form');
     	$this->load->view('incredible/bookPackage');
     }
+
+
+    public function confirmBooking()  {
+        $confirmDetails = array();
+        //echo $confirm['next'];
+            
+        if($this->input->post('editInfo')  )
+            {
+                $confirmDetails['next'] = $this->input->post('editInfo');
+            
+                $confirmDetails['fullName'] = $this->input->post('fullName');
+                $confirmDetails['email'] = $this->input->post('email');
+                $confirmDetails['contact'] = $this->input->post('contact');
+                $confirmDetails['state'] = $this->input->post('state');
+                $confirmDetails['destination'] = $this->input->post('destination');
+                $confirmDetails['hotel'] = $this->input->post('hotel');
+                $confirmDetails['dateOfVisit'] = $this->input->post('dateOfVisit');
+                $confirmDetails['daysStay'] = $this->input->post('daysStay');
+                $confirmDetails['people'] = $this->input->post('people');
+                $confirmDetails['itinerary'] = $this->input->post('itinerary');
+                $confirmDetails['reference']  = $this->input->post('reference');
+                $confirmDetails['accept'] = $this->input->post('accept');
+                $confirmDetails['travellerName'] = $this->input->post('travellerName');
+                $confirmDetails['travellerPhone'] = $this->input->post('travellerPhone');
+                $confirmDetails['travellerEmail'] = $this->input->post('travellerEmail');
+                $this->load->view('incredible/editInfo',$confirmDetails);
+            
+        }   
+
+        else if($this->input->post('proceed') )  {
+        
+               
+            $userData = $this->input->post();
+            unset($userData['g-recaptcha-response']);
+            unset($userData['proceed']);
+            
+            //print_r($userData);
+
+            $this->load->model('incredible/bookings');
+             $array = $this->bookings->bookTour($userData);
+            $row_affected = $array[0];
+            $bookedData = $array[1];
+            
+
+            if($row_affected)  {
+                $bookedData['msg'] = "Successful";
+            }
+
+            else {
+                $bookedData['msg'] = "Failed";
+            }
+
+            $this->load->view('incredible/saveBookings',$bookedData);
+        }
+    }
+
+
 
     //Function for booking tour package.
     public function bookTour()  {
@@ -181,7 +340,7 @@ class Incredible_Ukd extends CI_Controller  {
             //print_r($userData);
 
     		$this->load->model('incredible/bookings');
-             $array = $this->bookings->bookTour($userData);
+             $array = $this->bookings->bookTourPackage($userData);
             $row_affected = $array[0];
             $bookedData = $array[1];
             

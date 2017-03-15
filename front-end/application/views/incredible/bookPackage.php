@@ -174,10 +174,10 @@
                                         <label class="control-label" for="hotel">Select Type of Hotel</label>
                                         <select name="hotel" id="hotel" class="field-input" required="required" value="<?= set_value('hotel') ?>" >
                                             <option>Select Hotel Type</option>
-                                            <option value="low">Low Budget - Less than Rs. 3,000</option>
-                                            <option value="medium">Medium - Rs. 3,000 - Rs. 5,000</option>
-                                            <option value="luxury">Luxury & Palaces - Rs. 3,000 to Rs. 10,000 </option>
-                                            <option value="high">High End Hotels - Rs. 10,000 and Above</option>
+                                             <option value="Low Budget - Less than Rs. 3,000">Low Budget - Less than Rs. 3,000</option>
+                                            <option value="Medium - Rs. 3,000 - Rs. 5,000">Medium - Rs. 3,000 - Rs. 5,000</option>
+                                            <option value="Luxury & Palaces - Rs. 3,000 to Rs. 10,000">Luxury &amp; Palaces - Rs. 3,000 to Rs. 10,000 </option>
+                                            <option value="High End Hotels - Rs. 10,000 and Above">High End Hotels - Rs. 10,000 and Above</option>
                                         </select>
                                     </div>
 

@@ -118,7 +118,7 @@
                                 		<br>
 
 
-                                <form action="confirmBooking" method="POST" class="form-vertical">
+                                <form action="confirmDetails" method="POST" class="form-vertical">
                                     <div class="form-field">
                                         
                                         <label for="fullName" class="control-label">Full Name</label>
@@ -140,7 +140,7 @@
 
                                     <div class="form-field">
                                         <label for="contact" class="control-label">Contact Number</label>
-                                        <input type="text" name="contact" id="contact" placeholder="Contact Number" class="field-input" required="required" maxlength="10" value="<?= $contact ?>" readonly="true">
+                                        <input type="text" name="contact" id="contact" placeholder="Contact Number" class="field-input" required="required" maxlength="10" value="<?=  $contact ?>" readonly="true">
                                     </div>
 
                                     <div class="error">
@@ -148,43 +148,43 @@
                                     </div>
                                     
                                     <div class="form-field">
-                                        <label for="package" class="control-label">Select Tour Package</label>
+                                        <label for="state" class="control-label">Select Destination State</label>
 
-                                        <select name="state" placeholder="Select Tour Package" class="field-input" data-value="Select Tour Package" class="field-input" onchange="selectPackage(this)" required="required" value="<?= $state ?>" readonly="true">
-                                        <option>Select Tour Package</option>
-                                        <option selected="selected"> <?= $state ?></option>
-                                        <option value="pilgrim">Pilgrims Tour Package</option>
-                                        <option value="wildlife">Wild Life Tour Package</option>
-                                        <option value="excursion">Excursion Tour Package</option>
-                                        <option value="honeymoon">HoneyMoon Tour Package</option>
-                                        <option value="trekking">Trekking Tour Package</option>
-                                        <option value="motorbike">MotorBike Tour Package</option>
-                                        <option value="homestay">Home Stay Tour Package</option>
+                                        <select name="state" placeholder="Select Destination State" class="field-input" data-value="Select Destination State" class="field-input" onchange="selectDestination(this)">
+                                        <option>Select Destination State</option>
+                                        <option value="<?= $state ?>" selected > <?= $state ?> </option>
+                                        <option value="Uttarakhand">Uttarakhand</option>
+                                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                        <option value="Goa">Goa</option>
+                                        <option value="Andaman and Nicobar">Andaman and Nicobar</option>
+                                        <option value='Daman and Diu'>Daman and Diu</option>
+                                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                        <option value="Kerala">Kerala</option>
+                                        <option value="Rajasthan">Rajasthan</option>
+                                        <option value="Chandigarh">Chandigarh</option>
+                                        <option value='Maharashtra'>Maharashtra</option>
+                                        <option value="Himachal Pradesh">Himachal Pradesh</option>
                                         </select>
-                                    </div>
-
-                                    <div class="error">
-                                        <?= form_error('state')?>
                                     </div>
 
                                     <div class="form-field">
-                                        <label class="control-label" for="destination">Select Destination According to Package</label>
-                                        <select name="destination" id="destination" class="field-input" onchange="setItinerary(this)" required="required" readonly="true">
+                                        <label class="control-label" for="destination">Select Destination</label>
+                                        <select name="destination" id="destination" class="field-input">
                                             <option>Select Destination</option>
-                                            <option selected="selected"> <?= $destination ?></option>
+                                            <option selected="selected" value="<?= $destination ?>">
+                                                <?= $destination ?>
+                                            </option>
                                         </select>
-                                    </div>
-
-                                    <div class="error">
-                                        <?= form_error('destination')?>
                                     </div>
 
                                     <div class="form-field">
                                         <label class="control-label" for="hotel">Select Type of Hotel</label>
-                                        <select name="hotel" id="hotel" class="field-input" required="required" value="<?= $hotel ?>" readonly="true">
+                                        <select name="hotel" id="hotel" class="field-input">
                                             <option>Select Hotel Type</option>
-                                            <option selected="selected"> <?= $hotel ?></option>
-                                             <option value="Low Budget - Less than Rs. 3,000">Low Budget - Less than Rs. 3,000</option>
+                                            <option selected="selected" value="<?= $hotel ?>">
+                                                <?= $hotel ?>
+                                            </option>
+                                            <option value="Low Budget - Less than Rs. 3,000">Low Budget - Less than Rs. 3,000</option>
                                             <option value="Medium - Rs. 3,000 - Rs. 5,000">Medium - Rs. 3,000 - Rs. 5,000</option>
                                             <option value="Luxury & Palaces - Rs. 3,000 to Rs. 10,000">Luxury &amp; Palaces - Rs. 3,000 to Rs. 10,000 </option>
                                             <option value="High End Hotels - Rs. 10,000 and Above">High End Hotels - Rs. 10,000 and Above</option>
@@ -216,7 +216,7 @@
 
                                     <div class="form-field">
                                         <label for="people">Number of People</label>
-                                        <input type="text" name="people" id="people" class="field-input" required="required" value="<?= $people ?>" readonly="true"> 
+                                        <input type="text" name="people" id="people" class="field-input" required="required" value="<?= $people ?>"  readonly="true"> 
                                     </div>
 
                                     <div class="error">
@@ -277,9 +277,9 @@
                                             <?= form_error('travellerEmail')?>
                                         </div>
 
-                                    </div> 
-
-                            </div>        
+                                </div>
+                            </div>
+                                           
                                     <div class="col-sm-5 col-md-5 col-lg-5 col-xs-5 cart-number" >   
                                                 <br><br><br><br><br><br>
                                             <h2 style="display: inline-block;">Cost of Your Selected Tour  : </h2>

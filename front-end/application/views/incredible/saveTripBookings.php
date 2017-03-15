@@ -56,7 +56,7 @@
                                             </li>
                                         </ul>
                                     </li>               
-                                    <li><?= anchor( '','Destinations')?>
+                                    <li  class="current-menu-parent"><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
                                             <li><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
                                             <li><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
@@ -64,7 +64,7 @@
                                         </ul>
                                     </li>
                                     
-                                    <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
+                                    <li><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
                                         <ul class="sub-menu"  >
                                             <li style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
@@ -169,7 +169,7 @@
 
                                         <tr>
                                            <th>
-                                               Tour Package
+                                               State
                                            </th>  
 
                                            <td>
