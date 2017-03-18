@@ -5,11 +5,12 @@
                 
           <!-- ==============Main Body ================-->      
         
-        <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
+            <div class="bars" id="bars"></div>
+                <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
                     <div class="nav-inner"><a href="#" class="bars-close" id="bars-close">Close</a>
                         <div class="tb">
                             <div class="tb-cell">
-                                <ul class="menu-list text-uppercase">
+                                 <ul class="menu-list text-uppercase">
                                     <li ><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
                                         
                                     <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
@@ -34,8 +35,8 @@
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </li>            
-                                    <li><?= anchor( '' ,'Destinations')?>
+                                    </li>               
+                                    <li><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
                                             <li><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
                                             <li><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
@@ -43,19 +44,19 @@
                                         </ul>
                                     </li>
                                     
-                                    <li ><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
+                                    <li><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
                                         <ul class="sub-menu"  >
-                                            <li style=""><?= anchor( base_url('incredible_ukd'),'Pilgrims Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd'),'Wildlife Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd'),'Excursion Tour Packages')?></li>
-                                            <li ><?= anchor( base_url('incredible_ukd'),'Honeymoon Packages')?></li>
-                                            <li style=""><?= anchor('','Trekking Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd'),'Motorbike Packages')?></li>
-                                            <li style=""><?= anchor('incredible_ukd','Home Stay')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
+                                            <li style=""><?= anchor('incredible_ukd/trekking','Trekking Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
+                                            <li style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
                                             
                                         </ul>
                                     </li>
-                                    <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
+                                   <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
                                     
                                 </ul>
                             </div>
@@ -64,6 +65,9 @@
                 </nav>
             </div>
         </header>
+
+                             
+                
         <div class="main">
             <div class="container">
                 <div class="main-cn about-page bg-white clearfix">
@@ -76,12 +80,12 @@
                     <section class="about-cn clearfix ">
                             
                         <div class="about-text ">
-                            <h4 style="font-weight: bold;color:#333;line-height: 1.5;text-align: center;">Incredible Uttarakhand is tour planner agency located at Nainital and Almora districts of Uttarakhand with Main Office at Almora district and Satellite Office at Haldwani, Nainital.</h4>
+                            <h4 style="font-weight: bold;color:#333;line-height: 1.5;text-align: center;">Incredible Uttarakhand is Tour Planner Agency located at Nainital and Almora districts of Uttarakhand with Main Office at Almora district and Satellite Office at Haldwani, Nainital.</h4>
                              <br>
                              <img src="<?= base_url('images/about.png') ?>">
                             <div class="about-description">
                                 
-                                <p style="font-family: bariol;font-size: 17px;line-height: 1.5">Our tour planner agency is assisted by department of tourism, govt. of Uttarakhand . We the planners belong to the land of gods itself so our understanding and knowing of of Uttarakhand region is far better. Our main aim is to explore the unexplored and majestic sites because there are many places in Uttarakhand which are not in tourism map of the state but far cheap and beautiful than other famous hilly regions. Our mission is to provide unexplored places of uttarakhand an identity on tourism map as well as provide cheap, exciting and memorable tour packages to our clients.Uttarakhand offers limitless opportunities for tourism and adventure. There is something for everyone - Pilgrimage, Temples, Wildlife tours, Bird Watching, Rafting, Mountaineering, Skiiing, Trekking, Camping, Yoga and Meditation and much more. Incredible Uttarakhand introduce itself as a fast growing Tour Operator and Travel Agent based at Uttarakhand. Incredible Uttarakhand, covers complete Uttarakhand range from Kumaon Hills to Garhwal Hills to provide you extreme enjoyment. Incredible Uttarakhand, has complete information about areas we cover and you might have to visit. Incredible Uttarakhand, has a list of Tours like Adventure, Holidays, Pilgrimage and Honeymoon. We even manage hotels and every facility in remote areas. We have a huge list of satisfied clients and you could be the next.<br><br></p>
+                                <p style="font-family: bariol;font-size: 17px;line-height: 1.5">Our tour planner agency is assisted by Department of Tourism, Govt. of Uttarakhand . We the planners belong to the "Land of Gods" itself so our understanding and knowing of of Uttarakhand region is far better. Our main aim is to explore the unexplored and majestic sites because there are many places in Uttarakhand which are not in tourism map of the state but far cheap and beautiful than other famous hilly regions. Our mission is to provide unexplored places of Uttarakhand an identity on tourism map as well as provide cheap, exciting and memorable tour packages to our clients.Uttarakhand offers limitless opportunities for tourism and adventure. There is something for everyone - Pilgrimage, Temples, Wildlife tours, Bird Watching, Rafting, Mountaineering, Skiiing, Trekking, Camping, Yoga and Meditation and much more. Incredible Uttarakhand introduce itself as a fast growing Tour Operator and Travel Agent based at Uttarakhand. Incredible Uttarakhand, covers complete Uttarakhand range from Kumaon Hills to Garhwal Hills to provide you extreme enjoyment. Incredible Uttarakhand, has complete information about areas we cover and you might have to visit. Incredible Uttarakhand, has a list of Tours like Adventure, Holidays, Pilgrimage and Honeymoon. We even manage hotels and every facility in remote areas. We have a huge list of satisfied clients and you could be the next.<br><br></p>
                                <h4 style="font-weight: bold;color:#333;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif">Vision & Mission</h4>
                                 <ul>
                                     <strong>
@@ -118,7 +122,7 @@
                         </div>
                     </section>
 
-                    <section class="team" id="partners">
+                    <section class="team" id="our_partners">
                         <h3>Our Partners</h3>
                         <p> <b>These caring poeple have partnered with us to find new ways to give you an experience of a trip you will remember for a lifetime.</b> </p>
                             <br>
@@ -137,33 +141,56 @@
                                 <!--==== Wrapper for slides ====-->
                                         <div class="carousel-inner" style="width: 100%">
                                             <div class="item active">
-                                                <a href="#" ><?= img( ["src" => "images/icon/mmt.png","style"=>"width:60%;height:300px;display:inline-block"] )  ?>                     </a>
-                                                <a href="#" ><?= img( ["src" => "images/icon/mmt-ceo.jpg","style"=>"width:39.6%;height:300px;display:inline-block"] )  ?>                     </a>
+
+                                                <div class="col-xs-6 col-sm-6">
+                                                    <a href="#" ><?= img( ["src" => "images/destinations/img-1.jpg","style"=>"height:300px;display:inline-block"] )  ?>                     </a>
+                                                </div>
+
+                                                <div class="col-xs-6 col-sm-6">
+                                                    <a href="#" ><?= img( ["src" => "images/destinations/img-1.jpg","style"=>"height:300px;display:inline-block"] )  ?>                     </a>
+                                                </div>    
                                                 
                                                   
                                             </div>
 
                                             <div class="item">
-                                                 <a href="#" ><?= img( ["src" => "images/icon/airIndia.jpg","style"=>"width:60%;height:280px;display:inline-block"] )  ?>                     </a>
-                                                <a href="#" ><?= img( ["src" => "images/icon/airIndia-ceo.jpg","style"=>"width:39.6%;height:300px;display:inline-block"] )  ?>                     </a>
+                                                <div class="col-xs-6 col-sm-6">
+                                                  <a href="#" ><?= img( ["src" => "images/destinations/img-1.jpg","style"=>"height:280px;display:inline-block"] )  ?>
+                                                 </a>
+                                                </div> 
+                                                <div class="col-xs-6 col-sm-6">
+                                                    <a href="#" ><?= img( ["src" => "images/destinations/img-1.jpg","style"=>"height:300px;display:inline-block"] )  ?>                     </a>
+                                                </div>    
                                                       
                                             </div>
 
                                             <div class="item">
-                                                <a href="#" ><?= img( ["src" => "images/icon/mmt.png","style"=>"width:60%;height:300px;display:inline-block"] )  ?>                     </a>
-                                                <a href="#" ><?= img( ["src" => "images/icon/mmt-ceo.jpg","style"=>"width:39.6%;height:300px;display:inline-block"] )  ?>                     </a>
-                                                       
+                                                <div class="col-xs-6 col-sm-6">
+                                                    <a href="#" ><?= img( ["src" => "images/destinations/img-1.jpg","style"=>"height:300px;display:inline-block"] )  ?>                     </a>
+                                                </div>
+                                                <div class="col-xs-6 col-sm-6">    
+                                                <a href="#" ><?= img( ["src" => "images/destinations/img-1.jpg","style"=>"height:300px;display:inline-block"] )  ?>                     </a>
+                                               </div>        
                                             </div>
 
                                             <div class="item">
-                                                <a href="#" ><?= img( ["src" => "images/icon/mmt.png","style"=>"width:60%;height:300px;display:inline-block"] )  ?>                     </a>
-                                                <a href="#" ><?= img( ["src" => "images/icon/mmt-ceo.jpg","style"=>"width:39.6%;height:300px;display:inline-block"] )  ?>                     </a>
+                                                <div class="col-xs-6 col-sm-6">
+                                                 <a href="#" ><?= img( ["src" => "images/destinations/img-1.jpg","style"=>"height:300px;display:inline-block"] )  ?>                     </a>
+                                                </div>
+                                                
+                                                <div class="col-xs-6 col-sm-6"> 
+                                                    <a href="#" ><?= img( ["src" => "images/destinations/img-1.jpg","style"=>"height:300px;display:inline-block"] )  ?>                     </a>
+                                                </div>    
                                                 
                                             </div>
 
                                             <div class="item">
-                                                 <a href="#" ><?= img( ["src" => "images/destinations/img-1.jpg","style"=>"width:49%;height:300px;display:inline-block"] )  ?>                     </a>
-                                                <a href="#" ><?= img( ["src" => "images/destinations/img-1.jpg","style"=>"width:50.6%;height:300px;display:inline-block"] )  ?>                     </a>
+                                                <div class="col-xs-6 col-sm-6">
+                                                 <a href="#" ><?= img( ["src" => "images/destinations/img-1.jpg","style"=>"height:300px;display:inline-block"] )  ?>                     </a>
+                                                </div>
+                                                <div class="col-xs-6 col-sm-6"> 
+                                                    <a href="#" ><?= img( ["src" => "images/destinations/img-1.jpg","style"=>"height:300px;display:inline-block"] )  ?>                     </a>
+                                                </div>      
                                                     
                                             </div>
 

@@ -10143,7 +10143,7 @@ footer {
     background-color: #111;
     padding-bottom: 50px;
     font-family: 'Open Sans';
-    height: 220px;
+    height: auto;
 }
 
 footer .logo-foter img {
@@ -10158,7 +10158,7 @@ footer .ul-ft ul {
 
 footer .ul-ft ul li a {
     color: #fff;
-    line-height: 30px
+    line-height: 32px
 }
 
 footer .ul-ft ul li a:hover {
@@ -10237,9 +10237,7 @@ footer .copyright {
     color: #fff;
     clear: both;
     line-height: 20px;
-    margin: 65px 0 0;
     
-    margin-left: -40px;
 }
 
 footer .about-team  {

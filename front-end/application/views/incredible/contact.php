@@ -6,18 +6,19 @@ require 'common/navbar.php';
 
 <body>
 
-    <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
+     <div class="bars" id="bars"></div>
+                <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
                     <div class="nav-inner"><a href="#" class="bars-close" id="bars-close">Close</a>
                         <div class="tb">
                             <div class="tb-cell">
-                                <ul class="menu-list text-uppercase">
-                                    <li><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                 <ul class="menu-list text-uppercase">
+                                    <li  ><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
                                         
                                     <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
 
-                                    <li><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
+                                    <li ><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
                                             <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                             </ul>
                                         </li>
@@ -35,10 +36,10 @@ require 'common/navbar.php';
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </li>           
-                                    <li><?= anchor( '','Destinations')?>
+                                    </li>               
+                                    <li ><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
                                             <li><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
                                            
                                         </ul>
@@ -46,17 +47,17 @@ require 'common/navbar.php';
                                     
                                     <li><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
                                         <ul class="sub-menu"  >
-                                            <li style="" ><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
-                                            <li><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
                                             <li style=""><?= anchor('incredible_ukd/trekking','Trekking Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
-                                            <li style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
+                                            <li  class="current-menu-parent" style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
                                             
                                         </ul>
                                     </li>
-                                    <li  class="current-menu-parent" ><?= anchor('incredible_ukd/contact','Contact Us')?></li>
+                                   <li   class="current-menu-parent"><?= anchor('incredible_ukd/contact','Contact Us')?></li>
                                     
                                 </ul>
                             </div>
@@ -66,9 +67,13 @@ require 'common/navbar.php';
             </div>
         </header>
 
-        <section class="sub-banner">
-            <div class="bg-parallax bg-1"></div>
-            
+         <section class="banner">
+            <div class="bg-parallax bg-3"></div>
+                <div class="logo-banner text-center">
+                    <a href="#" title=""><img src="<?= base_url('images/logo2.png') ?>" alt="" style="height: 100px;">
+                    <h3 style="color:white;text-decoration: none">Tour Planners</h3>
+                    </a>
+                </div>
         </section>
 
         <div class="main">

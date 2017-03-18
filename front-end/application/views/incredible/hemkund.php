@@ -7,18 +7,19 @@
 
 <body>
 
-    <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
+    <div class="bars" id="bars"></div>
+                <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
                     <div class="nav-inner"><a href="#" class="bars-close" id="bars-close">Close</a>
                         <div class="tb">
                             <div class="tb-cell">
-                                <ul class="menu-list text-uppercase">
-                                    <li><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                 <ul class="menu-list text-uppercase">
+                                    <li  ><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
                                         
                                     <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
 
-                                    <li><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
+                                    <li ><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
                                             <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                             </ul>
                                         </li>
@@ -36,18 +37,18 @@
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </li>                   
+                                    </li>               
                                     <li><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
                                             <li><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
                                            
                                         </ul>
                                     </li>
                                     
-                                    <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
+                                    <li  class="current-menu-parent"><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
                                         <ul class="sub-menu"  >
-                                            <li style="" class="current-menu-parent"><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
+                                            <li  class="current-menu-parent" style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
                                             <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
@@ -57,7 +58,7 @@
                                             
                                         </ul>
                                     </li>
-                                    <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
+                                   <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
                                     
                                 </ul>
                             </div>
@@ -66,6 +67,15 @@
                 </nav>
             </div>
         </header>
+
+         <section class="banner">
+            <div class="bg-parallax bg-3"></div>
+                <div class="logo-banner text-center">
+                    <a href="#" title=""><img src="<?= base_url('images/logo2.png') ?>" alt="" style="height: 100px;">
+                    <h3 style="color:white;text-decoration: none">Tour Planners</h3>
+                    </a>
+                </div>
+        </section>
 
         <div class="main">
             <div class="container">
@@ -81,7 +91,7 @@
                     </section>
                     <section class="blog-content">
                        <div class="row">
-	                        <div class="col-md-3 col-xs-4 col-sm-4">
+	                        <div class="col-md-3">
 	                                <div class="widget widget_categories">
 	                                    <h2 class="title-sidebar">Important Notes</h2>
 	                                    <ul>
@@ -169,14 +179,14 @@
 	                            </div>
 	                       
 
-                            <div class="col-md-9 col-sm-8 col-xs-8">
+                            <div class="col-md-9">
                                 <div class="post post-single">
                                     
-                                    <span style="display: inline-block;"><h1 class="title-post-head">Pilgrims Tour Packages</h1></span>
+                                    <span style="display: inline-block;"><h1 class="title-post-head">Pilgrims Packages</h1></span>
 
-                                     <span style="display: inline-block;float: right;margin-top: 10px"><a href="<?= base_url('incredible_ukd/bookPackage') ?>" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium">Book My Tour</a></span>
+                                     <span style="display: inline-block;margin-top: 10px"><a href="<?= base_url('incredible_ukd/bookPackage') ?>" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium">Book My Tour</a></span>
                                     <div class="post-media">
-                                        <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/hemkund.jpg'),  "alt"=>"", "style"=>"height:400px;width:100%"] ) ?></div>
+                                        <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/hemkund.jpg'),  "alt"=>"", "style"=>"height:300px;width:100%"] ) ?></div>
                                     </div>
                                     <div class="post-content">
                                         <blockquote>
@@ -192,7 +202,7 @@
 
                                         <p>With us, you can enjoy, explore, and experience the most popular places in India. From the day one to the last day of your trip, we are there to assist you with everything and bring you a desired Hemkund Sahib trip. So, choose the deal that suits you the most and feel on top of the world. In order to gain more information, you can get in touch with us anytime via the provided contact number.</p>
 
-                                        <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/hemkund2.jpg'),  "alt"=>"", "style"=>"height:400px;width:100%"] ) ?></div>
+                                        <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/hemkund2.jpg'),  "alt"=>"", "style"=>"height:300px;width:100%"] ) ?></div>
 
                                             <br>
                                         <h3 style="color:black">HEMKUND SAHIB TOUR :</h3>
@@ -203,19 +213,19 @@
 		                                    	
 		                                    	<li><a><h5 class="title-sidebar">Day 01 : Delhi – Haridwar (230 kms/6 hours)</h5></a></li>
                                                     <br>
-		                                              <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/haridwar-delhi.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+		                                              <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/haridwar-delhi.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
                                                         <br>
 		                                		<p>Arrival Delhi Railway Station, Meet & Assist further drive to Hardwar, Take lunch. Later drive to Hardwar transfer to your Hotel. Visit Har-ki-Pauri for Ganga Aarti in evening. Back to your hotel, Dinner & Night halt.</p>
 
 		                                			
 		                                		
 		                                		<li><a><h5 class="title-sidebar"> Day 02 : Haridwar – Joshimath (276 kms/8 hours)</h5></a></li>
-		                                	         <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/haridwar-joshimath.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+		                                	         <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/haridwar-joshimath.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
                                                         <br>
 		                                		<p>Morning, drive straight to Joshimath enroute visit Deoprayag, Rudraprayag & Karnprayag. Arrival Joshimath check in hotel. Overnight stay.</p>
 		                                			
 		                                		<li><a><h5 class="title-sidebar">Day 03 : Joshimath – Govind Ghat (22 kms drive)</h5></a></li>
-		                                			<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/joshimath-govindghat.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+		                                			<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/joshimath-govindghat.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
                                                         <br>
 		                                		<p>Ghangaria (13kms/4hr Trek) Drive to Govindghat, Trek Start from here to Ghangaria (3000 mts). Check in Hotel.</p>
 
@@ -223,7 +233,7 @@
 
 		                                		<li><a><h5 class="title-sidebar">
                                                 Day 04 : Ghangaria – Hemkund Sahib – Ghangaria (5.5 kms/5 hours each side)</h5></a></li>
-                                                    <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/gangharia-hemkunt.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+                                                    <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/gangharia-hemkunt.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
                                                     <br>
 		                                		<p>Early morning, trek start from here to Hemkund Sahib. Return back to Ghangaria after Darshan. Overnight stay.</p>
 
@@ -231,20 +241,20 @@
                                                 <p><strong>Temple of Lord Lakshman:</strong> A small temple nearby, dedicated to Lord Lakshman.</p>
 
 		                                		<li><a><h5 class="title-sidebar">Day 05 : Ghangaria – Govindghat (13kms trek down) – Rudraprayag (145 kms/5 hours) </h5></a></li>
-		                                		<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/gangharia-govindghat.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+		                                		<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/gangharia-govindghat.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
                                                     <br>
 		                                		<p>After 13 Kms trek from Ghangaria to Govind Ghat, drive to Rudraprayag from Govind Ghat. Check in Hotel. Overnight stay.</p>
 		                                		
 
 		                                		<li><a><h5 class="title-sidebar">Day 06 : Rudraprayag – Rishikesh – Haridwar (160 kms/5 hours) </h5></a></li>
 
-		                                		<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/rudraprayag-rishikesh.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+		                                		<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/rudraprayag-rishikesh.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
                                                     <br>
 		                                		<p>Early morning, Drive to Rishikesh. Visit Rishikesh Local Sight Seeing & Temples. Later drive to Hardwar. Check in Hotel. Overnight stay..</p>
 		                                		
 		                                		<li><a><h5 class="title-sidebar">Day 07 : Haridwar – Delhi (230 kms/6 hours)</h5></a></li>
 
-		                                		<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/haridwar-delhi.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+		                                		<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/haridwar-delhi.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
                                                     <br>
 		                                		<p>Morning, visit Hardwar Local Sight seeing & Temples. Later drive back to Delhi. On arrival. Delhi, transfer to Railway Station / Airport for next Destination.</p>
 		                                		
@@ -265,26 +275,26 @@
                                                 
                                                 <li><a><h5 class="title-sidebar">Day 01 : Delhi – Haridwar (230 kms/6 hours)</h5></a></li>
                                                     <br>
-                                                      <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/haridwar-delhi.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+                                                      <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/haridwar-delhi.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
                                                         <br>
                                                 <p>Arrival Delhi Railway Station, Meet & Assist further drive to Haridwar, Take lunch. Later drive to Hardwar transfer to your Hotel. Visit Har-ki-Pauri for Ganga Aarti in evening. Back to your hotel, Dinner & Night halt.</p>
 
                                                     
                                                 
                                                 <li><a><h5 class="title-sidebar"> Day 02 : Haridwar – Joshimath (276 kms/8 hours)</h5></a></li>
-                                                     <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/haridwar-joshimath.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+                                                     <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/haridwar-joshimath.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
                                                         <br>
                                                 <p>Morning, drive straight to Joshimath enroute visit Deoprayag, Rudraprayag & Karnprayag. Arrival Joshimath check in hotel. Overnight stay.</p>
                                                     
                                                 <li><a><h5 class="title-sidebar">Day 03 : Joshimath – Govind Ghat (22 kms drive)</h5></a></li>
-                                                    <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/joshimath-govindghat.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+                                                    <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/joshimath-govindghat.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
                                                         <br>
                                                 <p>Ghangaria (13kms/4hr Trek) Drive to Govindghat, Trek Start from here to Ghangaria (3000 mts). Check in Hotel.</p>
 
                                                 <p><strong>Ghangharia/Govinddham:</strong>5 Kms. situated in the midst of a pine grove Ghangharia serves asa base for visiting Hemkund Shaib. It is the last human habitation in the valley. A tourist Lodge, log huts, tents and a Gurudwara provide comfortable accommadition.</p>
 
                                                 <li><a><h5 class="title-sidebar">Day 04 : Ghangaria – Hemkund Sahib – Ghangaria (5.5 kms/5 hours each side)</h5></a></li>
-                                                    <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/gangharia-hemkunt.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+                                                    <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/gangharia-hemkunt.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
                                                     <br>
                                                 <p>Early morning, trek start from here to Hemkund Sahib. Return back to Ghangaria after Darshan. Overnight stay.</p>
 
@@ -292,7 +302,7 @@
                                                 <p><strong>Temple of Lord Lakshman:</strong> A small temple nearby, dedicated to Lord Lakshman.</p>
 
                                                 <li><a><h5 class="title-sidebar">Day 05 : Ghangaria – Valley of Flower – Ghangaria (3 kms/3 hours each side) </h5></a></li>
-                                                    <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/gangharia-valley.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+                                                    <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/gangharia-valley.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
                                                         <br>
                                                 <p>Valley of Flower was discovered by Frank Smith while on the Expedition to Mt. Kamet. This picturesque Valley covered by rare species of flowers & a wide variety of Butterflies, Musk Deer, Thar & serow are found here. Back to Ghangaria</p>
 
@@ -300,20 +310,20 @@
                                                 <p><strong>Temple of Lord Lakshman:</strong> A small temple nearby, dedicated to Lord Lakshman.</p>
 
                                                 <li><a><h5 class="title-sidebar">Day 06 : Ghangaria – Govindghat (13kms trek down) – Rudraprayag (145 kms/5 hours) </h5></a></li>
-                                                <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/gangharia-rudraprayag.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+                                                <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/gangharia-rudraprayag.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
                                                     <br>
                                                 <p>After 13 Kms trek from Ghangaria to Govind Ghat, drive to Rudraprayag from Govind Ghat. Check in Hotel. Overnight stay.</p>
                                                 
 
                                                 <li><a><h5 class="title-sidebar">Day 07 : Rudraprayag – Rishikesh – Haridwar (160 kms/5 hours) </h5></a></li>
 
-                                                <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/rudraprayag-haridwar.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+                                                <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/rudraprayag-haridwar.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
                                                     <br>
                                                 <p>Early morning, Drive to Rishikesh. Visit Rishikesh Local Sight Seeing & Temples. Later drive to Hardwar. Check in Hotel. Overnight stay..</p>
                                                 
                                                 <li><a><h5 class="title-sidebar">Day 08 : Haridwar – Delhi (230 kms/6 hours)</h5></a></li>
 
-                                                <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/haridwar-delhi.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+                                                <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/haridwar-delhi.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
                                                     <br>
                                                 <p>Morning, visit Hardwar Local Sight seeing & Temples. Later drive back to Delhi. On arrival. Delhi, transfer to Railway Station / Airport for next Destination.</p>
                                                 

@@ -5,25 +5,30 @@
 </body>
 <style>
     .contact-details  {
-        float: right;
+        /*float: right;*/
         background-color: rgba(255,255,255,.85);
         font-size:18px;
         color:black;
-        padding: 25px;
-        margin-right: -90px;
-        margin-top: -70px;
+        padding: 10px;
+        width:100%;
+        margin-bottom: -10.3%;
+        
+        margin-top: 0px;
         /*opacity: 0.95;
         filter: alpha(opacity=95)*/
     }
+
+
 </style>
 
 <body>
 
-    <nav class="navigation nav-c col-xs-12" id="navigation" data-menu-type="1200">
+    <div class="bars" id="bars"></div>
+                <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
                     <div class="nav-inner"><a href="#" class="bars-close" id="bars-close">Close</a>
                         <div class="tb">
                             <div class="tb-cell">
-                                <ul class="menu-list text-uppercase">
+                                 <ul class="menu-list text-uppercase">
                                     <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
                                         
                                     <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
@@ -78,46 +83,54 @@
                 </nav>
             </div>
         </header>
+
         <section class="banner">
-            <div class="bg-parallax bg-1"></div>
+            <div class="bg-parallax bg-3"></div>
             <div class="container">
-               
-                    <br>
-                    <div class="col-xs-7"></div>
-                    <div class="contact-details col-xs-5 md-5 lg-5">
-                            
-                        <table style="">
+                <div class="logo-banner text-center">
+                    <a href="#" title=""><img src="<?= base_url('images/logo2.png') ?>" alt="">
+                    <h3 style="color:white;text-decoration: none">Tour Planners</h3>
+                    </a>
+                </div>
+                        <br><br>
+                    <div class=""></div>
+                    <div class="contact-details col-xs-12 col-md-12 col-lg-12">
+                                 <h3 class="text-center">Contact Us:</h3>                     
+                        <table class="table-compressed table col-xs-12 col-md-12 col-lg-12 col-sm-12 text-center">
                             <tr>
-                                <td style="color:black"><h4><i class="fa fa-phone" style="margin-right:10px"></i>Call Us : +91-8191937317</h4></td>
+                                <td class="text-center" style="color:black"><h4 style="color: #111"><i class="fa fa-phone" style="margin-right:10px"></i>Call Us : +91-8191937317</h4></td>
                             </tr>
                                     
                             <tr>
 
-                                <td style="color:black"><h4><i class="fa fa-envelope" style="margin-right:10px"></i>E-mail : contact@incredibleuttarakhand.co.in</h4></td>
+                                <td class="text-center" style="color:black"><h4 style="color: #111"><i class="fa fa-envelope" style="margin-right:10px"></i>E-mail : contact@incredibleuttarakhand.co.in</h4></td>
                             </tr>    
                         </table>
 
                     </div>
+                    </div>
 
-                        <br><br><br>
-                <div class="banner-cn">
-                    <ul class="tabs-cat text-center row">
-                        <h2 class="text-center xs-12" style="color:white">Our Tour Packages</h2>
-                            <br><br>
-                        <li class="cate-item col-xs-2"><a href="<?= base_url('incredible_ukd/pilgrimage') ?>" title=""><span><br>Pilgirims Tour Package</span></a></li>
-                        <li class="cate-item col-xs-2"><a  href="<?= base_url('incredible_ukd/wildlife') ?>" title=""><span><br>Wildlife Tour Package</span></a></li>
-                        <li class="cate-item col-xs-2"><a href="<?= base_url('incredible_ukd/excursion') ?>"><span><br>Excursion Tour Package</span></a></li>
-                        <li class="cate-item col-xs-2"><a href="<?= base_url('incredible_ukd/pilgrimage') ?>" title=""><span><br>Honeymoon Tour Package</span></a></li>
-                        <li class="cate-item col-xs-2"><a  href="<?= base_url('incredible_ukd/pilgrimage') ?>" title=""><span><br>Trekking Tour Package</span></a></li>
-                        <li class="cate-item col-xs-2"><a href="<?= base_url('incredible_ukd/pilgrimage') ?>" title=""><span><br>Home Stay Tour Package</span></a></li>
+    <!--<div class="banner-cn">
+        <br><br>
+            <h2 class="text-center" style="color: white">Tour Packages</h2>
+                    <ul class="tabs-cat text-center row" style="margin-top: -0.1%">
+                        <li class="cate-item col-xs-2"><a data-toggle="tab" href="#form-flight" title=""><span>Pilrimage Tour Package</span> <img src="" alt="Pilrimage Tour Package" style="color:white;text-decoration: none"> </a></li>
+                        <li class="cate-item active col-xs-2"><a data-toggle="tab" href="#form-hotel" title=""><span>Wild Life Tour Package</span></a></li>
+                        <li class="cate-item col-xs-2"><a data-toggle="tab" href="#form-car" title=""><span>Excursion Tour Package</span></a></li>
+                        <li class="cate-item col-xs-2"><a data-toggle="tab" href="#form-package" title=""><span>Honeymoon Tour Package</span></a></li>
+                        <li class="cate-item col-xs-2"><a data-toggle="tab" href="#form-cruise" title=""><span>Trekking Tour Package</span></a></li>
+                        <li class="cate-item col-xs-2"><a data-toggle="tab" href="#form-tour" title=""><span>Home Stay Tour Package</span></a></li>
                     </ul>
                     
-            </div>
-        </section>
+                </div>
+            </div>-->
+        </section>                        
+                
+
         <section class="sales">
             <div class="title-wrap">
                 <div class="container">
-                    <div class="travel-title float-left">
+                    <div class="travel-title float-left" id="tourPackage">
                         <h2>Our Tour Packages</span></h2></div>
                     </div>
             </div>
@@ -245,13 +258,17 @@
                     </div>
                 </div>
             </div>
+
         </section>
 
-        <section class="sales">
+        <section class="sales" style="margin-top: 1.5%">
             <div class="title-wrap">
                 <div class="container">
                     <div class="travel-title float-left">
-                        <h2>Uttarakhand's Travel Destinations</span></h2></div><a href="<?=base_url('incredible_ukd/ukdDestinations') ?>" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager  float-right"> <h4>View All</h4></a></div>
+                        <h2>
+                            <a style="color:#111;text-decoration: none" href="<?=base_url('incredible_ukd/ukdDestinations') ?>">Uttarakhand's Travel Destinations</a>
+                        </span></h2></div>
+                        <a href="<?=base_url('incredible_ukd/ukdDestinations') ?>" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager float-right"> <h4>View All</h4> </a></div>
                     </div>
             </div>
             <div class="container">
@@ -378,7 +395,11 @@
             <div class="title-wrap">
                 <div class="container">
                     <div class="travel-title float-left">
-                        <h2>About Indian States</h2></div><a href="<?=base_url('incredible_ukd/about_india') ?>" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager  float-right"> <h4>View All</h4> </a></div>
+                        <h2>
+                         <a style="color:#111;text-decoration: none" href="<?=base_url('incredible_ukd/about_india') ?>">
+                            About Indian States
+                        </a>
+                        </h2></div><a href="<?=base_url('incredible_ukd/about_india') ?>" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager  float-right"> <h4>View All</h4> </a></div>
             </div>
             <div class="destinations-cn">
                 <div class="bg-parallax bg-2"></div>
@@ -565,22 +586,22 @@
                         <div class="col-lg-6">
                             <div class="magazine-thum" id="magazine-thum">
                                 <div class="thumnail-item active clearfix">
-                                    <figure class="float-left"><img src="<?= base_url('images/tour/kerala.jpg') ?>" alt=""></figure>
+                                    <figure class="float-left"><img src="<?= base_url('images/magazine/img-1.jpg') ?>" alt=""></figure>
                                     <div class="thumnail-text">
                                         <h4>Thailand by Train with Eastern and Oriental Express</h4><span>03.5.2014</span></div>
                                 </div>
                                 <div class="thumnail-item clearfix">
-                                    <figure class="float-left"><img src="<?= base_url('images/tour/kerala.jpg') ?>" alt=""></figure>
+                                    <figure class="float-left"><img src="<?= base_url('images/magazine/img-1.jpg') ?>" alt=""></figure>
                                     <div class="thumnail-text">
                                         <h4>Thailand by Train with Eastern and Oriental Express</h4><span>03.5.2014</span></div>
                                 </div>
                                 <div class="thumnail-item clearfix">
-                                    <figure class="float-left"><img src="<?= base_url('images/tour/kerala.jpg') ?>" alt=""></figure>
+                                    <figure class="float-left"><img src="<?= base_url('images/magazine/img-1.jpg') ?>" alt=""></figure>
                                     <div class="thumnail-text">
                                         <h4>Thailand by Train with Eastern and Oriental Express</h4><span>03.5.2014</span></div>
                                 </div>
                                 <div class="thumnail-item clearfix">
-                                    <figure class="float-left"><img src="<?= base_url('images/tour/kerala.jpg') ?>" alt=""></figure>
+                                    <figure class="float-left"><img src="<?= base_url('images/magazine/img-1.jpg') ?>" alt=""></figure>
                                     <div class="thumnail-text">
                                         <h4>Thailand by Train with Eastern and Oriental Express</h4><span>03.5.2014</span></div>
                                 </div>
@@ -591,10 +612,10 @@
             </div>
         </section>
         <section class="confidence-subscribe">
-            <div class="bg-parallax bg-3"></div>
+            <div class="bg-parallax bg-1"></div>
             <div class="container">
                 <div class="row cs-sb-cn">
-                    <div class="col-md-6">
+                    <div class="col-md-6 ">
                         <div class="confidence">
                             <h3>Book with confidence</h3>
                             <ul>
@@ -617,9 +638,9 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-xs-12">
                         <div class="subscribe">
-                            <h3 style="margin-left: 200px">Testimonials</h3>
+                            <h3 style="" class="text-center">Testimonials</h3>
                                 
                             
                             <!--=========carousel ========-->
@@ -637,51 +658,53 @@
                                 <!--==== Wrapper for slides ====-->
                                         <div class="carousel-inner" style="width: 100%">
                                             <div class="item active">
-                                                <a href="#" ><?= img( ["src" => "images/tour/kerala.jpg","style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
+                                                <a href="#" ><?= img( ["src" => 'images/magazine/img-1.jpg',"style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
                                                 <div class="container">
                                                     <div class="carousel-caption">
                                                         <h1>Awesome Trip</h1>
-                                                        <p style="color:black"> Vivamus enim eros, vehicula at risus non, rutrum ullamcorper lacus. Suspendisse iaculis leo ipsum, semper gravida dui egestas sed. Sed nec metus vel libero suscipit viverra nec sit amet nunc. Suspendisse eget mi nisi. </p>
+                                                        <p style="color:black"> Vivamus enim eros, vehicula at risus non, rutrum ullamcorper lacus. Suspendisse iaculis leo ipsum, semper gravida dui egestas sed. </p>
                                                     </div>
                                                 </div>           
                                             </div>
 
                                             <div class="item">
-                                                <a href="#"><?= img( ["src" => "images/tour/kerala.jpg","style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
+                                                <a href="#"><?= img( ["src" => 'images/magazine/img-1.jpg',"style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
                                                 <div class="container">
-                                                    <div class="carousel-caption">
+
+                                                    <div class="carousel-caption">  
+                                                    <br>
                                                         <h1>Great Experience</h1>
-                                                        <p style="color:black"> Vivamus enim eros, vehicula at risus non, rutrum ullamcorper lacus. Suspendisse iaculis leo ipsum, semper gravida dui egestas sed. Sed nec metus vel libero suscipit viverra nec sit amet nunc. Suspendisse eget mi nisi. </p>
+                                                        <p style="color:black"> Vivamus enim eros, vehicula at risus non, rutrum ullamcorper lacus. Suspendisse iaculis leo ipsum, semper gravida dui egestas sed.  </p>
                                                     </div>
                                                 </div>           
                                             </div>
 
                                             <div class="item">
-                                                <a href="#"><?= img( ["src" => "images/destinations/img-3.jpg","style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
+                                                <a href="#"><?= img( ["src" =>'images/magazine/img-1.jpg',"style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
                                                 <div class="container">
                                                     <div class="carousel-caption">
                                                         <h1>Good Service</h1>
-                                                        <p style="color:black"> Vivamus enim eros, vehicula at risus non, rutrum ullamcorper lacus. Suspendisse iaculis leo ipsum, semper gravida dui egestas sed. Sed nec metus vel libero suscipit viverra nec sit amet nunc. Suspendisse eget mi nisi. </p>
+                                                        <p style="color:black"> Vivamus enim eros, vehicula at risus non, rutrum ullamcorper lacus. Suspendisse iaculis leo ipsum, semper gravida dui egestas sed.  </p>
                                                     </div>
                                                 </div>           
                                             </div>
 
                                             <div class="item">
-                                                <a href="#"><?= img( ["src" => "images/destinations/img-3.jpg","style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
+                                                <a href="#"><?= img( ["src" => 'images/magazine/img-1.jpg',"style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
                                                 <div class="container">
                                                     <div class="carousel-caption">
                                                         <h1>Good Service</h1>
-                                                        <p style="color:black"> Vivamus enim eros, vehicula at risus non, rutrum ullamcorper lacus. Suspendisse iaculis leo ipsum, semper gravida dui egestas sed. Sed nec metus vel libero suscipit viverra nec sit amet nunc. Suspendisse eget mi nisi. </p>
+                                                        <p style="color:black"> Vivamus enim eros, vehicula at risus non, rutrum ullamcorper lacus. Suspendisse iaculis leo ipsum, semper gravida dui egestas sed.</p>
                                                     </div>
                                                 </div>           
                                             </div>
 
                                             <div class="item">
-                                                <a href="#"><?= img( ["src" => "images/destinations/img-3.jpg","style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
+                                                <a href="#"><?= img( ["src" => 'images/magazine/img-1.jpg',"style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
                                                 <div class="container">
                                                     <div class="carousel-caption">
                                                         <h1>Good Service</h1>
-                                                        <p style="color:black"> Vivamus enim eros, vehicula at risus non, rutrum ullamcorper lacus. Suspendisse iaculis leo ipsum, semper gravida dui egestas sed. Sed nec metus vel libero suscipit viverra nec sit amet nunc. Suspendisse eget mi nisi. </p>
+                                                        <p style="color:black"> Vivamus enim eros, vehicula at risus non, rutrum ullamcorper lacus. Suspendisse iaculis leo ipsum, semper gravida dui egestas sed.  </p>
                                                     </div>
                                                 </div>           
                                             </div>
@@ -699,15 +722,21 @@
                                     </a>
                                 <!--===Controls ===-->
                                 </div>
+                            
+
+                              
+                              
+
                             <!--======== carousel =========-->
-                            <div class="follow-us" style="margin-left: 90px;">
-                                <h4 style="margin-left: 120px;">Follow us</h4>
-                                <div class="follow-group"><a href="#" title=""><i class="fa fa-facebook"></i></a> <a href="#" title=""><i class="fa fa-twitter"></i></a>  <a href="#" title=""><i class="fa fa-linkedin"></i></a> <a href="#" title=""><i class="fa fa-instagram"></i></a> <a href="#" title=""><i class="fa fa-google-plus"></i></a> </div>
+                            <div class="row"  col-xs-12 col-sm-12 col-lg-12 col-md-12>
+                            <div class="follow-us" style="margin-left: 10%;">
+                                <h4 style="margin-left: -15%" class="text-center">Follow us</h4>
+                                <div class="follow-group text-center" style="margin-left: 0%"><a href="#" title=""><i class="fa fa-facebook"></i></a> <a href="#" title=""><i class="fa fa-twitter"></i></a>   <a href="#" title=""><i class="fa fa-instagram"></i></a> <a href="#" title=""><i class="fa fa-google-plus"></i></a> </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+           </div>
         </section>
 
 <?php

@@ -3,13 +3,16 @@
     include "common/navbar.php";
 ?>
 
-<nav class="navigation nav-c" id="navigation" data-menu-type="1200">
+<div class="bars" id="bars"></div>
+                <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
                     <div class="nav-inner"><a href="#" class="bars-close" id="bars-close">Close</a>
                         <div class="tb">
                             <div class="tb-cell">
-                                <ul class="menu-list text-uppercase">
-                                    <li ><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                 <ul class="menu-list text-uppercase">
+                                    <li  ><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
                                         
+                                    <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
+
                                     <li><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
                                             <li><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
@@ -31,10 +34,10 @@
                                             </li>
                                         </ul>
                                     </li>               
-                                    <li class="current-menu-parent"><?= anchor( '','Destinations')?>
+                                    <li  class="current-menu-parent"><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
-                                            <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
-                                            <li ><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
+                                            <li  class="current-menu-parent"><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
+                                            <li><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
                                            
                                         </ul>
                                     </li>
@@ -44,14 +47,14 @@
                                             <li style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
-                                            <li ><?= anchor( base_url('incredible_ukd'),'Honeymoon Packages')?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
                                             <li style=""><?= anchor('incredible_ukd/trekking','Trekking Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
                                             <li style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
                                             
                                         </ul>
                                     </li>
-                                    <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
+                                   <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
                                     
                                 </ul>
                             </div>
@@ -60,9 +63,14 @@
                 </nav>
             </div>
         </header>
-        <section class="sub-banner">
-            <div class="bg-parallax bg-1"></div>
-            
+
+         <section class="banner">
+            <div class="bg-parallax bg-3"></div>
+                <div class="logo-banner text-center">
+                    <a href="#" title=""><img src="<?= base_url('images/logo2.png') ?>" alt="" style="height: 100px;">
+                    <h3 style="color:white;text-decoration: none">Tour Planners</h3>
+                    </a>
+                </div>
         </section>
         <div class="main main-dt">
             <div class="container">
@@ -79,20 +87,20 @@
                     <section class="head-detail">
                         <div class="head-dt-cn">
                             <div class="row">
-                                <div class="col-sm-7">
+                                <div class="col-sm-6 col-xs-6">
                                     <h1><?= $detail[0]["name"] ?></h1>
                                     <div class="start-address"><address class="address">Uttarakhand</address></div>
                                 </div>
 
-                                <div class="col-sm-5 text-right">
+                                <div class="col-sm-6 col-xs-6 text-right">
                                     <p class="price-book"><a href="<?= base_url('incredible_ukd/bookMyTrip') ?>" title="" class="awe-btn awe-btn-1 awe-btn-lager">Book My Tour</a></p>
                                 </div>
                             </div>
                         </div>
                     </section>
 
-                    <section class="detail-slider" style="height:500px">
-                        <div class="slide-room-lg" >
+                    <section class="detail-slider">
+                        <div class="slide-room-lg">
                             <div id="slide-room-lg">
                                          <?php
                                 foreach($images as $image)  :
@@ -101,10 +109,10 @@
                                     $image = $imagePath . "/" . $imageName;
                             
                     ?>
-                                <?= img( ["src"=>$image , "alt"=>"","style"=>"height:500px"]) ?> <?php endforeach ?>    
+                                <?= img( ["src"=>$image , "alt"=>"","style"=>"height:350px"]) ?> <?php endforeach ?>    
                             </div>
                         </div>
-                        <div class="slide-room-sm">
+                       <div class="slide-room-sm">
                             <div class="row">
                                 <div class="col-md-8 col-md-offset-4">
                                     <div id="slide-room-sm">
@@ -186,8 +194,8 @@
                     <section class="review-detail detail-cn" id="review-detail">
                         <div class="row">
                                 <br><br><br>
-                                    <div class="col-xs-12 text-right" style="float: left">
-                                        <p class="price-book"><a href="<?= base_url('incredible_ukd/bookMyTrip') ?>" title="" class="awe-btn awe-btn-1 awe-btn-lager" style="margin-left: -500px;">Book My Tour</a></p>
+                                    <div class="col-xs-12 text-center" style="">
+                                        <p class="price-book"><a href="<?= base_url('incredible_ukd/bookMyTrip') ?>" title="" class="awe-btn awe-btn-1 awe-btn-lager" style="margin-left: 0%;">Book My Tour</a></p>
                                         <br><br>
                                     </div>
 

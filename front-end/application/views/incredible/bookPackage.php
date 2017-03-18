@@ -26,18 +26,19 @@
 
 <body>
 
-    <nav class="navigation nav-c col-xs-12" id="navigation" data-menu-type="1200">
+   <div class="bars" id="bars"></div>
+                <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
                     <div class="nav-inner"><a href="#" class="bars-close" id="bars-close">Close</a>
                         <div class="tb">
                             <div class="tb-cell">
-                                <ul class="menu-list text-uppercase">
-                                    <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                 <ul class="menu-list text-uppercase">
+                                    <li  ><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
                                         
                                     <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
 
-                                    <li><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
+                                    <li ><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
                                             <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                             </ul>
                                         </li>
@@ -56,15 +57,15 @@
                                             </li>
                                         </ul>
                                     </li>               
-                                    <li><?= anchor( '','Destinations')?>
+                                    <li ><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
-                                            <li><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
+                                            <li"><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
                                            
                                         </ul>
                                     </li>
                                     
-                                    <li><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
+                                    <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
                                         <ul class="sub-menu"  >
                                             <li style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
@@ -85,9 +86,14 @@
                 </nav>
             </div>
         </header>
-        <section class="sub-banner">
-            <div class="bg-parallax bg-1"></div>
-            
+
+         <section class="banner">
+            <div class="bg-parallax bg-3"></div>
+                <div class="logo-banner text-center">
+                    <a href="#" title=""><img src="<?= base_url('images/logo2.png') ?>" alt="" style="height: 100px;">
+                    <h3 style="color:white;text-decoration: none">Tour Planners</h3>
+                    </a>
+                </div>
         </section>
         <div class="main">
             <div class="container">
@@ -301,14 +307,22 @@
                                     </div>
                                 </div>        
                                     <div class="col-md-12">   
-                                        <div class="g-recaptcha" data-sitekey="6LfXoxgUAAAAADJeG8DlRHk9278SsMWtmYY-xFqX" style="margin-left: 35%"></div>
+                                        <div class="g-recaptcha" data-sitekey="6LfXoxgUAAAAADJeG8DlRHk9278SsMWtmYY-xFqX" style="margin-left: 10%"></div>
 
                                         <div class="submit text-center">
+                                                <br>
+
                                             <p>By clicking on the button below to complete this booking I acknowledge that I have read and accept the <span>rules &amp; restrictions, terms &amp; conditions</span> and <span>privacy policy</span>.</p>
-                                            <button class="awe-btn awe-btn-1 awe-btn-lager" name="payNow">Book &amp; Pay now</button>     
-                                                &nbsp;&nbsp;&nbsp;
-                                                <h3 style="display: inline-block;">or</h3> &nbsp;&nbsp;
-                                            <button class="awe-btn awe-btn-1 awe-btn-lager" name="payLater">Book Now &amp; Pay Later</button>
+                                            
+                                            <div class="col-md-5 col-md-offset-1 col-sm-12 col-xs-12 ">
+                                                <button class="awe-btn awe-btn-1 awe-btn-lager" name="payNow">Book &amp; Pay now</button>     
+                                                    &nbsp;&nbsp;&nbsp;
+                                            </div> 
+                                                
+                                            <div class="col-md-4 col-sm-12 col-xs-12 ">
+                                                &nbsp;&nbsp;
+                                                <button class="awe-btn awe-btn-1 awe-btn-lager" name="payLater">Book Now &amp; Pay Later</button>
+                                            </div>
                                         </div>
                                      </div>   
 

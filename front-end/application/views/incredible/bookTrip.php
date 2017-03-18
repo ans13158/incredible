@@ -27,7 +27,7 @@
                         <div class="tb">
                             <div class="tb-cell">
                                 <ul class="menu-list text-uppercase">
-                                    <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                    <li><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
                                         
                                     <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
 
@@ -52,7 +52,7 @@
                                             </li>
                                         </ul>
                                     </li>               
-                                    <li><?= anchor( '','Destinations')?>
+                                    <li  class="current-menu-parent"><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
                                             <li><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
                                             <li><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>

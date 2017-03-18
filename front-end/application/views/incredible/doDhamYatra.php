@@ -7,18 +7,19 @@
 
 <body>
 
-    <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
+    <div class="bars" id="bars"></div>
+                <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
                     <div class="nav-inner"><a href="#" class="bars-close" id="bars-close">Close</a>
                         <div class="tb">
                             <div class="tb-cell">
-                                <ul class="menu-list text-uppercase">
-                                    <li><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                 <ul class="menu-list text-uppercase">
+                                    <li  ><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
                                         
                                     <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
 
-                                    <li><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
+                                    <li ><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
                                             <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                             </ul>
                                         </li>
@@ -36,18 +37,18 @@
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </li>                 
+                                    </li>               
                                     <li><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
                                             <li><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
                                            
                                         </ul>
                                     </li>
                                     
-                                    <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
+                                    <li  class="current-menu-parent"><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
                                         <ul class="sub-menu"  >
-                                            <li style="" class="current-menu-parent"><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
+                                            <li  class="current-menu-parent" style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
                                             <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
@@ -57,7 +58,7 @@
                                             
                                         </ul>
                                     </li>
-                                    <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
+                                   <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
                                     
                                 </ul>
                             </div>
@@ -66,6 +67,15 @@
                 </nav>
             </div>
         </header>
+
+         <section class="banner">
+            <div class="bg-parallax bg-3"></div>
+                <div class="logo-banner text-center">
+                    <a href="#" title=""><img src="<?= base_url('images/logo2.png') ?>" alt="" style="height: 100px;">
+                    <h3 style="color:white;text-decoration: none">Tour Planners</h3>
+                    </a>
+                </div>
+        </section>
 
         <div class="main">
             <div class="container">
@@ -81,7 +91,7 @@
                     </section>
                     <section class="blog-content">
                        <div class="row">
-	                        <div class="col-md-3 col-xs-4 col-sm-4">
+	                        <div class="col-md-3">
 	                                <div class="widget widget_categories">
 	                                    <h2 class="title-sidebar">Important Notes</h2>
 	                                    <ul>
@@ -169,12 +179,12 @@
 	                            </div>
 	                       
 
-                            <div class="col-md-9 col-sm-8 col-xs-8">
+                            <div class="col-md-9">
                                 <div class="post post-single">
                                     
-                                    <span style="display: inline-block;"><h1 class="title-post-head">Pilgrims Tour Packages</h1></span>
+                                    <span style="display: inline-block;"><h1 class="title-post-head">Pilgrims  Packages</h1></span>
 
-                                     <span style="display: inline-block;float: right;margin-top: 10px"><a href="<?= base_url('incredible_ukd/bookPackage') ?>" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium">Book My Tour</a></span>
+                                     <span style="display: inline-block;margin-top: 10px"><a href="<?= base_url('incredible_ukd/bookPackage') ?>" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium">Book My Tour</a></span>
                                     <div class="post-media">
                                         <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/badri-kedar.jpg'),  "alt"=>"","style"=>"height:300px;width:100%"] )  ?></div>
                                     </div>
@@ -211,18 +221,18 @@
 		                                    	
 		                                    	<li><a><h5 class="title-sidebar">Day 01: Delhi – Rishikesh (230 Kms / 7 - 8 hrs) </h5></a></li>
 		                                    		<br>
-		                                    			<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/delhi-rishikesh.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+		                                    			<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/delhi-rishikesh.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
 		                                    		<br>		
 		                                		<p>Morning drive to Rishikesh. On arrival check in at hotel in the afternoon temple tour of Rishikesh. Overnight stay at hotel. Rishikesh, located in the laps of lower Himalayas, and is surrounded by scenic beauty of the hills on three sides with Holy Ganga flowing through it. The whole place is considered to be sacred as it is believed that meditation at this place leads to attainment of salvation. There are many temples-some ancient, some new along the river Ganges. Rishikesh is important not only as pilgrimage centre closely associated with the Ramayana, but also as home for many important centers of Hindu religious thought and spirituality, and as a very great Yoga Centre. There are a great many ashrams and Yoga instituteshere.</p>
 		                                		
 		                                		
 		                                		<li><a><h5 class="title-sidebar">Day 02 – Rishikesh to Guptakashi Drive 215 kms (6 – 7 hrs)</h5></a></li>
-		                                	   			<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/rishikesh-guptakashi.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+		                                	   			<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/rishikesh-guptakashi.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
 		                                	   		<br>		
 		                                		<p>After breakfast proceed to Guptakashi; travel by surface en route visit Devprayag, srinagr and Rudraprayag the banks of Holy River Ganga evening arrival at Guptakashi, check Inn at Hotel, overnight stay at Hotel.</p>
 		                                			
 		                                		<li><a><h5 class="title-sidebar">Day 03: Guptkashi - Kedarnath 32 kms Drive, 13 kms trek</h5></a></li>
-		                                			<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/guptakashi-kedarnath.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+		                                			<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/guptakashi-kedarnath.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
 		                                			<br>
 		                                		<p>Early Morning Travel by road to Gaurikund further Trek 14kms to Kedarnath over night at Kedarnath. Kedarnath: is a majestic sight, standing in the middle of a wide plateau surrounded by lofty snow Covered peaks. The present temple, built in the 8th century by Adi Shankaracharya, stands adjacent to the site of an earlier temple built by the Pandavas. The inner walls of the assembly hall are decoratedwith figures of various deities and scenes from mythology. Outside the temple door a large statue of the Nandi Bull stands as guard.</p>
 
@@ -230,7 +240,7 @@
 		                                		<p>Darshan and pooja in Kedarnath further downward trek to Gurikend and drive to Guptkashi for over night stay.</p>
 
 		                                		<li><a><h5 class="title-sidebar">Day 05: Guptkashi - Badrinath Drive 173 Kms (6-7 hrs)</h5></a></li>
-		                                		<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/guptakashi-badrinath.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+		                                		<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/guptakashi-badrinath.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
 		                                			<br>
 		                                		<p>Start early morning travel to Badrinath over night at hotel.</p>
 		                                		<p><b>Tapt Kund:</b>Natural thermal springs on the bank of the river Alaknanda, where it is customary to bathe before entering the Badrinath temple.</p>
@@ -242,21 +252,21 @@
 
 		                                		<li><a><h5 class="title-sidebar">Day 06: Badrinath – Rudraprayag Drive 156 Kms (6-7 hrs)</h5></a></li>
 
-		                                		<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/badrinath-rudraprayag.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+		                                		<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/badrinath-rudraprayag.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
 		                                			<br>
 		                                		<p>Early morning Darshan and pooja at Badrinath, after darshan drive to Rudraprayag, evening arrival, over night at Srinagar</p>
 		                                		<p><b>Rudraprayag:</b> One of the holy prayag of five famous prayag of Uttarakhand. Confluence of River Alaknanda and Mandakini.</p>
 		                                		
 		                                		<li><a><h5 class="title-sidebar">Day 07: Rudraprayag – Haridwar Drive 162 Kms (5–6 hrs)</h5></a></li>
 
-		                                		<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/rudraprayag-haridwar.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+		                                		<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/rudraprayag-haridwar.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
 		                                			<br>
 		                                		<p>Today check out from Hotel and drive back to Haridwar, on arrival check in at Hotel & relax. Evening join Ganga Aarti in at Har-Ki–Podi, beck to Hotel, Overnight at hotel.</p>
 		                                		<p><strong>Haridwar:</strong> Haridwar, lying at the feet of Shiva's hills, i.e., Shivaliks, in the Haridwar district of UttaranchalPradesh, is a doorway. Suryavanshi prince Bhagirath performed penance here to salvage the souls of hisancestors who had perished due to the curse of sage Kapila. The penance was answered and the river Ganga trickled forth forms Lord Shiva's locks and its bountiful water revived the sixty thousand sons of king Sagara. In the traditional of Bhagirath devout Hindus stand in the sacred waters here, praying forsalvation of their departed elder. It is doorway to the sources of the Ganga and the Yamuna, 3000 to 4500 meters up into the snowy ranges of the central Himalayas. The 'Aarti' worship of the Ganga after sunset and the floating 'dia' (lamp) is a moving ritual.</p>
 
 		                                		<li><a><h5 class="title-sidebar">Day 8: Haridwar – Delhi Drive 210 Kms (6–7 hrs)</h5></a></li>
 
-		                                		<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/haridwar-delhi.png'),  "alt"=>"","style"=>"height:400px;width:100%"] ) ?></div>
+		                                		<div class="image-wrap"><?= img( ["src"=> base_url('images/tour/haridwar-delhi.png'),  "alt"=>"","style"=>"height:300px;width:100%"] ) ?></div>
 		                                			<br>
 		                                		<p>Today early morning check out and drive back to Delhi, evening reach at Delhi, on arrival drop at Airport / Railway station for further journey ahead.</p>
 		                                	</ul>     

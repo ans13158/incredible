@@ -7,18 +7,19 @@
 
 <body>
 
-    <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
+    <div class="bars" id="bars"></div>
+                <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
                     <div class="nav-inner"><a href="#" class="bars-close" id="bars-close">Close</a>
                         <div class="tb">
                             <div class="tb-cell">
-                                <ul class="menu-list text-uppercase">
-                                    <li><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                 <ul class="menu-list text-uppercase">
+                                    <li  ><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
                                         
                                     <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
 
-                                    <li><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
+                                    <li ><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
                                             <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                             </ul>
                                         </li>
@@ -36,16 +37,16 @@
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </li>                
-                                    <li><?= anchor( '','Destinations')?>
+                                    </li>               
+                                    <li ><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
                                             <li><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
                                            
                                         </ul>
                                     </li>
                                     
-                                    <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
+                                    <li  class="current-menu-parent"><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
                                         <ul class="sub-menu"  >
                                             <li style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
@@ -53,11 +54,11 @@
                                             <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
                                             <li style=""><?= anchor('incredible_ukd/trekking','Trekking Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
-                                            <li style=""  class="current-menu-parent"><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
+                                            <li  class="current-menu-parent" style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
                                             
                                         </ul>
                                     </li>
-                                    <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
+                                   <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
                                     
                                 </ul>
                             </div>
@@ -66,6 +67,15 @@
                 </nav>
             </div>
         </header>
+
+         <section class="banner">
+            <div class="bg-parallax bg-3"></div>
+                <div class="logo-banner text-center">
+                    <a href="#" title=""><img src="<?= base_url('images/logo2.png') ?>" alt="" style="height: 100px;">
+                    <h3 style="color:white;text-decoration: none">Tour Planners</h3>
+                    </a>
+                </div>
+        </section>
 
         <div class="main">
             <div class="container">
@@ -81,7 +91,7 @@
                     </section>
                     <section class="blog-content">
                        <div class="row">
-	                        <div class="col-md-3 col-xs-4 col-sm-4">
+	                        <div class="col-md-3">
 	                                <div class="widget widget_categories">
 	                                    <h2 class="title-sidebar">Bookings :</h2>
 	                                    <ul>
@@ -110,14 +120,20 @@
 	                            </div>
 	                       
 
-                            <div class="col-md-9 col-sm-8 col-xs-8">
+                            <div class="col-md-9 ">
                                 <div class="post post-single">
                                     
-                                    <span style="display: inline-block;"><h1 class="title-post-head">Home Stay Tour Packages</h1></span>
-
-                                     <span style="display: inline-block;float: right;margin-top: 10px"><a href="#" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium">Book My Tour</a></span>
+                                    <div class="col-md-8 col-xs-12 col-sm-12">
+                                        <span style="display: inline-block;"><h1 class="title-post-head">Home Stay Tour  Packages</h1></span>
+                                    </div>
+                                    <div class="col-md-4 col-xs-12 col-sm-12">     
+                                        <span style="display: inline-block;float: right;margin-top: 10px"><a href="#" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium">Book My Tour</a></span>
+                                        
+                                    </div>   
+                                        <br><br> <br><br> 
                                     <div class="post-media">
-                                        <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/hemkund.jpg'),  "alt"=>"", "style"=>"height:400px;width:100%"] ) ?></div>
+
+                                        <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/home_stay.jpg'),  "alt"=>"", "style"=>"height:300px;width:100%"] ) ?></div>
                                     </div>
                                     <div class="post-content">
                                         <blockquote>
