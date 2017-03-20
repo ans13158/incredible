@@ -3,8 +3,9 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="logo-foter">
-                            <a href="index.php" title=""><img src="<?= base_url('images/logo2.png') ?>" alt="" style = "height: 150px;width:150px;" ><h4 style="text-decoration: none;color:white"> Tour Planners</h4></a>
+                            <a href="<?= base_url('incredible_ukd') ?>" title=""><img src="<?= base_url('images/logo_footer.png') ?>" alt="" style = "height: 180px;width:200px;" ></a>
                         </div>
+
                     </div>
                     <div class="col-xs-4 col-sm-3 col-md-2">
                         <div class="ul-ft">
@@ -13,39 +14,56 @@
                                 <li><a href="<?= base_url('incredible_ukd/about') ?>" title="">About</a></li>
                                 <li><a href="<?= base_url('incredible_ukd/about_ukd') ?>" title="">Locations</a></li>
                                 <li><a href="<?= base_url('incredible_ukd/about#our_team') ?>" title="">Our Team</a></li>
+                                
                             </ul>
                         </div>
+
                     </div>
+
                     <div class="col-xs-5 col-sm-4 col-md-2">
                         <div class="ul-ft">
                             <ul>
                                 <li><a href="<?= base_url('incredible_ukd/service') ?>" title="">Our Services</a></li>
                                 <li><a href="<?= base_url('incredible_ukd/ukdDestinations') ?>" title="">Destinations</a></li>
                                 <li><a href="<?= base_url('incredible_ukd#tourPackages') ?>" title="">Tour-Packages</a></li>
-                                <li><a href="<?= base_url('incredible_ukd/about_ukd') ?>" title="">Site-Developers</a></li>
+                                
+                                <li>
+                                    <a href="<?= base_url('incredible_ukd/about#our_partners') ?>" title="" style="color: white;margin-top: 0px;">Our Partners</a>
+                                </li> 
                             </ul>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-xs-3">
                         <div class="ul-ft">
                             <ul>
-                                <li>
-                                    <a href="<?= base_url('incredible_ukd/about#our_partners') ?>" title="" style="color: white;margin-top: 0px;">Our Partners</a>
-                                </li> 
-                            </ul>       
+                                
+                                <li><a href="<?= base_url('incredible_ukd/about_ukd') ?>" title="">Site-Developers</a></li>
+                                
+
+                                </ul>
+                                  
                         </div>
-                    </div>    
-                        <p class="copyright text-center" style="margin-top: 0px">
-                                <br><br>
-                        ©<strong>IncredibleUttarakhand™</strong> All rights reserved.</p>
+
+                         
+                    <br><br><br><br><br>
+                    </div> 
+
+                    <p style="color:white">
+
+                    ©<strong>IncredibleUttarakhand™</strong> All rights reserved. </p> 
+
+                        
                     </div>
                 </div>
+
+                
+                       
             </div>
         </footer>
 
 
 
-    </div>
+   
 
     <script type="text/javascript" src="<?= base_url('js/library/jquery-1.11.0.min.js') ?>"></script>
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>

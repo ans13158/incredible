@@ -136,7 +136,7 @@
                                                         <br>
                                                                <?php 
                                                                 $content = "";
-                                                                for($i=0;$i<200;$i++) { 
+                                                                for($i=0;$i<120;$i++) { 
                                                                     $content = $content . $state['details'][$i];
                                                                 }
                                                              ?>

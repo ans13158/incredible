@@ -67,8 +67,7 @@
             <div class="bg-parallax bg-3"></div>
                 <div class="logo-banner text-center">
                     <a href="#" title=""><img src="<?= base_url('images/logo2.png') ?>" alt="" style="height: 100px;">
-                    <h3 style="color:white;text-decoration: none">Tour Planners</h3>
-                    </a>
+                    
                 </div>
         </section>
         <div class="main main-dt">
@@ -247,8 +246,10 @@
                                                     
                                                 </div>
                                             </div>
-                                        
-
+                                            <br><br>
+                                            <a href="<?= base_url('incredible_ukd/about_india')?>">
+                                      <h3 style="color: #111;text-decoration: underline #111;">Click Here to Know More About the Travel Destinations in India</h3>
+                                  </a>    
                                         
                                 
                             </div>

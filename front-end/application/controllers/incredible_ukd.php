@@ -358,4 +358,9 @@ class Incredible_Ukd extends CI_Controller  {
     	}
     }
 
+
+    public function deals()  {
+        $this->load->view('incredible/deals');
+    }
+
 }

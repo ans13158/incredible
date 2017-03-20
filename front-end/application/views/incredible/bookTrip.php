@@ -22,18 +22,19 @@
 
 <body>
 
-    <nav class="navigation nav-c col-xs-12" id="navigation" data-menu-type="1200">
+   <div class="bars" id="bars"></div>
+                <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
                     <div class="nav-inner"><a href="#" class="bars-close" id="bars-close">Close</a>
                         <div class="tb">
                             <div class="tb-cell">
-                                <ul class="menu-list text-uppercase">
-                                    <li><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                 <ul class="menu-list text-uppercase">
+                                    <li  ><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
                                         
                                     <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
 
                                     <li><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
                                             <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                             </ul>
                                         </li>
@@ -81,10 +82,16 @@
                 </nav>
             </div>
         </header>
-        <section class="sub-banner">
-            <div class="bg-parallax bg-1"></div>
-            
+
+         <section class="banner">
+            <div class="bg-parallax bg-3"></div>
+                <div class="logo-banner text-center">
+                    <a href="#" title=""><img src="<?= base_url('images/logo2.png') ?>" alt="" style="height: 100px;">
+                    
+                    </a>
+                </div>
         </section>
+
         <div class="main">
             <div class="container">
                 <div class="main-cn bg-white clearfix">
@@ -105,7 +112,7 @@
                     
                     <div class="payment-form">
                         <div class="row ">
-                            <div class="col-md-8" style="margin-left: 20%">
+                            <div class="col-md-8 col-md-offset-2" style="">
                                 <h2>Enter Your Information</h2>
                                 <form action="tripBookings" method="POST" class="form-vertical">
                                     <div class="form-field">
@@ -251,7 +258,7 @@
             function selectDestination(state)  {
                 var destinationState = state.value;
                 var destination = document.getElementById("destination")
-                if(destinationState == "uttarakhand")  {
+                if(destinationState == "Uttarakhand")  {
                     destination.innerHTML = "<option value='Nainital'>Nainital</option>"
                     +"<br>"
                     +"<option value='Almora'>Almora</option>"

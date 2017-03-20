@@ -71,7 +71,7 @@ require 'common/navbar.php';
             <div class="bg-parallax bg-3"></div>
                 <div class="logo-banner text-center">
                     <a href="#" title=""><img src="<?= base_url('images/logo2.png') ?>" alt="" style="height: 100px;">
-                    <h3 style="color:white;text-decoration: none">Tour Planners</h3>
+                   
                     </a>
                 </div>
         </section>

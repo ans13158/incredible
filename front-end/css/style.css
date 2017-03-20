@@ -15,6 +15,22 @@
     font-style: italic
 }
 
+@font-face  {
+    font-family: bhukhari;
+    src : url("../fonts/BukhariScript.ttf");
+}
+
+@font-face  {
+    font-family:kilogram;
+    src : url("../fonts/KiloGram_KG.otf");
+}
+
+@font-face  {
+    font-family:ques_love;
+    src : url("../fonts/Question and Love.ttf");
+}
+
+
 html {
     margin: 0 0 1px;
     padding: 0;
@@ -10143,7 +10159,13 @@ footer {
     background-color: #111;
     padding-bottom: 50px;
     font-family: 'Open Sans';
-    height: auto;
+    height: 200px;
+}
+
+@media (max-width:480px) {
+    footer  {
+       height: auto;
+    }
 }
 
 footer .logo-foter img {

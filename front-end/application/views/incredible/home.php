@@ -9,7 +9,42 @@
         background-color: rgba(255,255,255,.85);
         font-size:18px;
         color:black;
-        padding: 10px;
+        padding: 0px;
+        width:40%;
+        margin-bottom: -10%;
+        
+        margin-top: 0px;
+        opacity: 0.8;
+        filter: alpha(opacity=95);
+    }
+
+   blockquote.quote:before {
+        content: '“';
+        margin-left: 13%;
+        color : white;
+        font-size: 106px;
+        margin-top: -2%;
+    }
+
+    @media (max-width: 480px)  {
+        blockquote.quote:before {
+        content: '“';
+        margin-left: 7%;
+        color : white;
+        font-size: 106px;
+        margin-top: -4%;
+    }
+
+    }
+
+
+    @media (max-width: 480px)  {
+        .contact-details  {
+        /*float: right;*/
+        background-color: rgba(255,255,255,.85);
+        font-size:18px;
+        color:black;
+        padding: 0px;
         width:100%;
         margin-bottom: -10.3%;
         
@@ -17,6 +52,7 @@
         /*opacity: 0.95;
         filter: alpha(opacity=95)*/
     }
+}
 
 
 </style>
@@ -89,14 +125,19 @@
             <div class="container">
                 <div class="logo-banner text-center">
                     <a href="#" title=""><img src="<?= base_url('images/logo2.png') ?>" alt="">
-                    <h3 style="color:white;text-decoration: none">Tour Planners</h3>
+                    
                     </a>
                 </div>
+
+                    
+                    <blockquote class="quote text-center" style="color:white;font-size: 36px;font-weight: 400;font-family: 'Courgette', cursive;"><i>We Create your Holidays the Way you Want Them.</i></blockquote>
+                    
+                                   
                         <br><br>
                     <div class=""></div>
-                    <div class="contact-details col-xs-12 col-md-12 col-lg-12">
+                    <div class="contact-details col-md-offset-8 col-lg-offset-8 col-md-9 col-lg-9">
                                  <h3 class="text-center">Contact Us:</h3>                     
-                        <table class="table-compressed table col-xs-12 col-md-12 col-lg-12 col-sm-12 text-center">
+                        <table class="table-condensed table  col-md-12 col-lg-12 text-center">
                             <tr>
                                 <td class="text-center" style="color:black"><h4 style="color: #111"><i class="fa fa-phone" style="margin-right:10px"></i>Call Us : +91-8191937317</h4></td>
                             </tr>
@@ -496,117 +537,136 @@
             <div class="title-wrap">
                 <div class="container">
                     <div class="travel-title float-left">
-                        <h2>Travel Magazine</h2></div><a href="#" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager float-right"> <h4>View All</h4> </a></div>
+                        <h2><a href="<?= base_url('incredible_ukd/deals') ?>" style="color:#111;text-decoration: none" > Hot Deals </a></h2></div><a href="<?= base_url('incredible_ukd/deals') ?>" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager float-right"> <h4>View All</h4> </a></div>
             </div>
-            <div class="container">
-                <div class="magazine-cn">
+            <div class="container"  style="height: auto">
+                <div class="sales-cn">
                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="magazine-ds">
-                                <div id="owl-magazine-ds">
-                                    <div class="magazine-item">
-                                        <div class="magazine-header">
-                                            <h2>Five festivals to look forward to this year</h2>
-                                            <ul>
-                                                <li>by <a href="#" title="">Admin</a></li>
-                                                <li>03.5.2014</li>
-                                            </ul>
-                                            <hr class="hr">
-                                        </div>
-                                        <div class="magazine-body">
-                                            <p>Suspendisse ullamcorper lacus et commodo laoreet. Sed sodales aliquet felis, quis volutpat massa imperdiet in. Praesent rutrum malesuada risus, ullamcorper pretium tortor. Mauris lacinia nisl id massa consectetur, eu tempus mauris lacinia. Fusce commodo porttitor sapien quis condimentum.</p>
-                                            <p>Curabitur sollicitudin magna sed sem blandit sodales. Integer in eros sit amet tellus vulputate laoreet ut in purus. Nullam quis lacus nisl.
-                                                <br>Sed venenatis commodo leo, ac pulvinar ipsum mattis vitae. Suspendisse eu libero odio.</p>
-                                            <p>Curabitur sollicitudin magna sed sem blandit sodales. Integer in eros sit amet tellus vulputate laoreet ut in purus. Nullam quis lacus nisl.
-                                                <br>Sed venenatis commodo leo, ac pulvinar ipsum mattis vitae.</p>
-                                        </div>
-                                        <div class="magazine-footer clearfix">
-                                            <div class="post-share magazine-share float-left"><a href="#" title=""><i class="fa fa-facebook"></i></a> <a href="#" title=""><i class="fa fa-twitter"></i></a> <a href="#" title=""><i class="fa fa-google-plus"></i></a></div><a href="#" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">view more</a></div>
+                        <div class="col-xs-6 col-md-4">
+                            <div class="sales-item">
+                                <figure class="home-sales-img">
+                                    <a href="#" title=""><img src="<?= base_url('images/places/nainital2.jpg') ?>" alt="" style="height: 250px;width: 100%"></a>
+                                    <figcaption>Save <span>30</span>%</figcaption>
+                                </figure>
+                                <div class="home-sales-text">
+                                    <div class="home-sales-name-places" style="">
+                                        <div class="home-sales-name"><a href="#" title="">Nainital Trip for 2</a></div>
+                                         <div class="home-sales-places"><a href="#" title="">Nainital</a>, <a href="#" title="">Uttarakhand</a></div>
                                     </div>
-                                    <div class="magazine-item">
-                                        <div class="magazine-header">
-                                            <h2>Five festivals to look forward to this year</h2>
-                                            <ul>
-                                                <li>by <a href="#" title="">Admin</a></li>
-                                                <li>03.5.2014</li>
-                                            </ul>
-                                            <hr class="hr">
-                                        </div>
-                                        <div class="magazine-body">
-                                            <p>Suspendisse ullamcorper lacus et commodo laoreet. Sed sodales aliquet felis, quis volutpat massa imperdiet in. Praesent rutrum malesuada risus, ullamcorper pretium tortor. Mauris lacinia nisl id massa consectetur, eu tempus mauris lacinia. Fusce commodo porttitor sapien quis condimentum.</p>
-                                            <p>Curabitur sollicitudin magna sed sem blandit sodales. Integer in eros sit amet tellus vulputate laoreet ut in purus. Nullam quis lacus nisl.
-                                                <br>Sed venenatis commodo leo, ac pulvinar ipsum mattis vitae. Suspendisse eu libero odio.</p>
-                                            <p>Curabitur sollicitudin magna sed sem blandit sodales. Integer in eros sit amet tellus vulputate laoreet ut in purus. Nullam quis lacus nisl.
-                                                <br>Sed venenatis commodo leo, ac pulvinar ipsum mattis vitae.</p>
-                                        </div>
-                                        <div class="magazine-footer clearfix">
-                                            <div class="post-share magazine-share float-left"><a href="#" title=""><i class="fa fa-facebook"></i></a> <a href="#" title=""><i class="fa fa-twitter"></i></a> <a href="#" title=""><i class="fa fa-google-plus"></i></a></div><a href="#" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">view more</a></div>
-                                    </div>
-                                    <div class="magazine-item">
-                                        <div class="magazine-header">
-                                            <h2>Five festivals to look forward to this year</h2>
-                                            <ul>
-                                                <li>by <a href="#" title="">Admin</a></li>
-                                                <li>03.5.2014</li>
-                                            </ul>
-                                            <hr class="hr">
-                                        </div>
-                                        <div class="magazine-body">
-                                            <p>Suspendisse ullamcorper lacus et commodo laoreet. Sed sodales aliquet felis, quis volutpat massa imperdiet in. Praesent rutrum malesuada risus, ullamcorper pretium tortor. Mauris lacinia nisl id massa consectetur, eu tempus mauris lacinia. Fusce commodo porttitor sapien quis condimentum.</p>
-                                            <p>Curabitur sollicitudin magna sed sem blandit sodales. Integer in eros sit amet tellus vulputate laoreet ut in purus. Nullam quis lacus nisl.
-                                                <br>Sed venenatis commodo leo, ac pulvinar ipsum mattis vitae. Suspendisse eu libero odio.</p>
-                                            <p>Curabitur sollicitudin magna sed sem blandit sodales. Integer in eros sit amet tellus vulputate laoreet ut in purus. Nullam quis lacus nisl.
-                                                <br>Sed venenatis commodo leo, ac pulvinar ipsum mattis vitae.</p>
-                                        </div>
-                                        <div class="magazine-footer clearfix">
-                                            <div class="post-share magazine-share float-left"><a href="#" title=""><i class="fa fa-facebook"></i></a> <a href="#" title=""><i class="fa fa-twitter"></i></a> <a href="#" title=""><i class="fa fa-google-plus"></i></a></div><a href="#" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">view more</a></div>
-                                    </div>
-                                    <div class="magazine-item">
-                                        <div class="magazine-header">
-                                            <h2>Five festivals to look forward to this year</h2>
-                                            <ul>
-                                                <li>by <a href="#" title="">Admin</a></li>
-                                                <li>03.5.2014</li>
-                                            </ul>
-                                            <hr class="hr">
-                                        </div>
-                                        <div class="magazine-body">
-                                            <p>Suspendisse ullamcorper lacus et commodo laoreet. Sed sodales aliquet felis, quis volutpat massa imperdiet in. Praesent rutrum malesuada risus, ullamcorper pretium tortor. Mauris lacinia nisl id massa consectetur, eu tempus mauris lacinia. Fusce commodo porttitor sapien quis condimentum.</p>
-                                            <p>Curabitur sollicitudin magna sed sem blandit sodales. Integer in eros sit amet tellus vulputate laoreet ut in purus. Nullam quis lacus nisl.
-                                                <br>Sed venenatis commodo leo, ac pulvinar ipsum mattis vitae. Suspendisse eu libero odio.</p>
-                                            <p>Curabitur sollicitudin magna sed sem blandit sodales. Integer in eros sit amet tellus vulputate laoreet ut in purus. Nullam quis lacus nisl.
-                                                <br>Sed venenatis commodo leo, ac pulvinar ipsum mattis vitae.</p>
-                                        </div>
-                                        <div class="magazine-footer clearfix">
-                                            <div class="post-share magazine-share float-left"><a href="#" title=""><i class="fa fa-facebook"></i></a> <a href="#" title=""><i class="fa fa-twitter"></i></a> <a href="#" title=""><i class="fa fa-google-plus"></i></a></div><a href="#" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">view more</a></div>
-                                    </div>
+                                    
+                                    
+
+                                    <div class="price-box"> <span class="price special-price"> <small>Save Upto </small>30% <small>On This Trip</small></span></div>
+
+                                    <div class="price-box">Use Reference Code: <spam> <h3 style="display: inline;">INC5555UKD</h3> </span></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="magazine-thum" id="magazine-thum">
-                                <div class="thumnail-item active clearfix">
-                                    <figure class="float-left"><img src="<?= base_url('images/magazine/img-1.jpg') ?>" alt=""></figure>
-                                    <div class="thumnail-text">
-                                        <h4>Thailand by Train with Eastern and Oriental Express</h4><span>03.5.2014</span></div>
-                                </div>
-                                <div class="thumnail-item clearfix">
-                                    <figure class="float-left"><img src="<?= base_url('images/magazine/img-1.jpg') ?>" alt=""></figure>
-                                    <div class="thumnail-text">
-                                        <h4>Thailand by Train with Eastern and Oriental Express</h4><span>03.5.2014</span></div>
-                                </div>
-                                <div class="thumnail-item clearfix">
-                                    <figure class="float-left"><img src="<?= base_url('images/magazine/img-1.jpg') ?>" alt=""></figure>
-                                    <div class="thumnail-text">
-                                        <h4>Thailand by Train with Eastern and Oriental Express</h4><span>03.5.2014</span></div>
-                                </div>
-                                <div class="thumnail-item clearfix">
-                                    <figure class="float-left"><img src="<?= base_url('images/magazine/img-1.jpg') ?>" alt=""></figure>
-                                    <div class="thumnail-text">
-                                        <h4>Thailand by Train with Eastern and Oriental Express</h4><span>03.5.2014</span></div>
+
+                        <div class="col-xs-6 col-md-4">
+                            <div class="sales-item">
+                                <figure class="home-sales-img">
+                                    <a href="#" title=""><img src="<?= base_url('images/places/mussoorie.jpg') ?>" alt="" style="height: 250px;width: 100%"></a>
+                                    <figcaption>Save <span>20</span>%</figcaption>
+                                </figure>
+                                <div class="home-sales-text">
+                                    <div class="home-sales-name-places" style="">
+                                        <div class="home-sales-name"><a href="#" title="">Mussoorie MotorBike Trip</a></div>
+                                         <div class="home-sales-places"><a href="#" title="">Mussoorie</a>, <a href="#" title="">Uttarakhand</a></div>
+                                    </div>
+                                    
+                                    
+
+                                    <div class="price-box"> <span class="price special-price"> <small>Save Upto </small>20% <small>On This Trip</small></span></div>
+
+                                    <div class="price-box">Use Reference Code: <spam> <h3 style="display: inline;">INC1005UKD</h3> </span></div>
                                 </div>
                             </div>
                         </div>
+                        <div class="col-xs-6 col-md-4">
+                            <div class="sales-item">
+                                <figure class="home-sales-img">
+                                    <a href="#" title=""><img src="<?= base_url('images/places/hemkund.jpg') ?>" alt="" style="height: 250px;width: 100%" ></a>
+                                    <figcaption>Save <span>25</span>%</figcaption>
+                                </figure>
+                                <div class="home-sales-text">
+                                    <div class="home-sales-name-places" style="">
+                                        <div class="home-sales-name"><a href="#" title="">Hemkund Pilgrimage Trip </a></div>
+                                         <div class="home-sales-places"><a href="#" title="">Pilgrims Tour Package</a></div>
+                                    </div>
+                                    
+                                    
+
+                                    <div class="price-box"> <span class="price special-price"> <small>Save Upto </small>25% <small>On This Trip</small></span></div>
+
+                                    <div class="price-box">Use Reference Code: <spam> <h3 style="display: inline;">INC1255UKD</h3> </span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-4">
+                            <div class="sales-item">
+                                <figure class="home-sales-img">
+                                    <a href="#" title=""><img src="<?= base_url('images/tour/home_stay.jpg') ?>" alt="" style="height: 250px;width: 100%"></a>
+                                    <figcaption>Save <span>35</span>%</figcaption>
+                                </figure>
+                                <div class="home-sales-text">
+                                    <div class="home-sales-name-places" style="">
+                                        <div class="home-sales-name"><a href="#" title="">Home Stay Tour Discounts</a></div>
+                                         <div class="home-sales-places"><a href="#" title="">Home Stay Tour Package</a></div>
+                                    </div>
+                                    
+                                    
+
+                                    <div class="price-box"> <span class="price special-price"> <small>Save Upto </small>35% <small>On This Trip</small></span></div>
+
+                                    <div class="price-box">Use Reference Code: <spam> <h3 style="display: inline;">INC1211UKD</h3> </span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-4">
+                            <div class="sales-item">
+                                <figure class="home-sales-img">
+                                    <a href="#" title=""><img src="<?= base_url('images/places/kausani2.jpg') ?>" alt="" style="height: 250px;width: 100%"></a>
+                                    <figcaption>Save <span>40</span>%</figcaption>
+                                </figure>
+                                <div class="home-sales-text">
+                                    <div class="home-sales-name-places" style="">
+                                        <div class="home-sales-name"><a href="#" title="">Kausani Trip at Best Prices</a></div>
+                                         <div class="home-sales-places"><a href="#" title="">Kausani</a>, <a href="#" title="">Uttarakhand</a></div>
+                                    </div>
+                                    
+                                    
+                                    <div class="price-box"> <span class="price special-price"> <small>Save Upto </small>40% <small>On This Trip</small></span></div>
+                                    
+                                    <div class="price-box">Use Reference Code: <spam> <h3 style="display: inline;">INC9149UKD</h3> </span></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-md-4">
+                            <div class="sales-item">
+                                <figure class="home-sales-img">
+                                    <a href="#" title=""><img src="<?= base_url('images/places/nainital3.jpg') ?>" alt="" style="height: 250px;width: 100%"></a>
+                                    <figcaption>Save <span>20</span>%</figcaption>
+                                </figure>
+                                <div class="home-sales-text">
+                                    <div class="home-sales-name-places" style="">
+                                        <div class="home-sales-name"><a href="#" title="">Nainital Honeymoon Package</a></div>
+                                         <div class="home-sales-places"><a href="#" title="">Honeymoon Tour Package</a>
+                                    </div>
+                                    </div>
+                                    
+                                    
+
+                                    <div class="price-box"> <span class="price special-price"> <small>Save Upto </small>20% <small>On This Trip</small></span></div>
+
+                                    <div class="price-box">Use Reference Code: <spam> <h3 style="display: inline;">INC13158UKD</h3> </span></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
                     </div>
                 </div>
             </div>
@@ -658,53 +718,58 @@
                                 <!--==== Wrapper for slides ====-->
                                         <div class="carousel-inner" style="width: 100%">
                                             <div class="item active">
-                                                <a href="#" ><?= img( ["src" => 'images/magazine/img-1.jpg',"style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
+                                                <a href="#" ><?= img( ["src" => 'images/places/almora.jpg',"style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
                                                 <div class="container">
                                                     <div class="carousel-caption">
-                                                        <h1>Awesome Trip</h1>
-                                                        <p style="color:black"> Vivamus enim eros, vehicula at risus non, rutrum ullamcorper lacus. Suspendisse iaculis leo ipsum, semper gravida dui egestas sed. </p>
+                                                        <h1>Great Help</h1>
+                                                        <p style="color:black"> What ends well is well done. Thanks again for all the help.Looking forward for further engagements. <br>
+                                                        - Mr. Sachin Mishra </p>
                                                     </div>
                                                 </div>           
                                             </div>
 
                                             <div class="item">
-                                                <a href="#"><?= img( ["src" => 'images/magazine/img-1.jpg',"style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
+                                                <a href="#"><?= img( ["src" => 'images/places/kausani2.jpg',"style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
                                                 <div class="container">
 
                                                     <div class="carousel-caption">  
                                                     <br>
-                                                        <h1>Great Experience</h1>
-                                                        <p style="color:black"> Vivamus enim eros, vehicula at risus non, rutrum ullamcorper lacus. Suspendisse iaculis leo ipsum, semper gravida dui egestas sed.  </p>
+                                                        <h1>Ever Lasting Trip</h1>
+                                                        <p style="color:black"> It was a great pleasure for us to thank a many times to Make My Trip for their friendly behave and so many help and guidance.<br>
+                                                        - Mr. Mahesh Chandra </p>
                                                     </div>
                                                 </div>           
                                             </div>
 
                                             <div class="item">
-                                                <a href="#"><?= img( ["src" =>'images/magazine/img-1.jpg',"style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
+                                                <a href="#"><?= img( ["src" =>'images/places/munsiyari.jpg',"style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
                                                 <div class="container">
                                                     <div class="carousel-caption">
-                                                        <h1>Good Service</h1>
-                                                        <p style="color:black"> Vivamus enim eros, vehicula at risus non, rutrum ullamcorper lacus. Suspendisse iaculis leo ipsum, semper gravida dui egestas sed.  </p>
+                                                        <h1>Great Efforts</h1>
+                                                        <p style="color:black"> Many Thanks for your effort with me. Be sure for my coming trips it will be with you as i was very pleased with your professionalization.<br>
+                                                        - Mr. Rahul D. Chauhan </p>
                                                     </div>
                                                 </div>           
                                             </div>
 
                                             <div class="item">
-                                                <a href="#"><?= img( ["src" => 'images/magazine/img-1.jpg',"style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
+                                                <a href="#"><?= img( ["src" => 'images/places/mussoorie.jpg',"style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
                                                 <div class="container">
                                                     <div class="carousel-caption">
-                                                        <h1>Good Service</h1>
-                                                        <p style="color:black"> Vivamus enim eros, vehicula at risus non, rutrum ullamcorper lacus. Suspendisse iaculis leo ipsum, semper gravida dui egestas sed.</p>
+                                                        <h1>Amazing Vacations</h1>
+                                                        <p style="color:black"> We are back from one of the most amazing vacations we've been on lately! It was indeed a great experience.<br>
+                                                        - MOUSUMI GHOSH</p>
                                                     </div>
                                                 </div>           
                                             </div>
 
                                             <div class="item">
-                                                <a href="#"><?= img( ["src" => 'images/magazine/img-1.jpg',"style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
+                                                <a href="#"><?= img( ["src" => 'images/places/lansdown.jpg',"style"=>"width:100%;height:300px;opacity:0.5"] )  ?>                     </a>
                                                 <div class="container">
                                                     <div class="carousel-caption">
-                                                        <h1>Good Service</h1>
-                                                        <p style="color:black"> Vivamus enim eros, vehicula at risus non, rutrum ullamcorper lacus. Suspendisse iaculis leo ipsum, semper gravida dui egestas sed.  </p>
+                                                        <h1>Satisfying Services</h1>
+                                                        <p style="color:black"> I liked the website options and fully satisfied with the overall service.<br>
+                                                        - JATIN JAIN </p>
                                                     </div>
                                                 </div>           
                                             </div>

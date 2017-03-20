@@ -2,7 +2,7 @@
 
 class Bookings extends CI_Model  {
 	//Function for booking tour packages
-	public function bookTourPackage($userData)  {
+	public function bookTour($userData)  {
 		//echo "hii";
 			$tourId = "";
 		$query = "SELECT * FROM `tour-package` ORDER BY `entryId` DESC  ";

@@ -27,18 +27,19 @@
 
 <body>
 
-    <nav class="navigation nav-c col-xs-12" id="navigation" data-menu-type="1200">
+    <div class="bars" id="bars"></div>
+                <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
                     <div class="nav-inner"><a href="#" class="bars-close" id="bars-close">Close</a>
                         <div class="tb">
                             <div class="tb-cell">
-                                <ul class="menu-list text-uppercase">
-                                    <li ><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                 <ul class="menu-list text-uppercase">
+                                    <li  ><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
                                         
                                     <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
 
-                                    <li><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
+                                    <li ><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
                                             <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                             </ul>
                                         </li>
@@ -57,10 +58,10 @@
                                             </li>
                                         </ul>
                                     </li>               
-                                    <li><?= anchor( '','Destinations')?>
+                                    <li ><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
-                                            <li><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
+                                            <li ><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
+                                            <li"><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
                                            
                                         </ul>
                                     </li>
@@ -86,9 +87,14 @@
                 </nav>
             </div>
         </header>
-        <section class="sub-banner">
-            <div class="bg-parallax bg-1"></div>
-            
+
+         <section class="banner">
+            <div class="bg-parallax bg-3"></div>
+                <div class="logo-banner text-center">
+                    <a href="#" title=""><img src="<?= base_url('images/logo2.png') ?>" alt="" style="height: 100px;">
+                    
+                    </a>
+                </div>
         </section>
         <div class="main">
             <div class="container">
@@ -254,6 +260,7 @@
                                     </div> 
 
                             </div>        
+                                    <div class="row">
                                     <div class="col-sm-5 col-md-12 col-lg-5 cart-number" >   
                                                 <br><br><br><br><br><br>
                                             <h2 style="display: inline-block;">Cost of Your Selected Tour  : </h2>
@@ -280,22 +287,23 @@
                                             </tr>
                                         </table>
                                     </div>
-                                </div>  
-
-                                        <br><br>
-                                <div class="col-md-6" style="margin-left: 0%%">        
-                                    <div class="g-recaptcha" data-sitekey="6LfXoxgUAAAAADJeG8DlRHk9278SsMWtmYY-xFqX" style="margin-left: 30%"></div>
-                                            <br><br>
-                                    <div class="" style="margin-left: 0%">
-                                        <p>By clicking on the button below to complete this booking I acknowledge that I have read and accepted the <span>rules &amp; restrictions, terms &amp; conditions</span> and <span>privacy policy</span>.</p>
-                                        <br>
-                                    </div>
                                 </div>        
-                                    <div class="col-md-12" style="margin-left: 35%">   
+                                    <div class="col-md-12">   
+                                        <div class="g-recaptcha" data-sitekey="6LfXoxgUAAAAADJeG8DlRHk9278SsMWtmYY-xFqX" style="margin-left: 10%"></div>
+
+                                        <div class="submit text-center">
+                                                <br>
+
+                                            <p>By clicking on the button below to complete this booking I acknowledge that I have read and accept the <span>rules &amp; restrictions, terms &amp; conditions</span> and <span>privacy policy</span>.</p>
+                                            
+                                           
+                                                
+                                            <div class="col-md-12" style="margin-left: 0%">   
                                         <input type="submit" name="proceed" class="awe-btn awe-btn-1 awe-btn-lager" value="Proceed">
-                                    </div>    
-                                </div>
-                                </div>    
+                                    </div>
+                                        </div>
+                                     </div>   
+
 
                                 </form>
                             </div>        
@@ -303,6 +311,7 @@
                 </div>
             </div>
         </div>
+        
         </div>
 
      <script src="../js/ckeditor/ckeditor.js"></script>   

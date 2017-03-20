@@ -1,3 +1,11 @@
+
+<style type="text/css">
+    @media (max-width: 780px)  {
+     .headerImage  {
+        height: 05px;  
+    }
+} 
+</style>
 <body>
     <div id="preloader">
         <div class="tb-cell">
@@ -11,5 +19,5 @@
         <header id="header" class="header">
             <div class="container-fluid">
                 <div class="logo float-left">
-                    <a href="index.php" title=""><img src="<?= base_url('images/logo2.png') ?>" alt=""></a>
+                    <a href="<?= base_url('incredible_ukd') ?>" title=""><img src="<?= base_url('images/logoHeader.png') ?>" alt="" style = "height: 70px;width:140px;" class="headerImage"></a>
                 </div>

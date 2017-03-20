@@ -67,7 +67,7 @@
             <div class="bg-parallax bg-3"></div>
                 <div class="logo-banner text-center">
                     <a href="#" title=""><img src="<?= base_url('images/logo2.png') ?>" alt="" style="height: 100px;">
-                    <h3 style="color:white;text-decoration: none">Tour Planners</h3>
+                    
                     </a>
                 </div>
         </section>
@@ -213,8 +213,10 @@
                                     <p  style="line-height: 1.8;font-size:18px;font-family:bariol, 'Helvetica Neue',Helvetica,Arial,sans-serif">Come and visit one of the <b>seven wonders of the World- Taj Mahal in Agra</b>, unravel the mystery behind several imposing <b>havelis of Rajasthan</b>, offer sincere prayer at <b>iconic Gompas of Gangtok</b>, cruise through the <b>backwaters of Kerala</b> on a houseboat and get enthralled with <b>world's largest salt desert, Great Rann of Kutch</b>. The country also boasts of <b>Goa</b> and <b>Andaman and Nicobar Islands</b> that are like storehouses of a number of gorgeous beaches. Moreover, India is a land of several religions and thus it is home to innumerable temple and religious site belonging to all faiths. All the pious sites are not only highly revered places of worship but are architectural marvels too.</p>
 
 
-                                        
-                                            
+                                         <br><br>
+                                  <a href="<?= base_url('incredible_ukd/about_india')?>">
+                                      <h3 style="color: #111;text-decoration: underline #111;">Click Here to Know More About the Travel Destinations in India</h3>
+                                  </a>          
 
                                         
                                 

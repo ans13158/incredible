@@ -24,7 +24,7 @@
     <?= link_tag('css/library/owl.carousel.css') ?>
     <?= link_tag('css/library/jquery.mb.YTPlayer.min.css') ?>
     <?= link_tag('css/style.css') ?>
-
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <!--<link rel="stylesheet" href="css/library/font-awesome.min.css">-->
     <!--<link rel="stylesheet" href="css/library/bootstrap.min.css">
     <link rel="stylesheet" href="css/library/jquery-ui.min.css">
