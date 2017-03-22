@@ -17,27 +17,15 @@
                                         
                                     <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
 
+                                    <li><?= anchor(base_url("incredible_ukd/role"),'Our Role')?> </li> 
+
                                     <li ><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
                                             <li ><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
                                             <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                             </ul>
                                         </li>
-                                    <li><?= anchor('','Our Services')?>
-                                        <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/best_hotel'),'Best Hotels & Resorts')?></li>
-                                            <li><?= anchor( '','Logistic Modes')?>
-                                                <ul class="sub-menu">
-                                                    <li><?= anchor( base_url('incredible_ukd/flights'),'Flights')?></li>
-                                                    <li><?= anchor( base_url('incredible_ukd/cars'),'Cars')?></li>
-                                                    <li><?= anchor( base_url('incredible_ukd/bikes') ,'Bikes')?></li>
-                                                    <li><?= anchor( base_url('incredible_ukd/bus') ,'Buses')?></li>
-                                                    <li><?= anchor( base_url('incredible_ukd/travelers') ,'Travelers')?></li>
-
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>               
+                                                  
                                     <li><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
                                             <li ><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
@@ -184,7 +172,7 @@
                                     
                                     <span style="display: inline-block;"><h1 class="title-post-head">Pilgrims  Packages</h1></span>
 
-                                     <span style="display: inline-block;margin-top: 10px"><a href="<?= base_url('incredible_ukd/bookPackage') ?>" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium">Book My Tour</a></span>
+                                     <span  style="display: inline-block;margin-top: 10px"><a href="<?= base_url('incredible_ukd/enquiry') ?>" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium " >Enquire Now</a></span>
                                     <div class="post-media">
                                         <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/badri-kedar.jpg'),  "alt"=>"","style"=>"height:300px;width:100%"] )  ?></div>
                                     </div>
@@ -274,7 +262,7 @@
 										
 									</div> 
 										<br><br>   
-                                        <a href="<?= base_url('incredible_ukd/bookPackage') ?>" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium" style="margin-left: 30%">Book My Tour</a>
+                                        <a href="<?= base_url('incredible_ukd/enquiry') ?>" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium" style="margin-left: 30%">Enquire Now</a>
                                     </div>
                                     
                                     

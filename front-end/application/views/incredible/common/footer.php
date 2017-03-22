@@ -12,8 +12,9 @@
                             <ul>
                                 <li><a href="<?= base_url('incredible_ukd') ?>" title="">Home</a></li>
                                 <li><a href="<?= base_url('incredible_ukd/about') ?>" title="">About</a></li>
+                                <li><a href="<?= base_url('incredible_ukd/role') ?>" title="">Our Role</a></li>
                                 <li><a href="<?= base_url('incredible_ukd/about_ukd') ?>" title="">Locations</a></li>
-                                <li><a href="<?= base_url('incredible_ukd/about#our_team') ?>" title="">Our Team</a></li>
+                               
                                 
                             </ul>
                         </div>
@@ -23,7 +24,7 @@
                     <div class="col-xs-5 col-sm-4 col-md-2">
                         <div class="ul-ft">
                             <ul>
-                                <li><a href="<?= base_url('incredible_ukd/service') ?>" title="">Our Services</a></li>
+                                 <li><a href="<?= base_url('incredible_ukd/about#our_team') ?>" title="">Our Team</a></li>
                                 <li><a href="<?= base_url('incredible_ukd/ukdDestinations') ?>" title="">Destinations</a></li>
                                 <li><a href="<?= base_url('incredible_ukd#tourPackages') ?>" title="">Tour-Packages</a></li>
                                 

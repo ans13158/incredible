@@ -9,6 +9,10 @@ class Incredible_Ukd extends CI_Controller  {
 		$this->load->view('incredible/about');
 	}
 
+    public function role()  {
+        $this->load->view('incredible/role.php');
+    }
+
 	public function ukdDestinations()  {
 		$this->load->model('incredible/ukd_model','ukd');
 		$data['destinations'] = $this->ukd->getDestinations();

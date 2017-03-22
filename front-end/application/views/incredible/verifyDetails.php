@@ -37,27 +37,15 @@
                                         
                                     <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
 
+                                    <li><?= anchor(base_url("incredible_ukd/role"),'Our Role')?> </li> 
+
                                     <li><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
                                             <li ><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
                                             <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                             </ul>
                                         </li>
-                                    <li><?= anchor('','Our Services')?>
-                                        <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/best_hotel'),'Best Hotels & Resorts')?></li>
-                                            <li><?= anchor( '','Logistic Modes')?>
-                                                <ul class="sub-menu">
-                                                    <li><?= anchor( base_url('incredible_ukd/flights'),'Flights')?></li>
-                                                    <li><?= anchor( base_url('incredible_ukd/cars'),'Cars')?></li>
-                                                    <li><?= anchor( base_url('incredible_ukd/bikes') ,'Bikes')?></li>
-                                                    <li><?= anchor( base_url('incredible_ukd/bus') ,'Buses')?></li>
-                                                    <li><?= anchor( base_url('incredible_ukd/travelers') ,'Travelers')?></li>
-
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>               
+                                            
                                     <li  class="current-menu-parent"><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
                                             <li><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>

@@ -69,27 +69,15 @@
                                         
                                     <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
 
+                                    <li><?= anchor(base_url("incredible_ukd/role"),'Our Role')?> </li> 
+
                                     <li><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
                                             <li><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
                                             <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                             </ul>
                                         </li>
-                                    <li><?= anchor('','Our Services')?>
-                                        <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/best_hotel'),'Best Hotels & Resorts')?></li>
-                                            <li><?= anchor( '','Logistic Modes')?>
-                                                <ul class="sub-menu">
-                                                    <li><?= anchor( base_url('incredible_ukd/flights'),'Flights')?></li>
-                                                    <li><?= anchor( base_url('incredible_ukd/cars'),'Cars')?></li>
-                                                    <li><?= anchor( base_url('incredible_ukd/bikes') ,'Bikes')?></li>
-                                                    <li><?= anchor( base_url('incredible_ukd/bus') ,'Buses')?></li>
-                                                    <li><?= anchor( base_url('incredible_ukd/travelers') ,'Travelers')?></li>
-
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>               
+                                                  
                                     <li><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
                                             <li><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
@@ -161,7 +149,7 @@
                                     
                                     
 
-                                    <div class="price-box"><span class="price old-price">From <del> &#8377;3000</del></span> <span class="price special-price"> &#8377;2000<small>/night</small></span></div>
+                                    <div class="price-box"> <span class="price special-price"> <small>Save Upto </small>30% <small>On This Trip</small></span></div>
 
                                     <div class="price-box">Use Reference Code: <spam> <h3 style="display: inline;">INC5555UKD</h3> </span></div>
                                 </div>
@@ -182,7 +170,7 @@
                                     
                                     
 
-                                    <div class="price-box"><span class="price old-price">From <del> &#8377;3200</del></span> <span class="price special-price"> &#8377;1750<small>/night</small></span></div>
+                                    <div class="price-box"> <span class="price special-price"> <small>Save Upto </small>20% <small>On This Trip</small></span></div>
 
                                     <div class="price-box">Use Reference Code: <spam> <h3 style="display: inline;">INC1005UKD</h3> </span></div>
                                 </div>
@@ -202,7 +190,7 @@
                                     
                                     
 
-                                    <div class="price-box"><span class="price old-price">From <del> &#8377;2390</del></span> <span class="price special-price"> &#8377;1500<small>/night</small></span></div>
+                                    <div class="price-box"> <span class="price special-price"> <small>Save Upto </small>25% <small>On This Trip</small></span></div>
 
                                     <div class="price-box">Use Reference Code: <spam> <h3 style="display: inline;">INC1255UKD</h3> </span></div>
                                 </div>
@@ -222,7 +210,7 @@
                                     
                                     
 
-                                    <div class="price-box"><span class="price old-price">From <del> &#8377;2390</del></span> <span class="price special-price"> &#8377;2000<small>/night</small></span></div>
+                                    <div class="price-box"> <span class="price special-price"> <small>Save Upto </small>30% <small>On This Trip</small></span></div>
 
                                     <div class="price-box">Use Reference Code: <spam> <h3 style="display: inline;">INC1211UKD</h3> </span></div>
                                 </div>
@@ -242,7 +230,7 @@
                                     
                                     
 
-                                    <div class="price-box"><span class="price old-price">From <del> &#8377;2390</del></span> <span class="price special-price"> &#8377;1599<small>/night</small></span></div>
+                                    <div class="price-box"> <span class="price special-price"> <small>Save Upto </small>40% <small>On This Trip</small></span></div>
 
                                     <div class="price-box">Use Reference Code: <spam> <h3 style="display: inline;">INC9149UKD</h3> </span></div>
                                 </div>
@@ -264,7 +252,7 @@
                                     
                                     
 
-                                    <div class="price-box"><span class="price old-price">From <del> &#8377;3000</del></span> <span class="price special-price"> &#8377;1999<small>/night</small></span></div>
+                                    <div class="price-box"> <span class="price special-price"> <small>Save Upto </small>30% <small>On This Trip</small></span></div>
 
                                     <div class="price-box">Use Reference Code: <spam> <h3 style="display: inline;">INC13158UKD</h3> </span></div>
                                 </div>

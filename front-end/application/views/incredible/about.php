@@ -15,27 +15,15 @@
                                         
                                     <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
 
+                                    <li><?= anchor(base_url("incredible_ukd/role"),'Our Role')?> </li> 
+
                                     <li><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
                                             <li><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
                                             <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                             </ul>
                                         </li>
-                                    <li><?= anchor('','Our Services')?>
-                                        <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/best_hotel'),'Best Hotels & Resorts')?></li>
-                                            <li><?= anchor( '','Logistic Modes')?>
-                                                <ul class="sub-menu">
-                                                    <li><?= anchor( base_url('incredible_ukd/flights'),'Flights')?></li>
-                                                    <li><?= anchor( base_url('incredible_ukd/cars'),'Cars')?></li>
-                                                    <li><?= anchor( base_url('incredible_ukd/bikes') ,'Bikes')?></li>
-                                                    <li><?= anchor( base_url('incredible_ukd/bus') ,'Buses')?></li>
-                                                    <li><?= anchor( base_url('incredible_ukd/travelers') ,'Travelers')?></li>
-
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>               
+                                    
                                     <li><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
                                             <li><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
@@ -80,12 +68,12 @@
                     <section class="about-cn clearfix ">
                             
                         <div class="about-text ">
-                            <h4 style="font-weight: bold;color:#333;line-height: 1.5;text-align: center;">Incredible Uttarakhand is Tour Planner Agency located at Nainital and Almora districts of Uttarakhand with Main Office at Almora district and Satellite Office at Haldwani, Nainital.</h4>
+                            <h4 style="font-weight: bold;color:#333;line-height: 1.5;text-align: center;">Incredible Uttarakhand is a Tour Planner Agency located in Nainital and Almora districts of Uttarakhand with Main Office at Almora district and Satellite Office at Haldwani, Nainital.</h4>
                              <br>
                              <img src="<?= base_url('images/about.png') ?>">
                             <div class="about-description">
                                 
-                                <p style="font-family: bariol;font-size: 17px;line-height: 1.5">Our tour planner agency is assisted by Department of Tourism, Govt. of Uttarakhand . We the planners belong to the "Land of Gods" itself so our understanding and knowing of of Uttarakhand region is far better. Our main aim is to explore the unexplored and majestic sites because there are many places in Uttarakhand which are not in tourism map of the state but far cheap and beautiful than other famous hilly regions. Our mission is to provide unexplored places of Uttarakhand an identity on tourism map as well as provide cheap, exciting and memorable tour packages to our clients.Uttarakhand offers limitless opportunities for tourism and adventure. There is something for everyone - Pilgrimage, Temples, Wildlife tours, Bird Watching, Rafting, Mountaineering, Skiiing, Trekking, Camping, Yoga and Meditation and much more. Incredible Uttarakhand introduce itself as a fast growing Tour Operator and Travel Agent based at Uttarakhand. Incredible Uttarakhand, covers complete Uttarakhand range from Kumaon Hills to Garhwal Hills to provide you extreme enjoyment. Incredible Uttarakhand, has complete information about areas we cover and you might have to visit. Incredible Uttarakhand, has a list of Tours like Adventure, Holidays, Pilgrimage and Honeymoon. We even manage hotels and every facility in remote areas. We have a huge list of satisfied clients and you could be the next.<br><br></p>
+                                <p style="font-family: bariol;font-size: 17px;line-height: 1.5">Our tour planner agency is assisted by Department of Tourism, Govt. of Uttarakhand . We the planners belong to the "Land of Gods" itself so our understanding and knowing of Uttarakhand region is far better. Our main aim is to explore the unexplored and majestic sites because there are many places in Uttarakhand which are not in tourism map of the state but far cheap and beautiful than other famous hilly regions. Our mission is to provide unexplored places of Uttarakhand an identity on tourism map as well as provide cheap, exciting and memorable tour packages to our clients.Uttarakhand offers limitless opportunities for tourism and adventure. There is something for everyone - Pilgrimage, Temples, Wildlife tours, Bird Watching, Rafting, Mountaineering, Skiiing, Trekking, Camping, Yoga and Meditation and much more. Incredible Uttarakhand introduce itself as a fast growing Tour Operator and Travel Agent based at Uttarakhand. Incredible Uttarakhand, covers complete Uttarakhand range from Kumaon Hills to Garhwal Hills to provide you extreme enjoyment. Incredible Uttarakhand, has complete information about areas we cover and you might have to visit. Incredible Uttarakhand, has a list of Tours like Adventure, Holidays, Pilgrimage and Honeymoon. We even manage hotels and every facility in remote areas. We have a huge list of satisfied clients and you could be the next.<br><br></p>
                                <h4 style="font-weight: bold;color:#333;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif">Vision &amp; Mission</h4>
                                 <ul>
                                     <strong>
@@ -107,17 +95,15 @@
                         The best people formula for great tour planners!.</b></p>
                         </div>
                         <div class="team-group row">
-                            <div class="team-item col-xs-6 col-md-3">
-                                <figure> <?=img ( ["src"=>"images/team/img-1.jpg", "alt"=>""] ) ?></figure>
-                                <h3>ROBERT SMITH</h3><span>Creative Director</span></div>
-                            <div class="team-item col-xs-6 col-md-3">
-                                <figure><?=img ( ["src"=>"images/team/img-2.jpg", "alt"=>"", "style"=>"height:255px;"] ) ?></figure>
-                                <h3>JHON WHITE</h3><span>Designer</span></div>
-                            <div class="team-item col-xs-6 col-md-3">
-                                <figure><?=img ( ["src"=>"images/team/developer1.jpg", "alt"=>"" , "style"=>"height:255px;"] ) ?></figure>
+                            <div class="team-item col-xs-6 col-md-4">
+                                <figure> <?=img ( ["src"=>"images/team/ceo.jpg", "alt"=>"", "style"=>"height:350px;"] ) ?></figure>
+                                <h3>REKHA ARYA</h3><span>Founder & CEO</span></div>
+                            
+                            <div class="team-item col-xs-6 col-md-4">
+                                <figure><?=img ( ["src"=>"images/team/developer1.jpg", "alt"=>"" , "style"=>"height:350px;"] ) ?></figure>
                                 <h3>ANSHUL AGRAWAL</h3><span>Web Developer &amp; Designer</span></div>
-                            <div class="team-item col-xs-6 col-md-3">
-                                <figure><?=img ( ["src"=>"images/team/developer2.jpg", "alt"=>"" , "style"=>"height:255px;"] ) ?></figure>
+                            <div class="team-item col-xs-6 col-md-4">
+                                <figure><?=img ( ["src"=>"images/team/developer2.jpg", "alt"=>"" , "style"=>"height:350px;"] ) ?></figure>
                                 <h3>YASHASVI GOEL</h3><span>Web Developer</span></div>
                         </div>
                     </section>
