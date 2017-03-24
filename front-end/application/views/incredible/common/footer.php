@@ -29,7 +29,7 @@
                                 <li><a href="<?= base_url('incredible_ukd#tourPackages') ?>" title="">Tour-Packages</a></li>
                                 
                                 <li>
-                                    <a href="<?= base_url('incredible_ukd/about#our_partners') ?>" title="" style="color: white;margin-top: 0px;">Our Partners</a>
+                                    <a href="<?= base_url('incredible_ukd/about#our_partners') ?>" title="" style=";margin-top: 0px;">Our Partners</a>
                                 </li> 
                             </ul>
                         </div>
@@ -38,7 +38,7 @@
                         <div class="ul-ft">
                             <ul>
                                 
-                                <li><a href="<?= base_url('incredible_ukd/about_ukd') ?>" title="">Site-Developers</a></li>
+                                <li><a href="<?= base_url('incredible_ukd/developers') ?>" title="">Site-Developers</a></li>
                                 
 
                                 </ul>

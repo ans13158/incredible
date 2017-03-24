@@ -133,12 +133,12 @@
                                                              ?>
                                                                   <?= $content ?>
                                                                  <p> 
-                                                                 &nbsp
-                                                                 &nbsp
-                                                                 &nbsp
-                                                                 &nbsp
-                                                                &nbsp&nbsp
-                                                                &nbsp
+                                                                 &nbsp;
+                                                                 &nbsp;
+                                                                 &nbsp;
+                                                                 &nbsp;
+                                                                &nbsp;&nbsp;
+                                                                &nbsp;
                                                                 .....Read More</p>
                                                             </a>     
 
