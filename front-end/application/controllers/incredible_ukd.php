@@ -368,7 +368,32 @@ class Incredible_Ukd extends CI_Controller  {
     }
 
     public function enquiry()  {
+        $this->load->helper( array('form','url') );
+        $this->load->library('form_validation');
         $this->load->view('incredible/enquiry');
+    }
+
+    public function enquirySubmit() {
+        $this->load->library('form_validation');
+        $this->load->helper( array('form','url') );
+
+        $message = array();
+        $enquiryData = array();
+
+        $enquiryData = $this->input->post();
+        unset($enquiryData['g-recaptcha-response']);
+        unset($enquiryData['enquire']);
+        //print_r($enquiryData);
+        $this->load->model('incredible/enquiry_submit');
+        $rows_inserted = $this->enquiry_submit->insertEnquiry($enquiryData);
+        if($rows_inserted){
+            $message['success'] = "Thanx for choosing us! We will reach you as soon as possible.";
+            $this->load->view('incredible/enquiry',$message);
+        }
+        else {
+            $message['failure'] = "Error submiting enquiry. Please try again.";
+            $this->load->view('incredible/enquiry',$message);
+        }
     }
 
     public function developers()  {
