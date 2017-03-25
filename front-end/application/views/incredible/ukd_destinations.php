@@ -127,7 +127,7 @@
                                                         <a href="ukd_destination_detail/<?= $destination['destinationId']?>" title="" class="display-destination">
                                                                <?php 
                                                                 $content = "";
-                                                                for($i=0;$i<150;$i++) { 
+                                                                for($i=0;$i<100;$i++) { 
                                                                     $content = $content . $destination['details'][$i];
                                                                 }
                                                              ?>

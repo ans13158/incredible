@@ -97,7 +97,7 @@
                                     $image = $imagePath . "/" . $imageName;
                             
                     ?>
-                                <?= img( ["src"=>$image , "alt"=>"","style"=>"height:350px"]) ?> <?php endforeach ?>    
+                                <?= img( ["src"=>$image , "alt"=>"","style"=>"height:420px"]) ?> <?php endforeach ?>    
                             </div>
                         </div>
                        <div class="slide-room-sm">
@@ -130,20 +130,41 @@
                                             <br>
                                             
                                                 <ul>
-                                                    <li style="font-size: 21px;">   <?= $detail[0]["visit1"] ?> 
-                                                    </li>
+                                                    <?php 
+                                                    if(strlen($detail[0]["visit1"]))
+                                                        echo '<li style="font-size: 21px;">'.   $detail[0]["visit1"].  
+                                                    '</li>';
+
+                                                    ?>
                                                         <br>
-                                                    <li style="font-size: 21px;">   <?= $detail[0]["visit2"] ?> 
-                                                    </li>
+                                                     <?php 
+                                                    if(strlen($detail[0]["visit2"]))
+                                                        echo '<li style="font-size: 21px;">'.   $detail[0]["visit2"].  
+                                                    '</li>';
+
+                                                    ?>
                                                         <br>
-                                                    <li style="font-size: 21px;">   <?= $detail[0]["visit3"] ?> 
-                                                    </li>
+                                                         <?php 
+                                                    if(strlen($detail[0]["visit3"]))
+                                                        echo '<li style="font-size: 21px;">'.   $detail[0]["visit3"].  
+                                                    '</li>';
+
+                                                    ?>
                                                         <br>
-                                                    <li style="font-size: 21px;">   <?= $detail[0]["visit4"] ?> 
-                                                    </li>
+                                                         <?php 
+                                                    if(strlen($detail[0]["visit4"]))
+                                                        echo '<li style="font-size: 21px;">'.   $detail[0]["visit4"].  
+                                                    '</li>';
+
+                                                    ?>
                                                         <br>
-                                                    <li style="font-size: 21px;">   <?= $detail[0]["visit5"] ?> 
-                                                    </li>   
+                                                         <?php 
+                                                    if(strlen($detail[0]["visit5"]))
+                                                        echo '<li style="font-size: 21px;">'.   $detail[0]["visit5"].  
+                                                    '</li>';
+
+                                                    ?>
+                                                          
                                                 </ul>
                                       
                                     </div>
