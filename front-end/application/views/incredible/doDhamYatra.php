@@ -13,40 +13,40 @@
                         <div class="tb">
                             <div class="tb-cell">
                                  <ul class="menu-list text-uppercase">
-                                    <li  ><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                    <li  ><?= anchor( base_url('index.php/incredible_ukd'),'Home') ?></li>
                                         
-                                    <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
+                                    <li><?= anchor( base_url('index.php/incredible_ukd/about'),'About Us') ?></li>
 
-                                    <li><?= anchor(base_url("incredible_ukd/role"),'Our Role')?> </li> 
+                                    <li><?= anchor(base_url("index.php/incredible_ukd/role"),'Our Role')?> </li> 
 
-                                    <li ><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
+                                    <li ><?= anchor( base_url('index.php/incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
-                                            <li ><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
-                                            <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
+                                            <li ><?= anchor( base_url('index.php/incredible_ukd/india'),'About India') ?></li>
+                                            <li><?= anchor( base_url('index.php/incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                             </ul>
                                         </li>
                                                   
                                     <li><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
-                                            <li ><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
-                                            <li><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
+                                            <li ><?= anchor( base_url('index.php/incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
+                                            <li><?= anchor( base_url('index.php/incredible_ukd/about_india'),'Destinations India') ?></li>
                                            
                                         </ul>
                                     </li>
                                     
-                                    <li  class="current-menu-parent"><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
+                                    <li  class="current-menu-parent"><?= anchor( base_url('index.php/incredible_ukd'),'Tour Packages')?>
                                         <ul class="sub-menu"  >
-                                            <li  class="current-menu-parent" style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
-                                            <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
-                                            <li style=""><?= anchor('incredible_ukd/trekking','Trekking Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
-                                            <li style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
+                                            <li  class="current-menu-parent" style=""><?= anchor( base_url('index.php/incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
+                                            <li ><?= anchor( base_url('index.php/incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
+                                            <li style=""><?= anchor('index.php/incredible_ukd/trekking','Trekking Packages')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/motorbike'),'Motorbike Packages')?></li>
+                                            <li style=""><?= anchor('index.php/incredible_ukd/home_stay','Home Stay')?></li>
                                             
                                         </ul>
                                     </li>
-                                   <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
+                                   <li><?= anchor('index.php/incredible_ukd/contact','Contact Us')?></li>
                                     
                                 </ul>
                             </div>
@@ -172,7 +172,7 @@
                                     
                                     <span style="display: inline-block;"><h1 class="title-post-head">Pilgrims  Packages</h1></span>
 
-                                     <span  style="display: inline-block;margin-top: 10px"><a href="<?= base_url('incredible_ukd/enquiry') ?>" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium " >Enquire Now</a></span>
+                                     <span  style="display: inline-block;margin-top: 10px"><a href="<?= base_url('index.php/incredible_ukd/enquiry') ?>" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium " >Enquire Now</a></span>
                                     <div class="post-media">
                                         <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/badri-kedar.jpg'),  "alt"=>"","style"=>"height:300px;width:100%"] )  ?></div>
                                     </div>
@@ -262,7 +262,7 @@
 										
 									</div> 
 										<br><br>   
-                                        <a href="<?= base_url('incredible_ukd/enquiry') ?>" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium" style="margin-left: 30%">Enquire Now</a>
+                                        <a href="<?= base_url('index.php/incredible_ukd/enquiry') ?>" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium" style="margin-left: 30%">Enquire Now</a>
                                     </div>
                                     
                                     

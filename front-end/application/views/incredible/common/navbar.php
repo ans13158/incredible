@@ -19,5 +19,5 @@
         <header id="header" class="header">
             <div class="container-fluid">
                 <div class="logo float-left">
-                    <a href="<?= base_url('incredible_ukd') ?>" title=""><img src="<?= base_url('images/logoHeader.png') ?>" alt="" style = "height: 70px;width:140px;" class="headerImage"></a>
+                    <a href="<?= base_url('index.php/incredible_ukd') ?>" title=""><img src="<?= base_url('images/logoHeader.png') ?>" alt="" style = "height: 70px;width:140px;" class="headerImage"></a>
                 </div>

@@ -13,40 +13,40 @@
                         <div class="tb">
                             <div class="tb-cell">
                                  <ul class="menu-list text-uppercase">
-                                    <li  ><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                    <li  ><?= anchor( base_url('index.php/incredible_ukd'),'Home') ?></li>
                                         
-                                    <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
+                                    <li><?= anchor( base_url('index.php/incredible_ukd/about'),'About Us') ?></li>
 
-                                    <li><?= anchor(base_url("incredible_ukd/role"),'Our Role')?> </li> 
+                                    <li><?= anchor(base_url("index.php/incredible_ukd/role"),'Our Role')?> </li> 
                                     
-                                    <li ><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
+                                    <li ><?= anchor( base_url('index.php/incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
-                                            <li ><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
-                                            <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
+                                            <li ><?= anchor( base_url('index.php/incredible_ukd/india'),'About India') ?></li>
+                                            <li><?= anchor( base_url('index.php/incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                             </ul>
                                         </li>
                                         
                                     <li ><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
-                                            <li ><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
-                                            <li><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
+                                            <li ><?= anchor( base_url('index.php/incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
+                                            <li><?= anchor( base_url('index.php/incredible_ukd/about_india'),'Destinations India') ?></li>
                                            
                                         </ul>
                                     </li>
                                     
-                                    <li  class="current-menu-parent"><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
+                                    <li  class="current-menu-parent"><?= anchor( base_url('index.php/incredible_ukd'),'Tour Packages')?>
                                         <ul class="sub-menu"  >
-                                            <li style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
-                                            <li  class="current-menu-parent" style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
-                                            <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
-                                            <li style=""><?= anchor('incredible_ukd/trekking','Trekking Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
-                                            <li style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
+                                            <li  class="current-menu-parent" style=""><?= anchor( base_url('index.php/incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
+                                            <li ><?= anchor( base_url('index.php/incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
+                                            <li style=""><?= anchor('index.php/incredible_ukd/trekking','Trekking Packages')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/motorbike'),'Motorbike Packages')?></li>
+                                            <li style=""><?= anchor('index.php/incredible_ukd/home_stay','Home Stay')?></li>
                                             
                                         </ul>
                                     </li>
-                                   <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
+                                   <li><?= anchor('index.php/incredible_ukd/contact','Contact Us')?></li>
                                     
                                 </ul>
                             </div>
@@ -69,7 +69,7 @@
                 <div class="main-cn bg-white clearfix">
                     <section class="breakcrumb-sc">
                         <ul class="breadcrumb arrow">
-                            <li><a href="<?= base_url('incredible_ukd') ?>"><i class="fa fa-home"></i></a></li>
+                            <li><a href="<?= base_url('index.php/incredible_ukd') ?>"><i class="fa fa-home"></i></a></li>
                             <li>Wild Life Tour Package</li>
                         </ul>
                         
@@ -172,7 +172,7 @@
                                     
                                     <span style="display: inline-block;"><h1 class="title-post-head">Wildlife Tour Packages</h1></span>
 
-                                     <span style="display: inline-block;float: right;margin-top: 10px"><a href="<?= base_url('incredible_ukd/enquiry') ?>" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium">Enquire Now</a></span>
+                                     <span style="display: inline-block;float: right;margin-top: 10px"><a href="<?= base_url('index.php/incredible_ukd/enquiry') ?>" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-medium">Enquire Now</a></span>
 
                                     <div class="post-media">
                                         <div class="image-wrap"><?= img( ["src"=> base_url('images/tour/wildlife.jpg'),  "alt"=>"","style"=>"height:350px;width:100%"] ) ?></div>
@@ -193,7 +193,7 @@
                             <p> Situated in the rich farm belt of Terai, on the southeastern fringes of the great forests, the busy market town of Ramnagar is the main administrative centre for Corbett National Park and Project Tiger. Ramnagar makes a fishing base camp. At Lohachaur, 15-kms north along the River Kosi, good anglers are in with a chance of landing the legendary Mahseer, a redoubtable battling River Carp. Permits to have a go must be sought from the Project Tiger office in Ramnagar; most resorts also arrange all inclusive fishing trips.</p>
 
                             <p> <strong>Chital, Sambar, and various other Deer species</strong> find refuge in the Savannah grasslands known as the Maidan, behind the campsite to the south, and Tigers are occasionally drawn in looking for prey. Two hour elephant rides, explore this sea of grass, rarely penetrating far into the deep jungles beyond; try to convince your Mahout or Elephant driver to venture in, as they can be quite magical.</p>
-                             <a href="<?= base_url('incredible_ukd/enquiry') ?>" class="awe-btn awe-btn-1 awe-btn-small">Enquire Now</a>
+                             <a href="<?= base_url('index.php/incredible_ukd/enquiry') ?>" class="awe-btn awe-btn-1 awe-btn-small">Enquire Now</a>
                                         <br><br>
 
                            <h2 class="title-single-content"></h2>
@@ -207,7 +207,7 @@
                             <p> <strong>Fauna (Animals and Wildlife) :</strong> Rajaji National Park is predominantly formed from dense green jungles, and this environment forms a habitat for a number of animals. The &nbsp;wild animal species found in the Park include: Asian Elephant, Bengal Tiger, Leopard, Jungle Cat, Striped Hyena, Goral, Indian Hare, Sloth Bear, Himalayan Black Bear, King Cobra, Jackal, Barking Deer, Sambhar, Wild boar, Rhesus macaque, Indian langur, Indian Porcupine, Monitor lizard, Python</p>
                             <p>It also the bird watcher paradise as there are 315 species of birds are found in the Park. The most prominent avian species include pea fowl, woodpeckers, pheasants, Hornbill, kingfishers and barbets, supplemented by a number of migratory species during the winter months. &nbsp;The rivers which flow through the Park harbour species of fish such as trout and mahseer.</p>   
 
-                            <a href="<?= base_url('incredible_ukd/enquiry') ?>" class="awe-btn awe-btn-1 awe-btn-small">Enquire Now</a>
+                            <a href="<?= base_url('index.php/incredible_ukd/enquiry') ?>" class="awe-btn awe-btn-1 awe-btn-small">Enquire Now</a>
                                         <br><br>
 
                              <h2 class="title-single-content"></h2>
@@ -221,7 +221,7 @@
                             <p>The Assan Barrage Bird Sanctuary attracts around 53 species of avian fauna out of which 19 are winter migratory birds from Eurasia. The population of birds consists of Pintail , Red Crested Pochard, Ruddy Shelduck , Common Pochard, Mallard , Coot , Eurasian Wigeon , Gadwall , Common Teal , Shoveller , Egrets , Herons , Tufted Duck  and Lapwing .</p>
                                
 
-                            <a href="<?= base_url('incredible_ukd/enquiry') ?>" class="awe-btn awe-btn-1 awe-btn-small">Enquire Now</a>
+                            <a href="<?= base_url('index.php/incredible_ukd/enquiry') ?>" class="awe-btn awe-btn-1 awe-btn-small">Enquire Now</a>
                                         <br><br>
 
                              <h2 class="title-single-content"></h2>
@@ -230,7 +230,7 @@
                             <h3 style="color:black">4.Nanda Devi National Park </h3> 
                             <p>The Nanda Devi National Park is located near Nanda Devi Peak, the second highest mountain peak of India. It showcases some of the most unique varities of flora and fauna, found only at high altitudes. The park has been declared a World Heritage Site by UNESCO and In its vicinity are the Valley of Flowers, Badrinath Temple, and Hemkund Sahib.</p>
                             <p>Tour to Nanda Devi National Park The forest cover in this park is mainly restricted to the Rishi Gorge and the main vegetation is of fir, birch, rhododendron, and juniper. In the inner sanctuary, conditions are drier and near the Nanda Devi Glacier, there is almost no vegetation. From Ramani, the vegetation changes to alpine and only juniper scrubs are the dominating vegetation. The Juniper scrubs gradually give way to grasses, prone mosses, and lichens. In total, 312 floral species have been found here of which around 17 are considered rare. Animal population of species like bharal, Himalayan tahr, serow, goral, snow leopard, Himalayan black bear, brown bear, leopard, common langur, Himalayan musk deer, and brown beer dominate the park area. Warblers, gresbreaks, rose finches, and ruby throat represent avifauna here. Approximately 80 species have been spotted in this park.</p>
-                            <a href="<?= base_url('incredible_ukd/enquiry') ?>" class="awe-btn awe-btn-1 awe-btn-small">Enquire Now</a>
+                            <a href="<?= base_url('index.php/incredible_ukd/enquiry') ?>" class="awe-btn awe-btn-1 awe-btn-small">Enquire Now</a>
                                         <br><br>
 
                              <h2 class="title-single-content"></h2>
@@ -241,7 +241,7 @@
                             One of the major attractions of the park is the Gaumukh glacier, water source for the Holy river Ganga, which is located inside the park itself. River Bhagirathi also flows through the park, sustaining it's flora and fauna. </p>
 
                             <p>The Gangotri National Park is enveloped by dense coniferous forests that are mostly temperate. The vegetation consists of pine, deodar, fir, spruce, oak and rhododendrons that outline the entire region. The region experiences suitable climate which is great for some of the rare animal species to thrive such as snow leopards, Black Bear, Brown Bear, Musk Deer, Blue Sheep or Bharal, Himalayan Tahr, Himalayan Monal, Koklass and the Himalayan Snowcock. The park also boasts of the 150 bird species and about 15 species of mammals. It also nests Himalayan Barbet, Ibex, Tiger, Thar, Serow, Pheasants, Partridges, Doves, Pigeons, Parakeet, Bulbul etc</p> 
-                             <a href="<?= base_url('incredible_ukd/enquiry') ?>" class="awe-btn awe-btn-1 awe-btn-small">Enquire Now</a>
+                             <a href="<?= base_url('index.php/incredible_ukd/enquiry') ?>" class="awe-btn awe-btn-1 awe-btn-small">Enquire Now</a>
                                         <br><br>
 
                              <h2 class="title-single-content"></h2>
@@ -255,7 +255,7 @@
                             According to recent census, Binsar Wildlife Sanctuary is home to 16 Leopards, 69 Ghorals, 57 Wild Boars, 43 Kakars, 150 Monkeys and two Himalayan Black Bears. In addition to these, the sanctuary provides shelter to other wild animals like Indian Red Fox, Jackals, Pine Martens and Porcupines. Apart from these, Binsar Wildlife Sanctuary ranks high in avian species variety and visibility. Here, you can see around 200 species of birds including both resident and migratory species.</p>
                                             
                                         
-                                        <a href="<?= base_url('incredible_ukd/enquiry') ?>" class="awe-btn awe-btn-1 awe-btn-small">Enquire Now</a>
+                                        <a href="<?= base_url('index.php/incredible_ukd/enquiry') ?>" class="awe-btn awe-btn-1 awe-btn-small">Enquire Now</a>
 
                                              
                                     </div>

@@ -9,40 +9,40 @@
                         <div class="tb">
                             <div class="tb-cell">
                                  <ul class="menu-list text-uppercase">
-                                    <li  ><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                    <li  ><?= anchor( base_url('index.php/incredible_ukd'),'Home') ?></li>
                                         
-                                    <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
+                                    <li><?= anchor( base_url('index.php/incredible_ukd/about'),'About Us') ?></li>
 
-                                    <li><?= anchor(base_url("incredible_ukd/role"),'Our Role')?> </li> 
+                                    <li><?= anchor(base_url("index.php/incredible_ukd/role"),'Our Role')?> </li> 
 
-                                    <li><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
+                                    <li><?= anchor( base_url('index.php/incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
-                                            <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
+                                            <li><?= anchor( base_url('index.php/incredible_ukd/india'),'About India') ?></li>
+                                            <li><?= anchor( base_url('index.php/incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                             </ul>
                                         </li>
                                          
                                     <li  class="current-menu-parent"><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
-                                            <li  class="current-menu-parent"><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
-                                            <li><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
+                                            <li  class="current-menu-parent"><?= anchor( base_url('index.php/incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
+                                            <li><?= anchor( base_url('index.php/incredible_ukd/about_india'),'Destinations India') ?></li>
                                            
                                         </ul>
                                     </li>
                                     
-                                    <li><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
+                                    <li><?= anchor( base_url('index.php/incredible_ukd'),'Tour Packages')?>
                                         <ul class="sub-menu"  >
-                                            <li style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
-                                            <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
-                                            <li style=""><?= anchor('incredible_ukd/trekking','Trekking Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
-                                            <li style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
+                                            <li ><?= anchor( base_url('index.php/incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
+                                            <li style=""><?= anchor('index.php/incredible_ukd/trekking','Trekking Packages')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/motorbike'),'Motorbike Packages')?></li>
+                                            <li style=""><?= anchor('index.php/incredible_ukd/home_stay','Home Stay')?></li>
                                             
                                         </ul>
                                     </li>
-                                   <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
+                                   <li><?= anchor('index.php/incredible_ukd/contact','Contact Us')?></li>
                                     
                                 </ul>
                             </div>
@@ -65,8 +65,8 @@
                 <div class="main-cn bg-white clearfix">
                     <section class="breakcrumb-sc">
                         <ul class="breadcrumb arrow">
-                            <li><a href="<?= base_url('incredible_ukd') ?>"><i class="fa fa-home"></i></a></li>
-                            <li><a href="<?= base_url('incredible_ukd/ukdDestinations') ?>" title="">India</a></li>
+                            <li><a href="<?= base_url('index.php/incredible_ukd') ?>"><i class="fa fa-home"></i></a></li>
+                            <li><a href="<?= base_url('index.php/incredible_ukd/ukdDestinations') ?>" title="">India</a></li>
                             <li><a href="#" title=""><?= $detail[0]['name'] ?> </a></li>
                             
                         </ul>
@@ -81,7 +81,7 @@
                                 </div>
 
                                 <div class="col-sm-6 col-xs-6 text-right">
-                                    <p class="price-book"><a href="<?= base_url('incredible_ukd/bookMyTrip') ?>" title="" class="awe-btn awe-btn-1 awe-btn-lager">Book My Tour</a></p>
+                                    <p class="price-book"><a href="<?= base_url('index.php/incredible_ukd/bookMyTrip') ?>" title="" class="awe-btn awe-btn-1 awe-btn-lager">Book My Tour</a></p>
                                 </div>
                             </div>
                         </div>
@@ -192,7 +192,7 @@
                             <div class="col-lg-12">
                                     <div class="hotel-detail-map">
                                         <h3>Area Map</h3>
-                                    <div id="hotel-detail-map" data-latlng="29.6373, 79.8543"></div>
+                                    <div id="hotel-detail-map" data-latlng="<?= $detail[0]['lattitude'] ?>, <?= $detail[0]['longitude'] ?>"></div>
                                     <p class="about-area-location"><i class="fa fa-map-marker"></i><?= $detail[0]['name']?>, India</p>
                                 </div>
                                 
@@ -203,7 +203,7 @@
                         <div class="row">
                                 <br><br><br>
                                     <div class="col-xs-12 text-center" style="float: left">
-                                        <p class="price-book"><a href="<?= base_url('incredible_ukd/bookMyTrip') ?>" title="" class="awe-btn awe-btn-1 awe-btn-lager" style="margin-left: 0%;">Book My Tour</a></p>
+                                        <p class="price-book"><a href="<?= base_url('index.php/incredible_ukd/bookMyTrip') ?>" title="" class="awe-btn awe-btn-1 awe-btn-lager" style="margin-left: 0%;">Book My Tour</a></p>
                                         <br><br>
                                     </div>
 

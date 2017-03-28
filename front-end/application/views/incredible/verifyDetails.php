@@ -60,13 +60,13 @@
                                             <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
                                             <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
-                                            <li style=""><?= anchor('incredible_ukd/trekking','Trekking Packages')?></li>
+                                            <li style=""><?= anchor('index.php/incredible_ukd/trekking','Trekking Packages')?></li>
                                             <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
-                                            <li style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
+                                            <li style=""><?= anchor('index.php/incredible_ukd/home_stay','Home Stay')?></li>
                                             
                                         </ul>
                                     </li>
-                                   <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
+                                   <li><?= anchor('index.php/incredible_ukd/contact','Contact Us')?></li>
                                     
                                 </ul>
                             </div>
@@ -104,7 +104,7 @@
                     
                     <div class="payment-form">
                         <div class="row ">
-                            <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 col-xs-6" style="margin-left:05%">
+                            <div class="col-md-8 col-sm-12 col-xs-12 col-lg-8 col-xs-6 col-md-offset-2" style="">
                                 <h2>Confirm Submitted Information
                                 </h2>
                                 	<p>(View the information you have entered. To edit something, click on the <strong> EDIT INFORMATION</strong> button below)</p>	
@@ -158,6 +158,18 @@
                                         <option value="Chandigarh">Chandigarh</option>
                                         <option value='Maharashtra'>Maharashtra</option>
                                         <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                        <option value="Assam">Assam</option>
+                                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                        <option value="Gujrat">Gujrat</option>
+                                        <option value="Manipur">Manipur</option>
+                                        <option value="Meghalaya">Meghalaya</option>
+                                        <option value="Puducherry"> Puducherry</option>
+                                        <option value="Punjab">Punjab</option>
+                                        <option value="Sikkim">Sikkim</option>
+                                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                        <option value="Bihar">Bihar</option>
+                                        <option value="Chattisgarh">Chattisgarh</option>
+                                        <option value="Dadar and Nagar Haweli">Dadar and Nagar Haweli</option>
                                         </select>
                                     </div>
 
@@ -271,52 +283,15 @@
                                             <?= form_error('travellerEmail')?>
                                         </div>
 
-                                </div>
-                            </div>
-                                           
-                                    <div class="col-sm-12 col-md-5 col-lg-5 col-xs-12 cart-number" >   
-                                                <br><br><br><br><br><br>
-                                            <h2 style="display: inline-block;">Cost of Your Selected Tour  : </h2>
-                                         <span style="color:green"> &nbsp;&nbsp; <h4 style="display: inline-block;">&#8377;</h4> 
-                                        <h3 style="display: inline-block;">5000</h3></span>
-
-                                        <h3>Billing details:</h3>
-
-                                        <table class="table table-compressed table-bordered table-hover">
-                                            <tr>
-                                                <th>Bus Charges</th>
-
-                                                <td>&#8377;1000</td>
-                                            </tr>   
-
-                                            <tr>
-                                                <th>Flight Charges</th>
-                                                <td>&#8377;2000</td>
-                                            </tr>
-
-                                            <tr>
-                                                <th>Hotel Charges/ night</th>
-                                                <td>&#8377;1000</td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>  
-   
-                                        <br><br>
-                                <div class="col-md-6 xs-6 sm-6 lg-6" style="margin-left: 30%">        
+                                        
                                     <div class="g-recaptcha" data-sitekey="6LfXoxgUAAAAADJeG8DlRHk9278SsMWtmYY-xFqX"></div>
                                         <br><br>
                                
-                                </div>                          
                                 
-                                                 
-                                    <div class="col-md-12" style="margin-left: 0%">
                                         <p>By clicking on the button below to complete this booking I acknowledge that I have read and accept the <span>rules &amp; restrictions, terms &amp; conditions</span> and <span>privacy policy</span>.</p>
 
                                             <br><br>
-                                    </div>
-                                    
-                                    <div class = "col-md-6 col-lg-6 col-xs-6 col-sm-6" style="margin-left: 30%">        
+                                           
                                         <input type = "submit" class="awe-btn awe-btn-1 awe-btn-lager" name="editInfo" value="Edit Information"> &nbsp;&nbsp;
                                             <h3 style="display: inline-block;">or</h3> &nbsp;&nbsp;
                                         <input type="submit" name="proceed" class="awe-btn awe-btn-1 awe-btn-lager" value="Proceed">

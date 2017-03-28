@@ -376,13 +376,72 @@ class Incredible_Ukd extends CI_Controller  {
     public function enquirySubmit() {
         $this->load->library('form_validation');
         $this->load->helper( array('form','url') );
-
+       
         $message = array();
         $enquiryData = array();
 
         $enquiryData = $this->input->post();
+        unset($enquiryData['accept'] );
         unset($enquiryData['g-recaptcha-response']);
         unset($enquiryData['enquire']);
+
+        //Sending Email to our email address.
+            $email = "Full Name : " . $enquiryData['fullName']
+                        . "<br>"
+                        . "Email : " . $enquiryData['email']
+                        . "<br>"
+                        . "Contact Number : " . $enquiryData['contact']
+                        . "<br>"
+                        . "Tour Package : " . $enquiryData['state']
+                        . "<br>"
+                        . "Destination : " . $enquiryData['destination']
+                        . "<br>"
+                        . "Type of Hotel : " . $enquiryData['hotel']
+                        . "<br>"
+                        . "Date of Visit : " . $enquiryData['dateOfVisit']
+                        . "<br>"
+                        . "Number of Days : " . $enquiryData['daysStay']
+                        . "<br>"
+                        . "Number of People : " . $enquiryData['people']
+                        . "<br>"
+                        . "Itinerary : " . $enquiryData['itinerary']
+                        . "<br>"
+                        . "References : " . $enquiryData['reference']
+                        . "<br>" ;
+
+            if( strlen($enquiryData['travellerName'])  )  {
+                $email = $email . "I am making this booking for someone else<br>"  
+                         . "Name of Traveller : " . $enquiryData['travellerName']
+                        . "<br>"
+                        . "Email of Traveller : " . $enquiryData['travellerEmail']
+                        . "<br>"
+                        . "Phone Number of Traveller : " . $enquiryData['travellerPhone'];
+            }             
+            //echo BASEPATH.'../js/library/phpMailer.php';
+
+            require_once BASEPATH.'../js/library/phpMailer.php';
+
+            $mail = new PHPMailer ;
+
+            $mail->from =  "contact@incredibleuttarakhand.co.in" ;
+            $mail->fromName = "enquiry.incredibleuttarakhand.co.in";
+
+            $mail->addAddress("contact@incredibleuttarakhand.co.in");
+
+            $mail->isHTML(true);
+
+            $mail->Subject = "New Enquiry";
+            $mail->Body = $email ;
+
+            if(!$mail->send() )  {
+                echo "Mailer Error :" . $mail->ErrorInfo;
+
+            }
+
+            
+
+        //Sending Email to our email address.
+
         //print_r($enquiryData);
         $this->load->model('incredible/enquiry_submit');
         $rows_inserted = $this->enquiry_submit->insertEnquiry($enquiryData);
@@ -398,5 +457,21 @@ class Incredible_Ukd extends CI_Controller  {
 
     public function developers()  {
         $this->load->view('incredible/developer');
+    }
+
+    public function submitContact()  {
+        $contactData = $this->input->post();
+        $message = array();
+        $this->load->model('incredible/contact');
+        $rows_inserted = $this->contact->submitContact($contactData);
+        if($rows_inserted)  {
+            $message['success'] = "Thanx for contacting us. We will contact you back as soon as possible.";
+            $this->load->view('incredible/contact',$message);
+        }
+
+        else  {
+            $message['failure'] = "Sorry! Error in sending your query. Please try again. ";
+            $this->load->view('incredible/contact',$message);
+        }
     }
 }

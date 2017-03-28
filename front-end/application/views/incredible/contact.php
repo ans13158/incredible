@@ -12,16 +12,16 @@ require 'common/navbar.php';
                         <div class="tb">
                             <div class="tb-cell">
                                  <ul class="menu-list text-uppercase">
-                                    <li  ><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                    <li  ><?= anchor( base_url('index.php/incredible_ukd'),'Home') ?></li>
                                         
-                                    <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
+                                    <li><?= anchor( base_url('index.php/incredible_ukd/about'),'About Us') ?></li>
 
-                                    <li><?= anchor(base_url("incredible_ukd/role"),'Our Role')?> </li> 
+                                    <li><?= anchor(base_url("index.php/incredible_ukd/role"),'Our Role')?> </li> 
 
-                                    <li ><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
+                                    <li ><?= anchor( base_url('index.php/incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
-                                            <li ><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
-                                            <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
+                                            <li ><?= anchor( base_url('index.php/incredible_ukd/india'),'About India') ?></li>
+                                            <li><?= anchor( base_url('index.php/incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                             </ul>
                                         </li>
                                         
@@ -29,25 +29,25 @@ require 'common/navbar.php';
 
                                     <li ><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
-                                            <li ><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
-                                            <li><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
+                                            <li ><?= anchor( base_url('index.php/incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
+                                            <li><?= anchor( base_url('index.php/incredible_ukd/about_india'),'Destinations India') ?></li>
                                            
                                         </ul>
                                     </li>
                                     
-                                    <li><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
+                                    <li><?= anchor( base_url('index.php/incredible_ukd'),'Tour Packages')?>
                                         <ul class="sub-menu"  >
-                                            <li style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
-                                            <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
-                                            <li style=""><?= anchor('incredible_ukd/trekking','Trekking Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
-                                            <li  class="current-menu-parent" style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
+                                            <li ><?= anchor( base_url('index.php/incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
+                                            <li style=""><?= anchor('index.php/incredible_ukd/trekking','Trekking Packages')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/motorbike'),'Motorbike Packages')?></li>
+                                            <li style=""><?= anchor('index.php/incredible_ukd/home_stay','Home Stay')?></li>
                                             
                                         </ul>
                                     </li>
-                                   <li   class="current-menu-parent"><?= anchor('incredible_ukd/contact','Contact Us')?></li>
+                                   <li   class="current-menu-parent"><?= anchor('index.php/incredible_ukd/contact','Contact Us')?></li>
                                     
                                 </ul>
                             </div>
@@ -71,7 +71,7 @@ require 'common/navbar.php';
                 <div class="main-cn bg-white clearfix">
                     <section class="breakcrumb-sc">
                         <ul class="breadcrumb arrow">
-                            <li><a href="<?= base_url('incredible_ukd') ?>"><i class="fa fa-home"></i></a></li>
+                            <li><a href="<?= base_url('index.php/incredible_ukd') ?>"><i class="fa fa-home"></i></a></li>
                             <li>Contact us</li>
                         </ul>
                     </section>
@@ -82,6 +82,19 @@ require 'common/navbar.php';
                             <div id="contact-maps" data-map-zoom="16" data-map-latlng=" 29.594189, 79.653893" data-map-content="Book Awesome"></div>
                         </div>
                         <div class="contact-cn">
+                            <?php
+                            if(isset($success) )  {
+                                echo '<div class="alert-box alert-success" style="font-size:16px">'.
+                                   $success.  
+                            '</div>';
+
+                            if(isset($failure) )  {
+                                echo '<div class="alert-box alert-danger" style="font-size:16px>'.
+                                   $failure . 
+                            '</div>';
+                            }
+                        }
+                            ?>
                             <h2>We are always in touch</h2>
                             <ul>
                                 <li><?= img( ["src"=>"images/icon-maker-contact.png", "alt"=>""]) ?> <strong>Main Office :</strong> Karbala Chauraha,Nainital Road, Almora,Pin: 263601, Uttarakhand
@@ -92,7 +105,7 @@ require 'common/navbar.php';
                                 <li><?= img(["src"=>"images/icon-email.png", "alt"=>""]) ?> <a href="#"> contact@incredibleuttarakhand.co.in</a></li>
                             </ul>
                          <div class="form-contact">
-                                <form method="POST" action="">
+                                <form method="POST" action="submitContact">
                                     <div class="form-field">
                                         <label for="name">Name <sup>*</sup></label>
                                         <input type="text" name="name" id="name" class="field-input">

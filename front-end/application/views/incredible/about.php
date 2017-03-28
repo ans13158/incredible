@@ -11,40 +11,40 @@
                         <div class="tb">
                             <div class="tb-cell">
                                  <ul class="menu-list text-uppercase">
-                                    <li ><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                    <li ><?= anchor( base_url('index.php/incredible_ukd'),'Home') ?></li>
                                         
-                                    <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
+                                    <li class="current-menu-parent"><?= anchor( base_url('index.php/incredible_ukd/about'),'About Us') ?></li>
 
-                                    <li><?= anchor(base_url("incredible_ukd/role"),'Our Role')?> </li> 
+                                    <li><?= anchor(base_url("index.php/incredible_ukd/role"),'Our Role')?> </li> 
 
-                                    <li><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
+                                    <li><?= anchor( base_url(''),'Location') ?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
-                                            <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
+                                            <li><?= anchor( base_url('index.php/incredible_ukd/india'),'About India') ?></li>
+                                            <li><?= anchor( base_url('index.php/incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                             </ul>
                                         </li>
                                     
                                     <li><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
-                                            <li><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
+                                            <li><?= anchor( base_url('index.php/incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
+                                            <li><?= anchor( base_url('index.php/incredible_ukd/about_india'),'Destinations India') ?></li>
                                            
                                         </ul>
                                     </li>
                                     
-                                    <li><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
+                                    <li><?= anchor( base_url('index.php/incredible_ukd'),'Tour Packages')?>
                                         <ul class="sub-menu"  >
-                                            <li style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
-                                            <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
-                                            <li style=""><?= anchor('incredible_ukd/trekking','Trekking Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
-                                            <li style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
+                                            <li ><?= anchor( base_url('index.php/incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
+                                            <li style=""><?= anchor('index.php/incredible_ukd/trekking','Trekking Packages')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/motorbike'),'Motorbike Packages')?></li>
+                                            <li style=""><?= anchor('index.php/incredible_ukd/home_stay','Home Stay')?></li>
                                             
                                         </ul>
                                     </li>
-                                   <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
+                                   <li><?= anchor('index.php/incredible_ukd/contact','Contact Us')?></li>
                                     
                                 </ul>
                             </div>
@@ -61,7 +61,7 @@
                 <div class="main-cn about-page bg-white clearfix">
                     <section class="breakcrumb-sc">
                         <ul class="breadcrumb arrow">
-                            <li><?= anchor('incredible_ukd','<i class="fa fa-home"></i>') ?></li>
+                            <li><?= anchor('index.php/incredible_ukd','<i class="fa fa-home"></i>') ?></li>
                             <li>About us</li>
                         </ul>
                     </section>
@@ -97,7 +97,7 @@
                         <div class="team-group row">
                             <div class="team-item col-xs-6 col-md-4">
                                 <figure> <?=img ( ["src"=>"images/team/ceo.jpg", "alt"=>"", "style"=>"height:350px;"] ) ?></figure>
-                                <h3>REKHA ARYA</h3><span>Founder & CEO</span></div>
+                                <h3>REKHA MAPWAL</h3><span>Founder & CEO</span></div>
                             
                             <div class="team-item col-xs-6 col-md-4">
                                 <figure><?=img ( ["src"=>"images/team/developer1.jpg", "alt"=>"" , "style"=>"height:350px;"] ) ?></figure>
@@ -198,7 +198,7 @@
 
                     
                     <section class="follow-about">
-                        <div class="follow-group"><a href="#" title=""><i class="fa fa-facebook"></i></a> <a href="#" title=""><i class="fa fa-twitter"></i></a> <a href="#" title=""><i class="fa fa-pinterest"></i></a> <a href="#" title=""><i class="fa fa-linkedin"></i></a> <a href="#" title=""><i class="fa fa-instagram"></i></a></div>
+                        <div class="follow-group"><a href="https://www.facebook.com/incredibleuttarakhand.co.in/" title=""><i class="fa fa-facebook"></i></a> <a href="#" title=""><i class="fa fa-twitter"></i></a> <a href="#" title=""><i class="fa fa-pinterest"></i></a> <a href="#" title=""><i class="fa fa-linkedin"></i></a> <a href="#" title=""><i class="fa fa-instagram"></i></a></div>
                     </section>
                 </div>
             </div>

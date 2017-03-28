@@ -32,40 +32,40 @@
                         <div class="tb">
                             <div class="tb-cell">
                                  <ul class="menu-list text-uppercase">
-                                    <li  ><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                    <li  ><?= anchor( base_url('index.php/incredible_ukd'),'Home') ?></li>
                                         
-                                    <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
+                                    <li><?= anchor( base_url('index.php/incredible_ukd/about'),'About Us') ?></li>
 
-                                    <li><?= anchor(base_url("incredible_ukd/role"),'Our Role')?> </li>  
+                                    <li><?= anchor(base_url("index.php/incredible_ukd/role"),'Our Role')?> </li>  
 
-                                    <li ><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
+                                    <li ><?= anchor( base_url('index.php/incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
-                                            <li ><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
-                                            <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
+                                            <li ><?= anchor( base_url('index.php/incredible_ukd/india'),'About India') ?></li>
+                                            <li><?= anchor( base_url('index.php/incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                             </ul>
                                         </li>
                                             
-                                    <li ><?= anchor( '','Destinations')?>
+                                    <li  class="current-menu-parent"><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
-                                            <li ><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
-                                            <li"><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
+                                            <li ><?= anchor( base_url('index.php/incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
+                                            <li"><?= anchor( base_url('index.php/incredible_ukd/about_india'),'Destinations India') ?></li>
                                            
                                         </ul>
                                     </li>
                                     
-                                    <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
+                                    <li><?= anchor( base_url('index.php/incredible_ukd'),'Tour Packages')?>
                                         <ul class="sub-menu"  >
-                                            <li style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
-                                            <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
-                                            <li style=""><?= anchor('incredible_ukd/trekking','Trekking Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
-                                            <li style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
+                                            <li ><?= anchor( base_url('index.php/incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
+                                            <li style=""><?= anchor('index.php/incredible_ukd/trekking','Trekking Packages')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/motorbike'),'Motorbike Packages')?></li>
+                                            <li style=""><?= anchor('index.php/incredible_ukd/home_stay','Home Stay')?></li>
                                             
                                         </ul>
                                     </li>
-                                   <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
+                                   <li><?= anchor('index.php/incredible_ukd/contact','Contact Us')?></li>
                                     
                                 </ul>
                             </div>
@@ -103,7 +103,7 @@
                     
                     <div class="payment-form">
                         <div class="row ">
-                            <div class="col-md-6" >
+                            <div class="col-md-8 col-md-offset-2" >
                                 <h2>Edit Submitted Information
                                 </h2>
                                 <form action="tripBookings" method="POST" class="form-vertical">
@@ -145,7 +145,20 @@
                                         <option value="Chandigarh">Chandigarh</option>
                                         <option value='Maharashtra'>Maharashtra</option>
                                         <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                        <option value="Assam">Assam</option>
+                                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                        <option value="Gujrat">Gujrat</option>
+                                        <option value="Manipur">Manipur</option>
+                                        <option value="Meghalaya">Meghalaya</option>
+                                        <option value="Puducherry"> Puducherry</option>
+                                        <option value="Punjab">Punjab</option>
+                                        <option value="Sikkim">Sikkim</option>
+                                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                        <option value="Bihar">Bihar</option>
+                                        <option value="Chattisgarh">Chattisgarh</option>
+                                        <option value="Dadar and Nagar Haweli">Dadar and Nagar Haweli</option>
                                         </select>
+
                                     </div>
 
                                     <div class="form-field">
@@ -239,46 +252,15 @@
 
                                     </div> 
 
-                            </div>        
-                                    <div class="col-sm-5 col-md-12 col-lg-5 cart-number" >   
-                                                <br><br><br><br><br><br>
-                                            <h2 style="display: inline-block;">Cost of Your Selected Tour  : </h2>
-                                         <span style="color:green"> &nbsp;&nbsp; <h4 style="display: inline-block;">&#8377;</h4> 
-                                        <h3 style="display: inline-block;">5000</h3></span>
-
-                                        <h3>Billing details:</h3>
-
-                                        <table class="table table-compressed table-bordered table-hover">
-                                            <tr>
-                                                <th>Bus Charges</th>
-
-                                                <td>&#8377;1000</td>
-                                            </tr>   
-
-                                            <tr>
-                                                <th>Flight Charges</th>
-                                                <td>&#8377;2000</td>
-                                            </tr>
-
-                                            <tr>
-                                                <th>Hotel Charges/ night</th>
-                                                <td>&#8377;1000</td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>  
-
-                                        <br><br>
-                                <div class="col-md-6" style="margin-left: 0%%">        
+                                            <br><br>
                                     <div class="g-recaptcha" data-sitekey="6LfXoxgUAAAAADJeG8DlRHk9278SsMWtmYY-xFqX" style="margin-left: 30%"></div>
                                             <br><br>
                                     <div class="" style="margin-left: 0%">
                                         <p>By clicking on the button below to complete this booking I acknowledge that I have read and accepted the <span>rules &amp; restrictions, terms &amp; conditions</span> and <span>privacy policy</span>.</p>
                                         <br>
                                     </div>
-                                </div>        
-                                    <div class="col-md-12" style="margin-left: 35%">   
-                                        <input type="submit" name="proceed" class="awe-btn awe-btn-1 awe-btn-lager" value="Proceed">
+                                
+                                        <input type="submit" name="proceed" class="awe-btn awe-btn-1 awe-btn-lager" value="Proceed" style="margin-left: 30%">
                                     </div>    
                                 </div>
                                 </div>    

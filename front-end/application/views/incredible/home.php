@@ -65,40 +65,40 @@
                         <div class="tb">
                             <div class="tb-cell">
                                  <ul class="menu-list text-uppercase">
-                                    <li class="current-menu-parent"><?= anchor( base_url('incredible_ukd'),'Home') ?></li>
+                                    <li class="current-menu-parent"><?= anchor( base_url('index.php/incredible_ukd'),'Home') ?></li>
                                         
-                                    <li><?= anchor( base_url('incredible_ukd/about'),'About Us') ?></li>
+                                    <li><?= anchor( base_url('index.php/incredible_ukd/about'),'About Us') ?></li>
 
-                                    <li><?= anchor(base_url("incredible_ukd/role"),'Our Role')?> </li> 
+                                    <li><?= anchor(base_url("index.php/incredible_ukd/role"),'Our Role')?> </li> 
 
-                                    <li><?= anchor( base_url('incredible_ukd/location'),'Location') ?>
+                                    <li><?= anchor( base_url('index.php/incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/india'),'About India') ?></li>
-                                            <li><?= anchor( base_url('incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
+                                            <li><?= anchor( base_url('index.php/incredible_ukd/india'),'About India') ?></li>
+                                            <li><?= anchor( base_url('index.php/incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                             </ul>
                                         </li>
                                                   
                                     <li><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
-                                            <li><?= anchor( base_url('incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
-                                            <li><?= anchor( base_url('incredible_ukd/about_india'),'Destinations India') ?></li>
+                                            <li><?= anchor( base_url('index.php/incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
+                                            <li><?= anchor( base_url('index.php/incredible_ukd/about_india'),'Destinations India') ?></li>
                                            
                                         </ul>
                                     </li>
                                     
-                                    <li><?= anchor( base_url('incredible_ukd'),'Tour Packages')?>
+                                    <li><?= anchor( base_url('index.php/incredible_ukd'),'Tour Packages')?>
                                         <ul class="sub-menu"  >
-                                            <li style=""><?= anchor( base_url('incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
-                                            <li ><?= anchor( base_url('incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
-                                            <li style=""><?= anchor('incredible_ukd/trekking','Trekking Packages')?></li>
-                                            <li style=""><?= anchor( base_url('incredible_ukd/motorbike'),'Motorbike Packages')?></li>
-                                            <li style=""><?= anchor('incredible_ukd/home_stay','Home Stay')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/pilgrimage'),'Pilgrims Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/wildlife'),'Wildlife Tour Packages')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/excursion'),'Excursion Tour Packages')?></li>
+                                            <li ><?= anchor( base_url('index.php/incredible_ukd/honeymoon'),'Honeymoon Packages')?></li>
+                                            <li style=""><?= anchor('index.php/incredible_ukd/trekking','Trekking Packages')?></li>
+                                            <li style=""><?= anchor( base_url('index.php/incredible_ukd/motorbike'),'Motorbike Packages')?></li>
+                                            <li style=""><?= anchor('index.php/incredible_ukd/home_stay','Home Stay')?></li>
                                             
                                         </ul>
                                     </li>
-                                   <li><?= anchor('incredible_ukd/contact','Contact Us')?></li>
+                                   <li><?= anchor('index.php/incredible_ukd/contact','Contact Us')?></li>
                                     
                                 </ul>
                             </div>
@@ -169,12 +169,12 @@
                         <div class="col-xs-6 col-md-3">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="<?= base_url('incredible_ukd/pilgrimage') ?>" title=""><img src="<?=  base_url('images/package/pilgrim3.jpg') ?>" alt="" style="height:250px"></a>
+                                    <a href="<?= base_url('index.php/incredible_ukd/pilgrimage') ?>" title=""><img src="<?=  base_url('images/package/pilgrim3.jpg') ?>" alt="" style="height:250px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="<?= base_url('incredible_ukd/pilgrimage') ?>" title="">Pilgrim Tour Packages</a></div>
+                                        <div class="home-sales-name"><a href="<?= base_url('index.php/incredible_ukd/pilgrimage') ?>" title="">Pilgrim Tour Packages</a></div>
 
                                         <div class="home-sales-places">Experience Devbhoomi, the Land of Gods </div>
                                     </div>
@@ -186,12 +186,12 @@
                         <div class="col-xs-6 col-md-3">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="<?= base_url('incredible_ukd/wildlife') ?>" title=""><img src="<?=  base_url('images/package/wildlife3.jpg') ?>" alt="" style="height:250px"></a>
+                                    <a href="<?= base_url('index.php/incredible_ukd/wildlife') ?>" title=""><img src="<?=  base_url('images/package/wildlife3.jpg') ?>" alt="" style="height:250px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="<?= base_url('incredible_ukd/wildlife') ?>" title="">Wild Life Tour Packages</a></div>
+                                        <div class="home-sales-name"><a href="<?= base_url('index.php/incredible_ukd/wildlife') ?>" title="">Wild Life Tour Packages</a></div>
                                         <div class="home-sales-places">Enjoy the Floura & Founa of our beautiful state </div>
                                     </div>
                                     
@@ -202,12 +202,12 @@
                         <div class="col-xs-6 col-md-3">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="<?= base_url('incredible_ukd/excursion') ?>" title=""><img src="<?=  base_url('images/package/excursion.jpg') ?>" alt="" style="height:250px"></a>
+                                    <a href="<?= base_url('index.php/incredible_ukd/excursion') ?>" title=""><img src="<?=  base_url('images/package/excursion.jpg') ?>" alt="" style="height:250px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="<?= base_url('incredible_ukd/excursion') ?>" title="">Excursion Tour Packages</a></div>
+                                        <div class="home-sales-name"><a href="<?= base_url('index.php/incredible_ukd/excursion') ?>" title="">Excursion Tour Packages</a></div>
                                         <div class="home-sales-places">Relax and get rid of all your tensions</div>
                                     </div>
                                     
@@ -219,12 +219,12 @@
                         <div class="col-xs-6 col-md-3">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="<?= base_url('incredible_ukd/honeymoon') ?>" title=""><img src="<?=  base_url('images/package/honeymoon.jpg') ?>" alt="" style="height:250px"></a>
+                                    <a href="<?= base_url('index.php/incredible_ukd/honeymoon') ?>" title=""><img src="<?=  base_url('images/package/honeymoon.jpg') ?>" alt="" style="height:250px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="<?= base_url('incredible_ukd/honeymoon') ?>" title="">Honeymoon Tour Packages</a></div>
+                                        <div class="home-sales-name"><a href="<?= base_url('index.php/incredible_ukd/honeymoon') ?>" title="">Honeymoon Tour Packages</a></div>
                                         <div class="home-sales-places">Celebrate your golden time in exotic locations</div>
                                     </div>
                                     
@@ -236,12 +236,12 @@
                         <div class="col-xs-6 col-md-3">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="<?= base_url('incredible_ukd/trekking') ?>" title=""><img src="<?=  base_url('images/package/trekking.jpg') ?>" alt="" style="height:250px"></a>
+                                    <a href="<?= base_url('index.php/incredible_ukd/trekking') ?>" title=""><img src="<?=  base_url('images/package/trekking.jpg') ?>" alt="" style="height:250px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="<?= base_url('incredible_ukd/trekking') ?>" title="">Trekking Packages</a></div>
+                                        <div class="home-sales-name"><a href="<?= base_url('index.php/incredible_ukd/trekking') ?>" title="">Trekking Packages</a></div>
                                         <div class="home-sales-places">Trek your way up to some of the best sceneries </div>
                                     </div>
                                    
@@ -252,12 +252,12 @@
                         <div class="col-xs-6 col-md-3">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="<?= base_url('incredible_ukd/motorbike') ?>" title=""><img src="<?=  base_url('images/package/motorbike1.jpg') ?>" alt="" style="height:250px"></a>
+                                    <a href="<?= base_url('index.php/incredible_ukd/motorbike') ?>" title=""><img src="<?=  base_url('images/package/motorbike1.jpg') ?>" alt="" style="height:250px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="<?= base_url('incredible_ukd/motorbike') ?>" title="">Motorbike Tour Packages</a></div>
+                                        <div class="home-sales-name"><a href="<?= base_url('index.php/incredible_ukd/motorbike') ?>" title="">Motorbike Tour Packages</a></div>
                                         <div class="home-sales-places">Planning a road trip?</div>
                                     </div>
                                     
@@ -269,12 +269,12 @@
                         <div class="col-md-6">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="<?= base_url('incredible_ukd/home_stay') ?>" title=""><img src="<?=  base_url('images/package/home3.jpg') ?>" alt="" style="height:250px"></a>
+                                    <a href="<?= base_url('index.php/incredible_ukd/home_stay') ?>" title=""><img src="<?=  base_url('images/package/home3.jpg') ?>" alt="" style="height:250px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="<?= base_url('incredible_ukd/home_stay') ?>" title="">Home Stay</a></div>
+                                        <div class="home-sales-name"><a href="<?= base_url('index.php/incredible_ukd/home_stay') ?>" title="">Home Stay</a></div>
                                         <div class="home-sales-places">Trek your way up to some of the best sceneries</div>
                                     </div>
                                    
@@ -295,9 +295,9 @@
                 <div class="container">
                     <div class="travel-title float-left">
                         <h2>
-                            <a style="color:#111;text-decoration: none" href="<?=base_url('incredible_ukd/ukdDestinations') ?>">Uttarakhand's Travel Destinations</a>
+                            <a style="color:#111;text-decoration: none" href="<?=base_url('index.php/incredible_ukd/ukdDestinations') ?>">Uttarakhand's Travel Destinations</a>
                         </span></h2></div>
-                        <a href="<?=base_url('incredible_ukd/ukdDestinations') ?>" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager float-right"> <h4>View All</h4> </a></div>
+                        <a href="<?=base_url('index.php/incredible_ukd/ukdDestinations') ?>" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager float-right"> <h4>View All</h4> </a></div>
                     </div>
             </div>
             <div class="container">
@@ -306,12 +306,12 @@
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="<?=base_url('incredible_ukd/ukd_destination_detail/1') ?>" title=""><img src="<?=  base_url('images/destinations/nainital2.jpg') ?>" alt="" style="height:250px;border-radius: 0%"></a>
+                                    <a href="<?=base_url('index.php/incredible_ukd/ukd_destination_detail/1') ?>" title=""><img src="<?=  base_url('images/destinations/nainital2.jpg') ?>" alt="" style="height:250px;border-radius: 0%"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="<?=base_url('incredible_ukd/ukd_destination_detail/1') ?>" title="">Nainital</a></div>
+                                        <div class="home-sales-name"><a href="<?=base_url('index.php/incredible_ukd/ukd_destination_detail/1') ?>" title="">Nainital</a></div>
                                         <div class="home-sales-places">Nainital is a popular hill station in the Indian state of Uttarakhand and headquarters of Nainital district in the foothills of the outer Himalayas.Famous all over for the beautiful Naini Lake.</div>
                                     </div>
                                         
@@ -325,12 +325,12 @@
                          <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="<?=base_url('incredible_ukd/ukd_destination_detail/2') ?>" title=""><img src="<?=  base_url('images/destinations/mussoorie2.jpg') ?>" alt="" style="height:250px;border-radius: 0%"></a>
+                                    <a href="<?=base_url('index.php/incredible_ukd/ukd_destination_detail/2') ?>" title=""><img src="<?=  base_url('images/destinations/mussoorie2.jpg') ?>" alt="" style="height:250px;border-radius: 0%"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="<?=base_url('incredible_ukd/ukd_destination_detail/2') ?>" title="">Mussoorie</a></div>
+                                        <div class="home-sales-name"><a href="<?=base_url('index.php/incredible_ukd/ukd_destination_detail/2') ?>" title="">Mussoorie</a></div>
                                         <div class="home-sales-places">Mussoorie is a hill station in Uttarakhand. Snow ranges to the north-east, and glittering views of the Doon Valley in the south, the town was once said to present a 'fairyland' atmosphere to tourists.</div>
                                     </div>
                                         
@@ -344,7 +344,7 @@
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="<?=base_url('incredible_ukd/ukd_destination_detail/3') ?>" title=""><img src="<?=  base_url('images/destinations/kausani2.JPG') ?>" alt="" style="height:250px"></a>
+                                    <a href="<?=base_url('index.php/incredible_ukd/ukd_destination_detail/3') ?>" title=""><img src="<?=  base_url('images/destinations/kausani2.JPG') ?>" alt="" style="height:250px"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
@@ -361,12 +361,12 @@
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="<?=base_url('incredible_ukd/ukd_destination_detail/4') ?>" title=""><img src="<?=  base_url('images/destinations/munsiari2.jpg') ?>" alt="" style="height:250px;border-radius: 0%"></a>
+                                    <a href="<?=base_url('index.php/incredible_ukd/ukd_destination_detail/4') ?>" title=""><img src="<?=  base_url('images/destinations/munsiari2.jpg') ?>" alt="" style="height:250px;border-radius: 0%"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="<?=base_url('incredible_ukd/ukd_destination_detail/4') ?>" title="">Munsiyari</a></div>
+                                        <div class="home-sales-name"><a href="<?=base_url('index.php/incredible_ukd/ukd_destination_detail/4') ?>" title="">Munsiyari</a></div>
                                         <div class="home-sales-places">Situated in the Pithoragarh District in the hill-state of Uttarakhand, is a starting point of various treks into the interior of the range.Its name refers to a 'place with snow'. Situated on the banks of Goriganga river.</div>
                                     </div>
                                    
@@ -380,12 +380,12 @@
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="<?=base_url('incredible_ukd/ukd_destination_detail/5') ?>" title=""><img src="<?=  base_url('images/destinations/almora2.jpg') ?>" alt="" style="height:250px;;border-radius: 0%"></a>
+                                    <a href="<?=base_url('index.php/incredible_ukd/ukd_destination_detail/5') ?>" title=""><img src="<?=  base_url('images/destinations/almora2.jpg') ?>" alt="" style="height:250px;;border-radius: 0%"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="<?=base_url('incredible_ukd/ukd_destination_detail/5') ?>" title="">Almora</a></div>
+                                        <div class="home-sales-name"><a href="<?=base_url('index.php/incredible_ukd/ukd_destination_detail/5') ?>" title="">Almora</a></div>
 
                                         <div class="home-sales-places">Located on a ridge at the southern edge of the Kumaon Hills of the Himalaya range,Almora was founded in 1568, .The people bringing kilmora were called Kilmori and later "Almori" and thus the name "Almora" </div>
                                     </div>
@@ -398,12 +398,12 @@
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="<?=base_url('incredible_ukd/ukd_destination_detail/6') ?>" title=""><img src="<?=  base_url('images/destinations/valley1.jpg') ?>" alt="" style="height:250px;border-radius: 0%"></a>
+                                    <a href="<?=base_url('index.php/incredible_ukd/ukd_destination_detail/6') ?>" title=""><img src="<?=  base_url('images/destinations/valley1.jpg') ?>" alt="" style="height:250px;border-radius: 0%"></a>
                                     
                                 </figure>
                                 <div class="home-sales-text">
                                     <div class="home-sales-name-places">
-                                        <div class="home-sales-name"><a href="<?=base_url('incredible_ukd/ukd_destination_detail/6') ?>" title="">Valley of Flowers</a></div>
+                                        <div class="home-sales-name"><a href="<?=base_url('index.php/incredible_ukd/ukd_destination_detail/6') ?>" title="">Valley of Flowers</a></div>
                                         <div class="home-sales-places">Valley of Flowers National Park is an Indian national park, located in West Himalaya, in the state of Uttarakhand and is known for its meadows of endemic alpine flowers and the variety of flora. </div>
                                     </div>
                                     
@@ -425,10 +425,10 @@
                 <div class="container">
                     <div class="travel-title float-left">
                         <h2>
-                         <a style="color:#111;text-decoration: none" href="<?=base_url('incredible_ukd/about_india') ?>">
+                         <a style="color:#111;text-decoration: none" href="<?=base_url('index.php/incredible_ukd/about_india') ?>">
                             About Indian States
                         </a>
-                        </h2></div><a href="<?=base_url('incredible_ukd/about_india') ?>" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager  float-right"> <h4>View All</h4> </a></div>
+                        </h2></div><a href="<?=base_url('index.php/incredible_ukd/about_india') ?>" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager  float-right"> <h4>View All</h4> </a></div>
             </div>
             <div class="destinations-cn">
                 <div class="bg-parallax bg-2"></div>
@@ -443,11 +443,11 @@
                                 </div>
                                 <ul class="filter">
                                     <li class="active"><a data-toggle="tab" href="#"><i class="fa fa-map-marker"></i> Recommendations for you</a></li>
-                                    <li><a  href="<?=base_url('incredible_ukd/state_details/10') ?>"><i class="fa fa-map-marker"></i> Himachal Pradesh</a></li>
-                                    <li><a href="<?=base_url('incredible_ukd/state_details/6') ?>"><i class="fa fa-map-marker"></i> Chandigarh</a></li>
-                                    <li><a  href="<?=base_url('incredible_ukd/state_details/2') ?>"><i class="fa fa-map-marker"></i> Meghalaya</a></li>
-                                    <li><a  href="<?=base_url('incredible_ukd/state_details/5') ?>"><i class="fa fa-map-marker"></i> Assam </a></li>
-                                    <li><a  href="<?=base_url('incredible_ukd/state_details/11') ?>"><i class="fa fa-map-marker"></i> Punjab</a></li>
+                                    <li><a  href="<?=base_url('index.php/incredible_ukd/state_details/10') ?>"><i class="fa fa-map-marker"></i> Himachal Pradesh</a></li>
+                                    <li><a href="<?=base_url('index.php/incredible_ukd/state_details/6') ?>"><i class="fa fa-map-marker"></i> Chandigarh</a></li>
+                                    <li><a  href="<?=base_url('index.php/incredible_ukd/state_details/2') ?>"><i class="fa fa-map-marker"></i> Meghalaya</a></li>
+                                    <li><a  href="<?=base_url('index.php/incredible_ukd/state_details/5') ?>"><i class="fa fa-map-marker"></i> Assam </a></li>
+                                    <li><a  href="<?=base_url('index.php/incredible_ukd/state_details/11') ?>"><i class="fa fa-map-marker"></i> Punjab</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -458,9 +458,9 @@
                                 <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/1') ?>" title="">Goa</a></div><span class="properties-nb">World famous for it's beautiful beaches </span></div>
+                                                <div class="destinations-name"><a href="<?=base_url('index.php/incredible_ukd/state_details/1') ?>" title="">Goa</a></div><span class="properties-nb">World famous for it's beautiful beaches </span></div>
                                             <figure class="destinations-img">
-                                                <a href="<?=base_url('incredible_ukd/state_details/1') ?>" title=""><img src="<?= base_url('images/destinations/goa.jpg') ?>" alt="" style="height: 190px"></a>
+                                                <a href="<?=base_url('index.php/incredible_ukd/state_details/1') ?>" title=""><img src="<?= base_url('images/destinations/goa.jpg') ?>" alt="" style="height: 190px"></a>
                                             </figure>
                                         </div>
                                     </div>
@@ -468,45 +468,45 @@
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/2') ?>" title="">Andaman & Nicobar Islands</a></div><span class="properties-nb">Known for underwater diving sites</span></div>
+                                                <div class="destinations-name"><a href="<?=base_url('index.php/incredible_ukd/state_details/2') ?>" title="">Andaman & Nicobar Islands</a></div><span class="properties-nb">Known for underwater diving sites</span></div>
                                             <figure class="destinations-img">
-                                                <a href="<?=base_url('incredible_ukd/state_details/2') ?>" title=""><img src="<?= base_url('images/destinations/andaman.jpg') ?>" alt="" style="height: 190px" ></a>
+                                                <a href="<?=base_url('index.php/incredible_ukd/state_details/2') ?>" title=""><img src="<?= base_url('images/destinations/andaman.jpg') ?>" alt="" style="height: 190px" ></a>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/3') ?>" title="">Daman & Diu</a></div><span class="properties-nb">Popular for monuments displaying Portugal history.</span></div>
+                                                <div class="destinations-name"><a href="<?=base_url('index.php/incredible_ukd/state_details/3') ?>" title="">Daman & Diu</a></div><span class="properties-nb">Popular for monuments displaying Portugal history.</span></div>
                                             <figure class="destinations-img">
-                                                <a href="<?=base_url('incredible_ukd/state_details/3') ?>" title=""><img src="<?= base_url('images/destinations/daman.jpeg') ?>" alt="" style="height: 190px"></a>
+                                                <a href="<?=base_url('index.php/incredible_ukd/state_details/3') ?>" title=""><img src="<?= base_url('images/destinations/daman.jpeg') ?>" alt="" style="height: 190px"></a>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/4') ?>" title="">Jammu & Kashmir</a></div><span class="properties-nb">Also known as heaven on Earth.</span></div>
+                                                <div class="destinations-name"><a href="<?=base_url('index.php/incredible_ukd/state_details/4') ?>" title="">Jammu & Kashmir</a></div><span class="properties-nb">Also known as heaven on Earth.</span></div>
                                             <figure class="destinations-img">
-                                                <a href="<?=base_url('incredible_ukd/state_details/4') ?>" title=""><img src="<?= base_url('images/destinations/j&k.jpg') ?>" alt="" style="height: 190px"></a>
+                                                <a href="<?=base_url('index.php/incredible_ukd/state_details/4') ?>" title=""><img src="<?= base_url('images/destinations/j&k.jpg') ?>" alt="" style="height: 190px"></a>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/5') ?>" title="">Kerala</a></div><span class="properties-nb">Known for it's rich cultural heritage</span></div>
+                                                <div class="destinations-name"><a href="<?=base_url('index.php/incredible_ukd/state_details/5') ?>" title="">Kerala</a></div><span class="properties-nb">Known for it's rich cultural heritage</span></div>
                                             <figure class="destinations-img">
-                                                <a href="<?=base_url('incredible_ukd/state_details/5') ?>" title=""><img src="<?= base_url('images/destinations/kerala.jpg') ?>" alt="" style="height: 190px"></a>
+                                                <a href="<?=base_url('index.php/incredible_ukd/state_details/5') ?>" title=""><img src="<?= base_url('images/destinations/kerala.jpg') ?>" alt="" style="height: 190px"></a>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4">
                                         <div class="destinations-item">
                                             <div class="destinations-text">
-                                                <div class="destinations-name"><a href="<?=base_url('incredible_ukd/state_details/6') ?>" title="">Rajasthan</a></div><span class="properties-nb">Famous for its cultural diversity.</span></div>
+                                                <div class="destinations-name"><a href="<?=base_url('index.php/incredible_ukd/state_details/6') ?>" title="">Rajasthan</a></div><span class="properties-nb">Famous for its cultural diversity.</span></div>
                                             <figure class="destinations-img">
-                                                <a href="<?=base_url('incredible_ukd/state_details/6') ?>" title=""><img src="<?= base_url('images/destinations/rajasthan.jpg') ?>" alt="" style="height: 190px"></a>
+                                                <a href="<?=base_url('index.php/incredible_ukd/state_details/6') ?>" title=""><img src="<?= base_url('images/destinations/rajasthan.jpg') ?>" alt="" style="height: 190px"></a>
                                             </figure>
                                         </div>
                                     </div>
@@ -525,7 +525,7 @@
             <div class="title-wrap">
                 <div class="container">
                     <div class="travel-title float-left">
-                        <h2><a href="<?= base_url('incredible_ukd/deals') ?>" style="color:#111;text-decoration: none" > Hot Deals </a></h2></div><a href="<?= base_url('incredible_ukd/deals') ?>" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager float-right"> <h4>View All</h4> </a></div>
+                        <h2><a href="<?= base_url('index.php/incredible_ukd/deals') ?>" style="color:#111;text-decoration: none" > Hot Deals </a></h2></div><a href="<?= base_url('index.php/incredible_ukd/deals') ?>" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager float-right"> <h4>View All</h4> </a></div>
             </div>
             <div class="container"  style="height: auto">
                 <div class="sales-cn">
@@ -533,7 +533,7 @@
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?= base_url('images/places/nainital2.jpg') ?>" alt="" style="height: 250px;width: 100%"></a>
+                                    <a href="<?= base_url('index.php/incredible_ukd/enquiry') ?>" title=""><img src="<?= base_url('images/places/nainital2.jpg') ?>" alt="" style="height: 250px;width: 100%"></a>
                                     <figcaption>Save <span>30</span>%</figcaption>
                                 </figure>
                                 <div class="home-sales-text">
@@ -554,7 +554,7 @@
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?= base_url('images/places/mussoorie.jpg') ?>" alt="" style="height: 250px;width: 100%"></a>
+                                    <a href="<?= base_url('index.php/incredible_ukd/enquiry') ?>" title=""><img src="<?= base_url('images/places/mussoorie.jpg') ?>" alt="" style="height: 250px;width: 100%"></a>
                                     <figcaption>Save <span>20</span>%</figcaption>
                                 </figure>
                                 <div class="home-sales-text">
@@ -574,7 +574,7 @@
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?= base_url('images/places/hemkund.jpg') ?>" alt="" style="height: 250px;width: 100%" ></a>
+                                    <a href="<?= base_url('index.php/incredible_ukd/enquiry') ?>" title=""><img src="<?= base_url('images/places/hemkund.jpg') ?>" alt="" style="height: 250px;width: 100%" ></a>
                                     <figcaption>Save <span>25</span>%</figcaption>
                                 </figure>
                                 <div class="home-sales-text">
@@ -594,7 +594,7 @@
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?= base_url('images/tour/home_stay.jpg') ?>" alt="" style="height: 250px;width: 100%"></a>
+                                    <a href="<?= base_url('index.php/incredible_ukd/enquiry') ?>" title=""><img src="<?= base_url('images/tour/home_stay.jpg') ?>" alt="" style="height: 250px;width: 100%"></a>
                                     <figcaption>Save <span>35</span>%</figcaption>
                                 </figure>
                                 <div class="home-sales-text">
@@ -614,7 +614,7 @@
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?= base_url('images/places/kausani2.jpg') ?>" alt="" style="height: 250px;width: 100%"></a>
+                                    <a href="<?= base_url('index.php/incredible_ukd/enquiry') ?>" title=""><img src="<?= base_url('images/places/kausani2.jpg') ?>" alt="" style="height: 250px;width: 100%"></a>
                                     <figcaption>Save <span>40</span>%</figcaption>
                                 </figure>
                                 <div class="home-sales-text">
@@ -634,7 +634,7 @@
                         <div class="col-xs-6 col-md-4">
                             <div class="sales-item">
                                 <figure class="home-sales-img">
-                                    <a href="#" title=""><img src="<?= base_url('images/places/nainital3.jpg') ?>" alt="" style="height: 250px;width: 100%"></a>
+                                    <a href="<?= base_url('index.php/incredible_ukd/enquiry') ?>" title=""><img src="<?= base_url('images/places/nainital3.jpg') ?>" alt="" style="height: 250px;width: 100%"></a>
                                     <figcaption>Save <span>20</span>%</figcaption>
                                 </figure>
                                 <div class="home-sales-text">
@@ -784,7 +784,7 @@
                             <div class="row"  col-xs-12 col-sm-12 col-lg-12 col-md-12>
                             <div class="follow-us" style="margin-left: 10%;">
                                 <h4 style="margin-left: -15%" class="text-center">Follow us</h4>
-                                <div class="follow-group text-center" style="margin-left: 0%"><a href="#" title=""><i class="fa fa-facebook"></i></a> <a href="#" title=""><i class="fa fa-twitter"></i></a>   <a href="#" title=""><i class="fa fa-instagram"></i></a> <a href="#" title=""><i class="fa fa-google-plus"></i></a> </div>
+                                <div class="follow-group text-center" style="margin-left: 0%"><a href="https://www.facebook.com/incredibleuttarakhand.co.in/" title=""><i class="fa fa-facebook"></i></a> <a href="#" title=""><i class="fa fa-twitter"></i></a>   <a href="#" title=""><i class="fa fa-instagram"></i></a> <a href="#" title=""><i class="fa fa-google-plus"></i></a> </div>
                             </div>
                         </div>
                     </div>

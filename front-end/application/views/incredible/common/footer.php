@@ -3,17 +3,17 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="logo-foter">
-                            <a href="<?= base_url('incredible_ukd') ?>" title=""><img src="<?= base_url('images/logo_footer.png') ?>" alt="" style = "height: 180px;width:200px;" ></a>
+                            <a href="<?= base_url('index.php/incredible_ukd') ?>" title=""><img src="<?= base_url('images/logo_footer.png') ?>" alt="" style = "height: 180px;width:200px;" ></a>
                         </div>
 
                     </div>
                     <div class="col-xs-4 col-sm-3 col-md-2">
                         <div class="ul-ft">
                             <ul>
-                                <li><a href="<?= base_url('incredible_ukd') ?>" title="">Home</a></li>
-                                <li><a href="<?= base_url('incredible_ukd/about') ?>" title="">About</a></li>
-                                <li><a href="<?= base_url('incredible_ukd/role') ?>" title="">Our Role</a></li>
-                                <li><a href="<?= base_url('incredible_ukd/about_ukd') ?>" title="">Locations</a></li>
+                                <li><a href="<?= base_url('index.php/incredible_ukd') ?>" title="">Home</a></li>
+                                <li><a href="<?= base_url('index.php/incredible_ukd/about') ?>" title="">About</a></li>
+                                <li><a href="<?= base_url('index.php/incredible_ukd/role') ?>" title="">Our Role</a></li>
+                                <li><a href="<?= base_url('index.php/incredible_ukd/about_ukd') ?>" title="">Locations</a></li>
                                
                                 
                             </ul>
@@ -24,12 +24,12 @@
                     <div class="col-xs-5 col-sm-4 col-md-2">
                         <div class="ul-ft">
                             <ul>
-                                 <li><a href="<?= base_url('incredible_ukd/about#our_team') ?>" title="">Our Team</a></li>
-                                <li><a href="<?= base_url('incredible_ukd/ukdDestinations') ?>" title="">Destinations</a></li>
-                                <li><a href="<?= base_url('incredible_ukd#tourPackages') ?>" title="">Tour-Packages</a></li>
+                                 <li><a href="<?= base_url('index.php/incredible_ukd/about#our_team') ?>" title="">Our Team</a></li>
+                                <li><a href="<?= base_url('index.php/incredible_ukd/ukdDestinations') ?>" title="">Destinations</a></li>
+                                <li><a href="<?= base_url('index.php/incredible_ukd#tourPackages') ?>" title="">Tour-Packages</a></li>
                                 
                                 <li>
-                                    <a href="<?= base_url('incredible_ukd/about#our_partners') ?>" title="" style=";margin-top: 0px;">Our Partners</a>
+                                    <a href="<?= base_url('index.php/incredible_ukd/about#our_partners') ?>" title="" style=";margin-top: 0px;">Our Partners</a>
                                 </li> 
                             </ul>
                         </div>
@@ -38,7 +38,7 @@
                         <div class="ul-ft">
                             <ul>
                                 
-                                <li><a href="<?= base_url('incredible_ukd/developers') ?>" title="">Site-Developers</a></li>
+                                <li><a href="<?= base_url('index.php/incredible_ukd/developers') ?>" title="">Site-Developers</a></li>
                                 
 
                                 </ul>
