@@ -1,4 +1,3 @@
-
 <?php
     include "common/header.php";
     include 'common/navbar.php'; 
@@ -19,14 +18,11 @@
         /*opacity: 0.95;
         filter: alpha(opacity=95)*/
     }
-    .error  {
-        color:red;
-        font-size: 16px;
-    }
 </style>
 
 <body>
-<div class="bars" id="bars"></div>
+
+   <div class="bars" id="bars"></div>
                 <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
                     <div class="nav-inner"><a href="#" class="bars-close" id="bars-close">Close</a>
                         <div class="tb">
@@ -38,17 +34,17 @@
 
                                     <li><?= anchor(base_url("index.php/incredible_ukd/role"),'Our Role')?> </li>  
 
-                                    <li ><?= anchor( base_url('index.php/incredible_ukd/location'),'Location') ?>
+                                    <li><?= anchor( base_url('index.php/incredible_ukd/location'),'Location') ?>
                                         <ul class="sub-menu">
                                             <li ><?= anchor( base_url('index.php/incredible_ukd/india'),'About India') ?></li>
                                             <li><?= anchor( base_url('index.php/incredible_ukd/about_ukd'),'About Uttarakhand') ?></li>
                                             </ul>
                                         </li>
-                                            
-                                    <li  class="current-menu-parent"><?= anchor( '','Destinations')?>
+                                              
+                                    <li class="current-menu-parent"><?= anchor( '','Destinations')?>
                                         <ul class="sub-menu">
-                                            <li ><?= anchor( base_url('index.php/incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
-                                            <li"><?= anchor( base_url('index.php/incredible_ukd/about_india'),'Destinations India') ?></li>
+                                            <li><?= anchor( base_url('index.php/incredible_ukd/ukdDestinations'),'Destinations Uttarakhand') ?></li>
+                                            <li><?= anchor( base_url('index.php/incredible_ukd/about_india'),'Destinations India') ?></li>
                                            
                                         </ul>
                                     </li>
@@ -83,57 +79,63 @@
                     </a>
                 </div>
         </section>
+
         <div class="main">
             <div class="container">
+                    <br><br><br><br>
+            
+                    <?php
+                        if( isset($success) )  {
+                            
+                            echo '<div class="alert-box alert-success text-center"  style="font-size:22px;height:200px;padding-top:100px;">'.
+                                 $success .
+                            '</div>' ;
+
+                            
+                        }
+                        if (isset($failure) ) {
+                            
+
+                            echo '<div class="alert-box alert-error text-center"  style="font-size:22px;height:200px">'.
+                                 $failure 
+                            .'</div>' ;
+                        }
+                    ?>
+                
                 <div class="main-cn bg-white clearfix">
                     <div class="step">
-                        <ul class="payment-step text-center clearfix">
-                            <li class="step-select"><span>1</span>
-                                <p>Choose Your Package</p>
-                            </li>
-                            <li class="step-part"><span>2</span>
-                                <p>Your Booking &amp; Payment Details</p>
-                            </li>
-                            <li><span>3</span>
-                                <p>Booking Completed!</p>
-                            </li>
-                        </ul>
+                        <h3 class="text-center">Know More About Our Trips</h3>
+                        <p class="text-center">Please Fill in &amp; send the following form and we will reach you as soon as possible.</p>
                     </div>
 
                     
                     <div class="payment-form">
                         <div class="row ">
-                            <div class="col-md-8 col-md-offset-2" >
-                                <h2>Edit Submitted Information
-                                </h2>
-                                <form action="tripBookings" method="POST" class="form-vertical">
+                            <div class="col-md-8 col-md-offset-2" style="">
+                                <h2>Enter Your Information</h2>
+                                <form action="enquiryTripSubmit" method="POST" class="form-vertical">
                                     <div class="form-field">
                                         
                                         <label for="fullName" class="control-label">Full Name</label>
-                                        <input type="text" name="fullName" id="fullName" placeholder="Enter Full Name" class="field-input" required="required"  value= "<?= $fullName ?>"  >
+                                        <input type="text" name="fullName" id="fullName" placeholder="Enter Full Name" class="field-input" required="required">
                                             
                                     </div>
-                                   
+
                                     <div class="form-field">
                                         <label for = "email" class= "control-label">Email</label>
-                                        <input type="email" placeholder="Enter Email" name="email" id="email" class="field-input" required="required"  value= "<?= $email ?>"  >
+                                        <input type="email" placeholder="Enter Email" name="email" id="email" class="field-input" required="required">
                                     </div>
                                     
-                                    
-
                                     <div class="form-field">
                                         <label for="contact" class="control-label">Contact Number</label>
-                                        <input type="text" name="contact" id="contact" placeholder="Contact Number" class="field-input" required="required" maxlength="10"  value= "<?= $contact ?>">
+                                        <input type="text"  name="contact" placeholder="Contact Number" class="field-input" required="required" maxlength="10">
                                     </div>
-
-                                    
                                     
                                     <div class="form-field">
                                         <label for="state" class="control-label">Select Destination State</label>
 
                                         <select name="state" placeholder="Select Destination State" class="field-input" data-value="Select Destination State" class="field-input" onchange="selectDestination(this)">
-                                        <option>Select Destination State</option>
-                                        <option value="<?= $state ?>" selected > <?= $state ?> </option>
+                                        <option>Select Destination</option>
                                         <option value="Uttarakhand">Uttarakhand</option>
                                         <option value="Uttar Pradesh">Uttar Pradesh</option>
                                         <option value="Goa">Goa</option>
@@ -158,14 +160,12 @@
                                         <option value="Chattisgarh">Chattisgarh</option>
                                         <option value="Dadar and Nagar Haweli">Dadar and Nagar Haweli</option>
                                         </select>
-
                                     </div>
 
                                     <div class="form-field">
                                         <label class="control-label" for="destination">Select Destination</label>
                                         <select name="destination" id="destination" class="field-input">
                                             <option>Select Destination</option>
-                                            <option value="<?= $destination ?>" selected > <?= $destination ?> </option>
                                         </select>
                                     </div>
 
@@ -173,7 +173,6 @@
                                         <label class="control-label" for="hotel">Select Type of Hotel</label>
                                         <select name="hotel" id="hotel" class="field-input">
                                             <option>Select Hotel Type</option>
-                                            <option value="<?= $hotel ?>" selected > <?= $hotel ?> </option>
                                             <option value="Low Budget - Less than Rs. 3,000">Low Budget - Less than Rs. 3,000</option>
                                             <option value="Medium - Rs. 3,000 - Rs. 5,000">Medium - Rs. 3,000 - Rs. 5,000</option>
                                             <option value="Luxury & Palaces - Rs. 3,000 to Rs. 10,000">Luxury &amp; Palaces - Rs. 3,000 to Rs. 10,000 </option>
@@ -182,88 +181,75 @@
                                     </div>
 
                                     <div class="form-field">
-                                        <label for="dateOfVisit" class="control-label">Date of Visit</label>
+                                        <label for="date" class="control-label">Date of Visit</label>
                                         
                                         <input
                                         class="field-input calendar-input"
                                         name="dateOfVisit"
                                         type="text"
-                                         required="required"  value= "<?= $dateOfVisit ?>" >
+                                        >
                                     </div>
 
                                     <div class="form-field">
                                         <label for="daysStay">Number of Days</label>
-                                        <input type="text" name="daysStay" id="daysStay" class="field-input" required="required"  value= "<?= $daysStay  ?>" > 
+                                        <input type="text" name="daysStay" id="daysStay" class="field-input"> 
                                     </div>
-
+                                    
                                     
 
                                     <div class="form-field">
                                         <label for="people">Number of People</label>
-                                        <input type="text" name="people" id="people" class="field-input" required="required"  value= "<?= $people ?>" > 
+                                        <input type="text" name="people" id="people" class="field-input"> 
                                     </div>
-
-                                   
 
                                     <div class="form-field">
                                         <label for="itinerary" class="control-label">Rough Itinerary & Details (Provide maximum details to workout in a best way for your travel) :</label>
-                                        <textarea rows='5' class="field-input" name="itinerary" id="itinerary" required="required"  >
-                                            <?= $itinerary ?>
+                                        <textarea rows='5' class="field-input" name="itinerary" id="itinerary">
+                                            
                                         </textarea> 
                                     </div>
 
-                                    
                                     <div class="form-field">
                                         <label for="reference" class="control-label">Reference (if any)</label>
-                                        <input type="text" name="reference" id="reference" class="field-input"  value= "<?= $reference ?>" >
+                                        <input type="text" name="reference" id="reference" class="field-input">
                                             
                                     </div>
                                     
 
 
                                     <div class="radio-checkbox">
-                                        <input type="checkbox" class="checkbox" id="accept" onchange="notMe();" name="accept"  >
+                                        <input type="checkbox" class="checkbox" id="accept" onchange="notMe();">
                                         <label for="accept">I am not staying at the hotel. I am making this booking for someone else.</label>
                                     </div>
 
-                                    <div id="extra">
+                                    <div id="extra" style="display: none">
                                         <div class="form-field">
                                             <label for="travellerName" class="control-label">Name of Traveller (Any One)</label>
-                                            <input type="text" name="travellerName" id="travellerName" class="field-input"  value= "<?= $travellerName ?>" > 
+                                            <input type="text" name="travellerName" id="travellerName" class="field-input"> 
                                         </div>
-
-                                       
 
                                         <div class="form-field">
                                             <label for="travellerEmail" class="control-label">Email of Above Mentioned Traveller</label>
-                                            <input type="email" name="travellerEmail" class="field-input" id="travellerEmail"  value= "<?= $travellerEmail ?>" >
+                                            <input type="email" name="travellerEmail" class="field-input" id="travellerEmail">
                                         </div>
-
-                                        
 
                                         <div class="form-field">
                                             <label for="travellerPhone" class="control-label">
                                                 Phone Number of Traveller
                                             </label>
-                                            <input type="text" name="travellerPhone" id="travellerPhone" class="field-input" maxlength="10"  value= "<?= $travellerPhone ?>" >
+                                            <input type="text" name="travellerPhone" id="travellerPhone" class="field-input" maxlength="10">
                                         </div>
-
-                                       
-
-                                    </div> 
-
-                                            <br><br>
-                                    <div class="g-recaptcha" data-sitekey="6LfXoxgUAAAAADJeG8DlRHk9278SsMWtmYY-xFqX" style="margin-left: 30%"></div>
-                                            <br><br>
-                                    <div class="" style="margin-left: 0%">
-                                        <p>By clicking on the button below to complete this booking I acknowledge that I have read and accepted the <span>rules &amp; restrictions, terms &amp; conditions</span> and <span>privacy policy</span>.</p>
-                                        <br>
-                                    </div>
-                                
-                                        <input type="submit" name="proceed" class="awe-btn awe-btn-1 awe-btn-lager" value="Proceed" style="margin-left: 30%">
                                     </div>    
-                                </div>
-                                </div>    
+                                        <br><br>
+                                    <div class="g-recaptcha" data-sitekey="6LfXoxgUAAAAADJeG8DlRHk9278SsMWtmYY-xFqX"></div>
+
+                                    <div class="submit text-center">
+                                        <p>By clicking on the button below to complete this booking I acknowledge that I have read and accept the <span>rules &amp; restrictions, terms &amp; conditions</span> and <span>privacy policy</span>.</p>
+                                        <input type="submit" class="awe-btn awe-btn-1 awe-btn-lager" value="Enquire Now">
+                                            
+                                        
+                                    </div>
+
 
                                 </form>
                             </div>        
@@ -360,5 +346,3 @@
 
 
    <?php include "common/footer.php"; ?>
-
-

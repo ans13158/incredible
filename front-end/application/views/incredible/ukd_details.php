@@ -205,6 +205,8 @@
                                 <br><br><br>
                                     <div class="col-xs-12 text-center" style="">
                                         <p class="price-book"><a href="<?= base_url('index.php/incredible_ukd/bookMyTrip') ?>" title="" class="awe-btn awe-btn-1 awe-btn-lager" style="margin-left: 0%;">Book My Tour</a></p>
+                                                <p>OR</p>
+                                        <p class="price-book"><a href="<?= base_url('index.php/incredible_ukd/enquiryTrip') ?>" title="" class="awe-btn awe-btn-1 awe-btn-lager" style="margin-left: 0%;">Enquire Now</a></p>
                                         <br><br>
                                     </div>
 

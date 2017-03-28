@@ -159,8 +159,8 @@
         <section class="sales">
             <div class="title-wrap">
                 <div class="container">
-                    <div class="travel-title float-left" id="tourPackage">
-                        <h2>Our Tour Packages</span></h2></div>
+                    <div class="travel-title text-center " id="tourPackage">
+                        <h2 class="text-center">Our Tour Packages</span></h2></div>
                     </div>
             </div>
             <div class="container">
@@ -293,12 +293,17 @@
         <section class="sales" style="margin-top: 1.5%">
             <div class="title-wrap">
                 <div class="container">
-                    <div class="travel-title float-left">
-                        <h2>
+                    <div class="travel-title  text-center">
+                        <h2 style="display: inline-block;">
                             <a style="color:#111;text-decoration: none" href="<?=base_url('index.php/incredible_ukd/ukdDestinations') ?>">Uttarakhand's Travel Destinations</a>
-                        </span></h2></div>
-                        <a href="<?=base_url('index.php/incredible_ukd/ukdDestinations') ?>" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager float-right"> <h4>View All</h4> </a></div>
+                            </span>
+                        </h2>
+                    
+                        <a href="<?= base_url('index.php/incredible_ukd/ukdDestinations') ?>" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager float-right"> <h4>View All</h4> 
+                        </a>
                     </div>
+                </div>
+
             </div>
             <div class="container">
                 <div class="sales-cn">
@@ -423,13 +428,18 @@
         <section class="destinations">
             <div class="title-wrap">
                 <div class="container">
-                    <div class="travel-title float-left">
-                        <h2>
+                    <div class="travel-title text-center">
+                        <h2 style="display: inline-block;">
                          <a style="color:#111;text-decoration: none" href="<?=base_url('index.php/incredible_ukd/about_india') ?>">
                             About Indian States
                         </a>
-                        </h2></div><a href="<?=base_url('index.php/incredible_ukd/about_india') ?>" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager  float-right"> <h4>View All</h4> </a></div>
-            </div>
+                        </h2>
+                    
+                        <a href="<?= base_url('index.php/incredible_ukd/about_india') ?>" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager float-right"> <h4>View All</h4> 
+                        </a>
+                    </div>
+                </div>
+           </div> 
             <div class="destinations-cn">
                 <div class="bg-parallax bg-2"></div>
                 <div class="container">
@@ -524,8 +534,15 @@
         <section class="magazine">
             <div class="title-wrap">
                 <div class="container">
-                    <div class="travel-title float-left">
-                        <h2><a href="<?= base_url('index.php/incredible_ukd/deals') ?>" style="color:#111;text-decoration: none" > Hot Deals </a></h2></div><a href="<?= base_url('index.php/incredible_ukd/deals') ?>" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager float-right"> <h4>View All</h4> </a></div>
+                    <div class="travel-title text-center">
+                        <h2 style="display: inline-block;">
+                            <a href="<?= base_url('index.php/incredible_ukd/deals') ?>" style="color:#111;text-decoration: none" > Hot Deals </a>
+                        </h2>
+                    
+                        <a href="<?= base_url('index.php/incredible_ukd/deals') ?>" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager float-right"> <h4>View All</h4> 
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="container"  style="height: auto">
                 <div class="sales-cn">

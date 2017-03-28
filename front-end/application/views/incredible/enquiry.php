@@ -109,12 +109,12 @@
 
                 <div class="main-cn bg-white clearfix">
                     <div class="step">
-                        <h3 class="text-center">Know More About Our Tour Packages</h3>
+                        <h3 class="text-center">Know More About Our Trips</h3>
                         <p class="text-center">Please Fill in &amp; send the following form and we will reach you as soon as possible.</p>
                     </div>
 
                     
-
+ 
                     <div class="payment-form">
                         <div class="row ">
                             <div class="col-md-9 col-md-offset-2" style="">

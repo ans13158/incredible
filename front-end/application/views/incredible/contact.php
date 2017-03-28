@@ -76,7 +76,7 @@ require 'common/navbar.php';
                         </ul>
                     </section>
 
-        
+                      
         <section class="contact-page">
                         <div class="contact-maps">
                             <div id="contact-maps" data-map-zoom="16" data-map-latlng=" 29.594189, 79.653893" data-map-content="Book Awesome"></div>
@@ -121,11 +121,23 @@ require 'common/navbar.php';
                                     <div class="form-field text-center">
                                         <button type="submit" id="submit-contact" class="awe-btn awe-btn-2 arrow-right arrow-white awe-btn-lager">Submit</button>
                                     </div>
-                                    <div id="contact-content"></div>
+                                    <div id="contact-content">
+                                            <br><br><br>
+                                       
+
+                                    </div>
                                 </form>
                             </div>    
         </section>                            
 
+                <div class="main-cn bg-white clearfix text-center">
+                            <br><br><br>
+                    <a href="<?= base_url('index.php/incredible_ukd/enquiry') ?>" title="" class="awe-btn awe-btn-2 arrow-white arrow-right awe-btn-lager "> <h4>Know More About Packages</h4> 
+                        </a>
+                                            <h3 >OR</h3>   
+                    <a href="<?= base_url('index.php/incredible_ukd/enquiryTrip') ?>" title="" class="awe-btn awe-btn-2 arrow-white arrow-right awe-btn-lager "> <h4>Know More About Our Trips</h4> 
+                        </a>
+                </div>   
 </div>
             </div>
         </div>

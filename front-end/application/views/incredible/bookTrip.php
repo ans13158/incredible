@@ -124,6 +124,7 @@
                                         <label for="state" class="control-label">Select Destination State</label>
 
                                         <select name="state" placeholder="Select Destination State" class="field-input" data-value="Select Destination State" class="field-input" onchange="selectDestination(this)">
+                                        <option>Select State</option>
                                         <option value="Uttarakhand">Uttarakhand</option>
                                         <option value="Uttar Pradesh">Uttar Pradesh</option>
                                         <option value="Goa">Goa</option>

@@ -90,70 +90,77 @@
                             
                             <br>
 
-                            <h2 style="color:#111">
+                            <h2 style="color:#111" class="text-center">
                             	Why Choose Us <img src="<?= base_url('images/icon/questionmark.png')?>" alt="" style="height: 50px;">
                             </h2>
                             		<br><br>
                             <div class="col-md-5 col-xs-5 col-sm-5">
-                            	<div class="image-wrap"><?= img( ["src"=> base_url('images/icon/trip.jpg'),  "alt"=>"","style"=>"height:200px;width:100%"] )  ?></div>
+                            	<div class="image-wrap"><?= img( ["src"=> base_url('images/icon/trip.jpg'),  "alt"=>"","style"=>"height:170px;width:100%"] )  ?></div>
                             		<h3 style="color:black">Memorable Trip Guaranteed</h3>
                             		<p>We may not guarantee you the best price, but the one thing we can be sure about is that <strong>we will make your trip the best trip of your life. </strong> </p>
                            		</div>
                         	</div>
 
-                        	<div class="col-md-5 col-xs-5 col-sm-5 col-md-offset-2">
-                            	<div class="image-wrap"><?= img( ["src"=> base_url('images/icon/customize.png'),  "alt"=>"","style"=>"height:200px;width:100%"] )  ?></div>
+                        	<div class="col-md-5 col-xs-5 col-sm-5 col-md-offset-2 col-sm-offset-2 col-xs-offset-2">
+                            	<div class="image-wrap"><?= img( ["src"=> base_url('images/icon/customize.png'),  "alt"=>"","style"=>"height:170px;width:100%"] )  ?></div>
                             		<h3 style="color:black">Customize You Trip</h3>
                             		<p>We provide you with an array of options to make it easy for you to <strong>customize your trip according to your needs.</strong>
                             		From the hotel of your choice, to mode of conveyence, you name it and we will provide.
                             		Choose the dates, hotels, conveyence, etc. according to your needs and budget.	
                             		</p>
+                                    <br><br>
                            		</div>
+
                         	</div>
-                        			<br><br>
+                        		
                         	<div class="col-md-5 col-xs-5 col-sm-5">
-                            	<div class="image-wrap"><?= img( ["src"=> base_url('images/icon/planning.png'),  "alt"=>"","style"=>"height:200px;width:100%"] )  ?></div>
+                                       
+                            	<div class="image-wrap"><?= img( ["src"=> base_url('images/icon/planning.png'),  "alt"=>"","style"=>"height:170px;width:100%"] )  ?></div>
                             		<h3 style="color:black">Plan Complete Trip at One Place</h3>
                             		<p>Our website gives you the luxury of planning your entire trip on a single platform. From your stay to transportation, from food to shopping, you will get options to plan everything here itself. 
                             		</p>
                            		</div>
                         	
                         			<br><br>
-                        	<div class="col-md-5 col-xs-5 col-sm-5 col-md-offset-2">
-                            	<div class="image-wrap"><?= img( ["src"=> base_url('images/icon/customer.jpg'),  "alt"=>"","style"=>"height:200px;width:100%"] )  ?></div>
+                        	<div class="col-md-5 col-xs-5 col-sm-5 col-md-offset-2 col-sm-offset-2 col-xs-offset-2">
+                            	<div class="image-wrap"><?= img( ["src"=> base_url('images/icon/customer.jpg'),  "alt"=>"","style"=>"height:170px;width:100%"] )  ?></div>
                             		<h3 style="color:black">Customer First Approach</h3>
                             		<p>We follow the Customer First policy in conducting our business. Nothing is more important to us than your satisfaction.We provide you with the best customer service there is.
                             		</p>
                            			<br><br>
                            		</div>
-
-                        	<h3 style="color:#111" class="text-center">Our Services</h3>
-                        	<h4 class="">We deal in the following :</h4>
+                            </section>    
+                                    <br><br>
+                        	<h3 style="color:#111" class="text-center">Our Speciliaties</h3>
+                        	
 	                                <div class="widget widget_recent_entries">
 	                                <ul>
-	                                	<li class="col-md-offset-1"><a>
+                                        <li class="col-md-12"></li>
+	                                	<li class="col-md-3 col-md-offset-1"><a>
 	                                		<img src="<?= base_url('images/icon/international.jpeg') ?>" style="height: 300px;display: inline-block;margin-right: 10% " >
-	                                		<h3 style="display: inline-block;color:black">International Tourism</h3>
+	                                		<h3 class="text-center" style="display: inline-block;color:black;margin-left: 5%">International Tourism</h3>
 	                                	</a></li>
-	                                	<li class="col-md-offset-4"> 
-	                                		<h3 style="display: inline-block;color:black">Tourism In India</h3>
-	                                		<img src="<?= base_url('images/icon/india.jpg') ?>" style="height: 300px;display: inline-block;margin-left: 10% " >
+	                                	<li class="col-md-3 col-md-offset-1 "> 
+	                                		
+	                                		<img src="<?= base_url('images/icon/india.jpg') ?>" style="height: 300px;display: inline-block;margin-right: 5% " >
+                                            <h3 class="text-center" style="display: inline-block;color:black;margin-left: 5%">Tourism Across India</h3>
 	                                	</li>
-	                                	<li class="col-md-offset-1">
+	                                	<li class="col-md-3 col-md-offset-1">
 	                                		<img src="<?= base_url('images/icon/uttarakhand.jpg') ?>" style="height: 300px;display: inline-block;margin-right: 10% " >
-	                                		<h3 style="display: inline-block;color:black;"> <br><br><strong>Our Speciality : </strong><br> Tourism In UTTARAKHAND</h3>
+	                                		<h3 class="text-center" style="display: inline-block;color:black;margin-left: 5%">  Tourism In Uttarakhand</h3>
 
 	                                	</li>
-	                                	<li></li>
+	                                	<li class="col-md-12"></li>
 	                                </ul>
 
                         			</div>
 
                         			<br><br>
-                          <div class="image-wrap"><?= img( ["src"=> base_url('images/icon/thanx.jpg'),  "alt"=>"","style"=>"height:200px;width:60%,display: inline-block;"] )  ?>
 
+                          <div class="image-wrap" style="display: inline-block;"><?= img( ["src"=> base_url('images/icon/thanx.jpg'),  "alt"=>"","style"=>"height:200px;width:40%,"] )  ?>
+                         </div>   
                         	<h4 style="display: inline-block;">Thank You for considering us. Try our services and we promise you will love us.HAPPY TRAVELLING! </h4>
-                        	</div>
+                        	
                         			<br><br>
                         	</div>
 
